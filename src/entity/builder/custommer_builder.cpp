@@ -11,6 +11,7 @@ void godot::CustommerBuilder::_bind_methods()
     ClassDB::bind_method(D_METHOD("set_display_level"), &CustommerBuilder::set_display_level);
     ClassDB::bind_method(D_METHOD("set_min_req_level"), &CustommerBuilder::set_min_req_level);
     ClassDB::bind_method(D_METHOD("set_dialogue_id"), &CustommerBuilder::set_dialogue_id);
+    ClassDB::bind_method(D_METHOD("set_state"), &CustommerBuilder::set_state);
 }
 
 void godot::CustommerBuilder::set_data(EntityData *p_data)
@@ -41,6 +42,11 @@ void godot::CustommerBuilder::set_min_req_level(int min_req_level)
 void godot::CustommerBuilder::set_dialogue_id(String dialogue_id)
 {
     data->put_string(CustomerParams::dialogue_id(), dialogue_id);
+}
+
+void godot::CustommerBuilder::set_state(int state)
+{
+    data->put_int(CustomerParams::state(), 0);
 }
 
 godot::EntityData *godot::CustommerBuilder::get_data()

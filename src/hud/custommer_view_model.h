@@ -44,6 +44,8 @@ protected:
     void update_order();
     void reset_quest();
 
+    void try_switch_state();
+
 public:
     void set_custommer_name_path(NodePath p_custommer_name_path);
     NodePath get_custommer_name_path();

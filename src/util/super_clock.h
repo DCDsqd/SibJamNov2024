@@ -77,7 +77,6 @@ protected:
     NodePath order_entity_path;
     NodePath custommer_path;
 
-    void update_orders();
     void update_custommer();
 
     std::vector<Person> all_custommer_pull;
@@ -87,8 +86,6 @@ protected:
     std::vector<Person> day_custommer_pull;
     std::vector<Quest> day_quest_pull;
 
-    
-
     void parse_custommer(const Dictionary &dict, const String &name);
     void parse_quest(const Dictionary &dict, const String &name);
     void parse_monster(const Dictionary &dict, const String &name);
@@ -97,6 +94,13 @@ protected:
 
 public:
     void parse_all();
+    void update_orders();
+
+    void set_order_entity_path(NodePath p_order_entity_path);
+    NodePath get_order_entity_path();
+
+    void set_custommer_path(NodePath p_custommer_path);
+    NodePath get_custommer_path();
 
     SuperClock();
     ~SuperClock();

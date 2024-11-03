@@ -46,6 +46,16 @@ void godot::SuperClock::update_orders()
     
 }
 
+void godot::SuperClock::set_order_entity_path(NodePath p_order_entity_path)
+{
+    this->order_entity_path = p_order_entity_path;
+}
+
+godot::NodePath godot::SuperClock::get_order_entity_path()
+{
+    return this->order_entity_path;
+}
+
 void godot::SuperClock::update_custommer()
 {
 }

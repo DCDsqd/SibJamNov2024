@@ -161,6 +161,17 @@ void godot::CustomerViewModel::reset_quest()
     }
 }
 
+void godot::CustomerViewModel::try_switch_state()
+{
+
+
+    if(!custommer_data->has_int(CustomerParams::state())){
+        UtilityFunctions::print("CustomerViewModel: custommer_data not contain: " + CustomerParams::state());
+    }
+
+    custommer_data->put_int(CustomerParams::state(), custommer_data->get_int(CustomerParams::state())+1);
+}
+
 void godot::CustomerViewModel::set_custommer_name_path(NodePath p_custommer_name_path)
 {
     this->custommer_name_path = p_custommer_name_path;
@@ -233,6 +244,7 @@ void godot::CustomerViewModel::request_quest()
     if(custommer_data->get_int(CustomerParams::min_req_lvl()) <= data->get_int(OrderParams::placed_rank())){
         custommer_data->put_int(CustomerParams::request_quest(), data->get_int(OrderParams::fact_rank()));
         order_container->remove_order(carrera);
+        try_switch_state();
         close_window();
     }
 

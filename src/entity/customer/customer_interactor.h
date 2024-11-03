@@ -21,6 +21,7 @@ protected:
 
     bool play_dialogue(String element_id, Entity *p_entity);
     bool open_hud(Entity *p_entity);
+    bool event_switcher(Entity *p_entity, EntityData *data);
 
 public:
     bool _interact(Entity *p_entity) override;

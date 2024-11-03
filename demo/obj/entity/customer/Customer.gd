@@ -14,6 +14,7 @@ func _ready():
 	custommer_builder.set_min_req_level(20)
 	custommer_builder.set_name("Francis")
 	custommer_builder.set_fact_level(12)
+	custommer_builder.set_state(0)
 	
 	builder.set_data(custommer_builder.get_data())
 	

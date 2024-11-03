@@ -27,6 +27,7 @@ public:
     void set_display_level(int display_level);
     void set_min_req_level(int min_req_level);
     void set_dialogue_id(String dialogue_id);
+    void set_state(int state);
 
     EntityData *get_data();
 

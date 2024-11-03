@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://i7ji3diu54b7"]
+
+[ext_resource type="Script" path="res://obj/entity/hero/hero.gd" id="1_0u8ql"]
+
+[node name="Hero" type="MovingEntity"]
+script = ExtResource("1_0u8ql")

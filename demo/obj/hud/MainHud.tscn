@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cgeh88sg8olnw"]
+
+[node name="MainHud" type="Hud"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

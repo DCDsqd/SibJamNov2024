@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=3 uid="uid://cwrp15ca0bvxo"]
+
+[ext_resource type="PackedScene" uid="uid://c84rh28vj2r3d" path="res://res/3d/rooms/main_room/final_room.tscn" id="1_pnyeg"]
+[ext_resource type="PackedScene" uid="uid://i7ji3diu54b7" path="res://obj/entity/hero/hero.tscn" id="2_ghxkw"]
+[ext_resource type="PackedScene" uid="uid://bw7yjilr41vy4" path="res://obj/entity/pc/Pc.tscn" id="3_1jcsm"]
+[ext_resource type="PackedScene" uid="uid://cqkdus5ccsbyh" path="res://obj/customer/Customer.tscn" id="4_qcwsf"]
+
+[node name="Scene" type="SingleHeroScene"]
+triggers_container_path = NodePath("Triggers")
+
+[node name="FinalRoom" parent="." instance=ExtResource("1_pnyeg")]
+
+[node name="Triggers" type="Node" parent="."]
+
+[node name="CameraState1" type="TriggerCamera" parent="Triggers"]
+OutsideDeltaChange = true
+RotationCameraChange = true
+RotationCamera = Vector3(-3, 169, 0)
+TargetPathChange = true
+TargetPath = NodePath("State1")
+is_repeat = true
+
+[node name="State1" type="Marker3D" parent="Triggers/CameraState1"]
+transform = Transform3D(-0.981627, -0.00998618, 0.190547, 0, 0.99863, 0.052336, -0.190809, 0.0513744, -0.980282, 2.109, 0.13, 0.37)
+
+[node name="CameraState2" type="TriggerCamera" parent="Triggers"]
+OutsideDeltaChange = true
+RotationCameraChange = true
+RotationCamera = Vector3(-13, 86, 0)
+TargetPathChange = true
+TargetPath = NodePath("State2")
+is_repeat = true
+
+[node name="State2" type="Marker3D" parent="Triggers/CameraState2"]
+transform = Transform3D(0.0697565, -0.224403, 0.971996, 0, 0.974371, 0.224951, -0.997564, -0.0156918, 0.0679686, 1.579, 0.25, -0.085)
+
+[node name="CameraState3" type="TriggerCamera" parent="Triggers"]
+OutsideDeltaChange = true
+RotationCameraChange = true
+RotationCamera = Vector3(-10.5, 9.2, 0)
+TargetPathChange = true
+TargetPath = NodePath("State3")
+is_repeat = true
+
+[node name="State3" type="Marker3D" parent="Triggers/CameraState3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.999999, 2.104, 0.25, -0.97)
+
+[node name="ECamera" type="ECamera" parent="."]
+transform = Transform3D(0.135716, -0.0777332, 0.987694, 0, 0.996917, 0.0784591, -0.990748, -0.0106481, 0.135297, 3.249, 0.455, -0.36)
+target_path = NodePath("../Triggers/CameraState2/State2")
+speed_scale = 2.0
+target_rotation = Vector3(-13, 86, 0)
+rotation_speed_scale = 200.0
+
+[node name="Hero" parent="." instance=ExtResource("2_ghxkw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -0.743399, 0)
+
+[node name="Pc" parent="." instance=ExtResource("3_1jcsm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00527155, -1.19209e-07, 0.0850086)
+
+[node name="Customer" parent="." instance=ExtResource("4_qcwsf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.37698, 0.310045, 1.2078)

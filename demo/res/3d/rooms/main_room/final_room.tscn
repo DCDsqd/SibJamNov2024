@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://c84rh28vj2r3d"]
+
+[ext_resource type="PackedScene" uid="uid://dgn6y8opm1m8m" path="res://res/3d/rooms/main_room/room_1.tscn" id="1_6flei"]
+[ext_resource type="Environment" uid="uid://cvfc2tfluppnm" path="res://res/shaders/env/broken_room.tres" id="2_t2agl"]
+[ext_resource type="PackedScene" uid="uid://cgeh88sg8olnw" path="res://obj/hud/MainHud.tscn" id="3_x62hw"]
+
+[node name="FinalRoom" type="Node3D"]
+
+[node name="room1" parent="." instance=ExtResource("1_6flei")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = ExtResource("2_t2agl")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4023, 1.23552, -0.283497)
+light_energy = 1.5
+shadow_enabled = true
+omni_range = 7.0
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.236058, 0.127859, 2.34695)
+light_energy = 1.5
+shadow_enabled = true
+omni_range = 7.0
+
+[node name="MainHud" parent="." instance=ExtResource("3_x62hw")]

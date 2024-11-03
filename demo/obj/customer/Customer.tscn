@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cqkdus5ccsbyh"]
+
+[ext_resource type="SpriteFrames" uid="uid://cg8w5jb5e1j1l" path="res://res/2d/persons/customers/customers.tres" id="1_17lv5"]
+[ext_resource type="Script" path="res://obj/customer/Customer.gd" id="1_o175h"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4hood"]
+size = Vector3(2.29688, 2.14496, 0.332275)
+
+[node name="Customer" type="MovingEntity"]
+collision_layer = 5
+model_path = NodePath("SpriteModel")
+script = ExtResource("1_o175h")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_4hood")
+
+[node name="SpriteModel" type="SpriteModel" parent="."]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
+sprite_path = NodePath("AnimatedSprite3D")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="SpriteModel"]
+shaded = true
+texture_filter = 0
+sprite_frames = ExtResource("1_17lv5")
+animation = &"cowboy"

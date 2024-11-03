@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://cwrp15ca0bvxo"]
+[gd_scene load_steps=7 format=3 uid="uid://cwrp15ca0bvxo"]
 
 [ext_resource type="PackedScene" uid="uid://c84rh28vj2r3d" path="res://res/3d/rooms/main_room/final_room.tscn" id="1_pnyeg"]
 [ext_resource type="PackedScene" uid="uid://i7ji3diu54b7" path="res://obj/entity/hero/hero.tscn" id="2_ghxkw"]
 [ext_resource type="PackedScene" uid="uid://bw7yjilr41vy4" path="res://obj/entity/pc/Pc.tscn" id="3_1jcsm"]
-[ext_resource type="PackedScene" uid="uid://cqkdus5ccsbyh" path="res://obj/customer/Customer.tscn" id="4_qcwsf"]
+[ext_resource type="PackedScene" uid="uid://cqkdus5ccsbyh" path="res://obj/entity/customer/Customer.tscn" id="4_qcwsf"]
 [ext_resource type="PackedScene" uid="uid://cgiw8gtotym7x" path="res://obj/entity/orderController/OrderEntity.tscn" id="5_ng5hm"]
+[ext_resource type="Script" path="res://scenes/game_scenes/clock_start.gd" id="6_48x5y"]
 
 [node name="Scene" type="SingleHeroScene"]
 triggers_container_path = NodePath("Triggers")
@@ -63,7 +64,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -0.743399, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0262033, -1.19209e-07, -0.0648999)
 
 [node name="Customer" parent="." instance=ExtResource("4_qcwsf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.37698, 0.310045, 1.88102)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.509, 0.310045, 1.88102)
 
 [node name="OrderEntity" parent="." instance=ExtResource("5_ng5hm")]
 transform = Transform3D(0.655, 0, 0, 0, 0.655, 0, 0, 0, 0.655, 1.6316, -0.159443, -1.90332)
+
+[node name="SuperClock" type="SuperClock" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.66997, 0, 0)
+script = ExtResource("6_48x5y")

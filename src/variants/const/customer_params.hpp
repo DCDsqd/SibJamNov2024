@@ -28,6 +28,26 @@ public:
     static String dialogue_id(){
         return "CustomerDialogueId";
     }
+
+    static String sprite_id(){
+        return "CustommerSpriteId";
+    }
+
+    static String request_quest(){
+        return "CustomerRequestQuest";
+    }
+
+    static String state(){
+        return "CustomerState";
+    }
+
+    static String stage_var(){
+        return "CustommerStageVar";
+    }
+
+    static String death_var(){
+        return "CustommerDeathVar";
+    }
     
 };
 

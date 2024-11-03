@@ -1,0 +1,1403 @@
+{
+	"startingElement": null,
+	"boards": {
+		"2ad15ff6-f2ba-4f1d-9d9d-68938c683d7e": {
+			"name": "Root",
+			"root": true,
+			"children": [
+				"630fdb8a-48d6-473e-9974-2460f7eb2b41",
+				"afd5a114-dd6d-4371-a361-0499b352acc4",
+				"852533e8-dbef-422a-9225-86adeb6b8e61",
+				"9b827445-1dea-44ba-bbb6-8a9613893fa8",
+				"c6ddcad0-aaae-42c6-a01b-a3ef8866f378",
+				"0c1dcba4-ec01-4acc-8512-ee9ec997d3ac",
+				"024e83b0-4c36-4ab6-9bd5-dd7e937e76d7",
+				"b5a0e42f-8c92-4ee3-bee4-f0834deec712"
+			]
+		},
+		"630fdb8a-48d6-473e-9974-2460f7eb2b41": {
+			"name": "Main Board",
+			"notes": [],
+			"jumpers": [
+				"c96138ef-e692-4711-aaa8-8278b61add5e",
+				"9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c",
+				"0e4b9319-930d-4057-ab5e-c9da63da2e3b",
+				"26243762-0bd2-46a0-a7c3-a1c40855c381",
+				"64e45f37-84d3-41a0-94fc-49edcef151c7",
+				"29692c49-19b6-48c5-af78-cdb99e56568a",
+				"7913bad0-f5dd-414c-b7af-82a161d5d49b",
+				"f804da6e-8071-468e-b477-fccbb0f50a24",
+				"9a581919-42a7-4cb2-a7c8-b339ad203425",
+				"e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854",
+				"62a129b4-c462-4281-b353-c64d53c18b23",
+				"7ef6bf51-1920-403a-bd8b-05bd8579cfba",
+				"31a07d0f-c7c8-4969-b367-5f6b82ceb4f7",
+				"262476be-cac3-4db6-a149-8e4e40bca860",
+				"a5d07c34-ac8f-49e9-958c-a1fccefa35d0",
+				"8e08bf74-962e-4a38-ba03-56f2e28e9b87",
+				"364e1b68-d944-4973-9963-7f416cf33e5c",
+				"3207129a-b07d-45d4-9262-d4fbbc50dda8",
+				"09a5348f-fd89-42aa-aed7-5c2d7f5fa89c",
+				"5a55623e-74f3-4597-a921-c01c40acee1e",
+				"6147f53c-9302-488d-acdf-27fbd094e573",
+				"2597c65d-3980-403a-82c0-e673b5a58881",
+				"839d505d-70c8-4202-8846-63f8153dd600",
+				"2ebdc1bc-e5d5-4487-8e7b-6e947091437d",
+				"dd804575-a935-4cf1-b96e-e8c5d9c7430e"
+			],
+			"branches": [
+				"606729dd-7868-4b19-8eb0-db7d025ec5ad",
+				"2a156527-28b3-4e59-a3e5-7aa6880902cb",
+				"cc45660b-a2f8-43dd-9299-82de8804e03a",
+				"13213c2a-f685-4e71-896f-ff8f152d80a1",
+				"f21923f2-fd89-4a82-afc8-c48ca9697335",
+				"8fae14b2-364a-4705-ad6c-6f2576444f46",
+				"19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b",
+				"db80d6fd-72b5-41b6-8dd2-4e08c4670836",
+				"ff5632b7-1b9a-4fe0-aff5-3d8ce42f8c1d"
+			],
+			"elements": [
+				"8b6431df-33ee-4ebc-a4f2-8b2e3164e1dc",
+				"79adf350-ef96-48d7-bf08-c84d4cfac04f",
+				"bc08768f-92b1-4adb-975f-0e13c0cdbb93",
+				"b5b58fb7-6a20-4287-8162-04ad42f75198",
+				"889f6461-b74e-4500-94cd-fe4587a59037",
+				"f49947e5-d4d6-440e-983e-961829bc1055",
+				"9d234f96-5644-4452-b14d-4b92aa713117",
+				"5ddaa37a-cb4a-4317-8739-441cd553565a",
+				"1e352a41-0707-4a25-9658-59364597e746",
+				"11eaf2dc-196e-451c-859d-6340cc9d3400",
+				"207a9ec7-e139-4356-a596-1c90793c120e"
+			],
+			"connections": [
+				"f588f763-d5f1-48e8-8c41-3e2dee54b5ef",
+				"876aadc0-cf58-414e-8aec-9628ecce74cd",
+				"7c10a35d-6a41-4e95-a363-6316c6b4b45a",
+				"73c5a3d8-59a2-43fc-b49b-6140542f1dd8",
+				"c4338c68-35dc-44ab-9a1d-5d6f89c57eca",
+				"e085391b-5cdf-4bbc-943f-1139114d956b",
+				"b6ccf886-47cb-47df-8bd2-e41907d33eed",
+				"e16f4c26-5e52-415c-9ebd-e488f53e290d",
+				"c9d02d77-1e49-494e-bfd4-f749dd81cb14",
+				"b7619417-2030-4c84-a782-c134e91cb0aa",
+				"a17f4af9-cd93-4b77-b442-011b1079bd54",
+				"47d532e5-ec23-4127-9d96-c50bbea5b310",
+				"477d2fb3-b511-433a-bbca-8aeb3b0850a3",
+				"b7f61bd2-91d6-47e1-9b6b-02e6a5138789",
+				"6770c611-1752-4604-baf7-fde478792053",
+				"76cf7d04-884b-4e1d-ad29-e0afba50a763",
+				"459f72ed-2072-4d9e-868e-9e838db77c62",
+				"efa89e95-fdd6-4dbb-89af-d95e7b7627dd",
+				"2a5fd232-fa2f-4ccc-89db-c98658f2f581",
+				"5a44d480-5f58-4ab1-a0ae-bef247c99070",
+				"684026ac-3418-4715-84d5-e1b75ba138e6",
+				"f3fba158-fced-4fcc-9e51-3f334541e27f",
+				"40374754-6977-454f-a3e2-c8a107bd6fab",
+				"1c140ce6-f31e-4f62-aceb-4cf8d9d42b53",
+				"9be62149-9d18-4ce8-a4fc-eda1e53e13a3",
+				"6db959bd-b26c-44bc-94d7-35effb794579",
+				"e419bf3d-02a4-4521-b26f-251f1f0d091a",
+				"182e32e2-b5c9-402f-925f-a651690453a3",
+				"f00ece8d-643c-4292-81ca-74ae5f5e70ce",
+				"56df0c79-c7aa-4dab-a914-d8f0a567adb6",
+				"b99342f9-d888-4566-9b09-31e576e2b266",
+				"1a814311-fee9-4ba7-a0d7-d6e3f05f2e83",
+				"a376e2c6-d7e3-47a2-9ef3-a682d3477a52",
+				"a81f1be6-d91f-489c-a608-13ac43fdfe34",
+				"911dc39f-d042-4005-95e3-d16ced209bac",
+				"b24d8a62-4d20-4372-889f-179bc879963c",
+				"d8d7af20-a66d-4d3c-9708-e1c4a3401063",
+				"8fb6ce4c-257b-4aa7-9fd5-6db56eb3dc63",
+				"079671c7-a402-4cfc-8c25-5865aa50add1",
+				"7530ffb8-97a3-4a79-aabb-825a5f6a5405",
+				"c43f90e0-0c43-42ff-871c-acdb853375af",
+				"58240cf3-ec00-4c3c-83d1-b36306ddcff4"
+			]
+		},
+		"afd5a114-dd6d-4371-a361-0499b352acc4": {
+			"name": "StarkillerBoard",
+			"notes": [],
+			"elements": [
+				"e764f094-5428-47fd-a005-a8467a8fdbb3",
+				"1ccb500e-0894-4fba-a10f-115ea02da8d6",
+				"4cf67560-1576-4320-9f49-8c2ad70ab991",
+				"72b11dee-03e5-45ec-bba5-142f0654a0c2",
+				"f80f1d4e-4798-4dfc-bcb1-a1c3040a2761"
+			],
+			"connections": [
+				"88f31c30-53ed-404a-9a5d-b489de5d7e14",
+				"3bd2c591-02bf-4cd7-bfa2-686e8b2a3087",
+				"c97da8b2-4cff-4eec-9844-f118d0af882b"
+			],
+			"branches": [],
+			"jumpers": []
+		},
+		"852533e8-dbef-422a-9225-86adeb6b8e61": {
+			"name": "HeadHunterJimmy",
+			"notes": [],
+			"elements": [],
+			"connections": [],
+			"branches": [],
+			"jumpers": []
+		},
+		"c6ddcad0-aaae-42c6-a01b-a3ef8866f378": {
+			"name": "ArcaneWizarder",
+			"notes": [],
+			"elements": [],
+			"connections": [],
+			"branches": [],
+			"jumpers": []
+		},
+		"9b827445-1dea-44ba-bbb6-8a9613893fa8": {
+			"name": "Vlad3000",
+			"notes": [],
+			"elements": [],
+			"connections": [],
+			"branches": [],
+			"jumpers": []
+		},
+		"0c1dcba4-ec01-4acc-8512-ee9ec997d3ac": {
+			"name": "WorldAssasin",
+			"notes": [],
+			"elements": [],
+			"connections": [],
+			"branches": [],
+			"jumpers": []
+		},
+		"024e83b0-4c36-4ab6-9bd5-dd7e937e76d7": {
+			"name": "BalbesBunny",
+			"notes": [],
+			"elements": [],
+			"connections": [],
+			"branches": [],
+			"jumpers": []
+		},
+		"b5a0e42f-8c92-4ee3-bee4-f0834deec712": {
+			"name": "GraveCompany",
+			"notes": [],
+			"elements": [],
+			"connections": [],
+			"branches": [],
+			"jumpers": []
+		}
+	},
+	"notes": {},
+	"elements": {
+		"f49947e5-d4d6-440e-983e-961829bc1055": {
+			"autoHeight": true,
+			"title": "<p>TestPoint<\/p>",
+			"theme": "default",
+			"components": [],
+			"content": "<p>Hello<\/p>",
+			"outputs": [
+				"b7619417-2030-4c84-a782-c134e91cb0aa",
+				"a17f4af9-cd93-4b77-b442-011b1079bd54",
+				"47d532e5-ec23-4127-9d96-c50bbea5b310",
+				"477d2fb3-b511-433a-bbca-8aeb3b0850a3"
+			]
+		},
+		"8b6431df-33ee-4ebc-a4f2-8b2e3164e1dc": {
+			"autoHeight": true,
+			"title": "",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p>ha ha<\/p>",
+			"outputs": [
+				"f588f763-d5f1-48e8-8c41-3e2dee54b5ef"
+			]
+		},
+		"79adf350-ef96-48d7-bf08-c84d4cfac04f": {
+			"autoHeight": true,
+			"title": "<p><\/p>",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p>Not he he<\/p>",
+			"outputs": [
+				"876aadc0-cf58-414e-8aec-9628ecce74cd"
+			]
+		},
+		"bc08768f-92b1-4adb-975f-0e13c0cdbb93": {
+			"autoHeight": true,
+			"title": "<p><\/p>",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p><\/p>",
+			"outputs": [
+				"e085391b-5cdf-4bbc-943f-1139114d956b"
+			]
+		},
+		"b5b58fb7-6a20-4287-8162-04ad42f75198": {
+			"autoHeight": true,
+			"title": "<p><\/p>",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p><\/p>",
+			"outputs": []
+		},
+		"889f6461-b74e-4500-94cd-fe4587a59037": {
+			"outputs": [
+				"c9d02d77-1e49-494e-bfd4-f749dd81cb14"
+			],
+			"title": "<p>StarKillerStart<\/p>",
+			"content": "<p>DSDSD<\/p>",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"theme": "default",
+			"autoHeight": true,
+			"assets": {
+				"audio": [
+					{
+						"id": "4a20e3df-7d9f-484c-9e48-ce7bad1d0909",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
+					}
+				]
+			}
+		},
+		"1ccb500e-0894-4fba-a10f-115ea02da8d6": {
+			"autoHeight": true,
+			"title": "<p><\/p>",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p>No way<\/p>",
+			"outputs": []
+		},
+		"e764f094-5428-47fd-a005-a8467a8fdbb3": {
+			"autoHeight": true,
+			"title": "<p>StarKillerStage1<\/p>",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p>Ho ho ho<\/p>",
+			"outputs": [
+				"88f31c30-53ed-404a-9a5d-b489de5d7e14"
+			],
+			"assets": {
+				"audio": [
+					{
+						"id": "5852086b-571e-4e1d-b9a9-c30e17418921",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
+					}
+				]
+			}
+		},
+		"4cf67560-1576-4320-9f49-8c2ad70ab991": {
+			"autoHeight": true,
+			"title": "<p>StarKillerStage2<\/p>",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p>hm hm<\/p>",
+			"outputs": [
+				"3bd2c591-02bf-4cd7-bfa2-686e8b2a3087",
+				"c97da8b2-4cff-4eec-9844-f118d0af882b"
+			]
+		},
+		"72b11dee-03e5-45ec-bba5-142f0654a0c2": {
+			"autoHeight": true,
+			"title": "",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "<p>d<\/p>",
+			"outputs": []
+		},
+		"f80f1d4e-4798-4dfc-bcb1-a1c3040a2761": {
+			"autoHeight": true,
+			"title": "",
+			"theme": "default",
+			"components": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
+			],
+			"content": "",
+			"outputs": []
+		},
+		"9d234f96-5644-4452-b14d-4b92aa713117": {
+			"assets": {
+				"audio": [
+					{
+						"id": "4a20e3df-7d9f-484c-9e48-ce7bad1d0909",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
+					}
+				]
+			},
+			"autoHeight": true,
+			"title": "<p>HeadHunterJimmy<\/p>",
+			"theme": "default",
+			"components": [
+				"feac8f11-3d9f-4cba-875d-0e835fdff992"
+			],
+			"content": "<p>DSDSD<\/p>",
+			"outputs": [
+				"efa89e95-fdd6-4dbb-89af-d95e7b7627dd"
+			]
+		},
+		"5ddaa37a-cb4a-4317-8739-441cd553565a": {
+			"assets": {
+				"audio": [
+					{
+						"id": "4a20e3df-7d9f-484c-9e48-ce7bad1d0909",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
+					}
+				]
+			},
+			"autoHeight": true,
+			"title": "<p>Vlad3000<\/p>",
+			"theme": "default",
+			"components": [
+				"13a761c5-3d22-4661-8743-79b6a767d202"
+			],
+			"content": "<p>DSDSD<\/p>",
+			"outputs": [
+				"40374754-6977-454f-a3e2-c8a107bd6fab"
+			]
+		},
+		"1e352a41-0707-4a25-9658-59364597e746": {
+			"assets": {
+				"audio": [
+					{
+						"id": "4a20e3df-7d9f-484c-9e48-ce7bad1d0909",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
+					}
+				]
+			},
+			"autoHeight": true,
+			"title": "<p>Wizarder<\/p>",
+			"theme": "default",
+			"components": [
+				"cef2765c-ad8f-4af3-ae94-d32d5a525de4"
+			],
+			"content": "<p>DSDSD<\/p>",
+			"outputs": [
+				"182e32e2-b5c9-402f-925f-a651690453a3"
+			]
+		},
+		"11eaf2dc-196e-451c-859d-6340cc9d3400": {
+			"assets": {
+				"audio": [
+					{
+						"id": "4a20e3df-7d9f-484c-9e48-ce7bad1d0909",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
+					}
+				]
+			},
+			"autoHeight": true,
+			"title": "<p>Asasinchik<\/p>",
+			"theme": "default",
+			"components": [
+				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
+			],
+			"content": "<p>DSDSD<\/p>",
+			"outputs": [
+				"a376e2c6-d7e3-47a2-9ef3-a682d3477a52"
+			]
+		},
+		"207a9ec7-e139-4356-a596-1c90793c120e": {
+			"assets": {
+				"audio": [
+					{
+						"id": "4a20e3df-7d9f-484c-9e48-ce7bad1d0909",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
+					}
+				]
+			},
+			"autoHeight": true,
+			"title": "<p>BalbesBunny<\/p>",
+			"theme": "default",
+			"components": [
+				"cd498e75-e765-42b3-b770-ed8221998ede"
+			],
+			"content": "<p>DSDSD<\/p>",
+			"outputs": [
+				"8fb6ce4c-257b-4aa7-9fd5-6db56eb3dc63"
+			]
+		}
+	},
+	"jumpers": {
+		"c96138ef-e692-4711-aaa8-8278b61add5e": {
+			"elementId": null,
+			"height": 86,
+			"width": 185
+		},
+		"9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"align": "left",
+			"height": 86,
+			"width": 185
+		},
+		"0e4b9319-930d-4057-ab5e-c9da63da2e3b": {
+			"elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"height": 86,
+			"width": 185
+		},
+		"26243762-0bd2-46a0-a7c3-a1c40855c381": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"64e45f37-84d3-41a0-94fc-49edcef151c7": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"9a581919-42a7-4cb2-a7c8-b339ad203425": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"f804da6e-8071-468e-b477-fccbb0f50a24": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"7913bad0-f5dd-414c-b7af-82a161d5d49b": {
+			"elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"height": 86,
+			"width": 185
+		},
+		"29692c49-19b6-48c5-af78-cdb99e56568a": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"align": "left",
+			"height": 86,
+			"width": 185
+		},
+		"e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"align": "left",
+			"height": 86,
+			"width": 185
+		},
+		"62a129b4-c462-4281-b353-c64d53c18b23": {
+			"elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"height": 86,
+			"width": 185
+		},
+		"7ef6bf51-1920-403a-bd8b-05bd8579cfba": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"31a07d0f-c7c8-4969-b367-5f6b82ceb4f7": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"262476be-cac3-4db6-a149-8e4e40bca860": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"align": "left",
+			"height": 86,
+			"width": 185
+		},
+		"a5d07c34-ac8f-49e9-958c-a1fccefa35d0": {
+			"elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"height": 86,
+			"width": 185
+		},
+		"8e08bf74-962e-4a38-ba03-56f2e28e9b87": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"364e1b68-d944-4973-9963-7f416cf33e5c": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"3207129a-b07d-45d4-9262-d4fbbc50dda8": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"align": "left",
+			"height": 86,
+			"width": 185
+		},
+		"09a5348f-fd89-42aa-aed7-5c2d7f5fa89c": {
+			"elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"height": 86,
+			"width": 185
+		},
+		"5a55623e-74f3-4597-a921-c01c40acee1e": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"6147f53c-9302-488d-acdf-27fbd094e573": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"2597c65d-3980-403a-82c0-e673b5a58881": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"align": "left",
+			"height": 86,
+			"width": 185
+		},
+		"839d505d-70c8-4202-8846-63f8153dd600": {
+			"elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"height": 86,
+			"width": 185
+		},
+		"2ebdc1bc-e5d5-4487-8e7b-6e947091437d": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		},
+		"dd804575-a935-4cf1-b96e-e8c5d9c7430e": {
+			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"height": 86,
+			"width": 185
+		}
+	},
+	"connections": {
+		"c4338c68-35dc-44ab-9a1d-5d6f89c57eca": {
+			"targetType": "elements",
+			"type": "Bezier",
+			"targetid": "b5b58fb7-6a20-4287-8162-04ad42f75198",
+			"label": null,
+			"sourceid": "9d1dff7a-5094-48a1-a238-2e4d6e3c4ae3",
+			"theme": "default",
+			"sourceType": "conditions"
+		},
+		"e16f4c26-5e52-415c-9ebd-e488f53e290d": {
+			"sourceType": "conditions",
+			"label": null,
+			"sourceid": "8b37b59e-6589-4fe4-bbc3-13e1bcb7471b",
+			"targetid": "cc45660b-a2f8-43dd-9299-82de8804e03a",
+			"targetFace": "left",
+			"targetType": "branches",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"f588f763-d5f1-48e8-8c41-3e2dee54b5ef": {
+			"sourceType": "elements",
+			"label": "<p>Continue<\/p>",
+			"sourceid": "8b6431df-33ee-4ebc-a4f2-8b2e3164e1dc",
+			"targetid": "c96138ef-e692-4711-aaa8-8278b61add5e",
+			"targetFace": "left",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"876aadc0-cf58-414e-8aec-9628ecce74cd": {
+			"sourceType": "elements",
+			"label": "<p>Continue<\/p>",
+			"sourceid": "79adf350-ef96-48d7-bf08-c84d4cfac04f",
+			"targetid": "c96138ef-e692-4711-aaa8-8278b61add5e",
+			"targetFace": "left",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"b6ccf886-47cb-47df-8bd2-e41907d33eed": {
+			"sourceType": "conditions",
+			"label": null,
+			"sourceid": "76faec33-6eae-4e7d-9983-5c0f6e3cdcb5",
+			"targetid": "b5b58fb7-6a20-4287-8162-04ad42f75198",
+			"targetFace": "left",
+			"targetType": "elements",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"7c10a35d-6a41-4e95-a363-6316c6b4b45a": {
+			"targetType": "elements",
+			"type": "Bezier",
+			"targetid": "bc08768f-92b1-4adb-975f-0e13c0cdbb93",
+			"label": null,
+			"sourceid": "cecbf3ce-a1ce-4824-a80f-eeb74ebfb487",
+			"theme": "default",
+			"sourceType": "conditions"
+		},
+		"e085391b-5cdf-4bbc-943f-1139114d956b": {
+			"sourceType": "elements",
+			"label": "<p>Continue<\/p>",
+			"sourceid": "bc08768f-92b1-4adb-975f-0e13c0cdbb93",
+			"targetid": "c96138ef-e692-4711-aaa8-8278b61add5e",
+			"targetFace": "left",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"73c5a3d8-59a2-43fc-b49b-6140542f1dd8": {
+			"targetType": "branches",
+			"type": "Bezier",
+			"targetid": "cc45660b-a2f8-43dd-9299-82de8804e03a",
+			"label": "<p>Text_here<\/p>",
+			"sourceid": "d38850f7-386e-4212-b223-97938b9d331b",
+			"theme": "default",
+			"sourceType": "conditions"
+		},
+		"c9d02d77-1e49-494e-bfd4-f749dd81cb14": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "889f6461-b74e-4500-94cd-fe4587a59037",
+			"targetid": "13213c2a-f685-4e71-896f-ff8f152d80a1",
+			"targetFace": "left",
+			"targetType": "branches",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"88f31c30-53ed-404a-9a5d-b489de5d7e14": {
+			"targetType": "elements",
+			"type": "Bezier",
+			"targetid": "1ccb500e-0894-4fba-a10f-115ea02da8d6",
+			"label": null,
+			"sourceid": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+			"theme": "default",
+			"sourceType": "elements"
+		},
+		"477d2fb3-b511-433a-bbca-8aeb3b0850a3": {
+			"targetType": "branches",
+			"type": "Bezier",
+			"targetid": "2a156527-28b3-4e59-a3e5-7aa6880902cb",
+			"label": null,
+			"sourceid": "f49947e5-d4d6-440e-983e-961829bc1055",
+			"theme": "default",
+			"sourceType": "elements"
+		},
+		"6770c611-1752-4604-baf7-fde478792053": {
+			"sourceType": "conditions",
+			"label": "<p>Hello my deer friend<\/p>",
+			"sourceid": "555427e9-7b35-426f-ac33-8787e76f0266",
+			"targetid": "0e4b9319-930d-4057-ab5e-c9da63da2e3b",
+			"targetFace": "left",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"b7619417-2030-4c84-a782-c134e91cb0aa": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "f49947e5-d4d6-440e-983e-961829bc1055",
+			"targetid": "8b6431df-33ee-4ebc-a4f2-8b2e3164e1dc",
+			"targetFace": "left",
+			"targetType": "elements",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"a17f4af9-cd93-4b77-b442-011b1079bd54": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "f49947e5-d4d6-440e-983e-961829bc1055",
+			"targetid": "79adf350-ef96-48d7-bf08-c84d4cfac04f",
+			"targetFace": "left",
+			"targetType": "elements",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"47d532e5-ec23-4127-9d96-c50bbea5b310": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "f49947e5-d4d6-440e-983e-961829bc1055",
+			"targetid": "606729dd-7868-4b19-8eb0-db7d025ec5ad",
+			"targetFace": "left",
+			"targetType": "branches",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"b7f61bd2-91d6-47e1-9b6b-02e6a5138789": {
+			"targetType": "jumpers",
+			"type": "Bezier",
+			"targetid": "9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c",
+			"label": "<p>Welocme to my little shop<\/p>",
+			"sourceid": "dc3c416a-528e-4859-9a0a-5cb57a2e5ecb",
+			"theme": "default",
+			"sourceType": "conditions"
+		},
+		"76cf7d04-884b-4e1d-ad29-e0afba50a763": {
+			"sourceType": "conditions",
+			"label": "<p>Nice to meet you<\/p>",
+			"sourceid": "e91f0efa-5615-427c-af71-7181dddb7999",
+			"targetid": "26243762-0bd2-46a0-a7c3-a1c40855c381",
+			"targetFace": "left",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"459f72ed-2072-4d9e-868e-9e838db77c62": {
+			"targetType": "jumpers",
+			"type": "Bezier",
+			"targetid": "64e45f37-84d3-41a0-94fc-49edcef151c7",
+			"label": "<p>So so<\/p>",
+			"sourceid": "d8e814bd-cfb9-4e58-a5c1-0fa4bb192be4",
+			"theme": "default",
+			"sourceType": "conditions"
+		},
+		"3bd2c591-02bf-4cd7-bfa2-686e8b2a3087": {
+			"targetType": "elements",
+			"type": "Bezier",
+			"targetid": "72b11dee-03e5-45ec-bba5-142f0654a0c2",
+			"label": "<p>Answer2<\/p>",
+			"sourceid": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"theme": "default",
+			"sourceType": "elements"
+		},
+		"c97da8b2-4cff-4eec-9844-f118d0af882b": {
+			"targetType": "elements",
+			"type": "Bezier",
+			"targetid": "f80f1d4e-4798-4dfc-bcb1-a1c3040a2761",
+			"label": "<p>DSfdasdf<\/p>",
+			"sourceid": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+			"theme": "default",
+			"sourceType": "elements"
+		},
+		"f3fba158-fced-4fcc-9e51-3f334541e27f": {
+			"sourceType": "conditions",
+			"targetid": "9a581919-42a7-4cb2-a7c8-b339ad203425",
+			"sourceid": "f1b61bf7-56cd-4954-bd14-3dce81559ddd",
+			"label": "<p>So so<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"684026ac-3418-4715-84d5-e1b75ba138e6": {
+			"sourceType": "conditions",
+			"label": "<p>Nice to meet you<\/p>",
+			"sourceid": "dc427201-9102-44c8-80a9-660225a4de89",
+			"targetid": "f804da6e-8071-468e-b477-fccbb0f50a24",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"5a44d480-5f58-4ab1-a0ae-bef247c99070": {
+			"sourceType": "conditions",
+			"label": "<p>Hello my deer friend<\/p>",
+			"sourceid": "1a91266e-e7d2-4571-bd7f-1272222927fc",
+			"targetid": "7913bad0-f5dd-414c-b7af-82a161d5d49b",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"2a5fd232-fa2f-4ccc-89db-c98658f2f581": {
+			"sourceType": "conditions",
+			"targetid": "29692c49-19b6-48c5-af78-cdb99e56568a",
+			"sourceid": "14f697c9-91ab-4e7c-ac43-9b25a067c04e",
+			"label": "<p>Welocme to my little shop<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"efa89e95-fdd6-4dbb-89af-d95e7b7627dd": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "9d234f96-5644-4452-b14d-4b92aa713117",
+			"targetid": "f21923f2-fd89-4a82-afc8-c48ca9697335",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "branches"
+		},
+		"40374754-6977-454f-a3e2-c8a107bd6fab": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "5ddaa37a-cb4a-4317-8739-441cd553565a",
+			"targetid": "8fae14b2-364a-4705-ad6c-6f2576444f46",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "branches"
+		},
+		"1c140ce6-f31e-4f62-aceb-4cf8d9d42b53": {
+			"sourceType": "conditions",
+			"targetid": "e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854",
+			"sourceid": "b7bbacdc-b3d4-4e5d-9c0f-9b13731d48f2",
+			"label": "<p>Welocme to my little shop<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"9be62149-9d18-4ce8-a4fc-eda1e53e13a3": {
+			"sourceType": "conditions",
+			"label": "<p>Hello my deer friend<\/p>",
+			"sourceid": "37677103-3cec-4186-b7fa-e619a4d3108c",
+			"targetid": "62a129b4-c462-4281-b353-c64d53c18b23",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"6db959bd-b26c-44bc-94d7-35effb794579": {
+			"sourceType": "conditions",
+			"label": "<p>Nice to meet you<\/p>",
+			"sourceid": "5a3cd0a3-57ec-4075-a7c3-c02ae0fe62cc",
+			"targetid": "7ef6bf51-1920-403a-bd8b-05bd8579cfba",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"e419bf3d-02a4-4521-b26f-251f1f0d091a": {
+			"sourceType": "conditions",
+			"targetid": "31a07d0f-c7c8-4969-b367-5f6b82ceb4f7",
+			"sourceid": "6b12e7b1-32d0-4d3e-8578-aa06d3ae6b4c",
+			"label": "<p>So so<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"182e32e2-b5c9-402f-925f-a651690453a3": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "1e352a41-0707-4a25-9658-59364597e746",
+			"targetid": "19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "branches"
+		},
+		"f00ece8d-643c-4292-81ca-74ae5f5e70ce": {
+			"sourceType": "conditions",
+			"targetid": "262476be-cac3-4db6-a149-8e4e40bca860",
+			"sourceid": "9dc347bb-c318-4675-a9ef-1592b1b2b9f2",
+			"label": "<p>Welocme to my little shop<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"56df0c79-c7aa-4dab-a914-d8f0a567adb6": {
+			"sourceType": "conditions",
+			"label": "<p>Hello my deer friend<\/p>",
+			"sourceid": "8f3240db-6b06-4bf4-a3cd-a1816e2063db",
+			"targetid": "a5d07c34-ac8f-49e9-958c-a1fccefa35d0",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"d8d7af20-a66d-4d3c-9708-e1c4a3401063": {
+			"sourceType": "conditions",
+			"targetid": "6147f53c-9302-488d-acdf-27fbd094e573",
+			"sourceid": "0d072260-9e07-4356-99af-a7a2bc13e160",
+			"label": "<p>So so<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"1a814311-fee9-4ba7-a0d7-d6e3f05f2e83": {
+			"sourceType": "conditions",
+			"targetid": "364e1b68-d944-4973-9963-7f416cf33e5c",
+			"sourceid": "af82cce6-4529-4075-9852-01a59d0aa83a",
+			"label": "<p>So so<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"a376e2c6-d7e3-47a2-9ef3-a682d3477a52": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "11eaf2dc-196e-451c-859d-6340cc9d3400",
+			"targetid": "db80d6fd-72b5-41b6-8dd2-4e08c4670836",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "branches"
+		},
+		"a81f1be6-d91f-489c-a608-13ac43fdfe34": {
+			"sourceType": "conditions",
+			"targetid": "3207129a-b07d-45d4-9262-d4fbbc50dda8",
+			"sourceid": "9b50a12a-0150-46f7-b8e7-2310a522032f",
+			"label": "<p>Welocme to my little shop<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"911dc39f-d042-4005-95e3-d16ced209bac": {
+			"sourceType": "conditions",
+			"label": "<p>Hello my deer friend<\/p>",
+			"sourceid": "8c82e62a-bcb8-432a-9318-a59c9c074d03",
+			"targetid": "09a5348f-fd89-42aa-aed7-5c2d7f5fa89c",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"b24d8a62-4d20-4372-889f-179bc879963c": {
+			"sourceType": "conditions",
+			"label": "<p>Nice to meet you<\/p>",
+			"sourceid": "b4ae7bcb-6b64-4014-a76b-5f7e455e4db3",
+			"targetid": "5a55623e-74f3-4597-a921-c01c40acee1e",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"b99342f9-d888-4566-9b09-31e576e2b266": {
+			"sourceType": "conditions",
+			"label": "<p>Nice to meet you<\/p>",
+			"sourceid": "1acfd194-cbd0-48a9-a936-f900a379cc07",
+			"targetid": "8e08bf74-962e-4a38-ba03-56f2e28e9b87",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"8fb6ce4c-257b-4aa7-9fd5-6db56eb3dc63": {
+			"sourceType": "elements",
+			"label": null,
+			"sourceid": "207a9ec7-e139-4356-a596-1c90793c120e",
+			"targetid": "ff5632b7-1b9a-4fe0-aff5-3d8ce42f8c1d",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "branches"
+		},
+		"079671c7-a402-4cfc-8c25-5865aa50add1": {
+			"sourceType": "conditions",
+			"targetid": "2597c65d-3980-403a-82c0-e673b5a58881",
+			"sourceid": "8406375c-5c01-4c93-9cdf-582ac094606b",
+			"label": "<p>Welocme to my little shop<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		},
+		"7530ffb8-97a3-4a79-aabb-825a5f6a5405": {
+			"sourceType": "conditions",
+			"label": "<p>Hello my deer friend<\/p>",
+			"sourceid": "4d963e58-5863-400c-a276-cced92f4d70a",
+			"targetid": "839d505d-70c8-4202-8846-63f8153dd600",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"c43f90e0-0c43-42ff-871c-acdb853375af": {
+			"sourceType": "conditions",
+			"label": "<p>Nice to meet you<\/p>",
+			"sourceid": "49c7d040-28b2-491a-af0a-922bd356f5f1",
+			"targetid": "2ebdc1bc-e5d5-4487-8e7b-6e947091437d",
+			"targetFace": "left",
+			"type": "Bezier",
+			"theme": "default",
+			"targetType": "jumpers"
+		},
+		"58240cf3-ec00-4c3c-83d1-b36306ddcff4": {
+			"sourceType": "conditions",
+			"targetid": "dd804575-a935-4cf1-b96e-e8c5d9c7430e",
+			"sourceid": "ffb0fbd8-0613-4e53-a47d-774738b28b74",
+			"label": "<p>So so<\/p>",
+			"targetType": "jumpers",
+			"theme": "default",
+			"type": "Bezier"
+		}
+	},
+	"branches": {
+		"606729dd-7868-4b19-8eb0-db7d025ec5ad": {
+			"conditions": {
+				"ifCondition": "cecbf3ce-a1ce-4824-a80f-eeb74ebfb487",
+				"elseIfConditions": [
+					"76faec33-6eae-4e7d-9983-5c0f6e3cdcb5"
+				],
+				"elseCondition": "8b37b59e-6589-4fe4-bbc3-13e1bcb7471b"
+			},
+			"theme": "default"
+		},
+		"2a156527-28b3-4e59-a3e5-7aa6880902cb": {
+			"conditions": {
+				"ifCondition": "d38850f7-386e-4212-b223-97938b9d331b"
+			},
+			"theme": "default"
+		},
+		"cc45660b-a2f8-43dd-9299-82de8804e03a": {
+			"conditions": {
+				"ifCondition": "9d1dff7a-5094-48a1-a238-2e4d6e3c4ae3"
+			},
+			"theme": "default"
+		},
+		"13213c2a-f685-4e71-896f-ff8f152d80a1": {
+			"conditions": {
+				"ifCondition": "dc3c416a-528e-4859-9a0a-5cb57a2e5ecb",
+				"elseCondition": "e91f0efa-5615-427c-af71-7181dddb7999",
+				"elseIfConditions": [
+					"555427e9-7b35-426f-ac33-8787e76f0266",
+					"d8e814bd-cfb9-4e58-a5c1-0fa4bb192be4"
+				]
+			},
+			"theme": "default"
+		},
+		"f21923f2-fd89-4a82-afc8-c48ca9697335": {
+			"conditions": {
+				"ifCondition": "14f697c9-91ab-4e7c-ac43-9b25a067c04e",
+				"elseCondition": "dc427201-9102-44c8-80a9-660225a4de89",
+				"elseIfConditions": [
+					"1a91266e-e7d2-4571-bd7f-1272222927fc",
+					"f1b61bf7-56cd-4954-bd14-3dce81559ddd"
+				]
+			},
+			"theme": "default"
+		},
+		"8fae14b2-364a-4705-ad6c-6f2576444f46": {
+			"conditions": {
+				"ifCondition": "b7bbacdc-b3d4-4e5d-9c0f-9b13731d48f2",
+				"elseCondition": "5a3cd0a3-57ec-4075-a7c3-c02ae0fe62cc",
+				"elseIfConditions": [
+					"37677103-3cec-4186-b7fa-e619a4d3108c",
+					"6b12e7b1-32d0-4d3e-8578-aa06d3ae6b4c"
+				]
+			},
+			"theme": "default"
+		},
+		"19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b": {
+			"conditions": {
+				"ifCondition": "9dc347bb-c318-4675-a9ef-1592b1b2b9f2",
+				"elseCondition": "1acfd194-cbd0-48a9-a936-f900a379cc07",
+				"elseIfConditions": [
+					"8f3240db-6b06-4bf4-a3cd-a1816e2063db",
+					"af82cce6-4529-4075-9852-01a59d0aa83a"
+				]
+			},
+			"theme": "default"
+		},
+		"db80d6fd-72b5-41b6-8dd2-4e08c4670836": {
+			"conditions": {
+				"ifCondition": "9b50a12a-0150-46f7-b8e7-2310a522032f",
+				"elseCondition": "b4ae7bcb-6b64-4014-a76b-5f7e455e4db3",
+				"elseIfConditions": [
+					"8c82e62a-bcb8-432a-9318-a59c9c074d03",
+					"0d072260-9e07-4356-99af-a7a2bc13e160"
+				]
+			},
+			"theme": "default"
+		},
+		"ff5632b7-1b9a-4fe0-aff5-3d8ce42f8c1d": {
+			"conditions": {
+				"ifCondition": "8406375c-5c01-4c93-9cdf-582ac094606b",
+				"elseCondition": "49c7d040-28b2-491a-af0a-922bd356f5f1",
+				"elseIfConditions": [
+					"4d963e58-5863-400c-a276-cced92f4d70a",
+					"ffb0fbd8-0613-4e53-a47d-774738b28b74"
+				]
+			},
+			"theme": "default"
+		}
+	},
+	"components": {
+		"65005bda-15d0-41c5-867f-68c118829f08": {
+			"name": "Root",
+			"root": true,
+			"children": [
+				"6d995b59-b9b5-4d78-bb96-e6d59592090a",
+				"feac8f11-3d9f-4cba-875d-0e835fdff992",
+				"13a761c5-3d22-4661-8743-79b6a767d202",
+				"cef2765c-ad8f-4af3-ae94-d32d5a525de4",
+				"b4882d23-cb36-47b2-a543-7e1129f6a4be",
+				"cd498e75-e765-42b3-b770-ed8221998ede",
+				"b5d43f8f-f59e-4ab0-ad44-e3ad7d038827"
+			]
+		},
+		"6d995b59-b9b5-4d78-bb96-e6d59592090a": {
+			"name": "Xx_StarKiller_xX",
+			"attributes": [],
+			"assets": {
+				"cover": {
+					"file": "delapouite\/magic-axe",
+					"type": "icon"
+				}
+			}
+		},
+		"feac8f11-3d9f-4cba-875d-0e835fdff992": {
+			"name": "HeadHunterJimmy",
+			"attributes": [],
+			"assets": {
+				"cover": {
+					"file": "delapouite\/revolver",
+					"type": "icon"
+				}
+			}
+		},
+		"13a761c5-3d22-4661-8743-79b6a767d202": {
+			"name": "Vlad3000",
+			"attributes": [],
+			"assets": {
+				"cover": {
+					"file": "lorc\/fragmented-sword",
+					"type": "icon"
+				}
+			}
+		},
+		"cef2765c-ad8f-4af3-ae94-d32d5a525de4": {
+			"name": "ArcaneWizarder",
+			"attributes": [],
+			"assets": {
+				"cover": {
+					"file": "delapouite\/wizard-face",
+					"type": "icon"
+				}
+			}
+		},
+		"b4882d23-cb36-47b2-a543-7e1129f6a4be": {
+			"name": "WorldA$$a$$in",
+			"attributes": [],
+			"assets": {
+				"cover": {
+					"file": "delapouite\/butterfly-knife",
+					"type": "icon"
+				}
+			}
+		},
+		"cd498e75-e765-42b3-b770-ed8221998ede": {
+			"name": "BalbesBunny",
+			"attributes": [],
+			"assets": {
+				"cover": {
+					"file": "lorc\/brain",
+					"type": "icon"
+				}
+			}
+		},
+		"b5d43f8f-f59e-4ab0-ad44-e3ad7d038827": {
+			"name": "GraveCompany",
+			"attributes": [],
+			"assets": {
+				"cover": {
+					"file": "lorc\/pirate-grave",
+					"type": "icon"
+				}
+			}
+		}
+	},
+	"attributes": {},
+	"assets": {
+		"647d0495-341f-42b2-8788-b47dace22bf8": {
+			"root": true,
+			"children": [
+				"064cda3a-d283-4632-acf8-d591c33764aa"
+			]
+		},
+		"064cda3a-d283-4632-acf8-d591c33764aa": {
+			"type": "audio",
+			"name": "1000 Eyes \u2014 Signalis \u2014 Ariane's Theme (www.lightaudio.ru).mp3",
+			"volume": 1
+		}
+	},
+	"variables": {
+		"747d0495-341f-42b2-8788-b47dace22bf8": {
+			"root": true,
+			"children": [
+				"b89e9390-42c0-4e45-83b1-8ef099466934",
+				"672d669f-031e-4ebc-afa2-f8535ac816f3",
+				"72db83d2-07a0-4c66-b108-7e81a81b41ba",
+				"98ed457c-e34e-4000-bb8b-179fe7b81468",
+				"592c7868-a6db-4282-883a-287394bdc98f",
+				"e4f40211-d61d-4b99-9008-c532ef00d309",
+				"f9c86fb4-44fa-4963-b042-746dd7380365",
+				"70b4f9b8-ea72-4b9c-8323-e759d3ccac16",
+				"77b4cc27-a1b5-4a71-89d3-04a1d559965d",
+				"8a32d682-02b5-4896-891c-119107f03b46",
+				"b4f66db9-55d9-4095-bc8c-16aab2f783a3",
+				"829dc667-53ae-4723-af2c-d7fa577d2e75",
+				"e69a0595-0800-43b2-9ea0-c57d0778b0d5"
+			]
+		},
+		"b89e9390-42c0-4e45-83b1-8ef099466934": {
+			"type": "integer",
+			"name": "audio",
+			"value": 0
+		},
+		"672d669f-031e-4ebc-afa2-f8535ac816f3": {
+			"type": "integer",
+			"name": "starkiller_stage",
+			"value": 0
+		},
+		"72db83d2-07a0-4c66-b108-7e81a81b41ba": {
+			"type": "integer",
+			"name": "headhunter_stage",
+			"value": 0
+		},
+		"98ed457c-e34e-4000-bb8b-179fe7b81468": {
+			"type": "integer",
+			"name": "vlad_stage",
+			"value": 0
+		},
+		"592c7868-a6db-4282-883a-287394bdc98f": {
+			"type": "integer",
+			"name": "wizard_stage",
+			"value": 0
+		},
+		"e4f40211-d61d-4b99-9008-c532ef00d309": {
+			"type": "integer",
+			"name": "assassin_stage",
+			"value": 0
+		},
+		"f9c86fb4-44fa-4963-b042-746dd7380365": {
+			"type": "integer",
+			"name": "balbes_stage",
+			"value": 0
+		},
+		"70b4f9b8-ea72-4b9c-8323-e759d3ccac16": {
+			"type": "integer",
+			"name": "starkiller_death",
+			"value": 0
+		},
+		"77b4cc27-a1b5-4a71-89d3-04a1d559965d": {
+			"type": "integer",
+			"name": "headhunter_death",
+			"value": 0
+		},
+		"8a32d682-02b5-4896-891c-119107f03b46": {
+			"type": "integer",
+			"name": "vlad_death",
+			"value": 0
+		},
+		"b4f66db9-55d9-4095-bc8c-16aab2f783a3": {
+			"type": "integer",
+			"name": "wizard_death",
+			"value": 0
+		},
+		"829dc667-53ae-4723-af2c-d7fa577d2e75": {
+			"type": "integer",
+			"name": "assassin_death",
+			"value": 0
+		},
+		"e69a0595-0800-43b2-9ea0-c57d0778b0d5": {
+			"type": "integer",
+			"name": "bables_death",
+			"value": 0
+		}
+	},
+	"conditions": {
+		"cecbf3ce-a1ce-4824-a80f-eeb74ebfb487": {
+			"script": "audio == 1",
+			"output": "7c10a35d-6a41-4e95-a363-6316c6b4b45a"
+		},
+		"d38850f7-386e-4212-b223-97938b9d331b": {
+			"script": "audio == 1",
+			"output": "73c5a3d8-59a2-43fc-b49b-6140542f1dd8"
+		},
+		"9d1dff7a-5094-48a1-a238-2e4d6e3c4ae3": {
+			"script": "audio &lt; 1",
+			"output": "c4338c68-35dc-44ab-9a1d-5d6f89c57eca"
+		},
+		"76faec33-6eae-4e7d-9983-5c0f6e3cdcb5": {
+			"script": "audio != 1",
+			"output": "b6ccf886-47cb-47df-8bd2-e41907d33eed"
+		},
+		"8b37b59e-6589-4fe4-bbc3-13e1bcb7471b": {
+			"script": null,
+			"output": "e16f4c26-5e52-415c-9ebd-e488f53e290d"
+		},
+		"dc3c416a-528e-4859-9a0a-5cb57a2e5ecb": {
+			"script": "starkiller_stage == 0",
+			"output": "b7f61bd2-91d6-47e1-9b6b-02e6a5138789"
+		},
+		"555427e9-7b35-426f-ac33-8787e76f0266": {
+			"script": "starkiller_stage == 1",
+			"output": "6770c611-1752-4604-baf7-fde478792053"
+		},
+		"e91f0efa-5615-427c-af71-7181dddb7999": {
+			"script": null,
+			"output": "76cf7d04-884b-4e1d-ad29-e0afba50a763"
+		},
+		"d8e814bd-cfb9-4e58-a5c1-0fa4bb192be4": {
+			"script": "starkiller_stage == 2",
+			"output": "459f72ed-2072-4d9e-868e-9e838db77c62"
+		},
+		"dc427201-9102-44c8-80a9-660225a4de89": {
+			"script": null,
+			"output": "684026ac-3418-4715-84d5-e1b75ba138e6"
+		},
+		"f1b61bf7-56cd-4954-bd14-3dce81559ddd": {
+			"script": "headhunter_stage == 2",
+			"output": "f3fba158-fced-4fcc-9e51-3f334541e27f"
+		},
+		"1a91266e-e7d2-4571-bd7f-1272222927fc": {
+			"script": "headhunter_stage == 1",
+			"output": "5a44d480-5f58-4ab1-a0ae-bef247c99070"
+		},
+		"14f697c9-91ab-4e7c-ac43-9b25a067c04e": {
+			"script": "headhunter_stage == 0",
+			"output": "2a5fd232-fa2f-4ccc-89db-c98658f2f581"
+		},
+		"b7bbacdc-b3d4-4e5d-9c0f-9b13731d48f2": {
+			"script": "vlad_stage == 0",
+			"output": null
+		},
+		"37677103-3cec-4186-b7fa-e619a4d3108c": {
+			"script": "vlad_stage == 1",
+			"output": null
+		},
+		"6b12e7b1-32d0-4d3e-8578-aa06d3ae6b4c": {
+			"script": "vlad_stage == 2",
+			"output": null
+		},
+		"5a3cd0a3-57ec-4075-a7c3-c02ae0fe62cc": {
+			"script": null,
+			"output": null
+		},
+		"9dc347bb-c318-4675-a9ef-1592b1b2b9f2": {
+			"script": "wizard_stage == 0",
+			"output": null
+		},
+		"8f3240db-6b06-4bf4-a3cd-a1816e2063db": {
+			"script": "wizard_stage == 1",
+			"output": null
+		},
+		"af82cce6-4529-4075-9852-01a59d0aa83a": {
+			"script": "wizard_stage == 2",
+			"output": null
+		},
+		"1acfd194-cbd0-48a9-a936-f900a379cc07": {
+			"script": null,
+			"output": "b99342f9-d888-4566-9b09-31e576e2b266"
+		},
+		"9b50a12a-0150-46f7-b8e7-2310a522032f": {
+			"script": "assassin_stage == 0",
+			"output": null
+		},
+		"8c82e62a-bcb8-432a-9318-a59c9c074d03": {
+			"script": "assassin_stage == 1",
+			"output": null
+		},
+		"0d072260-9e07-4356-99af-a7a2bc13e160": {
+			"script": "assassin_stage == 2",
+			"output": null
+		},
+		"b4ae7bcb-6b64-4014-a76b-5f7e455e4db3": {
+			"script": null,
+			"output": null
+		},
+		"8406375c-5c01-4c93-9cdf-582ac094606b": {
+			"script": "balbes_stage == 0",
+			"output": null
+		},
+		"4d963e58-5863-400c-a276-cced92f4d70a": {
+			"script": "balbes_stage == 1",
+			"output": null
+		},
+		"ffb0fbd8-0613-4e53-a47d-774738b28b74": {
+			"script": "balbes_stage == 2",
+			"output": null
+		},
+		"49c7d040-28b2-491a-af0a-922bd356f5f1": {
+			"script": null,
+			"output": null
+		}
+	},
+	"name": "Untitled project",
+	"cover": null
+}

@@ -192,6 +192,7 @@ void godot::ArcDialogue::set_id(String p_cur_id)
 {
     this->cur_id = p_cur_id;
     this->cur_answers.clear();
+    this->cur_audio.clear();
     update_text();
 }
 
@@ -233,6 +234,14 @@ bool godot::ArcDialogue::get_answer_avaible(int i)
 godot::String godot::ArcDialogue::get_answer_text(int i)
 {
     return this->cur_answers[i].second.first;
+}
+
+godot::String godot::ArcDialogue::get_audio()
+{
+    if(this->cur_audio.size() == 0)
+        return String();
+    
+    return this->cur_audio[0];
 }
 
 bool godot::ArcDialogue::answer(int i)
@@ -290,6 +299,14 @@ void godot::ArcDialogue::update_text()
         speakers.push_back(element->get_component(i));
     }
     this->cur_speakers = speakers;
+
+    std::vector<String> audios;
+
+    int audio_size = element->get_audio_size();
+    for(int i = 0; i < audio_size; ++i){
+        audios.push_back(element->get_audio_asset(i));
+    }
+    this->cur_audio = audios;
 
     int output_size = element->get_output_id_count();
     for(int i = 0; i < output_size; ++i){

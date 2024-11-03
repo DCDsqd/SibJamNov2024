@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://bw7yjilr41vy4"]
 
 [ext_resource type="Script" path="res://obj/entity/pc/Pc.gd" id="1_ph6kt"]
-[ext_resource type="Texture2D" uid="uid://co7eax75u7m76" path="res://res/2d/hud/memory_1.png" id="2_xhtkj"]
+[ext_resource type="Texture2D" uid="uid://dyidu6vswa4wu" path="res://res/2d/hud/interface_pc-export.png" id="2_5jxc6"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ljxia"]
 resource_name = "Material.002"
@@ -289,16 +289,17 @@ size = Vector2i(500, 338)
 render_target_update_mode = 4
 
 [node name="TextureRect" type="TextureRect" parent="SubViewportContainer/SubViewport"]
-offset_left = 184.0
-offset_top = 46.0
-offset_right = 407.0
-offset_bottom = 269.0
-texture = ExtResource("2_xhtkj")
+texture_filter = 1
+offset_left = -8.0
+offset_top = -8.0
+offset_right = 507.0
+offset_bottom = 420.0
+texture = ExtResource("2_5jxc6")
 expand_mode = 1
 stretch_mode = 4
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
-transform = Transform3D(2.68825e-08, 0, 0.205, 0, 0.205, 0, -0.205, 0, 2.68825e-08, 0.660885, 0.195559, -0.286166)
+transform = Transform3D(1.54771e-08, 0, 0.205, 0, 0.205, 0, -0.205, 0, 1.54771e-08, 0.660885, 0.181387, -0.286166)
 texture = SubResource("ViewportTexture_c2k47")
 
 [node name="Plane" type="MeshInstance3D" parent="."]

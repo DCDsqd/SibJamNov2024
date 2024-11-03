@@ -10,15 +10,19 @@
 #include "entity/order/order_interactor.h"
 #include "entity/order/order_container.h"
 #include "entity/builder/order_builder.h"
+#include "entity/builder/custommer_builder.h"
 #include "entity/hero/container_entity_data.h"
 //#include "entity/order/order_container.h"
 
 #include "variants/dialogues/arc_dialogue.h"
 #include "hud/arc_view_model.h"
 #include "hud/order_hud.h"
+#include "hud/custommer_view_model.h"
 //#include "hud/arc_hud_dialogue.h"
 
 #include "triggers/trigger_camera.h"
+
+#include "util/super_clock.h"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -44,9 +48,13 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	ClassDB::register_class<OrderInteractor>();
 	ClassDB::register_class<OrderHud>();
 	ClassDB::register_class<OrderBuilder>();
+	ClassDB::register_class<CustommerBuilder>();
 
+	ClassDB::register_class<CustomerViewModel>();
 	ClassDB::register_class<ArcDialogue>();
 	ClassDB::register_class<ArcViewModel>();
+
+	ClassDB::register_class<SuperClock>();
 	//ClassDB::register_class<ArcHudDialogue>();
 
 	ClassDB::register_class<TriggerCamera>();

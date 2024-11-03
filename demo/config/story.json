@@ -1,0 +1,4 @@
+{
+	"assets": "res://story/assets/",
+	"story_map": "res://config/story_map.json"
+}

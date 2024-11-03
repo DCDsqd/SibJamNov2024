@@ -30,6 +30,7 @@ protected:
 	String cur_text;
 	std::vector<String> cur_speakers;
 	std::vector<std::pair<String, std::pair<String, bool>>> cur_answers;
+	std::vector<String> cur_audio;
 
 	bool end = false;
 
@@ -54,6 +55,8 @@ public:
 	String get_answer_id(int i);
 	bool get_answer_avaible(int i);
 	String get_answer_text(int i);
+
+	String get_audio();
 	
 	bool answer(int i);
 	bool answer(String name);

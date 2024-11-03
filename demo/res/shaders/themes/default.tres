@@ -2,13 +2,7 @@
 
 [ext_resource type="FontFile" uid="uid://x8f300swyb01" path="res://res/fonts/zx_spectrum-7_bold.ttf" id="1_nepcx"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6l8vp"]
-bg_color = Color(0.6, 0.6, 0.6, 0)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-border_color = Color(0.129412, 0.0941176, 0.184314, 1)
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ukjw0"]
 
 [resource]
 Label/colors/font_color = Color(0.772549, 0.909804, 0.705882, 1)
@@ -29,6 +23,6 @@ TextEdit/font_sizes/font_size = 10
 TextEdit/fonts/font = ExtResource("1_nepcx")
 TextEdit/icons/space = null
 TextEdit/icons/tab = null
-TextEdit/styles/focus = SubResource("StyleBoxFlat_6l8vp")
-TextEdit/styles/normal = SubResource("StyleBoxFlat_6l8vp")
-TextEdit/styles/read_only = SubResource("StyleBoxFlat_6l8vp")
+TextEdit/styles/focus = SubResource("StyleBoxEmpty_ukjw0")
+TextEdit/styles/normal = SubResource("StyleBoxEmpty_ukjw0")
+TextEdit/styles/read_only = SubResource("StyleBoxEmpty_ukjw0")

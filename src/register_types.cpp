@@ -7,10 +7,15 @@
 #include "entity/pc/pc_interaction.h"
 #include "entity/customer/customer_interactor.h"
 #include "entity/arc_dialogue/arc_interactor.h"
+#include "entity/order/order_interactor.h"
+#include "entity/order/order_container.h"
+#include "entity/builder/order_builder.h"
+#include "entity/hero/container_entity_data.h"
 //#include "entity/order/order_container.h"
 
 #include "variants/dialogues/arc_dialogue.h"
 #include "hud/arc_view_model.h"
+#include "hud/order_hud.h"
 //#include "hud/arc_hud_dialogue.h"
 
 #include "triggers/trigger_camera.h"
@@ -30,9 +35,15 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 
 	ClassDB::register_class<SimpleEntityBuilder>();
 	ClassDB::register_class<HeroInput>();
+	ClassDB::register_class<OrderContainer>();
 	ClassDB::register_class<CustomerInteractor>();
 	ClassDB::register_class<ArcInteractor>();
 	ClassDB::register_class<PcInteractor>();
+
+	ClassDB::register_class<ContainerEntityData>();
+	ClassDB::register_class<OrderInteractor>();
+	ClassDB::register_class<OrderHud>();
+	ClassDB::register_class<OrderBuilder>();
 
 	ClassDB::register_class<ArcDialogue>();
 	ClassDB::register_class<ArcViewModel>();

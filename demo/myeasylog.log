@@ -2504,3 +2504,1695 @@
 2024-11-03 12:50:43,980 INFO [default] ArcConditionBit: else not setted
 2024-11-03 12:50:46,966 INFO [default] ArcConditionBit: else not setted
 2024-11-03 12:50:51,480 INFO [default] ArcConditionBit: else not setted
+2024-11-03 13:15:43,554 INFO [default] ArcAngel: all fine
+2024-11-03 13:15:43,554 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 13:15:43,555 INFO [default] SimpleGameController: start unload room
+2024-11-03 13:15:43,555 INFO [default] SimpleGameController: current room is null
+2024-11-03 13:15:43,669 INFO [default] SimpleGameController: setting scene
+2024-11-03 13:15:43,669 INFO [default] ModelEntity: set new entity
+2024-11-03 13:15:43,669 INFO [default] ModelEntity: end set new entity
+2024-11-03 13:15:43,669 INFO [default] ModelEntity: set new entity
+2024-11-03 13:15:43,669 INFO [default] ModelEntity: end set new entity
+2024-11-03 13:15:43,669 INFO [default] ModelEntity: set new entity
+2024-11-03 13:15:43,669 INFO [default] ModelEntity: end set new entity
+2024-11-03 13:15:43,669 INFO [default] SimpleGameController: scene spawning
+2024-11-03 13:15:43,669 INFO [default] SingleHeroScene: scene init
+2024-11-03 13:15:43,669 INFO [default] SingleHeroScene: start load entity
+2024-11-03 13:15:43,669 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 13:15:43,669 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 13:15:43,677 INFO [default] SingleHeroScene: save entity
+2024-11-03 13:15:43,677 INFO [default] SingleHeroScene: entity saved
+2024-11-03 13:15:44,949 INFO [default] ArcConditionBit: else not setted
+2024-11-03 13:15:54,067 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:32:28,264 INFO [default] ArcAngel: all fine
+2024-11-03 14:32:28,264 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 14:32:28,264 INFO [default] SimpleGameController: start unload room
+2024-11-03 14:32:28,264 INFO [default] SimpleGameController: current room is null
+2024-11-03 14:32:28,374 INFO [default] SimpleGameController: setting scene
+2024-11-03 14:32:28,374 INFO [default] ModelEntity: set new entity
+2024-11-03 14:32:28,374 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:32:28,375 INFO [default] ModelEntity: set new entity
+2024-11-03 14:32:28,375 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:32:28,375 INFO [default] ModelEntity: set new entity
+2024-11-03 14:32:28,375 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:32:28,375 INFO [default] SimpleGameController: scene spawning
+2024-11-03 14:32:28,375 INFO [default] SingleHeroScene: scene init
+2024-11-03 14:32:28,375 INFO [default] SingleHeroScene: start load entity
+2024-11-03 14:32:28,375 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 14:32:28,375 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 14:32:28,384 INFO [default] SingleHeroScene: save entity
+2024-11-03 14:32:28,384 INFO [default] SingleHeroScene: entity saved
+2024-11-03 14:32:30,123 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:32:40,535 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:32:47,857 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:32:53,694 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:33:00,551 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:33:05,368 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:50:51,971 INFO [default] ArcAngel: all fine
+2024-11-03 14:50:51,972 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 14:50:51,972 INFO [default] SimpleGameController: start unload room
+2024-11-03 14:50:51,972 INFO [default] SimpleGameController: current room is null
+2024-11-03 14:50:52,090 INFO [default] SimpleGameController: setting scene
+2024-11-03 14:50:52,090 INFO [default] ModelEntity: set new entity
+2024-11-03 14:50:52,090 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:50:52,091 INFO [default] ModelEntity: set new entity
+2024-11-03 14:50:52,091 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:50:52,091 INFO [default] ModelEntity: set new entity
+2024-11-03 14:50:52,091 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:50:52,091 INFO [default] SimpleGameController: scene spawning
+2024-11-03 14:50:52,091 INFO [default] SingleHeroScene: scene init
+2024-11-03 14:50:52,091 INFO [default] SingleHeroScene: start load entity
+2024-11-03 14:50:52,091 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 14:50:52,091 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 14:50:52,099 INFO [default] SingleHeroScene: save entity
+2024-11-03 14:50:52,099 INFO [default] SingleHeroScene: entity saved
+2024-11-03 14:51:01,275 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:51:06,581 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:51:37,182 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:51:42,136 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:52:27,501 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:52:33,608 INFO [default] ArcConditionBit: else not setted
+2024-11-03 14:57:38,104 INFO [default] ArcAngel: all fine
+2024-11-03 14:57:38,104 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 14:57:38,104 INFO [default] SimpleGameController: start unload room
+2024-11-03 14:57:38,104 INFO [default] SimpleGameController: current room is null
+2024-11-03 14:57:38,212 INFO [default] SimpleGameController: setting scene
+2024-11-03 14:57:38,213 INFO [default] ModelEntity: set new entity
+2024-11-03 14:57:38,213 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:57:38,214 INFO [default] ModelEntity: set new entity
+2024-11-03 14:57:38,214 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:57:38,214 INFO [default] ModelEntity: set new entity
+2024-11-03 14:57:38,214 INFO [default] ModelEntity: end set new entity
+2024-11-03 14:57:38,214 INFO [default] SimpleGameController: scene spawning
+2024-11-03 14:57:38,214 INFO [default] SingleHeroScene: scene init
+2024-11-03 14:57:38,214 INFO [default] SingleHeroScene: start load entity
+2024-11-03 14:57:38,214 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 14:57:38,214 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 14:57:38,222 INFO [default] SingleHeroScene: save entity
+2024-11-03 14:57:38,222 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:00:47,744 INFO [default] ArcAngel: all fine
+2024-11-03 15:00:47,745 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:00:47,745 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:00:47,745 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:00:47,858 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:00:47,858 INFO [default] ModelEntity: set new entity
+2024-11-03 15:00:47,858 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:00:47,859 INFO [default] ModelEntity: set new entity
+2024-11-03 15:00:47,859 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:00:47,859 INFO [default] ModelEntity: set new entity
+2024-11-03 15:00:47,859 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:00:47,859 INFO [default] ModelEntity: set new entity
+2024-11-03 15:00:47,859 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:00:47,859 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:00:47,859 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:00:47,859 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:00:47,859 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:00:47,859 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:00:47,867 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:00:47,867 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:01:13,126 INFO [default] ArcAngel: all fine
+2024-11-03 15:01:13,126 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:01:13,126 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:01:13,126 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:01:13,257 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:01:13,257 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:13,257 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:13,258 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:13,258 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:13,258 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:13,258 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:13,258 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:13,258 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:13,258 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:01:13,258 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:01:13,258 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:01:13,258 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:01:13,258 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:01:13,266 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:01:13,266 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:01:43,914 INFO [default] ArcAngel: all fine
+2024-11-03 15:01:43,914 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:01:43,914 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:01:43,915 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:01:44,040 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: set new entity
+2024-11-03 15:01:44,041 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:01:44,041 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:01:44,041 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:01:44,041 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:01:44,041 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:01:44,041 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:01:44,050 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:01:44,050 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:02:27,995 INFO [default] ArcAngel: all fine
+2024-11-03 15:02:27,995 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:02:27,995 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:02:27,995 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:02:28,107 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: set new entity
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: set new entity
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: set new entity
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: set new entity
+2024-11-03 15:02:28,108 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:02:28,108 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:02:28,108 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:02:28,108 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:02:28,108 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:02:28,108 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:02:28,116 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:02:28,116 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:10:03,323 INFO [default] ArcAngel: all fine
+2024-11-03 15:10:03,324 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:10:03,324 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:10:03,324 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:10:03,472 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:10:03,473 INFO [default] ModelEntity: set new entity
+2024-11-03 15:10:03,473 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:10:03,473 INFO [default] ModelEntity: set new entity
+2024-11-03 15:10:03,473 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:10:03,473 INFO [default] ModelEntity: set new entity
+2024-11-03 15:10:03,473 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:10:03,494 INFO [default] ModelEntity: set new entity
+2024-11-03 15:10:03,494 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:10:03,494 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:10:03,494 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:10:03,494 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:10:03,494 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:10:03,494 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:10:03,502 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:10:03,502 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:22:52,525 INFO [default] ArcAngel: all fine
+2024-11-03 15:22:52,525 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:22:52,525 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:22:52,525 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:22:52,635 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: set new entity
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: set new entity
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: set new entity
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: set new entity
+2024-11-03 15:22:52,636 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:22:52,636 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:22:52,636 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:22:52,636 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:22:52,636 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:22:52,636 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:22:52,645 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:22:52,645 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:23:37,080 INFO [default] ArcAngel: all fine
+2024-11-03 15:23:37,080 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:23:37,080 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:23:37,080 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:23:37,193 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: set new entity
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: set new entity
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: set new entity
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: set new entity
+2024-11-03 15:23:37,194 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:23:37,194 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:23:37,194 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:23:37,194 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:23:37,194 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:23:37,194 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:23:37,202 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:23:37,202 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:24:13,580 INFO [default] ArcAngel: all fine
+2024-11-03 15:24:13,580 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:24:13,580 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:24:13,580 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:24:13,690 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: set new entity
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: set new entity
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: set new entity
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: set new entity
+2024-11-03 15:24:13,691 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:24:13,691 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:24:13,691 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:24:13,691 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:24:13,691 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:24:13,691 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:24:13,698 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:24:13,699 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:25:34,105 INFO [default] ArcAngel: all fine
+2024-11-03 15:25:34,105 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:25:34,105 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:25:34,105 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:25:34,214 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: set new entity
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: set new entity
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: set new entity
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: set new entity
+2024-11-03 15:25:34,215 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:25:34,215 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:25:34,215 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:25:34,215 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:25:34,215 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:25:34,215 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:25:34,224 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:25:34,224 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:30:23,664 INFO [default] ArcAngel: all fine
+2024-11-03 15:30:23,664 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:30:23,664 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:30:23,664 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:30:23,789 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:30:23,790 INFO [default] ModelEntity: set new entity
+2024-11-03 15:30:23,791 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:30:23,791 INFO [default] ModelEntity: set new entity
+2024-11-03 15:30:23,791 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:30:23,791 INFO [default] ModelEntity: set new entity
+2024-11-03 15:30:23,791 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:30:23,791 INFO [default] ModelEntity: set new entity
+2024-11-03 15:30:23,791 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:30:23,791 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:30:23,791 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:30:23,791 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:30:23,791 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:30:23,791 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:30:23,798 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:30:23,799 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:34:09,172 INFO [default] ArcAngel: all fine
+2024-11-03 15:34:09,172 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:34:09,172 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:34:09,172 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:34:09,286 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:34:09,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:34:09,287 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:34:09,287 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:34:09,287 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:34:09,287 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:34:09,287 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:34:09,295 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:34:09,295 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:35:40,870 INFO [default] ArcAngel: all fine
+2024-11-03 15:35:40,870 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:35:40,870 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:35:40,870 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:35:40,983 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: set new entity
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: set new entity
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: set new entity
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: set new entity
+2024-11-03 15:35:40,984 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:35:40,984 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:35:40,984 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:35:40,984 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:35:40,984 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:35:40,984 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:35:40,992 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:35:40,992 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:36:08,791 INFO [default] ArcAngel: all fine
+2024-11-03 15:36:08,792 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:36:08,792 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:36:08,792 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:36:08,908 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: set new entity
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: set new entity
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: set new entity
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: set new entity
+2024-11-03 15:36:08,909 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:36:08,909 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:36:08,909 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:36:08,909 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:36:08,909 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:36:08,909 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:36:08,918 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:36:08,918 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:40:01,882 INFO [default] ArcAngel: all fine
+2024-11-03 15:40:01,882 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:40:01,882 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:40:01,882 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:40:01,997 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:40:01,997 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:01,997 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:01,997 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:01,997 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:01,998 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:01,998 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:01,998 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:01,998 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:01,998 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:40:01,998 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:40:01,998 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:40:01,998 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:40:01,998 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:40:02,006 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:40:02,006 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:40:36,584 INFO [default] ArcAngel: all fine
+2024-11-03 15:40:36,585 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:40:36,585 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:40:36,585 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:40:36,697 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:40:36,697 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:36,697 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:36,697 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:36,697 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:36,697 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:36,697 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:36,697 INFO [default] ModelEntity: set new entity
+2024-11-03 15:40:36,698 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:40:36,698 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:40:36,698 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:40:36,698 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:40:36,698 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:40:36,698 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:40:36,706 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:40:36,706 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:41:18,499 INFO [default] ArcAngel: all fine
+2024-11-03 15:41:18,500 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:41:18,500 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:41:18,500 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:41:18,619 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:18,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:18,620 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:41:18,620 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:41:18,620 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:41:18,620 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:41:18,620 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:41:18,631 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:41:18,631 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:41:27,013 INFO [default] ArcAngel: all fine
+2024-11-03 15:41:27,014 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:41:27,014 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:41:27,014 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:41:27,125 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:27,127 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:27,127 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:41:27,127 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:41:27,127 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:41:27,127 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:41:27,127 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:41:27,135 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:41:27,135 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:41:43,573 INFO [default] ArcAngel: all fine
+2024-11-03 15:41:43,574 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:41:43,574 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:41:43,574 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:41:43,687 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:41:43,687 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:43,687 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:43,687 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:43,687 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:43,688 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:43,688 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:43,688 INFO [default] ModelEntity: set new entity
+2024-11-03 15:41:43,688 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:41:43,688 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:41:43,688 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:41:43,688 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:41:43,688 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:41:43,688 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:41:43,696 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:41:43,696 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:46:46,811 INFO [default] ArcAngel: all fine
+2024-11-03 15:46:46,811 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:46:46,811 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:46:46,811 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:46:46,939 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: set new entity
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: set new entity
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: set new entity
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: set new entity
+2024-11-03 15:46:46,940 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:46:46,940 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:46:46,940 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:46:46,940 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:46:46,940 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:46:46,940 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:46:46,949 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:46:46,949 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:48:51,172 INFO [default] ArcAngel: all fine
+2024-11-03 15:48:51,172 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:48:51,172 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:48:51,172 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:48:51,286 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: set new entity
+2024-11-03 15:48:51,287 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:48:51,287 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:48:51,287 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:48:51,287 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:48:51,287 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:48:51,287 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:48:51,296 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:48:51,296 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:49:10,099 INFO [default] ArcAngel: all fine
+2024-11-03 15:49:10,099 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:49:10,099 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:49:10,099 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:49:10,210 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: set new entity
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: set new entity
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: set new entity
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: set new entity
+2024-11-03 15:49:10,210 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:49:10,210 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:49:10,210 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:49:10,210 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:49:10,210 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:49:10,210 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:49:10,219 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:49:10,219 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:55:44,934 INFO [default] ArcAngel: all fine
+2024-11-03 15:55:44,934 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:55:44,934 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:55:44,934 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:55:45,090 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: set new entity
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: set new entity
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: set new entity
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: set new entity
+2024-11-03 15:55:45,090 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:55:45,090 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:55:45,091 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:55:45,091 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:55:45,091 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:55:45,091 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:55:45,097 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:55:45,097 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:57:23,159 INFO [default] ArcAngel: all fine
+2024-11-03 15:57:23,160 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:57:23,160 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:57:23,160 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:57:23,320 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: set new entity
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: set new entity
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: set new entity
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: set new entity
+2024-11-03 15:57:23,321 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:57:23,321 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:57:23,321 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:57:23,321 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:57:23,321 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:57:23,321 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:57:23,328 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:57:23,328 INFO [default] SingleHeroScene: entity saved
+2024-11-03 15:58:24,620 INFO [default] ArcAngel: all fine
+2024-11-03 15:58:24,620 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 15:58:24,621 INFO [default] SimpleGameController: start unload room
+2024-11-03 15:58:24,621 INFO [default] SimpleGameController: current room is null
+2024-11-03 15:58:24,777 INFO [default] SimpleGameController: setting scene
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: set new entity
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: set new entity
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: set new entity
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: set new entity
+2024-11-03 15:58:24,778 INFO [default] ModelEntity: end set new entity
+2024-11-03 15:58:24,778 INFO [default] SimpleGameController: scene spawning
+2024-11-03 15:58:24,778 INFO [default] SingleHeroScene: scene init
+2024-11-03 15:58:24,778 INFO [default] SingleHeroScene: start load entity
+2024-11-03 15:58:24,778 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 15:58:24,778 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 15:58:24,784 INFO [default] SingleHeroScene: save entity
+2024-11-03 15:58:24,784 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:02:04,656 INFO [default] ArcAngel: all fine
+2024-11-03 16:02:04,656 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:02:04,656 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:02:04,656 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:02:04,824 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:02:04,824 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:04,824 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:04,824 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:04,824 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:04,825 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:04,825 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:04,825 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:04,825 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:04,825 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:02:04,825 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:02:04,825 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:02:04,825 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:02:04,825 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:02:04,832 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:02:04,832 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:02:48,161 INFO [default] ArcAngel: all fine
+2024-11-03 16:02:48,161 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:02:48,161 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:02:48,161 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:02:48,320 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: set new entity
+2024-11-03 16:02:48,320 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:02:48,320 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:02:48,320 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:02:48,320 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:02:48,320 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:02:48,321 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:02:48,327 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:02:48,327 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:02:53,906 INFO [default] ArcConditionBit: else not setted
+2024-11-03 16:03:17,552 INFO [default] ArcConditionBit: else not setted
+2024-11-03 16:03:20,754 INFO [default] ArcConditionBit: else not setted
+2024-11-03 16:03:39,314 INFO [default] ArcAngel: all fine
+2024-11-03 16:03:39,314 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:03:39,314 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:03:39,314 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:03:39,473 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:39,474 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:39,474 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:03:39,474 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:03:39,474 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:03:39,474 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:03:39,474 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:03:39,480 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:03:39,480 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:03:54,627 INFO [default] ArcAngel: all fine
+2024-11-03 16:03:54,627 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:03:54,627 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:03:54,627 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:03:54,785 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: set new entity
+2024-11-03 16:03:54,785 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:03:54,785 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:03:54,785 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:03:54,785 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:03:54,786 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:03:54,786 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:03:54,791 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:03:54,791 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:04:01,785 INFO [default] ArcAngel: all fine
+2024-11-03 16:04:01,785 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:04:01,785 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:04:01,785 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:04:01,942 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: set new entity
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: set new entity
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: set new entity
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: set new entity
+2024-11-03 16:04:01,943 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:04:01,943 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:04:01,943 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:04:01,943 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:04:01,943 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:04:01,943 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:04:01,951 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:04:01,951 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:06:06,752 INFO [default] ArcAngel: all fine
+2024-11-03 16:06:06,753 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:06:06,753 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:06:06,753 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:06:06,911 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:06,912 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:06,912 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:06:06,912 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:06:06,912 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:06:06,912 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:06:06,912 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:06:06,918 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:06:06,918 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:06:31,407 INFO [default] ArcAngel: all fine
+2024-11-03 16:06:31,407 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:06:31,407 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:06:31,407 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:06:31,563 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:31,563 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:31,563 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:06:31,563 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:06:31,563 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:06:31,563 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:06:31,564 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:06:31,570 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:06:31,570 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:06:41,865 INFO [default] ArcAngel: all fine
+2024-11-03 16:06:41,865 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:06:41,865 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:06:41,865 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:06:42,026 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:42,027 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:42,027 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:06:42,027 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:06:42,027 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:06:42,027 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:06:42,027 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:06:42,034 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:06:42,034 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:06:47,586 INFO [default] ArcAngel: all fine
+2024-11-03 16:06:47,586 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:06:47,586 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:06:47,586 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:06:47,744 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: set new entity
+2024-11-03 16:06:47,745 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:06:47,745 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:06:47,745 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:06:47,745 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:06:47,745 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:06:47,745 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:06:47,752 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:06:47,752 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:07:02,284 INFO [default] ArcAngel: all fine
+2024-11-03 16:07:02,284 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:07:02,284 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:07:02,284 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:07:02,447 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: set new entity
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: set new entity
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: set new entity
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: set new entity
+2024-11-03 16:07:02,449 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:07:02,449 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:07:02,449 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:07:02,449 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:07:02,449 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:07:02,449 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:07:02,457 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:07:02,458 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:14:08,145 INFO [default] ArcAngel: all fine
+2024-11-03 16:14:08,146 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:14:08,146 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:14:08,146 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:14:08,302 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: set new entity
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: set new entity
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: set new entity
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: set new entity
+2024-11-03 16:14:08,303 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:14:08,303 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:14:08,303 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:14:08,303 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:14:08,303 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:14:08,303 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:14:08,309 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:14:08,309 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:15:39,326 INFO [default] ArcAngel: all fine
+2024-11-03 16:15:39,326 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:15:39,326 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:15:39,326 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:15:39,486 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: set new entity
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: set new entity
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: set new entity
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: set new entity
+2024-11-03 16:15:39,487 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:15:39,487 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:15:39,487 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:15:39,487 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:15:39,487 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:15:39,487 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:15:39,494 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:15:39,494 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:19:25,257 INFO [default] ArcAngel: all fine
+2024-11-03 16:19:25,257 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:19:25,257 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:19:25,257 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:19:25,412 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:19:25,412 INFO [default] ModelEntity: set new entity
+2024-11-03 16:19:25,412 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:19:25,412 INFO [default] ModelEntity: set new entity
+2024-11-03 16:19:25,412 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:19:25,412 INFO [default] ModelEntity: set new entity
+2024-11-03 16:19:25,413 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:19:25,413 INFO [default] ModelEntity: set new entity
+2024-11-03 16:19:25,413 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:19:25,413 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:19:25,413 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:19:25,413 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:19:25,413 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:19:25,413 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:19:25,419 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:19:25,419 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:22:17,383 INFO [default] ArcAngel: all fine
+2024-11-03 16:22:17,383 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:22:17,383 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:22:17,383 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:22:17,537 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:22:17,537 INFO [default] ModelEntity: set new entity
+2024-11-03 16:22:17,537 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:22:17,537 INFO [default] ModelEntity: set new entity
+2024-11-03 16:22:17,537 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:22:17,538 INFO [default] ModelEntity: set new entity
+2024-11-03 16:22:17,538 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:22:17,538 INFO [default] ModelEntity: set new entity
+2024-11-03 16:22:17,538 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:22:17,538 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:22:17,538 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:22:17,538 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:22:17,538 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:22:17,538 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:22:17,543 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:22:17,543 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:46:11,614 INFO [default] ArcAngel: all fine
+2024-11-03 16:46:11,614 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:46:11,614 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:46:11,614 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:46:11,785 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: set new entity
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: set new entity
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: set new entity
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: set new entity
+2024-11-03 16:46:11,786 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:46:11,786 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:46:11,786 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:46:11,786 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:46:11,786 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:46:11,786 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:46:11,794 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:46:11,794 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:54:25,574 INFO [default] ArcAngel: all fine
+2024-11-03 16:54:25,575 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:54:25,575 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:54:25,575 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:54:25,757 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: set new entity
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: set new entity
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: set new entity
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: set new entity
+2024-11-03 16:54:25,758 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:54:25,758 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:54:25,758 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:54:25,758 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:54:25,758 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:54:25,758 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:54:25,767 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:54:25,767 INFO [default] SingleHeroScene: entity saved
+2024-11-03 16:55:26,047 INFO [default] ArcAngel: all fine
+2024-11-03 16:55:26,047 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 16:55:26,047 INFO [default] SimpleGameController: start unload room
+2024-11-03 16:55:26,047 INFO [default] SimpleGameController: current room is null
+2024-11-03 16:55:26,205 INFO [default] SimpleGameController: setting scene
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: set new entity
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: set new entity
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: set new entity
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: set new entity
+2024-11-03 16:55:26,206 INFO [default] ModelEntity: end set new entity
+2024-11-03 16:55:26,206 INFO [default] SimpleGameController: scene spawning
+2024-11-03 16:55:26,206 INFO [default] SingleHeroScene: scene init
+2024-11-03 16:55:26,206 INFO [default] SingleHeroScene: start load entity
+2024-11-03 16:55:26,206 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 16:55:26,206 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 16:55:26,212 INFO [default] SingleHeroScene: save entity
+2024-11-03 16:55:26,212 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:00:22,124 INFO [default] ArcAngel: all fine
+2024-11-03 17:00:22,124 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:00:22,124 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:00:22,124 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:00:22,287 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:22,288 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:22,288 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:00:22,288 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:00:22,288 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:00:22,288 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:00:22,288 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:00:22,295 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:00:22,295 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:00:51,489 INFO [default] ArcAngel: all fine
+2024-11-03 17:00:51,489 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:00:51,489 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:00:51,489 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:00:51,668 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: set new entity
+2024-11-03 17:00:51,669 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:00:51,669 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:00:51,669 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:00:51,669 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:00:51,669 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:00:51,669 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:00:51,677 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:00:51,677 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:01:33,468 INFO [default] ArcAngel: all fine
+2024-11-03 17:01:33,468 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:01:33,468 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:01:33,468 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:01:33,634 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:01:33,634 INFO [default] ModelEntity: set new entity
+2024-11-03 17:01:33,634 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:01:33,634 INFO [default] ModelEntity: set new entity
+2024-11-03 17:01:33,634 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:01:33,634 INFO [default] ModelEntity: set new entity
+2024-11-03 17:01:33,634 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:01:33,635 INFO [default] ModelEntity: set new entity
+2024-11-03 17:01:33,635 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:01:33,635 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:01:33,635 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:01:33,635 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:01:33,635 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:01:33,635 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:01:33,641 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:01:33,641 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:02:30,389 INFO [default] ArcAngel: all fine
+2024-11-03 17:02:30,389 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:02:30,389 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:02:30,389 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:02:30,570 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: set new entity
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: set new entity
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: set new entity
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: set new entity
+2024-11-03 17:02:30,571 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:02:30,571 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:02:30,571 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:02:30,571 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:02:30,571 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:02:30,571 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:02:30,579 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:02:30,579 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:03:09,512 INFO [default] ArcAngel: all fine
+2024-11-03 17:03:09,513 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:03:09,513 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:03:09,513 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:03:09,681 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:03:09,681 INFO [default] ModelEntity: set new entity
+2024-11-03 17:03:09,681 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:03:09,682 INFO [default] ModelEntity: set new entity
+2024-11-03 17:03:09,682 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:03:09,682 INFO [default] ModelEntity: set new entity
+2024-11-03 17:03:09,682 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:03:09,682 INFO [default] ModelEntity: set new entity
+2024-11-03 17:03:09,682 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:03:09,682 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:03:09,682 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:03:09,682 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:03:09,682 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:03:09,682 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:03:09,689 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:03:09,689 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:05:01,834 INFO [default] ArcAngel: all fine
+2024-11-03 17:05:01,835 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:05:01,835 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:05:01,835 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:05:01,997 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:05:01,997 INFO [default] ModelEntity: set new entity
+2024-11-03 17:05:01,997 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:05:01,997 INFO [default] ModelEntity: set new entity
+2024-11-03 17:05:01,998 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:05:01,998 INFO [default] ModelEntity: set new entity
+2024-11-03 17:05:01,998 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:05:01,998 INFO [default] ModelEntity: set new entity
+2024-11-03 17:05:01,998 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:05:01,998 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:05:01,998 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:05:01,998 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:05:01,998 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:05:01,998 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:05:02,004 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:05:02,004 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:06:32,814 INFO [default] ArcAngel: all fine
+2024-11-03 17:06:32,814 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:06:32,815 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:06:32,815 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:06:32,978 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:06:32,978 INFO [default] ModelEntity: set new entity
+2024-11-03 17:06:32,978 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:06:32,978 INFO [default] ModelEntity: set new entity
+2024-11-03 17:06:32,978 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:06:32,979 INFO [default] ModelEntity: set new entity
+2024-11-03 17:06:32,979 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:06:32,979 INFO [default] ModelEntity: set new entity
+2024-11-03 17:06:32,979 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:06:32,979 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:06:32,979 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:06:32,979 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:06:32,979 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:06:32,979 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:06:32,985 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:06:32,985 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:07:31,673 INFO [default] ArcAngel: all fine
+2024-11-03 17:07:31,673 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:07:31,674 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:07:31,674 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:07:31,837 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:31,837 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:31,838 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:07:31,838 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:07:31,838 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:07:31,838 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:07:31,838 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:07:31,843 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:07:31,843 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:07:58,758 INFO [default] ArcAngel: all fine
+2024-11-03 17:07:58,759 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:07:58,759 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:07:58,759 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:07:58,925 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:07:58,925 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:58,925 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:58,926 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:58,926 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:58,926 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:58,926 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:58,926 INFO [default] ModelEntity: set new entity
+2024-11-03 17:07:58,926 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:07:58,926 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:07:58,926 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:07:58,926 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:07:58,926 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:07:58,926 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:07:58,932 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:07:58,932 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:08:49,394 INFO [default] ArcAngel: all fine
+2024-11-03 17:08:49,394 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:08:49,394 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:08:49,394 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:08:49,561 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: set new entity
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: set new entity
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: set new entity
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: set new entity
+2024-11-03 17:08:49,562 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:08:49,562 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:08:49,562 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:08:49,562 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:08:49,562 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:08:49,562 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:08:49,568 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:08:49,568 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:09:29,053 INFO [default] ArcAngel: all fine
+2024-11-03 17:09:29,053 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:09:29,053 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:09:29,053 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:09:29,222 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: set new entity
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: set new entity
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: set new entity
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: set new entity
+2024-11-03 17:09:29,223 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:09:29,223 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:09:29,223 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:09:29,223 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:09:29,223 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:09:29,223 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:09:29,231 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:09:29,231 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:10:41,712 INFO [default] ArcAngel: all fine
+2024-11-03 17:10:41,712 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:10:41,713 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:10:41,713 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:10:41,895 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: set new entity
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: set new entity
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: set new entity
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: set new entity
+2024-11-03 17:10:41,896 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:10:41,896 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:10:41,896 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:10:41,896 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:10:41,896 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:10:41,896 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:10:41,903 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:10:41,903 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:11:33,730 INFO [default] ArcAngel: all fine
+2024-11-03 17:11:33,731 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:11:33,731 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:11:33,731 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:11:33,900 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:33,901 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:33,901 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:11:33,901 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:11:33,901 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:11:33,901 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:11:33,901 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:11:33,907 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:11:33,907 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:11:43,554 INFO [default] ArcAngel: all fine
+2024-11-03 17:11:43,555 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:11:43,555 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:11:43,555 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:11:43,721 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: set new entity
+2024-11-03 17:11:43,722 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:11:43,722 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:11:43,722 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:11:43,722 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:11:43,722 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:11:43,722 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:11:43,729 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:11:43,729 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:13:03,208 INFO [default] ArcAngel: all fine
+2024-11-03 17:13:03,208 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:13:03,208 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:13:03,208 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:13:03,370 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: set new entity
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: set new entity
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: set new entity
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: set new entity
+2024-11-03 17:13:03,371 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:13:03,371 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:13:03,371 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:13:03,371 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:13:03,371 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:13:03,372 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:13:03,377 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:13:03,378 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:14:13,753 INFO [default] ArcAngel: all fine
+2024-11-03 17:14:13,753 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:14:13,753 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:14:13,753 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:14:13,926 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: set new entity
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: set new entity
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: set new entity
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: set new entity
+2024-11-03 17:14:13,927 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:14:13,927 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:14:13,927 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:14:13,927 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:14:13,927 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:14:13,927 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:14:13,933 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:14:13,933 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:15:59,457 INFO [default] ArcAngel: all fine
+2024-11-03 17:15:59,458 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:15:59,458 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:15:59,458 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:15:59,620 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: set new entity
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: set new entity
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: set new entity
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: set new entity
+2024-11-03 17:15:59,620 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:15:59,620 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:15:59,620 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:15:59,620 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:15:59,620 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:15:59,620 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:15:59,627 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:15:59,627 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:19:58,010 INFO [default] ArcAngel: all fine
+2024-11-03 17:19:58,010 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:19:58,010 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:19:58,010 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:19:58,180 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: set new entity
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: set new entity
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: set new entity
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: set new entity
+2024-11-03 17:19:58,182 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:19:58,182 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:19:58,182 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:19:58,182 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:19:58,182 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:19:58,182 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:19:58,190 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:19:58,191 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:21:05,925 INFO [default] ArcAngel: all fine
+2024-11-03 17:21:05,925 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:21:05,925 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:21:05,925 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:21:06,122 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:21:06,122 INFO [default] ModelEntity: set new entity
+2024-11-03 17:21:06,122 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:21:06,123 INFO [default] ModelEntity: set new entity
+2024-11-03 17:21:06,123 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:21:06,123 INFO [default] ModelEntity: set new entity
+2024-11-03 17:21:06,123 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:21:06,123 INFO [default] ModelEntity: set new entity
+2024-11-03 17:21:06,123 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:21:06,123 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:21:06,123 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:21:06,123 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:21:06,123 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:21:06,123 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:21:06,130 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:21:06,130 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:22:28,679 INFO [default] ArcAngel: all fine
+2024-11-03 17:22:28,679 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:22:28,679 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:22:28,679 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:22:28,857 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: set new entity
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: set new entity
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: set new entity
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: set new entity
+2024-11-03 17:22:28,858 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:22:28,858 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:22:28,858 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:22:28,858 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:22:28,858 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:22:28,858 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:22:28,865 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:22:28,865 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:23:13,266 INFO [default] ArcAngel: all fine
+2024-11-03 17:23:13,266 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:23:13,266 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:23:13,266 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:23:13,439 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:13,440 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:13,440 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:23:13,440 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:23:13,440 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:23:13,440 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:23:13,440 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:23:13,446 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:23:13,446 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:23:33,579 INFO [default] ArcAngel: all fine
+2024-11-03 17:23:33,579 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:23:33,580 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:23:33,580 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:23:33,751 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:23:33,751 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:33,751 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:33,751 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:33,751 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:33,751 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:33,751 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:33,752 INFO [default] ModelEntity: set new entity
+2024-11-03 17:23:33,752 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:23:33,752 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:23:33,752 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:23:33,752 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:23:33,752 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:23:33,752 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:23:33,759 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:23:33,759 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:24:42,341 INFO [default] ArcAngel: all fine
+2024-11-03 17:24:42,341 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:24:42,341 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:24:42,341 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:24:42,554 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: set new entity
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: set new entity
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: set new entity
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: set new entity
+2024-11-03 17:24:42,555 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:24:42,555 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:24:42,555 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:24:42,555 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:24:42,555 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:24:42,555 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:24:42,562 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:24:42,562 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:24:44,257 INFO [default] ArcConditionBit: else not setted
+2024-11-03 17:25:50,627 INFO [default] ArcConditionBit: else not setted
+2024-11-03 17:26:55,390 INFO [default] ArcAngel: all fine
+2024-11-03 17:26:55,390 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:26:55,390 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:26:55,391 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:26:55,582 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: set new entity
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: set new entity
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: set new entity
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: set new entity
+2024-11-03 17:26:55,583 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:26:55,583 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:26:55,583 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:26:55,583 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:26:55,583 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:26:55,583 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:26:55,591 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:26:55,591 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:28:15,461 INFO [default] ArcAngel: all fine
+2024-11-03 17:28:15,461 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:28:15,461 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:28:15,461 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:28:15,645 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: set new entity
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: set new entity
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: set new entity
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: set new entity
+2024-11-03 17:28:15,646 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:28:15,646 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:28:15,646 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:28:15,646 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:28:15,646 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:28:15,646 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:28:15,653 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:28:15,653 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:29:07,254 INFO [default] ArcAngel: all fine
+2024-11-03 17:29:07,254 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:29:07,254 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:29:07,254 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:29:07,436 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:29:07,437 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:07,437 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:07,437 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:07,437 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:07,438 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:07,438 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:07,438 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:07,438 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:07,438 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:29:07,438 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:29:07,438 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:29:07,438 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:29:07,438 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:29:07,446 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:29:07,446 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:29:54,434 INFO [default] ArcAngel: all fine
+2024-11-03 17:29:54,434 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:29:54,434 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:29:54,434 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:29:54,614 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: set new entity
+2024-11-03 17:29:54,615 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:29:54,615 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:29:54,615 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:29:54,615 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:29:54,615 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:29:54,615 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:29:54,623 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:29:54,623 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:30:47,204 INFO [default] ArcAngel: all fine
+2024-11-03 17:30:47,204 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:30:47,204 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:30:47,204 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:30:47,379 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: set new entity
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: set new entity
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: set new entity
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: set new entity
+2024-11-03 17:30:47,380 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:30:47,381 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:30:47,381 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:30:47,381 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:30:47,381 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:30:47,381 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:30:47,388 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:30:47,388 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:31:29,050 INFO [default] ArcAngel: all fine
+2024-11-03 17:31:29,050 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:31:29,050 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:31:29,050 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:31:29,229 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:31:29,230 INFO [default] ModelEntity: set new entity
+2024-11-03 17:31:29,230 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:31:29,230 INFO [default] ModelEntity: set new entity
+2024-11-03 17:31:29,230 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:31:29,231 INFO [default] ModelEntity: set new entity
+2024-11-03 17:31:29,231 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:31:29,231 INFO [default] ModelEntity: set new entity
+2024-11-03 17:31:29,231 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:31:29,231 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:31:29,231 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:31:29,231 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:31:29,231 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:31:29,231 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:31:29,239 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:31:29,239 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:32:50,685 INFO [default] ArcAngel: all fine
+2024-11-03 17:32:50,686 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:32:50,686 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:32:50,686 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:32:50,862 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:32:50,863 INFO [default] ModelEntity: set new entity
+2024-11-03 17:32:50,863 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:32:50,863 INFO [default] ModelEntity: set new entity
+2024-11-03 17:32:50,863 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:32:50,863 INFO [default] ModelEntity: set new entity
+2024-11-03 17:32:50,863 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:32:50,864 INFO [default] ModelEntity: set new entity
+2024-11-03 17:32:50,864 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:32:50,864 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:32:50,864 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:32:50,864 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:32:50,864 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:32:50,864 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:32:50,871 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:32:50,871 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:34:06,644 INFO [default] ArcAngel: all fine
+2024-11-03 17:34:06,645 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:34:06,645 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:34:06,645 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:34:06,841 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:34:06,841 INFO [default] ModelEntity: set new entity
+2024-11-03 17:34:06,841 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:34:06,842 INFO [default] ModelEntity: set new entity
+2024-11-03 17:34:06,842 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:34:06,842 INFO [default] ModelEntity: set new entity
+2024-11-03 17:34:06,842 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:34:06,842 INFO [default] ModelEntity: set new entity
+2024-11-03 17:34:06,842 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:34:06,842 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:34:06,842 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:34:06,842 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:34:06,842 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:34:06,842 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:34:06,849 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:34:06,849 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:37:09,769 INFO [default] ArcAngel: all fine
+2024-11-03 17:37:09,770 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:37:09,770 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:37:09,770 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:37:09,945 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:09,946 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:09,946 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:37:09,946 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:37:09,946 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:37:09,946 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:37:09,946 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:37:09,955 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:37:09,955 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:37:33,180 INFO [default] ArcAngel: all fine
+2024-11-03 17:37:33,180 INFO [default] ArcAngel: successfull collect file: res://ver4.json
+2024-11-03 17:37:33,180 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:37:33,180 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:37:33,369 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:37:33,369 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:33,369 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:33,369 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:33,369 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:33,369 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:33,370 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:33,370 INFO [default] ModelEntity: set new entity
+2024-11-03 17:37:33,370 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:37:33,370 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:37:33,370 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:37:33,370 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:37:33,370 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:37:33,370 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:37:33,378 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:37:33,378 INFO [default] SingleHeroScene: entity saved
+2024-11-03 17:59:58,630 INFO [default] ArcAngel: all fine
+2024-11-03 17:59:58,630 INFO [default] ArcAngel: successfull collect file: res://assets/story/test_dialogue.json
+2024-11-03 17:59:58,630 INFO [default] SimpleGameController: start unload room
+2024-11-03 17:59:58,630 INFO [default] SimpleGameController: current room is null
+2024-11-03 17:59:58,802 INFO [default] SimpleGameController: setting scene
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: set new entity
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: set new entity
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: set new entity
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: set new entity
+2024-11-03 17:59:58,802 INFO [default] ModelEntity: end set new entity
+2024-11-03 17:59:58,802 INFO [default] SimpleGameController: scene spawning
+2024-11-03 17:59:58,802 INFO [default] SingleHeroScene: scene init
+2024-11-03 17:59:58,802 INFO [default] SingleHeroScene: start load entity
+2024-11-03 17:59:58,803 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 17:59:58,803 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 17:59:58,809 INFO [default] SingleHeroScene: save entity
+2024-11-03 17:59:58,809 INFO [default] SingleHeroScene: entity saved
+2024-11-03 18:00:01,870 INFO [default] ArcConditionBit: else not setted
+2024-11-03 18:03:34,585 INFO [default] ArcAngel: all fine
+2024-11-03 18:03:34,585 INFO [default] ArcAngel: successfull collect file: res://assets/story/ver5.json
+2024-11-03 18:03:34,585 INFO [default] SimpleGameController: start unload room
+2024-11-03 18:03:34,585 INFO [default] SimpleGameController: current room is null
+2024-11-03 18:03:34,762 INFO [default] SimpleGameController: setting scene
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: set new entity
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: set new entity
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: set new entity
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: set new entity
+2024-11-03 18:03:34,763 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:03:34,763 INFO [default] SimpleGameController: scene spawning
+2024-11-03 18:03:34,763 INFO [default] SingleHeroScene: scene init
+2024-11-03 18:03:34,763 INFO [default] SingleHeroScene: start load entity
+2024-11-03 18:03:34,763 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 18:03:34,763 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 18:03:34,772 INFO [default] SingleHeroScene: save entity
+2024-11-03 18:03:34,772 INFO [default] SingleHeroScene: entity saved
+2024-11-03 18:04:00,102 INFO [default] ArcAngel: all fine
+2024-11-03 18:04:00,102 INFO [default] ArcAngel: successfull collect file: res://assets/story/ver5.json
+2024-11-03 18:04:00,102 INFO [default] SimpleGameController: start unload room
+2024-11-03 18:04:00,102 INFO [default] SimpleGameController: current room is null
+2024-11-03 18:04:00,292 INFO [default] SimpleGameController: setting scene
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: set new entity
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: set new entity
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: set new entity
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: set new entity
+2024-11-03 18:04:00,294 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:04:00,294 INFO [default] SimpleGameController: scene spawning
+2024-11-03 18:04:00,294 INFO [default] SingleHeroScene: scene init
+2024-11-03 18:04:00,294 INFO [default] SingleHeroScene: start load entity
+2024-11-03 18:04:00,294 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 18:04:00,294 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 18:04:00,302 INFO [default] SingleHeroScene: save entity
+2024-11-03 18:04:00,302 INFO [default] SingleHeroScene: entity saved
+2024-11-03 18:14:15,065 INFO [default] ArcAngel: all fine
+2024-11-03 18:14:15,066 INFO [default] ArcAngel: successfull collect file: res://assets/story/ver6.json
+2024-11-03 18:14:15,066 INFO [default] SimpleGameController: start unload room
+2024-11-03 18:14:15,066 INFO [default] SimpleGameController: current room is null
+2024-11-03 18:14:15,248 INFO [default] SimpleGameController: setting scene
+2024-11-03 18:14:15,249 INFO [default] ModelEntity: set new entity
+2024-11-03 18:14:15,249 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:14:15,249 INFO [default] ModelEntity: set new entity
+2024-11-03 18:14:15,249 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:14:15,249 INFO [default] ModelEntity: set new entity
+2024-11-03 18:14:15,249 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:14:15,250 INFO [default] ModelEntity: set new entity
+2024-11-03 18:14:15,250 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:14:15,250 INFO [default] SimpleGameController: scene spawning
+2024-11-03 18:14:15,250 INFO [default] SingleHeroScene: scene init
+2024-11-03 18:14:15,250 INFO [default] SingleHeroScene: start load entity
+2024-11-03 18:14:15,250 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 18:14:15,250 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 18:14:15,257 INFO [default] SingleHeroScene: save entity
+2024-11-03 18:14:15,257 INFO [default] SingleHeroScene: entity saved
+2024-11-03 18:16:34,431 INFO [default] ArcAngel: all fine
+2024-11-03 18:16:34,431 INFO [default] ArcAngel: successfull collect file: res://assets/story/ver7.json
+2024-11-03 18:16:34,431 INFO [default] SimpleGameController: start unload room
+2024-11-03 18:16:34,431 INFO [default] SimpleGameController: current room is null
+2024-11-03 18:16:34,639 INFO [default] SimpleGameController: setting scene
+2024-11-03 18:16:34,639 INFO [default] ModelEntity: set new entity
+2024-11-03 18:16:34,639 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:16:34,639 INFO [default] ModelEntity: set new entity
+2024-11-03 18:16:34,639 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:16:34,639 INFO [default] ModelEntity: set new entity
+2024-11-03 18:16:34,640 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:16:34,640 INFO [default] ModelEntity: set new entity
+2024-11-03 18:16:34,640 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:16:34,640 INFO [default] SimpleGameController: scene spawning
+2024-11-03 18:16:34,640 INFO [default] SingleHeroScene: scene init
+2024-11-03 18:16:34,640 INFO [default] SingleHeroScene: start load entity
+2024-11-03 18:16:34,640 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 18:16:34,640 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 18:16:34,648 INFO [default] SingleHeroScene: save entity
+2024-11-03 18:16:34,648 INFO [default] SingleHeroScene: entity saved
+2024-11-03 18:18:08,040 INFO [default] ArcAngel: all fine
+2024-11-03 18:18:08,040 INFO [default] ArcAngel: successfull collect file: res://assets/story/ver7.json
+2024-11-03 18:18:08,040 INFO [default] SimpleGameController: start unload room
+2024-11-03 18:18:08,040 INFO [default] SimpleGameController: current room is null
+2024-11-03 18:18:08,218 INFO [default] SimpleGameController: setting scene
+2024-11-03 18:18:08,218 INFO [default] ModelEntity: set new entity
+2024-11-03 18:18:08,218 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:18:08,218 INFO [default] ModelEntity: set new entity
+2024-11-03 18:18:08,218 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:18:08,219 INFO [default] ModelEntity: set new entity
+2024-11-03 18:18:08,219 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:18:08,219 INFO [default] ModelEntity: set new entity
+2024-11-03 18:18:08,219 INFO [default] ModelEntity: end set new entity
+2024-11-03 18:18:08,219 INFO [default] SimpleGameController: scene spawning
+2024-11-03 18:18:08,219 INFO [default] SingleHeroScene: scene init
+2024-11-03 18:18:08,219 INFO [default] SingleHeroScene: start load entity
+2024-11-03 18:18:08,219 INFO [default] SingleHeroScene: start load entity size: 0
+2024-11-03 18:18:08,219 INFO [default] SingleHeroScene: entity loaded
+2024-11-03 18:18:08,226 INFO [default] SingleHeroScene: save entity
+2024-11-03 18:18:08,226 INFO [default] SingleHeroScene: entity saved

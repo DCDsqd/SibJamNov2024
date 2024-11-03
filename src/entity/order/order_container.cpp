@@ -30,7 +30,7 @@ int godot::OrderContainer::get_orger_count()
 
 godot::Entity *godot::OrderContainer::get_order(int i)
 {
-    if(this->orders.size() < i){
+    if(this->orders.size() <= i){
         UtilityFunctions::print("OrderContainer: order: " + Util::int_to_godot_str(i) + " out of range");
         return nullptr;
     }
@@ -39,7 +39,7 @@ godot::Entity *godot::OrderContainer::get_order(int i)
 
 void godot::OrderContainer::remove_order(int i)
 {
-    if(this->orders.size() < i){
+    if(this->orders.size() <= i){
         UtilityFunctions::print("OrderContainer: order: " + Util::int_to_godot_str(i) + " out of range");
         return;
     }

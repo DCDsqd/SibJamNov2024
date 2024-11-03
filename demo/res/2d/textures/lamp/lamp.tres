@@ -1,0 +1,26 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://domyu65oe6rtf"]
+
+[ext_resource type="Texture2D" uid="uid://ce6p2x6gfvh2w" path="res://res/2d/textures/lamp/lava_anim1.png" id="1_s8bwn"]
+[ext_resource type="Texture2D" uid="uid://btp5uorbrosow" path="res://res/2d/textures/lamp/lava_anim2.png" id="2_lnapq"]
+[ext_resource type="Texture2D" uid="uid://butjwps81om7u" path="res://res/2d/textures/lamp/lava_anim3.png" id="3_iqdrx"]
+[ext_resource type="Texture2D" uid="uid://dxs4ka2grkjpn" path="res://res/2d/textures/lamp/lava_anim4.png" id="4_tm1e1"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_s8bwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_lnapq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_iqdrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_tm1e1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]

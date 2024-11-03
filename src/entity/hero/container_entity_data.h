@@ -18,7 +18,6 @@ public:
 	void set_order_container(OrderContainer *p_order_container);
 	OrderContainer *get_order_container();
 
-
 	ContainerEntityData();
 	~ContainerEntityData();
 };

@@ -1,37 +1,53 @@
 [gd_scene load_steps=4 format=3 uid="uid://c84rh28vj2r3d"]
 
-[ext_resource type="PackedScene" uid="uid://dgn6y8opm1m8m" path="res://res/3d/rooms/main_room/room_1.tscn" id="1_6flei"]
+[ext_resource type="PackedScene" uid="uid://bjo6qwwldrl5w" path="res://res/3d/rooms/main_room/room_2.tscn" id="1_xesyt"]
 [ext_resource type="Environment" uid="uid://cvfc2tfluppnm" path="res://res/shaders/env/broken_room.tres" id="2_t2agl"]
 [ext_resource type="PackedScene" uid="uid://cgeh88sg8olnw" path="res://obj/hud/MainHud.tscn" id="3_x62hw"]
 
 [node name="FinalRoom" type="Node3D"]
 
-[node name="room1" parent="." instance=ExtResource("1_6flei")]
+[node name="room2" parent="." instance=ExtResource("1_xesyt")]
 
-[node name="room2" parent="." instance=ExtResource("1_6flei")]
-transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 6.88119, 0, 2.01832)
+[node name="OmniLight3D" type="OmniLight3D" parent="room2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.123933, 0.903037)
+light_color = Color(0.768627, 0.317647, 1, 1)
+light_energy = 10.0
+light_volumetric_fog_energy = 2.0
+shadow_enabled = true
+omni_range = 0.573944
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("2_t2agl")
 
-[node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4023, 1.23552, -0.283497)
+[node name="OmniLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 1.4023, 1.82225, -0.283497)
 light_color = Color(0.807843, 0.717647, 0.866667, 1)
 light_energy = 1.5
 shadow_enabled = true
-omni_range = 7.0
+spot_range = 7.84886
+spot_angle = 84.49
 
-[node name="OmniLight3D3" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.45907, 1.05218, 1.99705)
+[node name="OmniLight3D3" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -0.09799, 1.82225, 3.19128)
+light_color = Color(0.807843, 0.717647, 0.866667, 1)
+light_energy = 0.75
+shadow_enabled = true
+spot_range = 7.84886
+spot_angle = 84.49
+
+[node name="OmniLight3D4" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.2385, 0.971143, 0, -0.971143, -0.2385, 1.50213, 1.7478, 1.69679)
 light_color = Color(0.807843, 0.717647, 0.866667, 1)
 light_energy = 1.5
 shadow_enabled = true
-omni_range = 7.0
+spot_range = 4.28278
+spot_angle = 26.7188
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.236058, 0.127859, 2.34695)
+visible = false
 light_color = Color(0.807843, 0.717647, 0.866667, 1)
-light_energy = 1.5
+light_energy = 0.5
 shadow_enabled = true
 omni_range = 7.0
 

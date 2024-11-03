@@ -1,0 +1,219 @@
+[gd_scene load_steps=5 format=3 uid="uid://dbgkb1p2s07d"]
+
+[ext_resource type="Texture2D" uid="uid://co7eax75u7m76" path="res://res/2d/hud/memory_1.png" id="1_ccplg"]
+[ext_resource type="Script" path="res://obj/viewmodels/orderViewModel/RateButton.gd" id="2_xyylw"]
+[ext_resource type="Script" path="res://obj/viewmodels/orderViewModel/unsort.gd" id="3_lpo3p"]
+[ext_resource type="Script" path="res://obj/viewmodels/orderViewModel/close.gd" id="4_c8fe1"]
+
+[node name="OderViewModel" type="OrderHud"]
+raw_img_path = NodePath("Control/TabContainer/RawOrders/Img")
+raw_name_path = NodePath("Control/TabContainer/RawOrders/Name")
+raw_descr_path = NodePath("Control/TabContainer/RawOrders/Content")
+sorted_img_path = NodePath("Control/TabContainer/SortedOrders/Img")
+sorted_name_path = NodePath("Control/TabContainer/SortedOrders/Name")
+sorted_desr_path = NodePath("Control/TabContainer/SortedOrders/Content")
+sorted_rank_path = NodePath("Control/TabContainer/SortedOrders/Rating/lvl")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TabContainer" type="TabContainer" parent="Control"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 20.0
+offset_right = 558.0
+offset_bottom = 327.0
+
+[node name="RawOrders" type="Control" parent="Control/TabContainer"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="Control/TabContainer/RawOrders"]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 18.0
+offset_right = 473.0
+offset_bottom = 47.0
+text = "Name"
+
+[node name="Content" type="RichTextLabel" parent="Control/TabContainer/RawOrders"]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 46.0
+offset_right = 502.0
+offset_bottom = 173.0
+text = "MyBest quest"
+
+[node name="Img" type="TextureRect" parent="Control/TabContainer/RawOrders"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 10.0
+offset_right = 120.0
+offset_bottom = 118.0
+texture = ExtResource("1_ccplg")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="Difficult" type="Label" parent="Control/TabContainer/RawOrders"]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 184.0
+offset_right = 152.0
+offset_bottom = 207.0
+text = "Rate difficult: "
+
+[node name="Rate1" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 33.0
+offset_right = 43.0
+offset_bottom = 68.0
+text = "10"
+script = ExtResource("2_xyylw")
+value = 10
+viewModel = NodePath("../../../../..")
+
+[node name="Rate2" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 33.0
+offset_right = 88.0
+offset_bottom = 68.0
+text = "20"
+script = ExtResource("2_xyylw")
+value = 20
+viewModel = NodePath("../../../../..")
+
+[node name="Rate3" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 93.0
+offset_top = 33.0
+offset_right = 134.0
+offset_bottom = 68.0
+text = "30"
+script = ExtResource("2_xyylw")
+value = 30
+viewModel = NodePath("../../../../..")
+
+[node name="Rate4" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 140.0
+offset_top = 33.0
+offset_right = 181.0
+offset_bottom = 68.0
+text = "40"
+script = ExtResource("2_xyylw")
+value = 40
+viewModel = NodePath("../../../../..")
+
+[node name="Rate5" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 33.0
+offset_right = 228.0
+offset_bottom = 68.0
+text = "50"
+script = ExtResource("2_xyylw")
+value = 50
+viewModel = NodePath("../../../../..")
+
+[node name="Next" type="Button" parent="Control/TabContainer/RawOrders"]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 236.0
+offset_right = 498.0
+offset_bottom = 269.0
+text = ">"
+
+[node name="Previous" type="Button" parent="Control/TabContainer/RawOrders"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 236.0
+offset_right = 36.0
+offset_bottom = 269.0
+text = "<"
+
+[node name="SortedOrders" type="Control" parent="Control/TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="Name" type="Label" parent="Control/TabContainer/SortedOrders"]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 18.0
+offset_right = 473.0
+offset_bottom = 47.0
+text = "Name"
+
+[node name="Content" type="RichTextLabel" parent="Control/TabContainer/SortedOrders"]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 46.0
+offset_right = 502.0
+offset_bottom = 173.0
+text = "MyBest quest"
+
+[node name="Img" type="TextureRect" parent="Control/TabContainer/SortedOrders"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 10.0
+offset_right = 120.0
+offset_bottom = 118.0
+texture = ExtResource("1_ccplg")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="Rating" type="HBoxContainer" parent="Control/TabContainer/SortedOrders"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 123.0
+offset_right = 84.0
+offset_bottom = 163.0
+
+[node name="Label" type="Label" parent="Control/TabContainer/SortedOrders/Rating"]
+layout_mode = 2
+text = "Rating: "
+
+[node name="lvl" type="Label" parent="Control/TabContainer/SortedOrders/Rating"]
+layout_mode = 2
+text = "20"
+
+[node name="Button" type="Button" parent="Control/TabContainer/SortedOrders" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 155.0
+offset_right = 74.0
+offset_bottom = 186.0
+text = "UnSort"
+script = ExtResource("3_lpo3p")
+viewModel = NodePath("../../../..")
+
+[node name="Next" type="Button" parent="Control/TabContainer/SortedOrders"]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 236.0
+offset_right = 498.0
+offset_bottom = 269.0
+text = ">"
+
+[node name="Previous" type="Button" parent="Control/TabContainer/SortedOrders"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 236.0
+offset_right = 36.0
+offset_bottom = 269.0
+text = "<"
+
+[node name="Button" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 524.0
+offset_top = 20.0
+offset_right = 557.0
+offset_bottom = 51.0
+text = "X"
+script = ExtResource("4_c8fe1")
+viewModel = NodePath("../..")

@@ -12,11 +12,15 @@ class OrderContainer : public Object{
 
 protected:
     static void _bind_methods();
-
     std::vector<Entity*> orders;
 
+    bool check_order(Entity *entity);
 
 public:
+    void add_order(Entity *entity);
+    int get_orger_count();
+    Entity *get_order(int i);
+    void remove_order(int i);
 
     OrderContainer();
     ~OrderContainer();

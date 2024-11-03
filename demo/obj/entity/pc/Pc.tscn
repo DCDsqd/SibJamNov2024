@@ -298,10 +298,14 @@ expand_mode = 1
 stretch_mode = 4
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
-transform = Transform3D(-8.96083e-09, 0, -0.205, 0, 0.205, 0, 0.205, 0, -8.96083e-09, 0.660885, 0.195559, -0.286166)
+transform = Transform3D(2.68825e-08, 0, 0.205, 0, 0.205, 0, -0.205, 0, 2.68825e-08, 0.660885, 0.195559, -0.286166)
 texture = SubResource("ViewportTexture_c2k47")
 
 [node name="Plane" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.0213592, 0.111303, -0.00154288, -0.10897, 0.0212281, 0.0228459, 0.0227234, -0.00282186, 0.111008, 0.746501, 0.502177, -0.827899)
 mesh = SubResource("ArrayMesh_t810k")
 skeleton = NodePath("")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(-3.41042e-08, 0.625515, -0.780212, 2.73421e-08, 0.780212, 0.625515, 1, 1.77636e-15, -4.37114e-08, 0.71927, 0.19969, -0.402767)
+spot_angle = 53.1458

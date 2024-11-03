@@ -8,17 +8,29 @@
 
 [node name="room1" parent="." instance=ExtResource("1_6flei")]
 
+[node name="room2" parent="." instance=ExtResource("1_6flei")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 6.88119, 0, 2.01832)
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("2_t2agl")
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4023, 1.23552, -0.283497)
+light_color = Color(0.807843, 0.717647, 0.866667, 1)
+light_energy = 1.5
+shadow_enabled = true
+omni_range = 7.0
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.45907, 1.05218, 1.99705)
+light_color = Color(0.807843, 0.717647, 0.866667, 1)
 light_energy = 1.5
 shadow_enabled = true
 omni_range = 7.0
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.236058, 0.127859, 2.34695)
+light_color = Color(0.807843, 0.717647, 0.866667, 1)
 light_energy = 1.5
 shadow_enabled = true
 omni_range = 7.0

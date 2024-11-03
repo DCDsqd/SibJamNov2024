@@ -5,7 +5,7 @@ func _ready():
 	var angel : ArcAngel = ArcAngel.new()
 	#God.set_debug_output(true)
 	#angel.set_debug_output(true)
-	angel.set_file("res://untitled-project-2024-11-01-233012.json")
+	angel.set_file("res://ver4.json")
 	angel.activate()
 	
 	put_int("game_time", 0)

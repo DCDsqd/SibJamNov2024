@@ -11,10 +11,6 @@ void godot::ArcInteractor::_bind_methods()
 
 bool godot::ArcInteractor::_interact(Entity *p_entity)
 {
-    ArcDialogue *dialogue = new ArcDialogue();
-    dialogue->set_id(element_id);
-    return true;
-
     Hud *hud = EternityData::get_singleton()->get_hud();
     if(!hud){
         UtilityFunctions::print("ArcInteractor: hud is null");
@@ -41,6 +37,10 @@ bool godot::ArcInteractor::_interact(Entity *p_entity)
         return false;
     }
     
+    ArcDialogue *dialogue = new ArcDialogue();
+    dialogue->set_id(element_id);
+    
+    arc_view_model->set_dialogue(dialogue);
     hud->add_child(arc_view_model);
     arc_view_model->open_window(get_entity(), p_entity);
 

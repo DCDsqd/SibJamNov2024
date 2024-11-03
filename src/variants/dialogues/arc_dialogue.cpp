@@ -7,9 +7,41 @@ void godot::ArcDialogue::_bind_methods()
     
 }
 
-bool godot::ArcDialogue::check_condition(String condition)
+bool godot::ArcDialogue::check_condition(String gd_condition)
 {
-    return true;
+    std::string condition = std::string(gd_condition.utf8().get_data());
+
+    std::istringstream ss(condition);
+    std::string token;
+    
+    bool result = true;
+    bool currentCondition = true;
+    bool isAnd = true;
+    
+    while (ss >> token) {
+        if (token == "and" || token == "or") {
+            isAnd = (token == "and");
+        } else {
+            int varValue = God::get_singleton()->get_variable(token.c_str());
+
+            std::string op;
+            int value;
+            ss >> op >> value;
+            
+            if (op == "==") currentCondition = (varValue == value);
+            else if (op == "&lt;") currentCondition = (varValue < value);
+            else if (op == "&gt;") currentCondition = (varValue > value);
+            else if (op == "&lt;=") currentCondition = (varValue <= value);
+            else if (op == "&gt;=") currentCondition = (varValue >= value);
+            else if (op == "!=") currentCondition = (varValue != value);
+            else throw std::invalid_argument("Unsupported operator: " + op);
+            
+            if (isAnd) result &= currentCondition;
+            else result |= currentCondition;
+        }
+    }
+    
+    return result;
 }
 
 godot::String godot::ArcDialogue::check_condition_bit(ArcConditionBit *bit)
@@ -76,12 +108,12 @@ std::pair<godot::String, bool> godot::ArcDialogue::parse_answer(String id, Strin
 
     ArcElementBit *arc_element_bit = Object::cast_to<ArcElementBit>(bit);
     if(arc_element_bit){
-        return std::pair<String, bool>(label, avaible);
+        return std::pair<String, bool>(erase_markup(label), avaible);
     }
 
     ArcJumper *arc_jumper = Object::cast_to<ArcJumper>(bit);
     if(arc_jumper){
-        return std::pair<String, bool>(label, avaible);
+        return std::pair<String, bool>(erase_markup(label), avaible);
     }
 
     ArcConditionBit *arc_condition = Object::cast_to<ArcConditionBit>(bit);
@@ -92,8 +124,7 @@ std::pair<godot::String, bool> godot::ArcDialogue::parse_answer(String id, Strin
                 UtilityFunctions::print("ArcDialogue: unable");
                 return std::pair<String, bool>();
             }
-            
-            return std::pair<String, bool>(label, false);
+            return std::pair<String, bool>(erase_markup(label), false);
         }
         return parse_answer(next_id, label, avaible, num);
 
@@ -104,10 +135,63 @@ std::pair<godot::String, bool> godot::ArcDialogue::parse_answer(String id, Strin
     
 }
 
+godot::String godot::ArcDialogue::step_carrera(String id)
+{
+    VoidConnect *connect = God::get_singleton()->get_connect(id);
+    if(!connect){
+        UtilityFunctions::print("ArcDialogue: connect is not found: " + id);
+        return String();
+    }
+
+    ArcConnect *arc_connect = Object::cast_to<ArcConnect>(connect);
+    if(!arc_connect){
+        UtilityFunctions::print("ArcDialogue: connect is not arc: " + id);
+        return String();
+    }
+
+    String id_to = arc_connect->get_to();
+
+    VoidBit *bit = God::get_singleton()->get_bit(id_to);
+    if(!bit){
+        UtilityFunctions::print("ArcDialogue: not found to_id: " + id_to + " from connect: " + id);
+        return String();
+    }
+
+    ArcElementBit *arc_element_bit = Object::cast_to<ArcElementBit>(bit);
+    if(arc_element_bit){
+        return arc_element_bit->get_id();
+    }
+
+    ArcJumper *arc_jumper = Object::cast_to<ArcJumper>(bit);
+    if(arc_jumper){
+        return arc_jumper->get_element_id();
+    }
+
+    ArcConditionBit *arc_condition = Object::cast_to<ArcConditionBit>(bit);
+    if(arc_condition){
+        String next_id = check_condition_bit(arc_condition);
+        if(next_id == String()){
+            UtilityFunctions::print("ArcDialogue: unable win condition: " + bit->get_id());
+            return String();
+        }
+        return step_carrera(next_id);
+    }
+
+    UtilityFunctions::print("ArcDialogue: not arc bit: " + bit->get_id());
+    return bit->get_id();
+}
+
+godot::String godot::ArcDialogue::erase_markup(String input)
+{
+    RegEx *regex = new RegEx();
+    regex->compile("\\<.*?\\>");
+    return regex->sub(input, "", true);
+}
 
 void godot::ArcDialogue::set_id(String p_cur_id)
 {
     this->cur_id = p_cur_id;
+    this->cur_answers.clear();
     update_text();
 }
 
@@ -119,6 +203,11 @@ godot::String godot::ArcDialogue::get_text()
 int godot::ArcDialogue::get_speaker_count()
 {
     return this->cur_speakers.size();
+}
+
+bool godot::ArcDialogue::is_end()
+{
+    return this->end;
 }
 
 godot::String godot::ArcDialogue::get_speaker(int i)
@@ -146,8 +235,33 @@ godot::String godot::ArcDialogue::get_answer_text(int i)
     return this->cur_answers[i].second.first;
 }
 
-void godot::ArcDialogue::answer(int i)
+bool godot::ArcDialogue::answer(int i)
 {
+    if(cur_answers.size() < i){
+        UtilityFunctions::print("ArcDialogue: answer out of range: " + i);
+        return false;
+    }
+
+    String connect_id = cur_answers[i].first;
+    String next_id = step_carrera(connect_id);
+
+    if(next_id == String()){
+        end = true;
+        return false;
+    }
+
+    set_id(next_id);
+    return true;
+}
+
+bool godot::ArcDialogue::answer(String name)
+{
+    for(int i = 0; i < cur_answers.size(); ++i){
+        if(cur_answers[i].second.first == name){
+            return answer(i);
+        }
+    }
+    return false;
 }
 
 void godot::ArcDialogue::update_text()
@@ -184,8 +298,12 @@ void godot::ArcDialogue::update_text()
         if(answer == std::pair<String, bool>()){
             continue;
         }
-        UtilityFunctions::print(answer.first);
+        //UtilityFunctions::print(answer.first);
         cur_answers.push_back(std::pair<String, std::pair<String, bool>>(id, answer));
+    }
+
+    if(cur_answers.size() == 0){
+        end = true;
     }
 
 }

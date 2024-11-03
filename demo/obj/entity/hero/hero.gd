@@ -3,7 +3,7 @@ extends MovingEntity
 
 func _ready():
 	var builder : SimpleEntityBuilder = SimpleEntityBuilder.new()
-	builder.set_data(EntityDataImpl.new())
+	#builder.set_data(HeroData)
 	
 	set_entity(builder.get_entity());
 	

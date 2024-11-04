@@ -2,6 +2,8 @@
 
 #include "test_dir/gdexample.h"
 
+#include "musical_controller/simple_musical_controller.h"
+
 #include "entity/builder/simple_entity_builder.h"
 #include "entity/hero/hero_input.h"
 #include "entity/pc/pc_interaction.h"
@@ -24,6 +26,8 @@
 //#include "hud/arc_hud_dialogue.h"
 
 #include "triggers/trigger_camera.h"
+#include "triggers/trigger_sound.h"
+#include "triggers/trigger_next_customer.h"
 
 #include "util/super_clock.h"
 
@@ -39,6 +43,8 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	}
 
 	//ClassDB::register_class<GDExample>();
+
+	ClassDB::register_class<SimpleMusicalController>();
 
 	ClassDB::register_class<SimpleEntityBuilder>();
 	ClassDB::register_class<HeroInput>();
@@ -62,6 +68,8 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	//ClassDB::register_class<ArcHudDialogue>();
 
 	ClassDB::register_class<TriggerCamera>();
+	ClassDB::register_class<TriggerSound>();
+	ClassDB::register_class<TriggerNextCustomer>();
 }
 
 void uninitialize_example_module(ModuleInitializationLevel p_level) {

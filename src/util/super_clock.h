@@ -95,9 +95,19 @@ protected:
     std::vector<int> day_quest_lvl_pull;
     std::vector<Quest> day_quest_pull;
 
+    std::vector<std::pair<String, int>> answers;
+
     void parse_custommer(const Dictionary &dict, const String &name);
     void parse_quest(const Dictionary &dict, const String &name);
     void parse_monster(const Dictionary &dict, const String &name);
+    void collect_custommer();
+    void update_day_pulls();
+    void update_quests();
+    void update_custommer();
+
+    void results();
+    void check_end();
+    
 
     String name_from_dialogue_id(const String &dialogue_id);
 
@@ -106,10 +116,8 @@ protected:
 
 public:
     void parse_all();
-    void update_day_pulls();
-    void update_custommer();
-    void update_quests();
     void new_day();
+    void acess_customer();
 
     void set_order_entity_path(NodePath p_order_entity_path);
     NodePath get_order_entity_path();

@@ -29,6 +29,7 @@ public:
     void set_dialogue_id(String dialogue_id);
     void set_state(int state);
     void set_sprite(String sprite_img);
+    void set_tech_name(String tech_name);
 
     EntityData *get_data();
 

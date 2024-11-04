@@ -19,7 +19,6 @@ void godot::OrderContainer::add_order(Entity *entity)
         UtilityFunctions::print("OrderContainer: order is incorrect");
         return;
     }
-
     this->orders.push_back(entity);
 }
 
@@ -44,7 +43,7 @@ void godot::OrderContainer::remove_order(int i)
         return;
     }
 
-    this->orders.erase(this->orders.begin() + i - 1);
+    this->orders.erase(this->orders.begin() + i);
 }
 
 godot::OrderContainer::OrderContainer()

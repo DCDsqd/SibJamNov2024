@@ -41,6 +41,10 @@ public:
         return "CustomerState";
     }
 
+    static String tech_name(){
+        return "CustomerTechName";
+    }
+
     static String stage_var(){
         return "CustommerStageVar";
     }

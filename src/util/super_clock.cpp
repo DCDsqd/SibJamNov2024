@@ -7,9 +7,7 @@
 void godot::SuperClock::_bind_methods()
 {
     ClassDB::bind_method(D_METHOD("parse_all"), &SuperClock::parse_all);
-    ClassDB::bind_method(D_METHOD("update_day_pulls"), &SuperClock::update_day_pulls);
-    ClassDB::bind_method(D_METHOD("update_custommer"), &SuperClock::update_custommer);
-    ClassDB::bind_method(D_METHOD("update_quests"), &SuperClock::update_quests);
+    ClassDB::bind_method(D_METHOD("new_day"), &SuperClock::new_day);
 
     ClassDB::bind_method(D_METHOD("set_custommer_entity_path"), &SuperClock::set_custommer_entity_path);
     ClassDB::bind_method(D_METHOD("get_custommer_entity_path"), &SuperClock::get_custommer_entity_path);
@@ -106,6 +104,42 @@ void godot::SuperClock::parse_monster(const Dictionary &dict, const String &name
 
     all_moster_pull.push_back(Enemy(p_name, lvl, img, crowd_bonus));
 
+}
+
+void godot::SuperClock::collect_custommer()
+{
+    if(!(has_node(custommer_entity_path) && get_node<ModelEntity>(custommer_entity_path))){
+        UtilityFunctions::print("SuperClock: custommer_entity_path is incorrect");
+        return;
+    }
+    ModelEntity *model = get_node<ModelEntity>(custommer_entity_path);
+
+    Entity *entity = model->get_entity();
+    if(!entity){
+        UtilityFunctions::print("SuperClock: entity in custommer_entity is null");
+        return;
+    }
+
+    EntityData *data = entity->get_data();
+    if(!data){
+        UtilityFunctions::print("SuperClock: data in custommer_entity is null");
+        return;
+    }
+
+    if(!data->has_string(CustomerParams::tech_name())){
+        UtilityFunctions::print("SuperClock: data not have" + CustomerParams::tech_name());
+        return;
+    }
+    if(!data->has_int(CustomerParams::fact_lvl())){
+        UtilityFunctions::print("SuperClock: data not have" + CustomerParams::fact_lvl());
+        return;
+    }
+    if(!data->has_int(CustomerParams::request_quest())){
+        UtilityFunctions::print("SuperClock: data not have" + CustomerParams::request_quest());
+        return;
+    }
+
+    answers.push_back(std::pair<String, int>(data->get_string(CustomerParams::tech_name()), data->get_int(CustomerParams::request_quest())));
 }
 
 godot::String godot::SuperClock::name_from_dialogue_id(const String &dialogue_id)
@@ -242,6 +276,11 @@ void godot::SuperClock::parse_all()
 void godot::SuperClock::update_day_pulls()
 {
     RandomNumberGenerator *generator =  new RandomNumberGenerator();
+    day_custommer_pull.clear();
+    day_quest_lvl_pull.clear();
+    day_quest_pull.clear();
+    answers.clear();
+
     std::vector<Person> tmp_custommer_pull = all_custommer_pull;
     std::vector<Quest> tmp_quest_pull = all_quest_pull;
 
@@ -306,7 +345,9 @@ void godot::SuperClock::update_custommer()
     day_custommer_pull.erase(day_custommer_pull.begin());
 
     CustommerBuilder *builder = memnew(CustommerBuilder);
+    
     builder->set_data(data);
+    builder->set_tech_name(person.name);
     builder->set_state(0);
     builder->set_name(name_from_dialogue_id(person.dialogue_id));
     builder->set_min_req_level(person.min_req_lvl);
@@ -320,8 +361,16 @@ void godot::SuperClock::update_custommer()
     memdelete(builder);
 }
 
+void godot::SuperClock::results()
+{
+    for(auto i : answers){
+        UtilityFunctions::print("SuperClock: results: " + i.first + " : " + Util::int_to_godot_str(i.second));
+    }
+}
+
 void godot::SuperClock::update_quests()
 {
+    Util::log_info("SuperClock: stage 1");
     if(day_quest_lvl_pull.size() < custommer_count){
         UtilityFunctions::print("SuperClock: day_custommer_pull so little" + Util::int_to_godot_str(day_quest_lvl_pull.size()));
         return;
@@ -363,6 +412,8 @@ void godot::SuperClock::update_quests()
         UtilityFunctions::print(Util::int_to_godot_str(i));
     }
 
+
+
     RandomNumberGenerator *generator = new RandomNumberGenerator();
     OrderBuilder *order_builder = memnew(OrderBuilder);
 
@@ -382,6 +433,7 @@ void godot::SuperClock::update_quests()
         Enemy start_enemy = arr[num];
         int start_lvl = start_enemy.lvl + start_enemy.crowd_bonus;
 
+
         std::vector<std::vector<Enemy>> top = top_combinations(all_moster_pull, i-start_lvl);
 
         std::vector<Enemy> enemy_arr;
@@ -394,11 +446,13 @@ void godot::SuperClock::update_quests()
         enemy_arr.push_back(start_enemy);
         int final_lvl = start_enemy.lvl;
 
+
         //UtilityFunctions::print("SuperClock: enemy pull");
         for(auto i : enemy_arr){
             final_lvl += i.crowd_bonus;
             //UtilityFunctions::print(i.name);
         }
+
         //UtilityFunctions::print(Util::int_to_godot_str(final_lvl));
 
         int random_order = generator->randi_range(0, all_quest_pull.size()-1);
@@ -425,6 +479,20 @@ void godot::SuperClock::update_quests()
 
 void godot::SuperClock::new_day()
 {
+    results();
+    update_day_pulls();
+    update_custommer();
+    update_quests();
+}
+
+void godot::SuperClock::acess_customer()
+{
+    collect_custommer();
+    if(day_custommer_pull.size() == 0){
+        new_day();
+        return;
+    }
+    update_custommer();
 }
 
 godot::SuperClock::SuperClock()

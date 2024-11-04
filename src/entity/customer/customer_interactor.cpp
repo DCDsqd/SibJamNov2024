@@ -79,11 +79,33 @@ bool godot::CustomerInteractor::event_switcher(Entity *p_entity, EntityData *dat
             return open_hud(p_entity);
         } break;
 
+        case 2:{
+            return try_swap_custommer();
+        }
+
         default: {
+            
             UtilityFunctions::print("CustomerInteractor: out of range");
             return false;
         } break;
     }
+}
+
+bool godot::CustomerInteractor::try_swap_custommer()
+{
+    GameController *controller = EternityData::get_singleton()->get_controller();
+    if(!controller){
+        UtilityFunctions::print("CustomerInteractor: controller is null");
+        return false;
+    }
+    Trigger3D *trigger = controller->get_trigger("NextCustommer");
+    if(!trigger){
+        UtilityFunctions::print("CustomerInteractor: trigger is null");
+        return false;
+    }
+
+    trigger->activate();
+    return true;
 }
 
 bool godot::CustomerInteractor::_interact(Entity *p_entity)

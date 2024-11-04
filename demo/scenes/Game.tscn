@@ -1,6 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://c2jvkfbkunx1w"]
+[gd_scene load_steps=3 format=3 uid="uid://c2jvkfbkunx1w"]
 
 [ext_resource type="Script" path="res://scenes/Game.gd" id="1_2k7n0"]
+[ext_resource type="Script" path="res://scenes/start_music.gd" id="2_1xheg"]
 
 [node name="Game" type="SimpleGameController"]
 script = ExtResource("1_2k7n0")
+
+[node name="MusicController" type="SimpleMusicalController" parent="."]
+player1_path = NodePath("AudioStreamPlayer")
+player2_path = NodePath("AudioStreamPlayer2")
+script = ExtResource("2_1xheg")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="MusicController"]
+bus = &"music"
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="MusicController"]
+bus = &"music"

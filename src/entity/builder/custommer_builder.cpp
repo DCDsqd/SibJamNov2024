@@ -55,6 +55,11 @@ void godot::CustommerBuilder::set_sprite(String sprite_img)
     data->put_string(CustomerParams::sprite_id(), sprite_img);
 }
 
+void godot::CustommerBuilder::set_tech_name(String tech_name)
+{
+    data->put_string(CustomerParams::tech_name(), tech_name);
+}
+
 godot::EntityData *godot::CustommerBuilder::get_data()
 {
     if(!data){

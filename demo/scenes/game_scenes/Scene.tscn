@@ -21,6 +21,7 @@ RotationCamera = Vector3(-3, 169, 0)
 TargetPathChange = true
 TargetPath = NodePath("State1")
 is_repeat = true
+next_trigger = NodePath("../../ECamera/TriggerSound")
 
 [node name="State1" type="Marker3D" parent="Triggers/CameraState1"]
 transform = Transform3D(-0.981627, -0.00998618, 0.190547, 0, 0.99863, 0.052336, -0.190809, 0.0513744, -0.980282, 2.109, 0.13, 0.37)
@@ -32,6 +33,7 @@ RotationCamera = Vector3(-11.6, 86, 0)
 TargetPathChange = true
 TargetPath = NodePath("State2")
 is_repeat = true
+next_trigger = NodePath("../../ECamera/TriggerSound")
 
 [node name="State2" type="Marker3D" parent="Triggers/CameraState2"]
 transform = Transform3D(0.0697565, -0.224403, 0.971996, 9.12301e-10, 0.974371, 0.224951, -0.997564, -0.0156918, 0.0679686, 1.32963, 0.310314, -0.102437)
@@ -43,9 +45,13 @@ RotationCamera = Vector3(-10.5, 9.2, 0)
 TargetPathChange = true
 TargetPath = NodePath("State3")
 is_repeat = true
+next_trigger = NodePath("../../ECamera/TriggerSound")
 
 [node name="State3" type="Marker3D" parent="Triggers/CameraState3"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.999999, 2.104, 0.25, -0.97)
+
+[node name="NextCustommer" type="TriggerNextCustomer" parent="Triggers"]
+clock_path = NodePath("../../SuperClock")
 
 [node name="ECamera" type="ECamera" parent="."]
 transform = Transform3D(0.135716, -0.0777332, 0.987694, 0, 0.996917, 0.0784591, -0.990748, -0.0106482, 0.135298, 3.249, 0.455, -0.36)
@@ -53,6 +59,14 @@ target_path = NodePath("../Triggers/CameraState2/State2")
 speed_scale = 2.0
 target_rotation = Vector3(-13, 86, 0)
 rotation_speed_scale = 200.0
+
+[node name="TriggerSound" type="TriggerSound" parent="ECamera"]
+sound = "res://res/sounds/crawl.wav"
+speaker = NodePath("AudioStreamPlayer3D")
+transform = Transform3D(0.135716, 1.86264e-09, -0.990748, -0.0777332, 0.996917, -0.0106482, 0.987694, 0.0784592, 0.135298, -0.79761, -0.204875, -3.19601)
+is_repeat = true
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="ECamera/TriggerSound"]
 
 [node name="StartPos" type="Marker3D" parent="."]
 transform = Transform3D(0.135716, -0.0777332, 0.987694, 0, 0.996917, 0.0784591, -0.990748, -0.0106482, 0.135298, 3.249, 0.455, -0.36)

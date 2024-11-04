@@ -1,0 +1,24 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://boychyioof4rv"]
+
+[ext_resource type="FontFile" uid="uid://x8f300swyb01" path="res://res/fonts/zx_spectrum-7_bold.ttf" id="1_cfmm2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yafvm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wfbqi"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2dip3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vvlly"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1bi01"]
+
+[resource]
+Button/colors/font_color = Color(0.235294, 0.729412, 0.203922, 1)
+Button/fonts/font = ExtResource("1_cfmm2")
+Button/styles/disabled = SubResource("StyleBoxEmpty_yafvm")
+Button/styles/focus = SubResource("StyleBoxEmpty_wfbqi")
+Button/styles/hover = SubResource("StyleBoxEmpty_2dip3")
+Button/styles/normal = SubResource("StyleBoxEmpty_vvlly")
+Button/styles/pressed = SubResource("StyleBoxEmpty_1bi01")
+Label/colors/font_color = Color(0.235294, 0.729412, 0.203922, 1)
+Label/fonts/font = ExtResource("1_cfmm2")

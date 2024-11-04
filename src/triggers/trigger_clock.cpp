@@ -2,6 +2,10 @@
 
 void godot::TriggerClock::_bind_methods()
 {
+    ClassDB::bind_method(D_METHOD("set_clock_path"), &TriggerClock::set_clock_path);
+    ClassDB::bind_method(D_METHOD("get_clock_path"), &TriggerClock::get_clock_path);
+
+    ClassDB::add_property("TriggerClock", PropertyInfo(Variant::NODE_PATH, "clock_path"), "set_clock_path", "get_clock_path");
 }
 
 void godot::TriggerClock::set_clock_path(NodePath p_clock_path)

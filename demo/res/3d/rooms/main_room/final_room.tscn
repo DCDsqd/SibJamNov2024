@@ -24,24 +24,33 @@ transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 1.4023
 light_color = Color(0.807843, 0.717647, 0.866667, 1)
 light_energy = 1.5
 shadow_enabled = true
+shadow_bias = 1.665
 spot_range = 7.84886
-spot_angle = 84.49
+spot_angle = 73.4649
+
+[node name="OmniLight3D" type="OmniLight3D" parent="OmniLight3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0172912, -0.310353, -0.357056)
+visible = false
+light_volumetric_fog_energy = 0.0
+shadow_enabled = true
+omni_range = 10.5704
 
 [node name="OmniLight3D3" type="SpotLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -0.09799, 1.82225, 3.19128)
 light_color = Color(0.807843, 0.717647, 0.866667, 1)
 light_energy = 0.75
 shadow_enabled = true
+shadow_bias = 3.347
 spot_range = 7.84886
-spot_angle = 84.49
+spot_angle = 76.8238
 
 [node name="OmniLight3D4" type="SpotLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -0.2385, 0.971143, 0, -0.971143, -0.2385, 1.50213, 1.7478, 1.69679)
+transform = Transform3D(1, 0, 0, 0, -0.2385, 0.971143, 0, -0.971143, -0.2385, 1.97429, 1.7478, 1.69679)
 light_color = Color(0.807843, 0.717647, 0.866667, 1)
-light_energy = 1.5
+light_energy = 10.0
 shadow_enabled = true
 spot_range = 4.28278
-spot_angle = 26.7188
+spot_angle = 46.5717
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.236058, 0.127859, 2.34695)

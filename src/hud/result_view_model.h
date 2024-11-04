@@ -11,6 +11,9 @@
 #include <godot_cpp/classes/texture_rect.hpp>
 #include <godot_cpp/classes/input.hpp>
 #include <godot_cpp/classes/scene_tree.hpp>
+#include <godot_cpp/classes/game_controller.hpp>
+#include <godot_cpp/classes/eternity_data.hpp>
+#include <godot_cpp/classes/trigger3d.hpp>
 
 #include <vector>
 

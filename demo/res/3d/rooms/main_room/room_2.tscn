@@ -1,4 +1,4 @@
-[gd_scene load_steps=197 format=3 uid="uid://bjo6qwwldrl5w"]
+[gd_scene load_steps=198 format=3 uid="uid://bjo6qwwldrl5w"]
 
 [ext_resource type="SpriteFrames" uid="uid://domyu65oe6rtf" path="res://res/2d/textures/lamp/lamp.tres" id="1_n2cq8"]
 [ext_resource type="Script" path="res://res/3d/rooms/main_room/auto_play_sprtie.gd" id="2_8ef7c"]
@@ -3039,6 +3039,13 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_5p3hf")
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qbppw"]
+albedo_color = Color(0.235294, 0.729412, 0.203922, 1)
+emission_enabled = true
+emission = Color(0.235294, 0.729412, 0.203922, 1)
+emission_energy_multiplier = 16.0
+backlight = Color(1, 1, 1, 1)
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4wcpc"]
 resource_name = "Material.030"
 cull_mode = 2
@@ -3734,6 +3741,7 @@ skeleton = NodePath("")
 
 [node name="Sphere_001" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.0706185, -0.000988222, 0.116478, -0.116212, -0.00987628, 0.0703732, 0.00793459, -0.135855, -0.00596321, 1.63393, 1.2899, -2.64891)
+material_override = SubResource("StandardMaterial3D_qbppw")
 mesh = SubResource("ArrayMesh_1d3vp")
 skeleton = NodePath("")
 

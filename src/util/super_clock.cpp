@@ -96,6 +96,19 @@ void godot::SuperClock::parse_custommer(const Dictionary &dict, const String &na
 
 void godot::SuperClock::parse_quest(const Dictionary &dict, const String &name)
 {
+    if(!dict.has("descr")){
+        UtilityFunctions::print("SuperClock: person name: " + name + " doesn't have descr");
+        return;
+    }
+    if(!dict.has("img")){
+        UtilityFunctions::print("SuperClock: person name: " + name + " doesn't have img");
+        return;
+    }
+
+    String descr = dict["descr"];
+    String img = dict["img"];
+
+    all_quest_pull.push_back(Quest(name, descr, img));
 
 }
 
@@ -283,10 +296,7 @@ void godot::SuperClock::parse_all()
 
     for(int i = 0; i < quests_keys.size(); ++i){
         String name = quests_keys[i];
-        //UtilityFunctions::print("SuperClock: parse quest: " + name);
-        String descr = quests[name];
-        //UtilityFunctions::print("SuperClock: parse quest: " + descr);
-        all_quest_pull.push_back(Quest(name, descr));
+        parse_quest(quests[name], name);
     }
 
     Dictionary enemys = dict["Enemy"];
@@ -584,6 +594,7 @@ void godot::SuperClock::update_quests()
 
         int random_order = generator->randi_range(0, all_quest_pull.size()-1);
         String name = all_quest_pull[random_order].name;
+        String image = all_quest_pull[random_order].img;
         String descr = all_quest_pull[random_order].descr + "\n";
 
         all_quest_pull.erase(all_quest_pull.begin() + random_order);
@@ -596,6 +607,7 @@ void godot::SuperClock::update_quests()
 
         order_builder->set_name(name);
         order_builder->set_descr(descr);
+        order_builder->set_image(image);
         order_builder->set_fact_level(final_lvl);
 
         container->add_order(order_builder->get_entity());

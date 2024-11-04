@@ -1,1960 +1,2404 @@
 {
-	"startingElement": null,
-	"boards": {
-		"2ad15ff6-f2ba-4f1d-9d9d-68938c683d7e": {
-			"name": "Root",
-			"root": true,
-			"children": [
-				"630fdb8a-48d6-473e-9974-2460f7eb2b41",
-				"afd5a114-dd6d-4371-a361-0499b352acc4",
-				"852533e8-dbef-422a-9225-86adeb6b8e61",
-				"9b827445-1dea-44ba-bbb6-8a9613893fa8",
-				"c6ddcad0-aaae-42c6-a01b-a3ef8866f378",
-				"0c1dcba4-ec01-4acc-8512-ee9ec997d3ac",
-				"024e83b0-4c36-4ab6-9bd5-dd7e937e76d7",
-				"b5a0e42f-8c92-4ee3-bee4-f0834deec712"
-			]
-		},
-		"630fdb8a-48d6-473e-9974-2460f7eb2b41": {
-			"name": "Main Board",
-			"notes": [
-				"3c616f3c-c25a-4861-bbf0-0c5d9e7406e3"
-			],
-			"jumpers": [
-				"9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c",
-				"0e4b9319-930d-4057-ab5e-c9da63da2e3b",
-				"64e45f37-84d3-41a0-94fc-49edcef151c7",
-				"29692c49-19b6-48c5-af78-cdb99e56568a",
-				"7913bad0-f5dd-414c-b7af-82a161d5d49b",
-				"9a581919-42a7-4cb2-a7c8-b339ad203425",
-				"e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854",
-				"62a129b4-c462-4281-b353-c64d53c18b23",
-				"31a07d0f-c7c8-4969-b367-5f6b82ceb4f7",
-				"262476be-cac3-4db6-a149-8e4e40bca860",
-				"8e08bf74-962e-4a38-ba03-56f2e28e9b87",
-				"3207129a-b07d-45d4-9262-d4fbbc50dda8",
-				"09a5348f-fd89-42aa-aed7-5c2d7f5fa89c",
-				"5a55623e-74f3-4597-a921-c01c40acee1e",
-				"2597c65d-3980-403a-82c0-e673b5a58881",
-				"839d505d-70c8-4202-8846-63f8153dd600",
-				"dd804575-a935-4cf1-b96e-e8c5d9c7430e"
-			],
-			"branches": [
-				"13213c2a-f685-4e71-896f-ff8f152d80a1",
-				"f21923f2-fd89-4a82-afc8-c48ca9697335",
-				"19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b",
-				"db80d6fd-72b5-41b6-8dd2-4e08c4670836",
-				"1128f4b6-3a7c-46a1-ba08-cc660251de24",
-				"2c722db9-af7a-43bc-a058-84594a0403e0",
-				"163da1be-eeb9-4676-9b7a-cc1aa9eeb48f",
-				"d71c7af8-0bcd-486d-8e7d-f821360d7042"
-			],
-			"elements": [
-				"889f6461-b74e-4500-94cd-fe4587a59037",
-				"9d234f96-5644-4452-b14d-4b92aa713117",
-				"5ddaa37a-cb4a-4317-8739-441cd553565a",
-				"1e352a41-0707-4a25-9658-59364597e746",
-				"11eaf2dc-196e-451c-859d-6340cc9d3400",
-				"207a9ec7-e139-4356-a596-1c90793c120e"
-			],
-			"connections": [
-				"b7f61bd2-91d6-47e1-9b6b-02e6a5138789",
-				"6770c611-1752-4604-baf7-fde478792053",
-				"02cb1cf2-9d0a-4a6f-b554-fe1f91fa24a7",
-				"43b9ec17-cb37-45f6-8142-abff39b25ab3",
-				"ef09ea50-f898-48bc-94ec-4d7570ebd079",
-				"fcc1a2d6-3209-4238-8650-a53b3f2c343a",
-				"f4a18bdc-14cb-4342-8207-eb2761e25937",
-				"f4f2ff14-5448-4ecb-9f05-bc1f3535cf18",
-				"57e910f2-2cbe-4db2-8e23-2dd2ad6316f3",
-				"3086a327-6c44-4241-b609-f2c042a2f337",
-				"baf3dbe0-3f25-4389-8ded-6c5d0644784b",
-				"ecee632e-fc02-4d92-801b-c98b6938b4d0",
-				"bbc58698-a780-4b53-b572-77f59b451415",
-				"f7b63508-fa7b-45d5-80be-a18b2e7cb698",
-				"3d5f0d84-979c-4d9b-b10b-603bfb890b2c",
-				"185d46f7-a5c3-4c49-b70c-e446757aebf7",
-				"996e95f1-fdab-44eb-ade0-3417c19d2e5d",
-				"4978bc95-3f3d-4362-881b-a717c7d093a7",
-				"bc9f2c2d-750e-4fc9-bed1-28064e3fb228",
-				"ef5e4c27-ff08-45f9-83e2-43aa5ffc675d",
-				"74cbf066-e838-4c00-ae4f-e01061e09743",
-				"a13e2cf2-85e0-45e7-ac44-246650caa467",
-				"8308b0e8-f0e8-4bb1-a9df-635491f684c8"
-			]
-		},
-		"afd5a114-dd6d-4371-a361-0499b352acc4": {
-			"name": "StarkillerBoard",
-			"notes": [],
-			"elements": [
-				"e764f094-5428-47fd-a005-a8467a8fdbb3",
-				"1ccb500e-0894-4fba-a10f-115ea02da8d6",
-				"72b11dee-03e5-45ec-bba5-142f0654a0c2",
-				"f80f1d4e-4798-4dfc-bcb1-a1c3040a2761",
-				"4cf67560-1576-4320-9f49-8c2ad70ab991",
-				"f3153c4b-3515-4563-8afb-15b64f791115",
-				"0eeec38a-4740-42e0-8d29-78f622295047",
-				"a208d384-1d73-4b59-9ed8-e7c14ca76e61",
-				"dc6bcaeb-94b6-46a4-b29c-3d97d7615d17"
-			],
-			"connections": [
-				"88f31c30-53ed-404a-9a5d-b489de5d7e14",
-				"3bd2c591-02bf-4cd7-bfa2-686e8b2a3087",
-				"ddfa02b6-d20c-44f8-929a-800cea12f693",
-				"4691a918-f73c-428d-83d9-6d2a6a2130d0",
-				"95d1f46a-9c7d-4029-8c7f-2ac8f6e85c5b",
-				"588f06fd-c610-400c-9742-30a064ca3982"
-			],
-			"branches": [],
-			"jumpers": []
-		},
-		"852533e8-dbef-422a-9225-86adeb6b8e61": {
-			"name": "HeadHunterJimmy",
-			"notes": [],
-			"elements": [
-				"f01312f6-7427-4828-8b4e-c459481df447",
-				"91f95772-15db-492b-b481-49758c7a6369",
-				"19d313f5-95a7-4ee4-897a-0fdbd1e66a63",
-				"fe2b3804-594a-43f5-9a1d-9270fecbc3ec",
-				"4786f511-9f3d-4d71-aa7e-550b9170030b",
-				"b65f0c76-41c8-4751-8e77-477ca70c6d42",
-				"efe64a51-37cb-4aa2-a704-3ab7426165b5",
-				"2723f7c0-3be2-428a-acdc-b2fbabff70e7",
-				"1edc40be-5d36-4454-8f2f-1547a10bc277"
-			],
-			"connections": [
-				"574e341c-5990-4fcf-8fdd-5a774aca5a5d",
-				"3b71ba40-690d-4521-a268-06c21fb1a171",
-				"54809dac-adf3-4c8f-83eb-13d595b175fc",
-				"a7fc745a-dcb1-43ac-923d-0b929570d380",
-				"8e14568c-7b24-4d39-8a7f-a005d5514575",
-				"af5872de-28b5-4eca-8d1a-8713faf571a2"
-			],
-			"branches": [],
-			"jumpers": []
-		},
-		"c6ddcad0-aaae-42c6-a01b-a3ef8866f378": {
-			"name": "ArcaneWizarder",
-			"notes": [],
-			"elements": [
-				"50547210-8b59-48c2-b5df-9473f9cf556b",
-				"0d86be94-d1d0-4a92-87dc-a34fb57b5938",
-				"4aef22a1-a73b-4576-8d62-22c27c1d07b1"
-			],
-			"connections": [
-				"cf44183d-642b-4bf6-a777-b279ff52a016",
-				"1a49514e-4060-4eca-8b3a-2e7712fea995"
-			],
-			"branches": [],
-			"jumpers": []
-		},
-		"9b827445-1dea-44ba-bbb6-8a9613893fa8": {
-			"name": "Vlad3000",
-			"notes": [],
-			"elements": [
-				"ae23d8ae-99e0-4376-961f-a52fe1f50e03",
-				"2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46",
-				"87a29660-5387-4043-81f5-500e3542ae83",
-				"db9d0090-ab9b-4c3e-a321-fa14632a9789",
-				"0d8b8873-254a-4000-bfbe-76c685c72f51",
-				"8379b77e-0d13-4df5-98af-b5fc34bd7a31",
-				"319dff36-46f7-465d-86fd-8b61a7c5cef5",
-				"d75ec70d-f697-4984-bd5c-f1e636ec7920",
-				"b33827b3-187a-4c94-b6e9-625c431baaca"
-			],
-			"connections": [
-				"0bab01c0-78d4-4333-9158-a2159d94955d",
-				"5e9f91b7-b51a-45bc-8586-7690698a3f49",
-				"59c8453e-6997-4632-bda4-6845acb08cc5",
-				"5ecbb20b-2caf-46d4-aef7-8b0a80c0c4a4",
-				"eb3b4cab-5a13-480f-bb2a-308cf40a3842",
-				"5732e265-214d-4578-bd77-ab404c088fa0"
-			],
-			"branches": [],
-			"jumpers": []
-		},
-		"0c1dcba4-ec01-4acc-8512-ee9ec997d3ac": {
-			"name": "WorldAssasin",
-			"notes": [],
-			"elements": [
-				"9e987eb7-b04b-4b7f-98b6-135b163860b9",
-				"1dc0aa88-f9ab-42a4-9132-49c7f7e80b09",
-				"476317e9-447a-437f-ab23-f9a0675e55ba",
-				"43a9f53d-85ee-4b4f-a64d-b4d5fe99da61",
-				"14011cbd-2ee3-4606-8c75-0692d2e2c4b2",
-				"1a563a93-6786-4aa6-9ead-6fe3334762a2",
-				"a8c0ed83-084c-462d-890e-c8047eb4913c",
-				"64762737-ced9-410d-8698-1ac8c56a1b37",
-				"17c39ec7-7e17-4292-bcc0-c8f709cac414"
-			],
-			"connections": [
-				"256edef4-8202-4712-8e89-ed1bcdd6e576",
-				"eb5d2345-cd56-4d5d-a1ed-9a1fc65dfae4",
-				"d3245450-0e13-40d6-bc38-4fc32e85d395",
-				"10a5b9dd-2963-4c75-8d9d-2c45164b236b",
-				"b436547d-f627-460c-81c8-044d5ea2095e",
-				"144ed5a8-f987-4d54-9c48-b4deaad3dd83"
-			],
-			"branches": [],
-			"jumpers": []
-		},
-		"024e83b0-4c36-4ab6-9bd5-dd7e937e76d7": {
-			"name": "BalbesBunny",
-			"notes": [],
-			"elements": [
-				"82f517a9-a0d9-44b4-8034-122db8ffd2ed",
-				"24758ab0-2df8-431f-8df7-df6a251dfdcb",
-				"1f5028ee-e2f9-462e-9430-480ae27e5a5c",
-				"810790f0-7a37-42f8-b78c-3a56fc8b3a64",
-				"4a843e1d-e9a1-4405-bc48-d0c607119c37",
-				"4cbfcef0-71bb-44e7-8bfb-11ecc50c2d92",
-				"42c935c3-572a-4891-8e90-765f45feed34",
-				"c966d4ef-7b31-4917-b6c5-baf20edeed0a",
-				"736b265f-ce79-4dfa-9720-9fb5084e6ab3"
-			],
-			"connections": [
-				"6458c5e2-4ff2-48c5-bf64-36ce3c487ab0",
-				"ba3c60cf-c262-4547-89df-3344db2cb452",
-				"860af223-4245-4307-b6cb-1931655d2719",
-				"549e34fc-4b01-4df0-8cd7-0b119cc6dd7e",
-				"0bf70d1b-adeb-4b09-9102-1339f04c8ea1",
-				"a471b6f2-c3c7-4fc0-910e-e118e3eb4021"
-			],
-			"branches": [],
-			"jumpers": []
-		},
-		"b5a0e42f-8c92-4ee3-bee4-f0834deec712": {
-			"name": "GraveCompany",
-			"notes": [],
-			"elements": [],
-			"connections": [],
-			"branches": [],
-			"jumpers": []
-		}
-	},
-	"notes": {
-		"3c616f3c-c25a-4861-bbf0-0c5d9e7406e3": {
-			"autoHeight": true,
-			"theme": "default",
-			"content": "<p>\u0443 \u0432\u0438\u0437\u0430\u0440\u0434\u0430 \u043e\u0434\u0438\u043d \u0438\u0441\u0445\u043e\u0434, \u0442\u0430\u043a \u0447\u0442\u043e \u0432\u0441\u0435\u0433\u043e 1 \u0434\u0438\u0430\u043b\u043e\u0433<br>\u0443 \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u043e \u0442\u0440\u0438<\/p>"
-		}
-	},
-	"elements": {
-		"4a843e1d-e9a1-4405-bc48-d0c607119c37": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u0414\u043e\u043b\u0433\u043e?<\/p>",
-			"outputs": [
-				"549e34fc-4b01-4df0-8cd7-0b119cc6dd7e"
-			],
-			"assets": {
-				"audio": [
-					{
-						"id": "5d417e80-7081-471d-8e94-a72753e4c6d9",
-						"mode": "once",
-						"asset": "7fbb54ee-4c7f-4066-9b93-b9efb71983dc",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"736b265f-ce79-4dfa-9720-9fb5084e6ab3": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u041d\u0435. \u0417\u043d\u0430\u044e.<\/p>",
-			"outputs": [],
-			"assets": {
-				"audio": [
-					{
-						"id": "50972267-3d3b-4973-974b-80bced05ee0c",
-						"mode": "once",
-						"asset": "fdcc323e-5e47-4338-b7aa-547379496e89",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"c966d4ef-7b31-4917-b6c5-baf20edeed0a": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u041f\u0440\u043e\u0448\u0443. \u041d\u0438\u043a\u0430\u043a\u0438\u0445. \u0413\u043e\u0440\u044f\u0449\u0438\u0445. \u041f\u0430\u043b\u043e\u043a.<\/p>",
-			"outputs": [
-				"a471b6f2-c3c7-4fc0-910e-e118e3eb4021"
-			],
-			"assets": {
-				"audio": [
-					{
-						"id": "d14701fc-bc2f-4354-869e-32836e54f14c",
-						"mode": "once",
-						"asset": "2bc37151-b8f5-49e9-8b50-5d26976c36fb",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"42c935c3-572a-4891-8e90-765f45feed34": {
-			"autoHeight": true,
-			"title": "<p>BalbesBunnyStage3<\/p>",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u0422\u044b. \u041a\u0442\u043e. \u0410. \u0422\u043e\u0447\u043d\u043e. \u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u0415\u0441\u0442\u044c. \u0414\u0430?<\/p>",
-			"outputs": [
-				"0bf70d1b-adeb-4b09-9102-1339f04c8ea1"
-			],
-			"assets": {
-				"audio": [
-					{
-						"id": "d7af3c68-1ca8-4e81-abc1-1696b4a3df84",
-						"mode": "once",
-						"asset": "76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"4cbfcef0-71bb-44e7-8bfb-11ecc50c2d92": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u041d\u0435. \u041f\u043e\u043d\u044f\u043b.<\/p>",
-			"outputs": [],
-			"assets": {
-				"audio": [
-					{
-						"id": "ebab54aa-4ca3-4b47-b10b-2b351eb6af2f",
-						"mode": "once",
-						"asset": "21965103-6a7a-44a6-8290-c90ffa94ff53",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"889f6461-b74e-4500-94cd-fe4587a59037": {
-			"outputs": [
-				"fcc1a2d6-3209-4238-8650-a53b3f2c343a"
-			],
-			"title": "<p>StarKillerStart<\/p>",
-			"content": "<p>DSDSD<\/p>",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"theme": "default",
-			"autoHeight": true
-		},
-		"1ccb500e-0894-4fba-a10f-115ea02da8d6": {
-			"autoHeight": true,
-			"title": "<p><\/p>",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u0422\u044b \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0448\u044c! \u042f \u043f\u0440\u0438\u0448\u0451\u043b \u0437\u0430 \u0441\u043b\u0430\u0432\u043e\u0439, \u0430 \u043d\u0435 \u0437\u0430 \u043d\u0430\u0441\u043c\u0435\u0448\u043a\u0430\u043c\u0438!<\/p>",
-			"outputs": [
-				"ddfa02b6-d20c-44f8-929a-800cea12f693"
-			]
-		},
-		"e764f094-5428-47fd-a005-a8467a8fdbb3": {
-			"autoHeight": true,
-			"title": "<p>StarKillerStage1<\/p>",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u041d\u0443, \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440. \u0414\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u043d\u043e\u0432\u044b\u0439 \u043a\u0432\u0435\u0441\u0442, \u0412\u0435\u0434\u044c \u043a\u0430\u043a \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u0441\u044f \u00ab\u0421\u043c\u0435\u0440\u0442\u044c \u043d\u0430 \u043f\u043e\u043b\u0435 \u0431\u043e\u044f \u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e \u043e\u0442 \u043a\u043b\u0430\u0441\u0441\u0430, \u043a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u043e\u0433\u043e \u0438\u043b\u0438 \u043f\u0440\u043e\u0441\u0442\u043e\u0433\u043e. \u041f\u0440\u043e\u0438\u0433\u0440\u0430\u0432\u0448\u0438\u0439 \u0434\u043e\u043b\u0436\u0435\u043d \u0443\u043c\u0435\u0440\u0435\u0442\u044c!\u00bb \u0418 \u044f \u043f\u043e\u043a\u0430\u0436\u0443, \u0447\u0442\u043e \u044f \u0434\u043e\u0441\u0442\u043e\u0438\u043d \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430 \u043d\u043e\u0432\u043e\u043c \u0437\u0430\u0434\u0430\u043d\u0438\u0438\u2026<\/p>",
-			"outputs": [
-				"88f31c30-53ed-404a-9a5d-b489de5d7e14"
-			],
-			"assets": {
-				"audio": [
-					{
-						"id": "5852086b-571e-4e1d-b9a9-c30e17418921",
-						"mode": "once",
-						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
-						"delay": 0
-					},
-					{
-						"id": "4c9295c2-931f-40dc-ad9a-1363bbd6ee22",
-						"mode": "once",
-						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"4cf67560-1576-4320-9f49-8c2ad70ab991": {
-			"autoHeight": false,
-			"title": "<p>StarKillerStage2<\/p>",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u041f\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e. \u0417\u043d\u0430\u0435\u0448\u044c, \u0447\u0442\u043e \u044f \u043f\u043e\u043d\u044f\u043b \u0437\u0430 \u043a\u0440\u0430\u0439\u043d\u0435\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435? \u00ab\u041d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435\u00a0\u0441\u0434\u0430\u0432\u0430\u0442\u044c\u0441\u044f... \u0412\u0441\u0442\u0430\u0442\u044c, \u043a\u043e\u0433\u0434\u0430 \u0432\u0441\u0435\u00a0\u0440\u0443\u0445\u043d\u0443\u043b\u043e \u2014 \u0432\u043e\u0442\u00a0\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0430\u044f \u0441\u0438\u043b\u0430.\u00bb \u0418 \u043c\u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u043d\u043e\u0432\u043e\u0435 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0435, \u0447\u0442\u043e\u0431\u044b \u0432\u044b\u043d\u0435\u0441\u0442\u0438 \u043d\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u043a\u2026<\/p>",
-			"outputs": [
-				"3bd2c591-02bf-4cd7-bfa2-686e8b2a3087"
-			]
-		},
-		"72b11dee-03e5-45ec-bba5-142f0654a0c2": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u041d\u0435 \u043d\u0430\u0441\u043c\u0435\u0445\u0430\u0439\u0441\u044f! \u042f \u0441\u0438\u043b\u0451\u043d \u0434\u0443\u0445\u043e\u043c \u0438 \u0442\u0435\u043b\u043e\u043c! \u041a\u0430\u0436\u0434\u043e\u0435 \u043f\u0430\u0434\u0435\u043d\u0438\u0435 \u043b\u0438\u0448\u044c \u0443\u0433\u043b\u0443\u0431\u043b\u044f\u0435\u0442 \u0442\u044c\u043c\u0443, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u0440\u043e\u0431\u0443\u0436\u0434\u0430\u0435\u0442 \u043c\u0435\u043d\u044f!<\/p>",
-			"outputs": [
-				"4691a918-f73c-428d-83d9-6d2a6a2130d0"
-			]
-		},
-		"f80f1d4e-4798-4dfc-bcb1-a1c3040a2761": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u041f\u0440\u0430\u0432\u0434\u0430 \u0432\u0441\u0435\u0433\u0434\u0430 \u043d\u0430 \u043c\u043e\u0435\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u0435.<\/p>",
-			"outputs": []
-		},
-		"9d234f96-5644-4452-b14d-4b92aa713117": {
-			"outputs": [
-				"43b9ec17-cb37-45f6-8142-abff39b25ab3"
-			],
-			"autoHeight": true,
-			"title": "<p>HeadHunterJimmy<\/p>",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>DSDSD<\/p>"
-		},
-		"5ddaa37a-cb4a-4317-8739-441cd553565a": {
-			"outputs": [
-				"57e910f2-2cbe-4db2-8e23-2dd2ad6316f3"
-			],
-			"autoHeight": true,
-			"title": "<p>Vlad3000<\/p>",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>DSDSD<\/p>"
-		},
-		"1e352a41-0707-4a25-9658-59364597e746": {
-			"outputs": [
-				"f4a18bdc-14cb-4342-8207-eb2761e25937"
-			],
-			"autoHeight": true,
-			"title": "<p>Wizarder<\/p>",
-			"theme": "default",
-			"components": [
-				"cef2765c-ad8f-4af3-ae94-d32d5a525de4"
-			],
-			"content": "<p>DSDSD<\/p>"
-		},
-		"11eaf2dc-196e-451c-859d-6340cc9d3400": {
-			"outputs": [
-				"ef09ea50-f898-48bc-94ec-4d7570ebd079"
-			],
-			"autoHeight": true,
-			"title": "<p>Asasinchik<\/p>",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>DSDSD<\/p>"
-		},
-		"207a9ec7-e139-4356-a596-1c90793c120e": {
-			"outputs": [
-				"f4f2ff14-5448-4ecb-9f05-bc1f3535cf18"
-			],
-			"autoHeight": true,
-			"title": "<p>BalbesBunny<\/p>",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>DSDSD<\/p>"
-		},
-		"f3153c4b-3515-4563-8afb-15b64f791115": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u041e\u043d\u0430 \u0431\u044b\u043b\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u0430 \u0442\u044b\u0441\u044f\u0447\u0430\u043c\u0438 \u043c\u043e\u043d\u0441\u0442\u0440\u043e\u0432, \u0442\u0432\u043e\u0438 \u0438\u0437\u0432\u0438\u043d\u0435\u043d\u0438\u044f \u043c\u043d\u0435 \u043d\u0435 \u043d\u0443\u0436\u043d\u044b.<\/p>",
-			"outputs": []
-		},
-		"0eeec38a-4740-42e0-8d29-78f622295047": {
-			"autoHeight": true,
-			"title": "<p>StarKillerStage3<\/p>",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440. \u0414\u0430\u0439 \u043c\u043d\u0435 \u043d\u043e\u0432\u043e\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435, \u0447\u0442\u043e\u0431\u044b \u044f \u043d\u0430\u043a\u043e\u043d\u0435\u0446 \u043f\u043e\u043d\u044f\u043b, \u0447\u0442\u043e \u0432\u0435\u0440\u0448\u0438\u0442 \u0441\u0443\u0434\u044c\u0431\u0443 \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430 \u0432 \u044d\u0442\u043e\u043c \u043c\u0438\u0440\u0435\u2026..<\/p>",
-			"outputs": [
-				"95d1f46a-9c7d-4029-8c7f-2ac8f6e85c5b"
-			]
-		},
-		"a208d384-1d73-4b59-9ed8-e7c14ca76e61": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u041d\u0435 \u0441\u043c\u0435\u0439 \u0441\u043e\u043c\u043d\u0435\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u043c\u043e\u0451\u043c \u043f\u0440\u0435\u0434\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438! \u042f \u0442\u043e\u0442, \u043a\u0442\u043e \u0440\u0430\u0437\u0440\u0443\u0448\u0438\u0442 \u0441\u0442\u0430\u0440\u044b\u0435 \u043f\u043e\u0440\u044f\u0434\u043a\u0438 \u0438 \u0432\u044b\u0436\u0436\u0435\u0442 \u0442\u044c\u043c\u0443, \u0447\u0442\u043e\u0431\u044b \u043e\u0431\u043d\u0430\u0436\u0438\u0442\u044c \u0438\u0441\u0442\u0438\u043d\u043d\u0443\u044e \u0441\u0443\u0434\u044c\u0431\u0443 \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430!<\/p>",
-			"outputs": [
-				"588f06fd-c610-400c-9742-30a064ca3982"
-			]
-		},
-		"dc6bcaeb-94b6-46a4-b29c-3d97d7615d17": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a"
-			],
-			"content": "<p>\u0421\u0435\u0440\u0434\u0435\u0447\u043d\u043e \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044e.<\/p>",
-			"outputs": []
-		},
-		"f01312f6-7427-4828-8b4e-c459481df447": {
-			"autoHeight": true,
-			"title": "<p>HeadHunterJimmyStage1<\/p>",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u0422\u0432\u043e\u044e \u043d\u0430\u043b\u0435\u0432\u043e, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440, \u0434\u0430\u0432\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u043a\u0432\u0435\u0441\u0442 \u0441\u044e\u0434\u0430, \u043c\u0430\u0442\u044c \u0442\u0432\u043e\u044e, \u0430 \u0442\u043e \u043c\u043e\u0439 \u0440\u0435\u0432\u043e\u043b\u044c\u0432\u0435\u0440 \u0443\u0436\u0435 \u0441\u043e\u0432\u0441\u0435\u043c \u0437\u0430\u0440\u0436\u0430\u0432\u0435\u043b. <\/p>",
-			"outputs": [
-				"574e341c-5990-4fcf-8fdd-5a774aca5a5d"
-			]
-		},
-		"91f95772-15db-492b-b481-49758c7a6369": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u041a\u043e\u0432\u0431\u043e\u0438 \u043d\u0435 \u0441\u0442\u0440\u043e\u044f\u0442 \u043f\u043b\u0430\u043d\u044b, \u0442\u043e\u043b\u044c\u043a\u043e \u0445\u0432\u0430\u0442\u0430\u044e\u0442 \u0443\u0434\u0430\u0447\u0443 \u0437\u0430 \u0433\u043e\u0440\u043b\u043e \u0438 \u0441\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f.<\/p>",
-			"outputs": [
-				"3b71ba40-690d-4521-a268-06c21fb1a171"
-			]
-		},
-		"19d313f5-95a7-4ee4-897a-0fdbd1e66a63": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u0412\u043e\u043e\u0431\u0449\u0435-\u0442\u043e \u0432 \u044d\u0442\u043e\u043c \u043f\u043b\u0430\u043d\u0435 \u044f \u043d\u0435\u043f\u0440\u0438\u043b\u0438\u0447\u043d\u043e \u0431\u043e\u0433\u0430\u0442.<\/p>",
-			"outputs": []
-		},
-		"fe2b3804-594a-43f5-9a1d-9270fecbc3ec": {
-			"autoHeight": true,
-			"title": "<p>HeadHunterJimmyStage2<\/p>",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u0414\u0440\u0443\u0433\u0430\u043b\u0451\u043a, \u0434\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u043d\u043e\u0432\u043e\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435, \u0430 \u0442\u043e \u0432 \u0434\u0440\u0443\u0433\u043e\u0439 \u0433\u0438\u043b\u044c\u0434\u0438\u0438 \u0443\u0436\u0435 \u0441\u043e\u0432\u0441\u0435\u043c \u043e\u0431\u043b\u0435\u043d\u0438\u043b\u0438\u0441\u044c, \u0442\u0432\u043e\u044e \u0437\u0430 \u043d\u043e\u0433\u0443, \u043d\u0435 \u043c\u043e\u0433\u0443 \u043c\u043d\u0435 \u043f\u043e \u0434\u043e\u0441\u0442\u043e\u0438\u043d\u0441\u0442\u0432\u0443 \u0440\u0430\u0431\u043e\u0442\u0451\u043d\u043a\u0443 \u0434\u0430\u0442\u044c.<\/p>",
-			"outputs": [
-				"54809dac-adf3-4c8f-83eb-13d595b175fc"
-			]
-		},
-		"4786f511-9f3d-4d71-aa7e-550b9170030b": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u042f \u043f\u0440\u0438\u0448\u0451\u043b \u043d\u0435 \u0448\u0443\u0442\u043a\u0438 \u0448\u0443\u0442\u0438\u0442\u044c, \u0430 \u043c\u043e\u0447\u0438\u0442\u044c \u0438\u043d\u043e\u043f\u043b\u0430\u043d\u0435\u0442\u044f\u043d! \u041c\u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u0447\u0442\u043e-\u0442\u043e \u043f\u043e-\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e\u0435!<\/p>",
-			"outputs": [
-				"a7fc745a-dcb1-43ac-923d-0b929570d380"
-			]
-		},
-		"b65f0c76-41c8-4751-8e77-477ca70c6d42": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u0416\u0434\u0443 \u043d\u0435 \u0434\u043e\u0436\u0434\u0443\u0441\u044c, \u0434\u0440\u0443\u0433.<\/p>",
-			"outputs": []
-		},
-		"efe64a51-37cb-4aa2-a704-3ab7426165b5": {
-			"autoHeight": true,
-			"title": "<p>HeadHunterJimmyStage3<\/p>",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u0411\u0435\u0437 \u043b\u0438\u0448\u043d\u0438\u0445 \u0441\u043b\u043e\u0432, \u044f \u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f, \u043f\u043e\u0441\u043b\u0435 \u0441\u0430\u043c\u043e\u0439 \u043e\u0436\u0435\u0441\u0442\u043e\u0447\u0435\u043d\u043d\u043e\u0439 \u0431\u0438\u0442\u0432\u044b \u0432\u0441\u0435\u0445 \u0441\u0430\u043c\u044b\u0445 \u043a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u0430\u043c\u044b\u0445 \u0431\u0430\u043d\u0434\u0438\u0442\u0441\u043a\u0438\u0445 \u043a\u043e\u0432\u0431\u043e\u0435\u0432, \u0451\u043f\u0435\u0440\u043d\u044b\u0439 \u0442\u0435\u0430\u0442\u0440. \u0411\u043e\u0439 \u0434\u043b\u0438\u043b\u0441\u044f \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043d\u0435\u0434\u0435\u043b\u044c, \u043c\u044b \u043f\u043e\u0442\u0435\u0440\u043f\u0435\u043b\u0438 \u043e\u0433\u0440\u043e\u043c\u043d\u044b\u0435-\u0433\u0438\u0433\u0430\u0442\u0441\u043a\u0438\u0435 \u043f\u043e\u0442\u0435\u0440\u0438, \u0442\u0432\u043e\u044e \u043c\u0430\u043b\u044b\u0448\u0435\u0447\u043a\u0443. \u041a\u0430\u043a \u0436\u0435 \u044d\u0442\u043e \u0431\u044b\u043b\u043e\u2026 \u041e\u0439, \u043a\u0445\u043c, \u0435\u0441\u0442\u044c \u043d\u043e\u0432\u0430\u044f \u0437\u0430\u0434\u0430\u0447\u0430? <\/p>",
-			"outputs": [
-				"8e14568c-7b24-4d39-8a7f-a005d5514575"
-			]
-		},
-		"2723f7c0-3be2-428a-acdc-b2fbabff70e7": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u0421\u043a\u0430\u0436\u0438 \u044d\u0442\u043e \u0442\u0435\u043c, \u043a\u0442\u043e \u043e\u0441\u0442\u0430\u043b\u0441\u044f \u0431\u0435\u0437 \u0443\u0448\u0435\u0439 \u043f\u043e\u0441\u043b\u0435 \u043c\u043e\u0438\u0445 \u0438\u0441\u0442\u043e\u0440\u0438\u0439! \u0422\u0430\u043a \u0435\u0441\u0442\u044c \u043d\u043e\u0432\u0430\u044f \u0437\u0430\u0434\u0430\u0447\u0430?<\/p>",
-			"outputs": [
-				"af5872de-28b5-4eca-8d1a-8713faf571a2"
-			]
-		},
-		"1edc40be-5d36-4454-8f2f-1547a10bc277": {
-			"autoHeight": false,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"feac8f11-3d9f-4cba-875d-0e835fdff992"
-			],
-			"content": "<p>\u0417\u0430\u043d\u0443\u0434\u0430, \u0442\u0432\u043e\u044e \u0437\u0430 \u043d\u043e\u0433\u0443,<\/p>",
-			"outputs": []
-		},
-		"ae23d8ae-99e0-4376-961f-a52fe1f50e03": {
-			"autoHeight": true,
-			"title": "<p>Vlad3000Stage1<\/p>",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>\u0414\u043e\u0431\u0440\u043e! \u041a\u0430\u043a \u043f\u043e\u0436\u0438\u0432\u0430\u0435\u0448\u044c? *\u0414\u0430 \u0433\u0434\u0435 \u0442\u0443\u0442 \u043a\u043d\u043e\u043f\u043a\u0430 \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u0430* \u0415\u0441\u0442\u044c \u0447\u0442\u043e-\u0442\u043e \u0434\u043b\u044f \u043c\u0435\u043d\u044f?<\/p>",
-			"outputs": [
-				"0bab01c0-78d4-4333-9158-a2159d94955d"
-			]
-		},
-		"2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>...<\/p>",
-			"outputs": [
-				"5e9f91b7-b51a-45bc-8586-7690698a3f49"
-			]
-		},
-		"87a29660-5387-4043-81f5-500e3542ae83": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>\u0416\u0434\u0443 \u0437\u0430\u0434\u0430\u043d\u0438\u0435.<\/p>",
-			"outputs": []
-		},
-		"db9d0090-ab9b-4c3e-a321-fa14632a9789": {
-			"autoHeight": true,
-			"title": "<p>Vlad3000Stage2<\/p>",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>\u0418 \u0442\u0435\u0431\u0435 \u043d\u0435 \u0445\u0432\u043e\u0440\u0430\u0442\u044c, \u0434\u0430\u0439 \u043c\u043d\u0435 \u0437\u0430\u0434\u0430\u0447\u043a\u0443, \u0434\u0430 \u043f\u043e\u0441\u043b\u043e\u0436\u043d\u0435\u0435!<\/p>",
-			"outputs": [
-				"59c8453e-6997-4632-bda4-6845acb08cc5"
-			]
-		},
-		"0d8b8873-254a-4000-bfbe-76c685c72f51": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>...<\/p>",
-			"outputs": [
-				"5ecbb20b-2caf-46d4-aef7-8b0a80c0c4a4"
-			]
-		},
-		"8379b77e-0d13-4df5-98af-b5fc34bd7a31": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>\u042f \u0432 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u0438.<\/p>",
-			"outputs": []
-		},
-		"319dff36-46f7-465d-86fd-8b61a7c5cef5": {
-			"autoHeight": true,
-			"title": "<p>Vlad3000Stage3<\/p>",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>\u041c?<\/p>",
-			"outputs": [
-				"eb3b4cab-5a13-480f-bb2a-308cf40a3842"
-			]
-		},
-		"d75ec70d-f697-4984-bd5c-f1e636ec7920": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>\u041c?<\/p>",
-			"outputs": [
-				"5732e265-214d-4578-bd77-ab404c088fa0"
-			]
-		},
-		"b33827b3-187a-4c94-b6e9-625c431baaca": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"13a761c5-3d22-4661-8743-79b6a767d202"
-			],
-			"content": "<p>\u0414\u0430\u0432\u0430\u0439 \u0441\u043a\u043e\u0440\u0435\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435.<\/p>",
-			"outputs": []
-		},
-		"50547210-8b59-48c2-b5df-9473f9cf556b": {
-			"autoHeight": true,
-			"title": "<p>ArcaneWizarderStage1<\/p>",
-			"theme": "default",
-			"components": [
-				"cef2765c-ad8f-4af3-ae94-d32d5a525de4"
-			],
-			"content": "<p>\u041a\u0445-\u043a\u0445, \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043b\u0435\u0442, \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0437\u0438\u043c(98 \u043b\u0435\u0442), \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440. \u0414\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u0437\u0430\u0434\u0430\u043d\u044c\u0438\u0446\u0435 \u0442\u0430\u043a\u043e\u0435, \u0447\u0442\u043e\u0431\u044b \u0440\u0430\u0441\u0448\u0435\u0432\u0435\u043b\u0438\u0442\u044c\u0441\u044f, \u043a\u0430\u043a \u0432 \u0441\u0442\u0430\u0440\u044b\u0435-\u0434\u043e\u0431\u0440\u044b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0430. \u041f\u043e\u043c\u043d\u0438\u0448\u044c, \u043a\u0430\u043a \u044f \u0431\u044b\u043b \u0432 \u0442\u043e\u043f\u0435 \u0442\u0432\u043e\u0438\u0445 \u0412\u042b\u041f\u041e\u041b\u041d\u042f\u0422\u041e\u0420\u041e\u0412 100 \u043b\u0435\u0442 \u043d\u0430\u0437\u0430\u0434? \u0422\u0430\u043a \u0432\u043e\u0442, \u0445\u043e\u0447\u0443 \u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0441\u0432\u043e\u0439 \u0441\u0442\u0430\u0442\u0443\u0441, \u043a\u0445-\u043a\u0445.<\/p>",
-			"outputs": [
-				"cf44183d-642b-4bf6-a777-b279ff52a016"
-			]
-		},
-		"0d86be94-d1d0-4a92-87dc-a34fb57b5938": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cef2765c-ad8f-4af3-ae94-d32d5a525de4"
-			],
-			"content": "<p>\u0412\u0441\u0435 \u043e\u0447\u0435\u043d\u044c \u043f\u0440\u043e\u0441\u0442\u043e, \u0432\u044b\u043f\u0438\u0442\u043e\u0435 \u0437\u0435\u043b\u044c\u0435 \u0438\u0437 \u0442\u0430\u0432\u0435\u0440\u043d\u044b \u0440\u044f\u0434\u043e\u043c \u0441 \u0433\u0438\u043b\u044c\u0434\u0438\u0435\u0439, \u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0448\u044c\u0441\u044f \u043a\u0430\u043a \u043e\u0433\u0443\u0440\u0447\u0438\u043a! \u041a\u0430\u0436\u0434\u044b\u0439 \u0434\u0435\u043d\u044c \u043f\u044c\u044e \u0435\u0433\u043e, \u0432\u043e\u0442 \u0438 \u0441\u0438\u043b\u0435\u043d\u043a\u0438 \u043d\u0435 \u0443\u0431\u0430\u0432\u043b\u044f\u044e\u0442\u0441\u044f! \u041a\u0445-\u043a\u0445.<\/p>",
-			"outputs": [
-				"1a49514e-4060-4eca-8b3a-2e7712fea995"
-			]
-		},
-		"4aef22a1-a73b-4576-8d62-22c27c1d07b1": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cef2765c-ad8f-4af3-ae94-d32d5a525de4"
-			],
-			"content": "<p>120 \u043b\u0435\u0442 \u043f\u0440\u043e\u0436\u0438\u0432\u0435\u0448\u044c - \u043f\u043e\u0439\u043c\u0435\u0448\u044c \u043a\u0445-\u043a\u0445 \u043c\u0435\u043d\u044f.<\/p>",
-			"outputs": []
-		},
-		"9e987eb7-b04b-4b7f-98b6-135b163860b9": {
-			"autoHeight": true,
-			"title": "<p>WorldAsassinStage1<\/p>",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u0434\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c!!!!!!!!!!!!!!!!!!!!!!!!!! \u0434\u0430\u0439\u0442\u0435\u043a\u0430 \u043c\u043d\u0435 \u043d\u043e\u0432\u0430\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435!!!!!!!!!!!!!!!!!!\u0445\u0430\u0447\u0443, \u0447\u0442\u043e\u0431\u044b \u043f\u0430\u0440\u0443 \u0433\u043e\u043b\u043e\u0432 \u0443\u043f\u0430\u043b\u0438 \u0441 \u043f\u043b\u0435\u0447\u044c \u0432\u0440\u0430\u0433\u043e\u0444\u0444!!!!!!!!!!!!!!!!\u0421\u041f\u0410\u0421\u0418\u0431\u0430!!!!!!!!*<\/p>",
-			"outputs": [
-				"256edef4-8202-4712-8e89-ed1bcdd6e576"
-			]
-		},
-		"1dc0aa88-f9ab-42a4-9132-49c7f7e80b09": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u0410 \u0442\u044b \u0432 \u0441\u0432\u0430\u0435\u043c \u0440\u0435\u043f\u0435\u0440\u0442\u0443\u0430\u0440\u0435, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0444\u0444\u0435\u0440!!!!!!!!!!!! >:(*<\/p>",
-			"outputs": [
-				"eb5d2345-cd56-4d5d-a1ed-9a1fc65dfae4"
-			]
-		},
-		"476317e9-447a-437f-ab23-f9a0675e55ba": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u041b\u0430\u0434\u043d\u0430!!!!!!!!!!!!!!!!!!!*<\/p>",
-			"outputs": []
-		},
-		"43a9f53d-85ee-4b4f-a64d-b4d5fe99da61": {
-			"autoHeight": true,
-			"title": "<p>WorldAsassinStage2<\/p>",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u041f-\u043f-\u043f-\u043f-\u043f\u0440\u0438\u0432\u0435\u0442\u2026. \u041c\u043d\u0435 \u043d\u0438\u043c\u043d\u043e\u0433\u0430 \u043d\u0435\u043b\u043e\u0432\u043a\u043e\u2026\u2026\u2026\u2026.\u043d\u043e \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0434\u0430\u043d\u0438\u0435\u2026\u2026\u2026\u2026\u2026.\u043a\u0430\u043a\u043e\u0435-\u043d\u0438\u0431\u0443\u0434\u044c\u2026\u2026\u2026\u2026.\u0435\u0441\u043b\u0435 \u043d\u0435 \u043c\u0435\u0448\u0430\u044e\u2026\u2026\u2026. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430\u2026\u2026..\u0441-\u0441-\u0441-\u0441\u043f\u0430\u0441\u0438\u0431\u0430\u2026\u2026\u2026..*<\/p>",
-			"outputs": [
-				"d3245450-0e13-40d6-bc38-4fc32e85d395"
-			]
-		},
-		"14011cbd-2ee3-4606-8c75-0692d2e2c4b2": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u0421-\u0441-\u0441-\u0441-\u0441\u043f\u0430\u0441\u0438\u0431\u043e, \u043a\u0430\u043d\u0435\u0448\u043d\u043e\u2026\u2026\u2026\u2026\u043d\u043e \u044f \u043f\u044c\u044e \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u044b\u0441\u043e\u043a\u043e\u043a\u043b\u0430\u0441\u043d\u044b\u0439 \u0440\u043e\u043c\u2026\u2026\u2026*<\/p>",
-			"outputs": [
-				"10a5b9dd-2963-4c75-8d9d-2c45164b236b"
-			]
-		},
-		"1a563a93-6786-4aa6-9ead-6fe3334762a2": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u0410 \u0436\u0430\u043b\u044c...*<\/p>",
-			"outputs": []
-		},
-		"a8c0ed83-084c-462d-890e-c8047eb4913c": {
-			"autoHeight": true,
-			"title": "<p>WorldAsassinStage3<\/p>",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*HI!!!!!!!!!!LMAO \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0434\u0430\u043d\u0438\u0435 LOL :-D!!!!!!!*<\/p>",
-			"outputs": [
-				"b436547d-f627-460c-81c8-044d5ea2095e"
-			]
-		},
-		"64762737-ced9-410d-8698-1ac8c56a1b37": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u041c\u043e\u043b\u043e\u0434\u0435\u0436\u044c \u0442\u0430\u043a \u043d\u0435 \u0440\u0430\u0437\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0435\u0442 :P* <\/p>",
-			"outputs": [
-				"144ed5a8-f987-4d54-9c48-b4deaad3dd83"
-			]
-		},
-		"17c39ec7-7e17-4292-bcc0-c8f709cac414": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be"
-			],
-			"content": "<p>*\u041e\u0447\u0435\u043d \u0436\u0430\u043b\u044c :)))))*<\/p>",
-			"outputs": []
-		},
-		"82f517a9-a0d9-44b4-8034-122db8ffd2ed": {
-			"autoHeight": true,
-			"title": "<p>BalbesBunnyStage1<\/p>",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439. \u041d\u0430\u0434\u043e. \u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u0421\u043b\u043e\u0436\u043d\u043e\u0435. \u0418\u043b\u0438. \u041d\u0435 \u0437\u043d\u0430\u044e. \u0414\u0430\u0439.<\/p>",
-			"outputs": [
-				"6458c5e2-4ff2-48c5-bf64-36ce3c487ab0"
-			],
-			"assets": {
-				"audio": [
-					{
-						"id": "d4d40917-2021-47dd-89a6-c9a64847867a",
-						"mode": "once",
-						"asset": "618d2177-7ccc-420e-978c-ee1447288145",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"24758ab0-2df8-431f-8df7-df6a251dfdcb": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u0427\u0442\u043e. \u0422\u0430\u043a\u043e\u0435. \u041c\u043e\u0434\u0443\u043b\u044c. <\/p>",
-			"outputs": [
-				"ba3c60cf-c262-4547-89df-3344db2cb452"
-			],
-			"assets": {
-				"audio": [
-					{
-						"id": "ee5dbd4d-1e72-4229-b3d2-6f08e59eb0a9",
-						"mode": "once",
-						"asset": "eea271f4-08ca-4632-80e2-524890a56e2a",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"1f5028ee-e2f9-462e-9430-480ae27e5a5c": {
-			"autoHeight": true,
-			"title": "",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u041d\u0438\u0447\u0435\u0433\u043e. \u041d\u0435. \u041f\u043e\u043d\u044f\u043b.<\/p>",
-			"outputs": [],
-			"assets": {
-				"audio": [
-					{
-						"id": "9dc337f1-d062-4264-bded-41b3b8720f3b",
-						"mode": "once",
-						"asset": "8b70e2c2-bab6-4a93-96c3-b75ad7472831",
-						"delay": 0
-					}
-				]
-			}
-		},
-		"810790f0-7a37-42f8-b78c-3a56fc8b3a64": {
-			"autoHeight": true,
-			"title": "<p>BalbesBunnyStage2<\/p>",
-			"theme": "default",
-			"components": [
-				"cd498e75-e765-42b3-b770-ed8221998ede"
-			],
-			"content": "<p>\u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u041d\u043e\u0432\u043e\u0435. \u041b\u0438. \u0415\u0441\u0442\u044c. \u0421\u0438\u043b\u0443. \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c. \u0414\u0430\u0439. \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439.<\/p>",
-			"outputs": [
-				"860af223-4245-4307-b6cb-1931655d2719"
-			],
-			"assets": {
-				"audio": [
-					{
-						"id": "7c2e4245-efaa-48b0-90af-351410f47e8e",
-						"mode": "once",
-						"asset": "379951f1-9d9b-4825-a13d-d7d54cfd7b52",
-						"delay": 0
-					}
-				]
-			}
-		}
-	},
-	"jumpers": {
-		"3207129a-b07d-45d4-9262-d4fbbc50dda8": {
-			"elementId": "9e987eb7-b04b-4b7f-98b6-135b163860b9",
-			"align": "left",
-			"height": 86,
-			"width": 185
-		},
-		"9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c": {
-			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
-			"align": "left",
-			"height": 86,
-			"width": 185
-		},
-		"0e4b9319-930d-4057-ab5e-c9da63da2e3b": {
-			"elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
-			"height": 86,
-			"width": 185
-		},
-		"64e45f37-84d3-41a0-94fc-49edcef151c7": {
-			"elementId": "0eeec38a-4740-42e0-8d29-78f622295047",
-			"height": 86,
-			"width": 185
-		},
-		"dd804575-a935-4cf1-b96e-e8c5d9c7430e": {
-			"elementId": "42c935c3-572a-4891-8e90-765f45feed34",
-			"height": 86,
-			"width": 185
-		},
-		"9a581919-42a7-4cb2-a7c8-b339ad203425": {
-			"elementId": "efe64a51-37cb-4aa2-a704-3ab7426165b5",
-			"height": 86,
-			"width": 185
-		},
-		"839d505d-70c8-4202-8846-63f8153dd600": {
-			"elementId": "810790f0-7a37-42f8-b78c-3a56fc8b3a64",
-			"height": 86,
-			"width": 185
-		},
-		"7913bad0-f5dd-414c-b7af-82a161d5d49b": {
-			"elementId": "fe2b3804-594a-43f5-9a1d-9270fecbc3ec",
-			"height": 86,
-			"width": 185
-		},
-		"29692c49-19b6-48c5-af78-cdb99e56568a": {
-			"elementId": "f01312f6-7427-4828-8b4e-c459481df447",
-			"align": "left",
-			"height": 86,
-			"width": 185
-		},
-		"e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854": {
-			"elementId": "ae23d8ae-99e0-4376-961f-a52fe1f50e03",
-			"align": "left",
-			"height": 86,
-			"width": 185
-		},
-		"62a129b4-c462-4281-b353-c64d53c18b23": {
-			"elementId": "db9d0090-ab9b-4c3e-a321-fa14632a9789",
-			"height": 86,
-			"width": 185
-		},
-		"2597c65d-3980-403a-82c0-e673b5a58881": {
-			"elementId": "82f517a9-a0d9-44b4-8034-122db8ffd2ed",
-			"align": "left",
-			"height": 86,
-			"width": 185
-		},
-		"31a07d0f-c7c8-4969-b367-5f6b82ceb4f7": {
-			"elementId": "319dff36-46f7-465d-86fd-8b61a7c5cef5",
-			"height": 86,
-			"width": 185
-		},
-		"262476be-cac3-4db6-a149-8e4e40bca860": {
-			"elementId": "50547210-8b59-48c2-b5df-9473f9cf556b",
-			"align": "left",
-			"height": 86,
-			"width": 185
-		},
-		"5a55623e-74f3-4597-a921-c01c40acee1e": {
-			"elementId": "a8c0ed83-084c-462d-890e-c8047eb4913c",
-			"height": 86,
-			"width": 185
-		},
-		"8e08bf74-962e-4a38-ba03-56f2e28e9b87": {
-			"elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
-			"height": 86,
-			"width": 185
-		},
-		"09a5348f-fd89-42aa-aed7-5c2d7f5fa89c": {
-			"elementId": "43a9f53d-85ee-4b4f-a64d-b4d5fe99da61",
-			"height": 86,
-			"width": 185
-		}
-	},
-	"connections": {
-		"cf44183d-642b-4bf6-a777-b279ff52a016": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "0d86be94-d1d0-4a92-87dc-a34fb57b5938",
-			"label": "<p>\u041a\u0430\u043a \u0442\u044b \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u043b \u0441\u0435\u0431\u044f \u0432 \u0442\u0430\u043a\u043e\u0439 \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u0435, \u0441\u0442\u0430\u0440\u0438\u043a?<\/p>",
-			"sourceid": "50547210-8b59-48c2-b5df-9473f9cf556b",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"59c8453e-6997-4632-bda4-6845acb08cc5": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "0d8b8873-254a-4000-bfbe-76c685c72f51",
-			"label": "<p>\u041e\u043a<\/p>",
-			"sourceid": "db9d0090-ab9b-4c3e-a321-fa14632a9789",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"8308b0e8-f0e8-4bb1-a9df-635491f684c8": {
-			"targetType": "jumpers",
-			"type": "Bezier",
-			"targetid": "31a07d0f-c7c8-4969-b367-5f6b82ceb4f7",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "88c983ce-607c-4dcc-af63-169115d0bf41",
-			"theme": "default",
-			"sourceType": "conditions"
-		},
-		"3d5f0d84-979c-4d9b-b10b-603bfb890b2c": {
-			"targetType": "jumpers",
-			"type": "Bezier",
-			"targetid": "29692c49-19b6-48c5-af78-cdb99e56568a",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "14f697c9-91ab-4e7c-ac43-9b25a067c04e",
-			"theme": "default",
-			"sourceType": "conditions"
-		},
-		"5732e265-214d-4578-bd77-ab404c088fa0": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "b33827b3-187a-4c94-b6e9-625c431baaca",
-			"label": "<p>\u041f\u043e\u043d\u044f\u0442\u043d\u043e.<\/p>",
-			"sourceid": "d75ec70d-f697-4984-bd5c-f1e636ec7920",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"ef09ea50-f898-48bc-94ec-4d7570ebd079": {
-			"targetType": "branches",
-			"type": "Bezier",
-			"targetid": "db80d6fd-72b5-41b6-8dd2-4e08c4670836",
-			"label": null,
-			"sourceid": "11eaf2dc-196e-451c-859d-6340cc9d3400",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"43b9ec17-cb37-45f6-8142-abff39b25ab3": {
-			"targetType": "branches",
-			"type": "Bezier",
-			"targetid": "f21923f2-fd89-4a82-afc8-c48ca9697335",
-			"label": null,
-			"sourceid": "9d234f96-5644-4452-b14d-4b92aa713117",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"5e9f91b7-b51a-45bc-8586-7690698a3f49": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "87a29660-5387-4043-81f5-500e3542ae83",
-			"label": "<p>\u041f\u043e\u043d\u044f\u0442\u043d\u043e.<\/p>",
-			"sourceid": "2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"eb5d2345-cd56-4d5d-a1ed-9a1fc65dfae4": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "476317e9-447a-437f-ab23-f9a0675e55ba",
-			"label": "<p>*\u041f\u0440\u043e\u0441\u0442\u0438, \u043f\u0440\u043e\u0441\u0442\u0438, \u043c\u044d\u043c*<\/p>",
-			"sourceid": "1dc0aa88-f9ab-42a4-9132-49c7f7e80b09",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"88f31c30-53ed-404a-9a5d-b489de5d7e14": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "1ccb500e-0894-4fba-a10f-115ea02da8d6",
-			"label": "<p>\u0413\u0440\u043e\u0437\u043d\u043e \u0437\u0432\u0443\u0447\u0438\u0442! \u0422\u044b \u0440\u0435\u043f\u0435\u0442\u0438\u0440\u043e\u0432\u0430\u043b?<\/p>",
-			"sourceid": "e764f094-5428-47fd-a005-a8467a8fdbb3",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"eb3b4cab-5a13-480f-bb2a-308cf40a3842": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "d75ec70d-f697-4984-bd5c-f1e636ec7920",
-			"label": "<p>\u041c?<\/p>",
-			"sourceid": "319dff36-46f7-465d-86fd-8b61a7c5cef5",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"6770c611-1752-4604-baf7-fde478792053": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "555427e9-7b35-426f-ac33-8787e76f0266",
-			"targetid": "0e4b9319-930d-4057-ab5e-c9da63da2e3b",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"185d46f7-a5c3-4c49-b70c-e446757aebf7": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "9c1d5bbe-bd5c-4ed1-b0c1-0e3b1eab579a",
-			"targetid": "2597c65d-3980-403a-82c0-e673b5a58881",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"f4f2ff14-5448-4ecb-9f05-bc1f3535cf18": {
-			"sourceType": "elements",
-			"label": null,
-			"sourceid": "207a9ec7-e139-4356-a596-1c90793c120e",
-			"targetid": "163da1be-eeb9-4676-9b7a-cc1aa9eeb48f",
-			"targetFace": "left",
-			"targetType": "branches",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"5ecbb20b-2caf-46d4-aef7-8b0a80c0c4a4": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "8379b77e-0d13-4df5-98af-b5fc34bd7a31",
-			"label": "<p>\u041f\u043e\u043d\u044f\u0442\u043d\u043e.<\/p>",
-			"sourceid": "0d8b8873-254a-4000-bfbe-76c685c72f51",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"b7f61bd2-91d6-47e1-9b6b-02e6a5138789": {
-			"targetType": "jumpers",
-			"type": "Bezier",
-			"targetid": "9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "dc3c416a-528e-4859-9a0a-5cb57a2e5ecb",
-			"theme": "default",
-			"sourceType": "conditions"
-		},
-		"588f06fd-c610-400c-9742-30a064ca3982": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "dc6bcaeb-94b6-46a4-b29c-3d97d7615d17",
-			"label": "<p>\u0421 \u0442\u0430\u043a\u043e\u0439 \u0440\u0435\u0448\u0438\u043c\u043e\u0441\u0442\u044c\u044e \u0443 \u0442\u0435\u0431\u044f \u0442\u043e\u0447\u043d\u043e \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0441\u044f!<\/p>",
-			"sourceid": "a208d384-1d73-4b59-9ed8-e7c14ca76e61",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"a471b6f2-c3c7-4fc0-910e-e118e3eb4021": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "736b265f-ce79-4dfa-9720-9fb5084e6ab3",
-			"label": "<p>\u0422\u044b \u0436\u0435 \u043f\u0440\u043e \u0441\u0432\u0435\u0447\u0438, \u0434\u0430?<\/p>",
-			"sourceid": "c966d4ef-7b31-4917-b6c5-baf20edeed0a",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"3bd2c591-02bf-4cd7-bfa2-686e8b2a3087": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "72b11dee-03e5-45ec-bba5-142f0654a0c2",
-			"label": "<p>\u041e, \u044d\u0442\u043e \u043f\u0440\u044f\u043c\u043e \u0438\u0437 \u043a\u043d\u0438\u0433\u0438 \u043c\u0443\u0434\u0440\u0435\u0446\u043e\u0432?<\/p>",
-			"sourceid": "4cf67560-1576-4320-9f49-8c2ad70ab991",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"ddfa02b6-d20c-44f8-929a-800cea12f693": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "f3153c4b-3515-4563-8afb-15b64f791115",
-			"label": "<p>\u041f\u0440\u043e\u0441\u0442\u0438, \u044f \u043f\u0440\u043e\u0441\u0442\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u044e \u0442\u0432\u043e\u044e \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u044c!<\/p>",
-			"sourceid": "1ccb500e-0894-4fba-a10f-115ea02da8d6",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"860af223-4245-4307-b6cb-1931655d2719": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "4a843e1d-e9a1-4405-bc48-d0c607119c37",
-			"label": "<p>\u0421\u0435\u0439\u0447\u0430\u0441, \u043f\u043e\u0438\u0449\u0443 \u0447\u0442\u043e-\u0442\u043e \u0434\u043b\u044f \u0442\u0435\u0431\u044f.<\/p>",
-			"sourceid": "810790f0-7a37-42f8-b78c-3a56fc8b3a64",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"baf3dbe0-3f25-4389-8ded-6c5d0644784b": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "8c82e62a-bcb8-432a-9318-a59c9c074d03",
-			"targetid": "09a5348f-fd89-42aa-aed7-5c2d7f5fa89c",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"bbc58698-a780-4b53-b572-77f59b451415": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "dc427201-9102-44c8-80a9-660225a4de89",
-			"targetid": "9a581919-42a7-4cb2-a7c8-b339ad203425",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"f7b63508-fa7b-45d5-80be-a18b2e7cb698": {
-			"sourceType": "conditions",
-			"label": "<p>Hello my deer friend<\/p>",
-			"sourceid": "1a91266e-e7d2-4571-bd7f-1272222927fc",
-			"targetid": "7913bad0-f5dd-414c-b7af-82a161d5d49b",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"1a49514e-4060-4eca-8b3a-2e7712fea995": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "4aef22a1-a73b-4576-8d62-22c27c1d07b1",
-			"label": "<p>\u0422\u0430\u043a \u0442\u044b \u043f\u0440\u043e\u0441\u0442\u043e \u0430\u043b\u043a\u043e\u0433\u043e\u043b\u0438\u043a, \u0441\u0442\u0430\u0440\u0438\u043a..<\/p>",
-			"sourceid": "0d86be94-d1d0-4a92-87dc-a34fb57b5938",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"d3245450-0e13-40d6-bc38-4fc32e85d395": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "14011cbd-2ee3-4606-8c75-0692d2e2c4b2",
-			"label": "<p>*\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u043d\u0435 \u043c\u0435\u0448\u0430\u0435\u0448\u044c, \u0432\u0438\u0436\u0443, \u0442\u044b \u0432\u043e\u043b\u043d\u0443\u0435\u0448\u044c\u0441\u044f, \u0445\u043e\u0447\u0435\u0448\u044c \u0447\u0430\u0439?*<\/p>",
-			"sourceid": "43a9f53d-85ee-4b4f-a64d-b4d5fe99da61",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"996e95f1-fdab-44eb-ade0-3417c19d2e5d": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "23203bc2-306d-437a-9fbd-9585d71bcf76",
-			"targetid": "839d505d-70c8-4202-8846-63f8153dd600",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"ef5e4c27-ff08-45f9-83e2-43aa5ffc675d": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "1acfd194-cbd0-48a9-a936-f900a379cc07",
-			"targetid": "8e08bf74-962e-4a38-ba03-56f2e28e9b87",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"fcc1a2d6-3209-4238-8650-a53b3f2c343a": {
-			"sourceType": "elements",
-			"label": null,
-			"sourceid": "889f6461-b74e-4500-94cd-fe4587a59037",
-			"targetid": "13213c2a-f685-4e71-896f-ff8f152d80a1",
-			"targetFace": "left",
-			"targetType": "branches",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"6458c5e2-4ff2-48c5-bf64-36ce3c487ab0": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "24758ab0-2df8-431f-8df7-df6a251dfdcb",
-			"label": "<p>\u041e\u0433\u043e, \u0442\u0435\u0431\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u043b\u044f \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u043e\u0432?<\/p>",
-			"sourceid": "82f517a9-a0d9-44b4-8034-122db8ffd2ed",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"10a5b9dd-2963-4c75-8d9d-2c45164b236b": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "1a563a93-6786-4aa6-9ead-6fe3334762a2",
-			"label": "<p>*\u0422\u0430\u043a\u043e\u0433\u043e \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442\u044c \u043d\u0435 \u043c\u043e\u0433\u0443....*<\/p>",
-			"sourceid": "14011cbd-2ee3-4606-8c75-0692d2e2c4b2",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"4978bc95-3f3d-4362-881b-a717c7d093a7": {
-			"targetType": "jumpers",
-			"type": "Bezier",
-			"targetid": "dd804575-a935-4cf1-b96e-e8c5d9c7430e",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "976b0c41-fc25-440d-ac33-1584787a8bc4",
-			"theme": "default",
-			"sourceType": "conditions"
-		},
-		"74cbf066-e838-4c00-ae4f-e01061e09743": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "c44473e4-2085-45ab-8d78-e50367a9fbc7",
-			"targetid": "e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"549e34fc-4b01-4df0-8cd7-0b119cc6dd7e": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "4cbfcef0-71bb-44e7-8bfb-11ecc50c2d92",
-			"label": "<p>\u041d\u0435 \u0441\u0430\u0445\u0430\u0440\u043d\u044b\u0439 - \u043d\u0435 \u0440\u0430\u0441\u0442\u0430\u0435\u0448\u044c.<\/p>",
-			"sourceid": "4a843e1d-e9a1-4405-bc48-d0c607119c37",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"144ed5a8-f987-4d54-9c48-b4deaad3dd83": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "17c39ec7-7e17-4292-bcc0-c8f709cac414",
-			"label": "<p>*\u041d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u043f\u043e\u0439\u043c\u0443 \u044e\u043d\u044b\u0445 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u043e\u0440\u043e\u0432..*<\/p>",
-			"sourceid": "64762737-ced9-410d-8698-1ac8c56a1b37",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"256edef4-8202-4712-8e89-ed1bcdd6e576": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "1dc0aa88-f9ab-42a4-9132-49c7f7e80b09",
-			"label": "<p>*\u0414\u0430\u0432\u043d\u043e \u043e\u0442 \u0442\u0435\u0431\u044f \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b..\u043e\u0439*<\/p>",
-			"sourceid": "9e987eb7-b04b-4b7f-98b6-135b163860b9",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"57e910f2-2cbe-4db2-8e23-2dd2ad6316f3": {
-			"sourceType": "elements",
-			"label": null,
-			"sourceid": "5ddaa37a-cb4a-4317-8739-441cd553565a",
-			"targetid": "d71c7af8-0bcd-486d-8e7d-f821360d7042",
-			"targetFace": "left",
-			"targetType": "branches",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"3086a327-6c44-4241-b609-f2c042a2f337": {
-			"targetType": "jumpers",
-			"type": "Bezier",
-			"targetid": "3207129a-b07d-45d4-9262-d4fbbc50dda8",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "9b50a12a-0150-46f7-b8e7-2310a522032f",
-			"theme": "default",
-			"sourceType": "conditions"
-		},
-		"02cb1cf2-9d0a-4a6f-b554-fe1f91fa24a7": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "3d81c9d4-d7a9-4093-ac1a-5a560d8a8082",
-			"targetid": "64e45f37-84d3-41a0-94fc-49edcef151c7",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"bc9f2c2d-750e-4fc9-bed1-28064e3fb228": {
-			"targetType": "jumpers",
-			"type": "Bezier",
-			"targetid": "262476be-cac3-4db6-a149-8e4e40bca860",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "9dc347bb-c318-4675-a9ef-1592b1b2b9f2",
-			"theme": "default",
-			"sourceType": "conditions"
-		},
-		"b436547d-f627-460c-81c8-044d5ea2095e": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "64762737-ced9-410d-8698-1ac8c56a1b37",
-			"label": "<p>*\u041a\u0430\u043a \u0433\u043e\u0432\u043e\u0440\u0438\u0442 \u043c\u043e\u043b\u043e\u0434\u0435\u0436\u044c, \u0447\u0435 \u043a\u0430\u0432\u043e?*<\/p>",
-			"sourceid": "a8c0ed83-084c-462d-890e-c8047eb4913c",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"f4a18bdc-14cb-4342-8207-eb2761e25937": {
-			"targetType": "branches",
-			"type": "Bezier",
-			"targetid": "19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b",
-			"label": null,
-			"sourceid": "1e352a41-0707-4a25-9658-59364597e746",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"a13e2cf2-85e0-45e7-ac44-246650caa467": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "a54a5bd7-400a-4b5f-9528-a34a11d7d2ab",
-			"targetid": "62a129b4-c462-4281-b353-c64d53c18b23",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"ecee632e-fc02-4d92-801b-c98b6938b4d0": {
-			"sourceType": "conditions",
-			"label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! <\/p>",
-			"sourceid": "b4ae7bcb-6b64-4014-a76b-5f7e455e4db3",
-			"targetid": "5a55623e-74f3-4597-a921-c01c40acee1e",
-			"targetFace": "left",
-			"targetType": "jumpers",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"ba3c60cf-c262-4547-89df-3344db2cb452": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "1f5028ee-e2f9-462e-9430-480ae27e5a5c",
-			"label": "<p>\u041d\u0435 \u0437\u0430\u0431\u0438\u0432\u0430\u0439 \u0441\u0435\u0431\u0435 \u0433\u043e\u043b\u043e\u0432\u0443, \u0438\u043b\u0438 \u0447\u0442\u043e \u0442\u0430\u043c \u0443 \u0442\u0435\u0431\u044f.<\/p>",
-			"sourceid": "24758ab0-2df8-431f-8df7-df6a251dfdcb",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"4691a918-f73c-428d-83d9-6d2a6a2130d0": {
-			"sourceType": "elements",
-			"label": "<p>\u0423\u0432\u0435\u0440\u0435\u043d, \u043f\u0440\u0430\u0432\u0434\u0430 \u043d\u0430 \u0442\u0432\u043e\u0435\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u0435... \u0438\u043b\u0438 \u043d\u0435\u0442?<\/p>",
-			"sourceid": "72b11dee-03e5-45ec-bba5-142f0654a0c2",
-			"targetid": "f80f1d4e-4798-4dfc-bcb1-a1c3040a2761",
-			"targetFace": "left",
-			"targetType": "elements",
-			"theme": "default",
-			"type": "Bezier"
-		},
-		"95d1f46a-9c7d-4029-8c7f-2ac8f6e85c5b": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "a208d384-1d73-4b59-9ed8-e7c14ca76e61",
-			"label": "<p>\u041e\u0433\u043e, \u0430 \u0442\u044b \u043d\u0435 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0441\u0435\u0440\u044c\u0435\u0437\u0435\u043d \u0441\u0435\u0433\u043e\u0434\u043d\u044f?<\/p>",
-			"sourceid": "0eeec38a-4740-42e0-8d29-78f622295047",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"0bf70d1b-adeb-4b09-9102-1339f04c8ea1": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "c966d4ef-7b31-4917-b6c5-baf20edeed0a",
-			"label": "<p>\u0415\u0441\u0442\u044c \u043a\u0430\u043a\u0438\u0435-\u0442\u043e \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u044f \u043f\u043e \u043a\u0432\u0435\u0441\u0442\u0443?<\/p>",
-			"sourceid": "42c935c3-572a-4891-8e90-765f45feed34",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"574e341c-5990-4fcf-8fdd-5a774aca5a5d": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "91f95772-15db-492b-b481-49758c7a6369",
-			"label": "<p>\u0421\u043b\u044b\u0448\u0438\u0442\u0441\u044f, \u0431\u0443\u0434\u0442\u043e \u0442\u044b \u0433\u043e\u0442\u043e\u0432 \u043a \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044e. \u041a\u0430\u043a\u0438\u0435 \u043f\u043b\u0430\u043d\u044b \u043d\u0430 \u0441\u0435\u0433\u043e\u0434\u043d\u044f?<\/p>",
-			"sourceid": "f01312f6-7427-4828-8b4e-c459481df447",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"3b71ba40-690d-4521-a268-06c21fb1a171": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "19d313f5-95a7-4ee4-897a-0fdbd1e66a63",
-			"label": "<p>\u041d\u043e \u043f\u043e\u043c\u043d\u0438, \u0447\u0442\u043e \u0443 \u043a\u0430\u0436\u0434\u043e\u0439 \u0434\u0443\u044d\u043b\u0438 \u0435\u0441\u0442\u044c \u0441\u0432\u043e\u044f \u0446\u0435\u043d\u0430.<\/p>",
-			"sourceid": "91f95772-15db-492b-b481-49758c7a6369",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"54809dac-adf3-4c8f-83eb-13d595b175fc": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "4786f511-9f3d-4d71-aa7e-550b9170030b",
-			"label": "<p>\u0422\u0435\u0431\u0435 \u043f\u0440\u043e\u0441\u0442\u043e \u043d\u0443\u0436\u043d\u043e \u043f\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u043d\u0430\u0434 \u0441\u0432\u043e\u0435\u0439 \u0440\u0435\u043f\u0443\u0442\u0430\u0446\u0438\u0435\u0439, \u0434\u0440\u0443\u0436\u0438\u0449\u0435.<\/p>",
-			"sourceid": "fe2b3804-594a-43f5-9a1d-9270fecbc3ec",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"a7fc745a-dcb1-43ac-923d-0b929570d380": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "b65f0c76-41c8-4751-8e77-477ca70c6d42",
-			"label": "<p>\u041b\u0430\u0434\u043d\u043e, \u043b\u0430\u0434\u043d\u043e - \u043d\u0435 \u0431\u0443\u0445\u0442\u0438. \u0417\u0434\u0435\u0441\u044c \u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0434\u043b\u044f \u0442\u0435\u0431\u044f  \u0432\u0441\u0435\u0433\u0434\u0430 \u043d\u0430\u0439\u0434\u0435\u0442\u0441\u044f.<\/p>",
-			"sourceid": "4786f511-9f3d-4d71-aa7e-550b9170030b",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"8e14568c-7b24-4d39-8a7f-a005d5514575": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "2723f7c0-3be2-428a-acdc-b2fbabff70e7",
-			"label": "<p>\u0422\u044b \u0447\u0442\u043e, \u0432 \u043a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u043e\u043f\u0435\u0440\u0443 \u043f\u043e\u0434\u0430\u043b\u0441\u044f? \u041a\u0430\u0436\u0435\u0442\u0441\u044f, \u0442\u0435\u0431\u0435 \u043d\u0443\u0436\u0435\u043d \u0440\u0435\u043f\u0435\u0442\u0438\u0442\u043e\u0440 \u043f\u043e \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0438 \u0441\u043b\u043e\u0432!<\/p>",
-			"sourceid": "efe64a51-37cb-4aa2-a704-3ab7426165b5",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"af5872de-28b5-4eca-8d1a-8713faf571a2": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "1edc40be-5d36-4454-8f2f-1547a10bc277",
-			"label": "<p>\u0423\u0436\u0435 \u0438\u0449\u0443, \u043f\u043e\u043a\u0430 \u043f\u044b\u0442\u0430\u044e\u0441\u044c \u043d\u0435 \u0443\u0441\u043d\u0443\u0442\u044c \u043e\u0442 \u0442\u0432\u043e\u0438\u0445 \u0438\u0441\u0442\u043e\u0440\u0438\u0439.<\/p>",
-			"sourceid": "2723f7c0-3be2-428a-acdc-b2fbabff70e7",
-			"theme": "default",
-			"sourceType": "elements"
-		},
-		"0bab01c0-78d4-4333-9158-a2159d94955d": {
-			"targetType": "elements",
-			"type": "Bezier",
-			"targetid": "2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46",
-			"label": "<p>\u0422\u0435\u0431\u0435 \u0441\u043e\u0432\u0441\u0435\u043c \u043d\u0435 \u043e\u0445\u043e\u0442\u0430 \u0441\u043e \u043c\u043d\u043e\u0439 \u0440\u0430\u0437\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0442\u044c?<\/p>",
-			"sourceid": "ae23d8ae-99e0-4376-961f-a52fe1f50e03",
-			"theme": "default",
-			"sourceType": "elements"
-		}
-	},
-	"branches": {
-		"163da1be-eeb9-4676-9b7a-cc1aa9eeb48f": {
-			"conditions": {
-				"ifCondition": "9c1d5bbe-bd5c-4ed1-b0c1-0e3b1eab579a",
-				"elseIfConditions": [
-					"23203bc2-306d-437a-9fbd-9585d71bcf76"
-				],
-				"elseCondition": "976b0c41-fc25-440d-ac33-1584787a8bc4"
-			},
-			"theme": "default"
-		},
-		"2c722db9-af7a-43bc-a058-84594a0403e0": {
-			"conditions": {
-				"ifCondition": "74145cb7-885c-4af9-a7e3-7f8948f6d6e6"
-			},
-			"theme": "default"
-		},
-		"1128f4b6-3a7c-46a1-ba08-cc660251de24": {
-			"conditions": {
-				"ifCondition": "bac592ce-bf60-433c-ba63-542c6c51887d"
-			},
-			"theme": "default"
-		},
-		"13213c2a-f685-4e71-896f-ff8f152d80a1": {
-			"conditions": {
-				"ifCondition": "dc3c416a-528e-4859-9a0a-5cb57a2e5ecb",
-				"elseIfConditions": [
-					"555427e9-7b35-426f-ac33-8787e76f0266"
-				],
-				"elseCondition": "3d81c9d4-d7a9-4093-ac1a-5a560d8a8082"
-			},
-			"theme": "default"
-		},
-		"f21923f2-fd89-4a82-afc8-c48ca9697335": {
-			"conditions": {
-				"ifCondition": "14f697c9-91ab-4e7c-ac43-9b25a067c04e",
-				"elseCondition": "dc427201-9102-44c8-80a9-660225a4de89",
-				"elseIfConditions": [
-					"1a91266e-e7d2-4571-bd7f-1272222927fc"
-				]
-			},
-			"theme": "default"
-		},
-		"d71c7af8-0bcd-486d-8e7d-f821360d7042": {
-			"conditions": {
-				"ifCondition": "c44473e4-2085-45ab-8d78-e50367a9fbc7",
-				"elseIfConditions": [
-					"a54a5bd7-400a-4b5f-9528-a34a11d7d2ab"
-				],
-				"elseCondition": "88c983ce-607c-4dcc-af63-169115d0bf41"
-			},
-			"theme": "default"
-		},
-		"19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b": {
-			"conditions": {
-				"ifCondition": "9dc347bb-c318-4675-a9ef-1592b1b2b9f2",
-				"elseCondition": "1acfd194-cbd0-48a9-a936-f900a379cc07"
-			},
-			"theme": "default"
-		},
-		"db80d6fd-72b5-41b6-8dd2-4e08c4670836": {
-			"conditions": {
-				"ifCondition": "9b50a12a-0150-46f7-b8e7-2310a522032f",
-				"elseCondition": "b4ae7bcb-6b64-4014-a76b-5f7e455e4db3",
-				"elseIfConditions": [
-					"8c82e62a-bcb8-432a-9318-a59c9c074d03"
-				]
-			},
-			"theme": "default"
-		}
-	},
-	"components": {
-		"65005bda-15d0-41c5-867f-68c118829f08": {
-			"name": "Root",
-			"root": true,
-			"children": [
-				"6d995b59-b9b5-4d78-bb96-e6d59592090a",
-				"feac8f11-3d9f-4cba-875d-0e835fdff992",
-				"13a761c5-3d22-4661-8743-79b6a767d202",
-				"cef2765c-ad8f-4af3-ae94-d32d5a525de4",
-				"b4882d23-cb36-47b2-a543-7e1129f6a4be",
-				"cd498e75-e765-42b3-b770-ed8221998ede",
-				"b5d43f8f-f59e-4ab0-ad44-e3ad7d038827"
-			]
-		},
-		"6d995b59-b9b5-4d78-bb96-e6d59592090a": {
-			"name": "Xx_StarKiller_xX",
-			"attributes": [],
-			"assets": {
-				"cover": {
-					"file": "delapouite\/magic-axe",
-					"type": "icon"
-				}
-			}
-		},
-		"feac8f11-3d9f-4cba-875d-0e835fdff992": {
-			"name": "HeadHunterJimmy",
-			"attributes": [],
-			"assets": {
-				"cover": {
-					"file": "delapouite\/revolver",
-					"type": "icon"
-				}
-			}
-		},
-		"13a761c5-3d22-4661-8743-79b6a767d202": {
-			"name": "Vlad3000",
-			"attributes": [],
-			"assets": {
-				"cover": {
-					"file": "lorc\/fragmented-sword",
-					"type": "icon"
-				}
-			}
-		},
-		"cef2765c-ad8f-4af3-ae94-d32d5a525de4": {
-			"name": "ArcaneWizarder",
-			"attributes": [],
-			"assets": {
-				"cover": {
-					"file": "delapouite\/wizard-face",
-					"type": "icon"
-				}
-			}
-		},
-		"b4882d23-cb36-47b2-a543-7e1129f6a4be": {
-			"name": "WorldA$$a$$in",
-			"attributes": [],
-			"assets": {
-				"cover": {
-					"file": "delapouite\/butterfly-knife",
-					"type": "icon"
-				}
-			}
-		},
-		"cd498e75-e765-42b3-b770-ed8221998ede": {
-			"name": "BalbesBunny",
-			"attributes": [],
-			"assets": {
-				"cover": {
-					"file": "lorc\/brain",
-					"type": "icon"
-				}
-			}
-		},
-		"b5d43f8f-f59e-4ab0-ad44-e3ad7d038827": {
-			"name": "GraveCompany",
-			"attributes": [],
-			"assets": {
-				"cover": {
-					"file": "lorc\/pirate-grave",
-					"type": "icon"
-				}
-			}
-		}
-	},
-	"attributes": {},
-	"assets": {
-		"647d0495-341f-42b2-8788-b47dace22bf8": {
-			"root": true,
-			"children": [
-				"064cda3a-d283-4632-acf8-d591c33764aa",
-				"618d2177-7ccc-420e-978c-ee1447288145",
-				"eea271f4-08ca-4632-80e2-524890a56e2a",
-				"8b70e2c2-bab6-4a93-96c3-b75ad7472831",
-				"379951f1-9d9b-4825-a13d-d7d54cfd7b52",
-				"7fbb54ee-4c7f-4066-9b93-b9efb71983dc",
-				"21965103-6a7a-44a6-8290-c90ffa94ff53",
-				"76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd",
-				"2bc37151-b8f5-49e9-8b50-5d26976c36fb",
-				"fdcc323e-5e47-4338-b7aa-547379496e89"
-			]
-		},
-		"064cda3a-d283-4632-acf8-d591c33764aa": {
-			"type": "audio",
-			"name": "1000 Eyes \u2014 Signalis \u2014 Ariane's Theme (www.lightaudio.ru).mp3",
-			"volume": 1
-		},
-		"eea271f4-08ca-4632-80e2-524890a56e2a": {
-			"type": "audio",
-			"name": "cake2.wav",
-			"volume": 1
-		},
-		"7fbb54ee-4c7f-4066-9b93-b9efb71983dc": {
-			"type": "audio",
-			"name": "cake5.wav",
-			"volume": 1
-		},
-		"618d2177-7ccc-420e-978c-ee1447288145": {
-			"type": "audio",
-			"name": "cake1.wav",
-			"volume": 1
-		},
-		"8b70e2c2-bab6-4a93-96c3-b75ad7472831": {
-			"type": "audio",
-			"name": "cake3.wav",
-			"volume": 1
-		},
-		"21965103-6a7a-44a6-8290-c90ffa94ff53": {
-			"type": "audio",
-			"name": "cake6.wav",
-			"volume": 1
-		},
-		"379951f1-9d9b-4825-a13d-d7d54cfd7b52": {
-			"type": "audio",
-			"name": "cake4.wav",
-			"volume": 1
-		},
-		"76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd": {
-			"type": "audio",
-			"name": "cake7.wav",
-			"volume": 1
-		},
-		"2bc37151-b8f5-49e9-8b50-5d26976c36fb": {
-			"type": "audio",
-			"name": "cake8.wav",
-			"volume": 1
-		},
-		"fdcc323e-5e47-4338-b7aa-547379496e89": {
-			"type": "audio",
-			"name": "cake9.wav",
-			"volume": 1
-		}
-	},
-	"variables": {
-		"747d0495-341f-42b2-8788-b47dace22bf8": {
-			"root": true,
-			"children": [
-				"b89e9390-42c0-4e45-83b1-8ef099466934",
-				"672d669f-031e-4ebc-afa2-f8535ac816f3",
-				"72db83d2-07a0-4c66-b108-7e81a81b41ba",
-				"98ed457c-e34e-4000-bb8b-179fe7b81468",
-				"592c7868-a6db-4282-883a-287394bdc98f",
-				"e4f40211-d61d-4b99-9008-c532ef00d309",
-				"f9c86fb4-44fa-4963-b042-746dd7380365",
-				"70b4f9b8-ea72-4b9c-8323-e759d3ccac16",
-				"77b4cc27-a1b5-4a71-89d3-04a1d559965d",
-				"8a32d682-02b5-4896-891c-119107f03b46",
-				"b4f66db9-55d9-4095-bc8c-16aab2f783a3",
-				"829dc667-53ae-4723-af2c-d7fa577d2e75",
-				"e69a0595-0800-43b2-9ea0-c57d0778b0d5"
-			]
-		},
-		"b89e9390-42c0-4e45-83b1-8ef099466934": {
-			"type": "integer",
-			"name": "audio",
-			"value": 0
-		},
-		"672d669f-031e-4ebc-afa2-f8535ac816f3": {
-			"type": "integer",
-			"name": "starkiller_stage",
-			"value": 0
-		},
-		"72db83d2-07a0-4c66-b108-7e81a81b41ba": {
-			"type": "integer",
-			"name": "headhunter_stage",
-			"value": 0
-		},
-		"98ed457c-e34e-4000-bb8b-179fe7b81468": {
-			"type": "integer",
-			"name": "vlad_stage",
-			"value": 0
-		},
-		"592c7868-a6db-4282-883a-287394bdc98f": {
-			"type": "integer",
-			"name": "wizard_stage",
-			"value": 0
-		},
-		"e4f40211-d61d-4b99-9008-c532ef00d309": {
-			"type": "integer",
-			"name": "assassin_stage",
-			"value": 0
-		},
-		"f9c86fb4-44fa-4963-b042-746dd7380365": {
-			"type": "integer",
-			"name": "balbes_stage",
-			"value": 0
-		},
-		"70b4f9b8-ea72-4b9c-8323-e759d3ccac16": {
-			"type": "integer",
-			"name": "starkiller_death",
-			"value": 0
-		},
-		"77b4cc27-a1b5-4a71-89d3-04a1d559965d": {
-			"type": "integer",
-			"name": "headhunter_death",
-			"value": 0
-		},
-		"8a32d682-02b5-4896-891c-119107f03b46": {
-			"type": "integer",
-			"name": "vlad_death",
-			"value": 0
-		},
-		"b4f66db9-55d9-4095-bc8c-16aab2f783a3": {
-			"type": "integer",
-			"name": "wizard_death",
-			"value": 0
-		},
-		"829dc667-53ae-4723-af2c-d7fa577d2e75": {
-			"type": "integer",
-			"name": "assassin_death",
-			"value": 0
-		},
-		"e69a0595-0800-43b2-9ea0-c57d0778b0d5": {
-			"type": "integer",
-			"name": "bables_death",
-			"value": 0
-		}
-	},
-	"conditions": {
-		"976b0c41-fc25-440d-ac33-1584787a8bc4": {
-			"script": null,
-			"output": "4978bc95-3f3d-4362-881b-a717c7d093a7"
-		},
-		"74145cb7-885c-4af9-a7e3-7f8948f6d6e6": {
-			"script": null,
-			"output": null
-		},
-		"bac592ce-bf60-433c-ba63-542c6c51887d": {
-			"script": null,
-			"output": null
-		},
-		"23203bc2-306d-437a-9fbd-9585d71bcf76": {
-			"script": "balbes_stage == 1",
-			"output": "996e95f1-fdab-44eb-ade0-3417c19d2e5d"
-		},
-		"9c1d5bbe-bd5c-4ed1-b0c1-0e3b1eab579a": {
-			"script": "balbes_stage == 0",
-			"output": "185d46f7-a5c3-4c49-b70c-e446757aebf7"
-		},
-		"dc3c416a-528e-4859-9a0a-5cb57a2e5ecb": {
-			"script": "starkiller_stage == 0",
-			"output": "b7f61bd2-91d6-47e1-9b6b-02e6a5138789"
-		},
-		"555427e9-7b35-426f-ac33-8787e76f0266": {
-			"script": "starkiller_stage == 1",
-			"output": "6770c611-1752-4604-baf7-fde478792053"
-		},
-		"8c82e62a-bcb8-432a-9318-a59c9c074d03": {
-			"script": "assassin_stage == 1",
-			"output": "baf3dbe0-3f25-4389-8ded-6c5d0644784b"
-		},
-		"3d81c9d4-d7a9-4093-ac1a-5a560d8a8082": {
-			"script": null,
-			"output": "02cb1cf2-9d0a-4a6f-b554-fe1f91fa24a7"
-		},
-		"dc427201-9102-44c8-80a9-660225a4de89": {
-			"script": null,
-			"output": "bbc58698-a780-4b53-b572-77f59b451415"
-		},
-		"1acfd194-cbd0-48a9-a936-f900a379cc07": {
-			"script": null,
-			"output": "ef5e4c27-ff08-45f9-83e2-43aa5ffc675d"
-		},
-		"1a91266e-e7d2-4571-bd7f-1272222927fc": {
-			"script": "headhunter_stage == 1",
-			"output": "f7b63508-fa7b-45d5-80be-a18b2e7cb698"
-		},
-		"14f697c9-91ab-4e7c-ac43-9b25a067c04e": {
-			"script": "headhunter_stage == 0",
-			"output": "3d5f0d84-979c-4d9b-b10b-603bfb890b2c"
-		},
-		"88c983ce-607c-4dcc-af63-169115d0bf41": {
-			"script": null,
-			"output": "8308b0e8-f0e8-4bb1-a9df-635491f684c8"
-		},
-		"a54a5bd7-400a-4b5f-9528-a34a11d7d2ab": {
-			"script": "vlad_stage == 1",
-			"output": "a13e2cf2-85e0-45e7-ac44-246650caa467"
-		},
-		"b4ae7bcb-6b64-4014-a76b-5f7e455e4db3": {
-			"script": null,
-			"output": "ecee632e-fc02-4d92-801b-c98b6938b4d0"
-		},
-		"c44473e4-2085-45ab-8d78-e50367a9fbc7": {
-			"script": "vlad_stage  == 0",
-			"output": "74cbf066-e838-4c00-ae4f-e01061e09743"
-		},
-		"9dc347bb-c318-4675-a9ef-1592b1b2b9f2": {
-			"script": "wizard_stage == 0",
-			"output": "bc9f2c2d-750e-4fc9-bed1-28064e3fb228"
-		},
-		"9b50a12a-0150-46f7-b8e7-2310a522032f": {
-			"script": "assassin_stage == 0",
-			"output": "3086a327-6c44-4241-b609-f2c042a2f337"
-		}
-	},
-	"name": "Untitled project",
-	"cover": null
+    "startingElement": null,
+    "boards": {
+        "2ad15ff6-f2ba-4f1d-9d9d-68938c683d7e": {
+            "name": "Root",
+            "root": true,
+            "children": [
+                "630fdb8a-48d6-473e-9974-2460f7eb2b41",
+                "afd5a114-dd6d-4371-a361-0499b352acc4",
+                "852533e8-dbef-422a-9225-86adeb6b8e61",
+                "9b827445-1dea-44ba-bbb6-8a9613893fa8",
+                "c6ddcad0-aaae-42c6-a01b-a3ef8866f378",
+                "0c1dcba4-ec01-4acc-8512-ee9ec997d3ac",
+                "024e83b0-4c36-4ab6-9bd5-dd7e937e76d7",
+                "b5a0e42f-8c92-4ee3-bee4-f0834deec712"
+            ]
+        },
+        "630fdb8a-48d6-473e-9974-2460f7eb2b41": {
+            "name": "Main Board",
+            "notes": [
+                "3c616f3c-c25a-4861-bbf0-0c5d9e7406e3"
+            ],
+            "jumpers": [
+                "9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c",
+                "0e4b9319-930d-4057-ab5e-c9da63da2e3b",
+                "64e45f37-84d3-41a0-94fc-49edcef151c7",
+                "29692c49-19b6-48c5-af78-cdb99e56568a",
+                "7913bad0-f5dd-414c-b7af-82a161d5d49b",
+                "9a581919-42a7-4cb2-a7c8-b339ad203425",
+                "e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854",
+                "62a129b4-c462-4281-b353-c64d53c18b23",
+                "31a07d0f-c7c8-4969-b367-5f6b82ceb4f7",
+                "262476be-cac3-4db6-a149-8e4e40bca860",
+                "8e08bf74-962e-4a38-ba03-56f2e28e9b87",
+                "3207129a-b07d-45d4-9262-d4fbbc50dda8",
+                "09a5348f-fd89-42aa-aed7-5c2d7f5fa89c",
+                "5a55623e-74f3-4597-a921-c01c40acee1e",
+                "2597c65d-3980-403a-82c0-e673b5a58881",
+                "839d505d-70c8-4202-8846-63f8153dd600",
+                "dd804575-a935-4cf1-b96e-e8c5d9c7430e"
+            ],
+            "branches": [
+                "13213c2a-f685-4e71-896f-ff8f152d80a1",
+                "f21923f2-fd89-4a82-afc8-c48ca9697335",
+                "19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b",
+                "db80d6fd-72b5-41b6-8dd2-4e08c4670836",
+                "1128f4b6-3a7c-46a1-ba08-cc660251de24",
+                "2c722db9-af7a-43bc-a058-84594a0403e0",
+                "163da1be-eeb9-4676-9b7a-cc1aa9eeb48f",
+                "d71c7af8-0bcd-486d-8e7d-f821360d7042"
+            ],
+            "elements": [
+                "889f6461-b74e-4500-94cd-fe4587a59037",
+                "9d234f96-5644-4452-b14d-4b92aa713117",
+                "5ddaa37a-cb4a-4317-8739-441cd553565a",
+                "1e352a41-0707-4a25-9658-59364597e746",
+                "11eaf2dc-196e-451c-859d-6340cc9d3400",
+                "207a9ec7-e139-4356-a596-1c90793c120e"
+            ],
+            "connections": [
+                "b7f61bd2-91d6-47e1-9b6b-02e6a5138789",
+                "6770c611-1752-4604-baf7-fde478792053",
+                "02cb1cf2-9d0a-4a6f-b554-fe1f91fa24a7",
+                "43b9ec17-cb37-45f6-8142-abff39b25ab3",
+                "ef09ea50-f898-48bc-94ec-4d7570ebd079",
+                "fcc1a2d6-3209-4238-8650-a53b3f2c343a",
+                "f4a18bdc-14cb-4342-8207-eb2761e25937",
+                "f4f2ff14-5448-4ecb-9f05-bc1f3535cf18",
+                "57e910f2-2cbe-4db2-8e23-2dd2ad6316f3",
+                "3086a327-6c44-4241-b609-f2c042a2f337",
+                "baf3dbe0-3f25-4389-8ded-6c5d0644784b",
+                "ecee632e-fc02-4d92-801b-c98b6938b4d0",
+                "bbc58698-a780-4b53-b572-77f59b451415",
+                "f7b63508-fa7b-45d5-80be-a18b2e7cb698",
+                "3d5f0d84-979c-4d9b-b10b-603bfb890b2c",
+                "185d46f7-a5c3-4c49-b70c-e446757aebf7",
+                "996e95f1-fdab-44eb-ade0-3417c19d2e5d",
+                "4978bc95-3f3d-4362-881b-a717c7d093a7",
+                "bc9f2c2d-750e-4fc9-bed1-28064e3fb228",
+                "ef5e4c27-ff08-45f9-83e2-43aa5ffc675d",
+                "74cbf066-e838-4c00-ae4f-e01061e09743",
+                "a13e2cf2-85e0-45e7-ac44-246650caa467",
+                "8308b0e8-f0e8-4bb1-a9df-635491f684c8"
+            ]
+        },
+        "afd5a114-dd6d-4371-a361-0499b352acc4": {
+            "name": "StarkillerBoard",
+            "notes": [],
+            "elements": [
+                "e764f094-5428-47fd-a005-a8467a8fdbb3",
+                "1ccb500e-0894-4fba-a10f-115ea02da8d6",
+                "72b11dee-03e5-45ec-bba5-142f0654a0c2",
+                "f80f1d4e-4798-4dfc-bcb1-a1c3040a2761",
+                "4cf67560-1576-4320-9f49-8c2ad70ab991",
+                "f3153c4b-3515-4563-8afb-15b64f791115",
+                "0eeec38a-4740-42e0-8d29-78f622295047",
+                "a208d384-1d73-4b59-9ed8-e7c14ca76e61",
+                "dc6bcaeb-94b6-46a4-b29c-3d97d7615d17"
+            ],
+            "connections": [
+                "88f31c30-53ed-404a-9a5d-b489de5d7e14",
+                "3bd2c591-02bf-4cd7-bfa2-686e8b2a3087",
+                "ddfa02b6-d20c-44f8-929a-800cea12f693",
+                "4691a918-f73c-428d-83d9-6d2a6a2130d0",
+                "95d1f46a-9c7d-4029-8c7f-2ac8f6e85c5b",
+                "588f06fd-c610-400c-9742-30a064ca3982"
+            ],
+            "branches": [],
+            "jumpers": []
+        },
+        "852533e8-dbef-422a-9225-86adeb6b8e61": {
+            "name": "HeadHunterJimmy",
+            "notes": [],
+            "elements": [
+                "f01312f6-7427-4828-8b4e-c459481df447",
+                "91f95772-15db-492b-b481-49758c7a6369",
+                "19d313f5-95a7-4ee4-897a-0fdbd1e66a63",
+                "fe2b3804-594a-43f5-9a1d-9270fecbc3ec",
+                "4786f511-9f3d-4d71-aa7e-550b9170030b",
+                "b65f0c76-41c8-4751-8e77-477ca70c6d42",
+                "efe64a51-37cb-4aa2-a704-3ab7426165b5",
+                "2723f7c0-3be2-428a-acdc-b2fbabff70e7",
+                "1edc40be-5d36-4454-8f2f-1547a10bc277"
+            ],
+            "connections": [
+                "574e341c-5990-4fcf-8fdd-5a774aca5a5d",
+                "3b71ba40-690d-4521-a268-06c21fb1a171",
+                "54809dac-adf3-4c8f-83eb-13d595b175fc",
+                "a7fc745a-dcb1-43ac-923d-0b929570d380",
+                "8e14568c-7b24-4d39-8a7f-a005d5514575",
+                "af5872de-28b5-4eca-8d1a-8713faf571a2"
+            ],
+            "branches": [],
+            "jumpers": []
+        },
+        "c6ddcad0-aaae-42c6-a01b-a3ef8866f378": {
+            "name": "ArcaneWizarder",
+            "notes": [],
+            "elements": [
+                "50547210-8b59-48c2-b5df-9473f9cf556b",
+                "0d86be94-d1d0-4a92-87dc-a34fb57b5938",
+                "4aef22a1-a73b-4576-8d62-22c27c1d07b1"
+            ],
+            "connections": [
+                "cf44183d-642b-4bf6-a777-b279ff52a016",
+                "1a49514e-4060-4eca-8b3a-2e7712fea995"
+            ],
+            "branches": [],
+            "jumpers": []
+        },
+        "9b827445-1dea-44ba-bbb6-8a9613893fa8": {
+            "name": "Vlad3000",
+            "notes": [],
+            "elements": [
+                "ae23d8ae-99e0-4376-961f-a52fe1f50e03",
+                "2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46",
+                "87a29660-5387-4043-81f5-500e3542ae83",
+                "db9d0090-ab9b-4c3e-a321-fa14632a9789",
+                "0d8b8873-254a-4000-bfbe-76c685c72f51",
+                "8379b77e-0d13-4df5-98af-b5fc34bd7a31",
+                "319dff36-46f7-465d-86fd-8b61a7c5cef5",
+                "d75ec70d-f697-4984-bd5c-f1e636ec7920",
+                "b33827b3-187a-4c94-b6e9-625c431baaca"
+            ],
+            "connections": [
+                "0bab01c0-78d4-4333-9158-a2159d94955d",
+                "5e9f91b7-b51a-45bc-8586-7690698a3f49",
+                "59c8453e-6997-4632-bda4-6845acb08cc5",
+                "5ecbb20b-2caf-46d4-aef7-8b0a80c0c4a4",
+                "eb3b4cab-5a13-480f-bb2a-308cf40a3842",
+                "5732e265-214d-4578-bd77-ab404c088fa0"
+            ],
+            "branches": [],
+            "jumpers": []
+        },
+        "0c1dcba4-ec01-4acc-8512-ee9ec997d3ac": {
+            "name": "WorldAssasin",
+            "notes": [],
+            "elements": [
+                "9e987eb7-b04b-4b7f-98b6-135b163860b9",
+                "1dc0aa88-f9ab-42a4-9132-49c7f7e80b09",
+                "476317e9-447a-437f-ab23-f9a0675e55ba",
+                "43a9f53d-85ee-4b4f-a64d-b4d5fe99da61",
+                "14011cbd-2ee3-4606-8c75-0692d2e2c4b2",
+                "1a563a93-6786-4aa6-9ead-6fe3334762a2",
+                "a8c0ed83-084c-462d-890e-c8047eb4913c",
+                "64762737-ced9-410d-8698-1ac8c56a1b37",
+                "17c39ec7-7e17-4292-bcc0-c8f709cac414"
+            ],
+            "connections": [
+                "256edef4-8202-4712-8e89-ed1bcdd6e576",
+                "eb5d2345-cd56-4d5d-a1ed-9a1fc65dfae4",
+                "d3245450-0e13-40d6-bc38-4fc32e85d395",
+                "10a5b9dd-2963-4c75-8d9d-2c45164b236b",
+                "b436547d-f627-460c-81c8-044d5ea2095e",
+                "144ed5a8-f987-4d54-9c48-b4deaad3dd83"
+            ],
+            "branches": [],
+            "jumpers": []
+        },
+        "024e83b0-4c36-4ab6-9bd5-dd7e937e76d7": {
+            "name": "BalbesBunny",
+            "notes": [],
+            "elements": [
+                "82f517a9-a0d9-44b4-8034-122db8ffd2ed",
+                "24758ab0-2df8-431f-8df7-df6a251dfdcb",
+                "1f5028ee-e2f9-462e-9430-480ae27e5a5c",
+                "810790f0-7a37-42f8-b78c-3a56fc8b3a64",
+                "4a843e1d-e9a1-4405-bc48-d0c607119c37",
+                "4cbfcef0-71bb-44e7-8bfb-11ecc50c2d92",
+                "42c935c3-572a-4891-8e90-765f45feed34",
+                "c966d4ef-7b31-4917-b6c5-baf20edeed0a",
+                "736b265f-ce79-4dfa-9720-9fb5084e6ab3"
+            ],
+            "connections": [
+                "6458c5e2-4ff2-48c5-bf64-36ce3c487ab0",
+                "ba3c60cf-c262-4547-89df-3344db2cb452",
+                "860af223-4245-4307-b6cb-1931655d2719",
+                "549e34fc-4b01-4df0-8cd7-0b119cc6dd7e",
+                "0bf70d1b-adeb-4b09-9102-1339f04c8ea1",
+                "a471b6f2-c3c7-4fc0-910e-e118e3eb4021"
+            ],
+            "branches": [],
+            "jumpers": []
+        },
+        "b5a0e42f-8c92-4ee3-bee4-f0834deec712": {
+            "name": "GraveCompany",
+            "notes": [],
+            "elements": [],
+            "connections": [],
+            "branches": [],
+            "jumpers": []
+        }
+    },
+    "notes": {
+        "3c616f3c-c25a-4861-bbf0-0c5d9e7406e3": {
+            "autoHeight": true,
+            "theme": "default",
+            "content": "<p>\u0443 \u0432\u0438\u0437\u0430\u0440\u0434\u0430 \u043e\u0434\u0438\u043d \u0438\u0441\u0445\u043e\u0434, \u0442\u0430\u043a \u0447\u0442\u043e \u0432\u0441\u0435\u0433\u043e 1 \u0434\u0438\u0430\u043b\u043e\u0433<br>\u0443 \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u043e \u0442\u0440\u0438<\/p>"
+        }
+    },
+    "elements": {
+        "4a843e1d-e9a1-4405-bc48-d0c607119c37": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u0414\u043e\u043b\u0433\u043e?<\/p>",
+            "outputs": [
+                "549e34fc-4b01-4df0-8cd7-0b119cc6dd7e"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "5d417e80-7081-471d-8e94-a72753e4c6d9",
+                        "mode": "once",
+                        "asset": "7fbb54ee-4c7f-4066-9b93-b9efb71983dc",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "736b265f-ce79-4dfa-9720-9fb5084e6ab3": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u041d\u0435. \u0417\u043d\u0430\u044e.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "50972267-3d3b-4973-974b-80bced05ee0c",
+                        "mode": "once",
+                        "asset": "fdcc323e-5e47-4338-b7aa-547379496e89",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "c966d4ef-7b31-4917-b6c5-baf20edeed0a": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u041f\u0440\u043e\u0448\u0443. \u041d\u0438\u043a\u0430\u043a\u0438\u0445. \u0413\u043e\u0440\u044f\u0449\u0438\u0445. \u041f\u0430\u043b\u043e\u043a.<\/p>",
+            "outputs": [
+                "a471b6f2-c3c7-4fc0-910e-e118e3eb4021"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "d14701fc-bc2f-4354-869e-32836e54f14c",
+                        "mode": "once",
+                        "asset": "2bc37151-b8f5-49e9-8b50-5d26976c36fb",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "42c935c3-572a-4891-8e90-765f45feed34": {
+            "autoHeight": true,
+            "title": "<p>BalbesBunnyStage3<\/p>",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u0422\u044b. \u041a\u0442\u043e. \u0410. \u0422\u043e\u0447\u043d\u043e. \u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u0415\u0441\u0442\u044c. \u0414\u0430?<\/p>",
+            "outputs": [
+                "0bf70d1b-adeb-4b09-9102-1339f04c8ea1"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "d7af3c68-1ca8-4e81-abc1-1696b4a3df84",
+                        "mode": "once",
+                        "asset": "76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "4cbfcef0-71bb-44e7-8bfb-11ecc50c2d92": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u041d\u0435. \u041f\u043e\u043d\u044f\u043b.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "ebab54aa-4ca3-4b47-b10b-2b351eb6af2f",
+                        "mode": "once",
+                        "asset": "21965103-6a7a-44a6-8290-c90ffa94ff53",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "889f6461-b74e-4500-94cd-fe4587a59037": {
+            "outputs": [
+                "fcc1a2d6-3209-4238-8650-a53b3f2c343a"
+            ],
+            "title": "<p>StarKillerStart<\/p>",
+            "content": "<p><\/p>",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "theme": "default",
+            "autoHeight": true
+        },
+        "1ccb500e-0894-4fba-a10f-115ea02da8d6": {
+            "autoHeight": true,
+            "title": "<p><\/p>",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u0422\u044b \u043d\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0448\u044c! \u042f \u043f\u0440\u0438\u0448\u0451\u043b \u0437\u0430 \u0441\u043b\u0430\u0432\u043e\u0439, \u0430 \u043d\u0435 \u0437\u0430 \u043d\u0430\u0441\u043c\u0435\u0448\u043a\u0430\u043c\u0438!<\/p>",
+            "outputs": [
+                "ddfa02b6-d20c-44f8-929a-800cea12f693"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "0b2c4418-dbb4-43fa-a7dd-4f77fa6b3122",
+                        "mode": "once",
+                        "asset": "d8e7c81f-6830-4fac-8e64-0d1fa742c359",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "e764f094-5428-47fd-a005-a8467a8fdbb3": {
+            "autoHeight": true,
+            "title": "<p>StarKillerStage1<\/p>",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u041d\u0443, \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440. \u0414\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u043d\u043e\u0432\u044b\u0439 \u043a\u0432\u0435\u0441\u0442, \u0412\u0435\u0434\u044c \u043a\u0430\u043a \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u0441\u044f \u00ab\u0421\u043c\u0435\u0440\u0442\u044c \u043d\u0430 \u043f\u043e\u043b\u0435 \u0431\u043e\u044f \u043f\u0440\u0438\u0445\u043e\u0434\u0438\u0442 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e \u043e\u0442 \u043a\u043b\u0430\u0441\u0441\u0430, \u043a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u043e\u0433\u043e \u0438\u043b\u0438 \u043f\u0440\u043e\u0441\u0442\u043e\u0433\u043e. \u041f\u0440\u043e\u0438\u0433\u0440\u0430\u0432\u0448\u0438\u0439 \u0434\u043e\u043b\u0436\u0435\u043d \u0443\u043c\u0435\u0440\u0435\u0442\u044c!\u00bb \u0418 \u044f \u043f\u043e\u043a\u0430\u0436\u0443, \u0447\u0442\u043e \u044f \u0434\u043e\u0441\u0442\u043e\u0438\u043d \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430 \u043d\u043e\u0432\u043e\u043c \u0437\u0430\u0434\u0430\u043d\u0438\u0438\u2026<\/p>",
+            "outputs": [
+                "88f31c30-53ed-404a-9a5d-b489de5d7e14"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "430d4152-e9ab-4e4c-82c6-bfae5842c43f",
+                        "mode": "once",
+                        "asset": "4f5a119f-2f13-4721-8b73-2b80e3fb4b67",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "4cf67560-1576-4320-9f49-8c2ad70ab991": {
+            "autoHeight": false,
+            "title": "<p>StarKillerStage2<\/p>",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u041f\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e. \u0417\u043d\u0430\u0435\u0448\u044c, \u0447\u0442\u043e \u044f \u043f\u043e\u043d\u044f\u043b \u0437\u0430 \u043a\u0440\u0430\u0439\u043d\u0435\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435? \u00ab\u041d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435\u00a0\u0441\u0434\u0430\u0432\u0430\u0442\u044c\u0441\u044f... \u0412\u0441\u0442\u0430\u0442\u044c, \u043a\u043e\u0433\u0434\u0430 \u0432\u0441\u0435\u00a0\u0440\u0443\u0445\u043d\u0443\u043b\u043e \u2014 \u0432\u043e\u0442\u00a0\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0430\u044f \u0441\u0438\u043b\u0430.\u00bb \u0418 \u043c\u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u043d\u043e\u0432\u043e\u0435 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u0435, \u0447\u0442\u043e\u0431\u044b \u0432\u044b\u043d\u0435\u0441\u0442\u0438 \u043d\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u043a\u2026<\/p>",
+            "outputs": [
+                "3bd2c591-02bf-4cd7-bfa2-686e8b2a3087"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "17a78a6e-3443-4b9a-ad0e-8af0cb5ce055",
+                        "mode": "once",
+                        "asset": "98bc7592-8b14-4831-a94d-99fa39fccb16",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "72b11dee-03e5-45ec-bba5-142f0654a0c2": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u041d\u0435 \u043d\u0430\u0441\u043c\u0435\u0445\u0430\u0439\u0441\u044f! \u042f \u0441\u0438\u043b\u0451\u043d \u0434\u0443\u0445\u043e\u043c \u0438 \u0442\u0435\u043b\u043e\u043c! \u041a\u0430\u0436\u0434\u043e\u0435 \u043f\u0430\u0434\u0435\u043d\u0438\u0435 \u043b\u0438\u0448\u044c \u0443\u0433\u043b\u0443\u0431\u043b\u044f\u0435\u0442 \u0442\u044c\u043c\u0443, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u0440\u043e\u0431\u0443\u0436\u0434\u0430\u0435\u0442 \u043c\u0435\u043d\u044f!<\/p>",
+            "outputs": [
+                "4691a918-f73c-428d-83d9-6d2a6a2130d0"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "ba8191d3-3d55-40c7-82ce-ec3e77e6647e",
+                        "mode": "once",
+                        "asset": "937dae08-937f-47f6-8db6-67bb83f2f39b",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "f80f1d4e-4798-4dfc-bcb1-a1c3040a2761": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u041f\u0440\u0430\u0432\u0434\u0430 \u0432\u0441\u0435\u0433\u0434\u0430 \u043d\u0430 \u043c\u043e\u0435\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u0435.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "85baab83-d02e-44bd-ac14-eaaca91ee7d0",
+                        "mode": "once",
+                        "asset": "aecd152f-c46a-4a5a-bf72-b3af19e3024c",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "9d234f96-5644-4452-b14d-4b92aa713117": {
+            "outputs": [
+                "43b9ec17-cb37-45f6-8142-abff39b25ab3"
+            ],
+            "autoHeight": true,
+            "title": "<p>HeadHunterJimmy<\/p>",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p><\/p>"
+        },
+        "5ddaa37a-cb4a-4317-8739-441cd553565a": {
+            "outputs": [
+                "57e910f2-2cbe-4db2-8e23-2dd2ad6316f3"
+            ],
+            "autoHeight": true,
+            "title": "<p>Vlad3000<\/p>",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p><\/p>"
+        },
+        "1e352a41-0707-4a25-9658-59364597e746": {
+            "outputs": [
+                "f4a18bdc-14cb-4342-8207-eb2761e25937"
+            ],
+            "autoHeight": true,
+            "title": "<p>Wizarder<\/p>",
+            "theme": "default",
+            "components": [
+                "cef2765c-ad8f-4af3-ae94-d32d5a525de4"
+            ],
+            "content": "<p><\/p>"
+        },
+        "11eaf2dc-196e-451c-859d-6340cc9d3400": {
+            "outputs": [
+                "ef09ea50-f898-48bc-94ec-4d7570ebd079"
+            ],
+            "autoHeight": true,
+            "title": "<p>Asasinchik<\/p>",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p><\/p>"
+        },
+        "207a9ec7-e139-4356-a596-1c90793c120e": {
+            "outputs": [
+                "f4f2ff14-5448-4ecb-9f05-bc1f3535cf18"
+            ],
+            "autoHeight": true,
+            "title": "<p>BalbesBunny<\/p>",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p><\/p>"
+        },
+        "f3153c4b-3515-4563-8afb-15b64f791115": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u041e\u043d\u0430 \u0431\u044b\u043b\u0430 \u043f\u0440\u043e\u0432\u0435\u0440\u0435\u043d\u0430 \u0442\u044b\u0441\u044f\u0447\u0430\u043c\u0438 \u043c\u043e\u043d\u0441\u0442\u0440\u043e\u0432, \u0442\u0432\u043e\u0438 \u0438\u0437\u0432\u0438\u043d\u0435\u043d\u0438\u044f \u043c\u043d\u0435 \u043d\u0435 \u043d\u0443\u0436\u043d\u044b.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "7a0ab1f5-022f-4ecf-bf2f-2774d4a1d42b",
+                        "mode": "once",
+                        "asset": "350ec9d7-5577-4e88-a75d-8990e4d47085",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "0eeec38a-4740-42e0-8d29-78f622295047": {
+            "autoHeight": true,
+            "title": "<p>StarKillerStage3<\/p>",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440. \u0414\u0430\u0439 \u043c\u043d\u0435 \u043d\u043e\u0432\u043e\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435, \u0447\u0442\u043e\u0431\u044b \u044f \u043d\u0430\u043a\u043e\u043d\u0435\u0446 \u043f\u043e\u043d\u044f\u043b, \u0447\u0442\u043e \u0432\u0435\u0440\u0448\u0438\u0442 \u0441\u0443\u0434\u044c\u0431\u0443 \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430 \u0432 \u044d\u0442\u043e\u043c \u043c\u0438\u0440\u0435\u2026..<\/p>",
+            "outputs": [
+                "95d1f46a-9c7d-4029-8c7f-2ac8f6e85c5b"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "fd423742-b7c4-4280-b1c9-1b9d72f450cd",
+                        "mode": "once",
+                        "asset": "59a36072-2cb8-4288-bc1c-99cafdbb7a92",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "a208d384-1d73-4b59-9ed8-e7c14ca76e61": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u041d\u0435 \u0441\u043c\u0435\u0439 \u0441\u043e\u043c\u043d\u0435\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u043c\u043e\u0451\u043c \u043f\u0440\u0435\u0434\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438! \u042f \u0442\u043e\u0442, \u043a\u0442\u043e \u0440\u0430\u0437\u0440\u0443\u0448\u0438\u0442 \u0441\u0442\u0430\u0440\u044b\u0435 \u043f\u043e\u0440\u044f\u0434\u043a\u0438 \u0438 \u0432\u044b\u0436\u0436\u0435\u0442 \u0442\u044c\u043c\u0443, \u0447\u0442\u043e\u0431\u044b \u043e\u0431\u043d\u0430\u0436\u0438\u0442\u044c \u0438\u0441\u0442\u0438\u043d\u043d\u0443\u044e \u0441\u0443\u0434\u044c\u0431\u0443 \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u0430!<\/p>",
+            "outputs": [
+                "588f06fd-c610-400c-9742-30a064ca3982"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "0abd05ed-e032-44d5-895d-f320e1c78f6b",
+                        "mode": "once",
+                        "asset": "bd89d424-f4dc-494e-aa77-2cc6df75881e",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "dc6bcaeb-94b6-46a4-b29c-3d97d7615d17": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a"
+            ],
+            "content": "<p>\u0421\u0435\u0440\u0434\u0435\u0447\u043d\u043e \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044e.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "496d50cb-ad93-4410-b976-da0d4d9b0b7e",
+                        "mode": "once",
+                        "asset": "95b6acde-e774-4017-823b-069adf6853f9",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "f01312f6-7427-4828-8b4e-c459481df447": {
+            "autoHeight": true,
+            "title": "<p>HeadHunterJimmyStage1<\/p>",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u0422\u0432\u043e\u044e \u043d\u0430\u043b\u0435\u0432\u043e, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440, \u0434\u0430\u0432\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u043a\u0432\u0435\u0441\u0442 \u0441\u044e\u0434\u0430, \u043c\u0430\u0442\u044c \u0442\u0432\u043e\u044e, \u0430 \u0442\u043e \u043c\u043e\u0439 \u0440\u0435\u0432\u043e\u043b\u044c\u0432\u0435\u0440 \u0443\u0436\u0435 \u0441\u043e\u0432\u0441\u0435\u043c \u0437\u0430\u0440\u0436\u0430\u0432\u0435\u043b. <\/p>",
+            "outputs": [
+                "574e341c-5990-4fcf-8fdd-5a774aca5a5d"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "44ab94fc-df6d-43b2-9bbe-6cd97727bb67",
+                        "mode": "once",
+                        "asset": "e2e706b7-ad1b-486e-b419-b8b53f0190aa",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "91f95772-15db-492b-b481-49758c7a6369": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u041a\u043e\u0432\u0431\u043e\u0438 \u043d\u0435 \u0441\u0442\u0440\u043e\u044f\u0442 \u043f\u043b\u0430\u043d\u044b, \u0442\u043e\u043b\u044c\u043a\u043e \u0445\u0432\u0430\u0442\u0430\u044e\u0442 \u0443\u0434\u0430\u0447\u0443 \u0437\u0430 \u0433\u043e\u0440\u043b\u043e \u0438 \u0441\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f.<\/p>",
+            "outputs": [
+                "3b71ba40-690d-4521-a268-06c21fb1a171"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "e8a54020-e2cd-4584-8577-d8c3deb1b5b9",
+                        "mode": "once",
+                        "asset": "f84a5d47-e7a8-4dac-a34d-db286df9af60",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "19d313f5-95a7-4ee4-897a-0fdbd1e66a63": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u0412\u043e\u043e\u0431\u0449\u0435-\u0442\u043e \u0432 \u044d\u0442\u043e\u043c \u043f\u043b\u0430\u043d\u0435 \u044f \u043d\u0435\u043f\u0440\u0438\u043b\u0438\u0447\u043d\u043e \u0431\u043e\u0433\u0430\u0442.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "02a79dfb-0bb4-462f-93e7-923afe793f07",
+                        "mode": "once",
+                        "asset": "9efab171-445b-4632-913d-b3e7f31858e4",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "fe2b3804-594a-43f5-9a1d-9270fecbc3ec": {
+            "autoHeight": true,
+            "title": "<p>HeadHunterJimmyStage2<\/p>",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u0414\u0440\u0443\u0433\u0430\u043b\u0451\u043a, \u0434\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u043d\u043e\u0432\u043e\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435, \u0430 \u0442\u043e \u0432 \u0434\u0440\u0443\u0433\u043e\u0439 \u0433\u0438\u043b\u044c\u0434\u0438\u0438 \u0443\u0436\u0435 \u0441\u043e\u0432\u0441\u0435\u043c \u043e\u0431\u043b\u0435\u043d\u0438\u043b\u0438\u0441\u044c, \u0442\u0432\u043e\u044e \u0437\u0430 \u043d\u043e\u0433\u0443, \u043d\u0435 \u043c\u043e\u0433\u0443 \u043c\u043d\u0435 \u043f\u043e \u0434\u043e\u0441\u0442\u043e\u0438\u043d\u0441\u0442\u0432\u0443 \u0440\u0430\u0431\u043e\u0442\u0451\u043d\u043a\u0443 \u0434\u0430\u0442\u044c.<\/p>",
+            "outputs": [
+                "54809dac-adf3-4c8f-83eb-13d595b175fc"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "db5c9e9b-2e52-47b8-b071-63389322a185",
+                        "mode": "once",
+                        "asset": "f44724ef-4d18-462e-9ffb-621351055ae7",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "4786f511-9f3d-4d71-aa7e-550b9170030b": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u042f \u043f\u0440\u0438\u0448\u0451\u043b \u043d\u0435 \u0448\u0443\u0442\u043a\u0438 \u0448\u0443\u0442\u0438\u0442\u044c, \u0430 \u043c\u043e\u0447\u0438\u0442\u044c \u0438\u043d\u043e\u043f\u043b\u0430\u043d\u0435\u0442\u044f\u043d! \u041c\u043d\u0435 \u043d\u0443\u0436\u043d\u043e \u0447\u0442\u043e-\u0442\u043e \u043f\u043e-\u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u043e\u0435!<\/p>",
+            "outputs": [
+                "a7fc745a-dcb1-43ac-923d-0b929570d380"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "7dca959f-2dac-4a29-9151-5bcaf723b5a9",
+                        "mode": "once",
+                        "asset": "1a437bcd-1ae4-413a-9057-d409de5d7b8f",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "b65f0c76-41c8-4751-8e77-477ca70c6d42": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u0416\u0434\u0443 \u043d\u0435 \u0434\u043e\u0436\u0434\u0443\u0441\u044c, \u0434\u0440\u0443\u0433.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "1ca90d19-e384-4bfd-8118-29e793fac3a3",
+                        "mode": "once",
+                        "asset": "479bc614-6ebe-400a-a2c3-eebb8d95ae4c",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "efe64a51-37cb-4aa2-a704-3ab7426165b5": {
+            "autoHeight": true,
+            "title": "<p>HeadHunterJimmyStage3<\/p>",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u0411\u0435\u0437 \u043b\u0438\u0448\u043d\u0438\u0445 \u0441\u043b\u043e\u0432, \u044f \u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f, \u043f\u043e\u0441\u043b\u0435 \u0441\u0430\u043c\u043e\u0439 \u043e\u0436\u0435\u0441\u0442\u043e\u0447\u0435\u043d\u043d\u043e\u0439 \u0431\u0438\u0442\u0432\u044b \u0432\u0441\u0435\u0445 \u0441\u0430\u043c\u044b\u0445 \u043a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u0430\u043c\u044b\u0445 \u0431\u0430\u043d\u0434\u0438\u0442\u0441\u043a\u0438\u0445 \u043a\u043e\u0432\u0431\u043e\u0435\u0432, \u0451\u043f\u0435\u0440\u043d\u044b\u0439 \u0442\u0435\u0430\u0442\u0440. \u0411\u043e\u0439 \u0434\u043b\u0438\u043b\u0441\u044f \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043d\u0435\u0434\u0435\u043b\u044c, \u043c\u044b \u043f\u043e\u0442\u0435\u0440\u043f\u0435\u043b\u0438 \u043e\u0433\u0440\u043e\u043c\u043d\u044b\u0435-\u0433\u0438\u0433\u0430\u0442\u0441\u043a\u0438\u0435 \u043f\u043e\u0442\u0435\u0440\u0438, \u0442\u0432\u043e\u044e \u043c\u0430\u043b\u044b\u0448\u0435\u0447\u043a\u0443. \u041a\u0430\u043a \u0436\u0435 \u044d\u0442\u043e \u0431\u044b\u043b\u043e\u2026 \u041e\u0439, \u043a\u0445\u043c, \u0435\u0441\u0442\u044c \u043d\u043e\u0432\u0430\u044f \u0437\u0430\u0434\u0430\u0447\u0430? <\/p>",
+            "outputs": [
+                "8e14568c-7b24-4d39-8a7f-a005d5514575"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "155e594c-28b0-4bf1-9463-836ef796a818",
+                        "mode": "once",
+                        "asset": "b0231e7e-e95f-4981-b94b-655c23287175",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "2723f7c0-3be2-428a-acdc-b2fbabff70e7": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u0421\u043a\u0430\u0436\u0438 \u044d\u0442\u043e \u0442\u0435\u043c, \u043a\u0442\u043e \u043e\u0441\u0442\u0430\u043b\u0441\u044f \u0431\u0435\u0437 \u0443\u0448\u0435\u0439 \u043f\u043e\u0441\u043b\u0435 \u043c\u043e\u0438\u0445 \u0438\u0441\u0442\u043e\u0440\u0438\u0439! \u0422\u0430\u043a \u0435\u0441\u0442\u044c \u043d\u043e\u0432\u0430\u044f \u0437\u0430\u0434\u0430\u0447\u0430?<\/p>",
+            "outputs": [
+                "af5872de-28b5-4eca-8d1a-8713faf571a2"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "8e7e23fe-8a87-4603-9845-13ec9cf13bc0",
+                        "mode": "once",
+                        "asset": "969413f5-370d-43b1-8968-b2fe5616a17e",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "1edc40be-5d36-4454-8f2f-1547a10bc277": {
+            "autoHeight": false,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "feac8f11-3d9f-4cba-875d-0e835fdff992"
+            ],
+            "content": "<p>\u0417\u0430\u043d\u0443\u0434\u0430, \u0442\u0432\u043e\u044e \u0437\u0430 \u043d\u043e\u0433\u0443,<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "87044a13-a126-4e85-9753-a6125e73b530",
+                        "mode": "once",
+                        "asset": "3577c1a2-04e4-466c-a331-14aa84f7205f",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "ae23d8ae-99e0-4376-961f-a52fe1f50e03": {
+            "autoHeight": true,
+            "title": "<p>Vlad3000Stage1<\/p>",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>\u0414\u043e\u0431\u0440\u043e! \u041a\u0430\u043a \u043f\u043e\u0436\u0438\u0432\u0430\u0435\u0448\u044c? *\u0414\u0430 \u0433\u0434\u0435 \u0442\u0443\u0442 \u043a\u043d\u043e\u043f\u043a\u0430 \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u0430* \u0415\u0441\u0442\u044c \u0447\u0442\u043e-\u0442\u043e \u0434\u043b\u044f \u043c\u0435\u043d\u044f?<\/p>",
+            "outputs": [
+                "0bab01c0-78d4-4333-9158-a2159d94955d"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "1c72173c-9790-437a-9b00-db63fa547ffe",
+                        "mode": "once",
+                        "asset": "846879ea-83e3-4404-80ba-3057ab7bf050",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>...<\/p>",
+            "outputs": [
+                "5e9f91b7-b51a-45bc-8586-7690698a3f49"
+            ]
+        },
+        "87a29660-5387-4043-81f5-500e3542ae83": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>\u0416\u0434\u0443 \u0437\u0430\u0434\u0430\u043d\u0438\u0435.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "fdfd1f5a-ce90-413b-ac87-6a684d730d1b",
+                        "mode": "once",
+                        "asset": "bc06bf41-3e69-45d0-8be8-f53f7d12d548",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "db9d0090-ab9b-4c3e-a321-fa14632a9789": {
+            "autoHeight": true,
+            "title": "<p>Vlad3000Stage2<\/p>",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>\u0418 \u0442\u0435\u0431\u0435 \u043d\u0435 \u0445\u0432\u043e\u0440\u0430\u0442\u044c, \u0434\u0430\u0439 \u043c\u043d\u0435 \u0437\u0430\u0434\u0430\u0447\u043a\u0443, \u0434\u0430 \u043f\u043e\u0441\u043b\u043e\u0436\u043d\u0435\u0435!<\/p>",
+            "outputs": [
+                "59c8453e-6997-4632-bda4-6845acb08cc5"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "d151943d-5edb-493a-b8bd-8fdd1cf66dca",
+                        "mode": "once",
+                        "asset": "6e3182a6-1c79-45f6-8513-8b350687337f",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "0d8b8873-254a-4000-bfbe-76c685c72f51": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>...<\/p>",
+            "outputs": [
+                "5ecbb20b-2caf-46d4-aef7-8b0a80c0c4a4"
+            ]
+        },
+        "8379b77e-0d13-4df5-98af-b5fc34bd7a31": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>\u042f \u0432 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u0438.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "b1aa6da7-3d7d-4cd0-a6de-dda16a729c18",
+                        "mode": "once",
+                        "asset": "a6694279-d5ee-4272-bcd4-09773f71720d",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "319dff36-46f7-465d-86fd-8b61a7c5cef5": {
+            "autoHeight": true,
+            "title": "<p>Vlad3000Stage3<\/p>",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>\u041c?<\/p>",
+            "outputs": [
+                "eb3b4cab-5a13-480f-bb2a-308cf40a3842"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "1508c6ee-b282-4085-b0d2-2ac4b928821e",
+                        "mode": "once",
+                        "asset": "e1877c5a-5994-40a4-bacf-1d481824ec0a",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "d75ec70d-f697-4984-bd5c-f1e636ec7920": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>\u041c?<\/p>",
+            "outputs": [
+                "5732e265-214d-4578-bd77-ab404c088fa0"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "63114c0d-c5f5-43a9-8c23-19b7dfc14dc2",
+                        "mode": "once",
+                        "asset": "539b307e-32dc-42bf-89fb-a5c71bdf366f",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "b33827b3-187a-4c94-b6e9-625c431baaca": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "13a761c5-3d22-4661-8743-79b6a767d202"
+            ],
+            "content": "<p>\u0414\u0430\u0432\u0430\u0439 \u0441\u043a\u043e\u0440\u0435\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "f4e3f425-6adf-42d5-99d6-232a194a1c7a",
+                        "mode": "once",
+                        "asset": "2a11704a-42aa-481e-bb31-9c9947def239",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "50547210-8b59-48c2-b5df-9473f9cf556b": {
+            "autoHeight": true,
+            "title": "<p>ArcaneWizarderStage1<\/p>",
+            "theme": "default",
+            "components": [
+                "cef2765c-ad8f-4af3-ae94-d32d5a525de4"
+            ],
+            "content": "<p>\u041a\u0445-\u043a\u0445, \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043b\u0435\u0442, \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0437\u0438\u043c(98 \u043b\u0435\u0442), \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0432\u0435\u0440. \u0414\u0430\u0439-\u043a\u0430 \u043c\u043d\u0435 \u0437\u0430\u0434\u0430\u043d\u044c\u0438\u0446\u0435 \u0442\u0430\u043a\u043e\u0435, \u0447\u0442\u043e\u0431\u044b \u0440\u0430\u0441\u0448\u0435\u0432\u0435\u043b\u0438\u0442\u044c\u0441\u044f, \u043a\u0430\u043a \u0432 \u0441\u0442\u0430\u0440\u044b\u0435-\u0434\u043e\u0431\u0440\u044b\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0430. \u041f\u043e\u043c\u043d\u0438\u0448\u044c, \u043a\u0430\u043a \u044f \u0431\u044b\u043b \u0432 \u0442\u043e\u043f\u0435 \u0442\u0432\u043e\u0438\u0445 \u0412\u042b\u041f\u041e\u041b\u041d\u042f\u0422\u041e\u0420\u041e\u0412 100 \u043b\u0435\u0442 \u043d\u0430\u0437\u0430\u0434? \u0422\u0430\u043a \u0432\u043e\u0442, \u0445\u043e\u0447\u0443 \u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0441\u0432\u043e\u0439 \u0441\u0442\u0430\u0442\u0443\u0441, \u043a\u0445-\u043a\u0445.<\/p>",
+            "outputs": [
+                "cf44183d-642b-4bf6-a777-b279ff52a016"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "a8cca284-3d94-41b1-85f5-434073723ed4",
+                        "mode": "once",
+                        "asset": "6ff666a1-af20-40d8-b070-0d9ed51878f3",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "0d86be94-d1d0-4a92-87dc-a34fb57b5938": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cef2765c-ad8f-4af3-ae94-d32d5a525de4"
+            ],
+            "content": "<p>\u0412\u0441\u0435 \u043e\u0447\u0435\u043d\u044c \u043f\u0440\u043e\u0441\u0442\u043e, \u0432\u044b\u043f\u0438\u0442\u043e\u0435 \u0437\u0435\u043b\u044c\u0435 \u0438\u0437 \u0442\u0430\u0432\u0435\u0440\u043d\u044b \u0440\u044f\u0434\u043e\u043c \u0441 \u0433\u0438\u043b\u044c\u0434\u0438\u0435\u0439, \u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0448\u044c\u0441\u044f \u043a\u0430\u043a \u043e\u0433\u0443\u0440\u0447\u0438\u043a! \u041a\u0430\u0436\u0434\u044b\u0439 \u0434\u0435\u043d\u044c \u043f\u044c\u044e \u0435\u0433\u043e, \u0432\u043e\u0442 \u0438 \u0441\u0438\u043b\u0435\u043d\u043a\u0438 \u043d\u0435 \u0443\u0431\u0430\u0432\u043b\u044f\u044e\u0442\u0441\u044f! \u041a\u0445-\u043a\u0445.<\/p>",
+            "outputs": [
+                "1a49514e-4060-4eca-8b3a-2e7712fea995"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "d13c9aaa-67b9-4be7-8f94-ecfc3935a22d",
+                        "mode": "once",
+                        "asset": "7eab4592-70dd-4ca3-a563-5c5f9d2a6e00",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "4aef22a1-a73b-4576-8d62-22c27c1d07b1": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cef2765c-ad8f-4af3-ae94-d32d5a525de4"
+            ],
+            "content": "<p>120 \u043b\u0435\u0442 \u043f\u0440\u043e\u0436\u0438\u0432\u0435\u0448\u044c - \u043f\u043e\u0439\u043c\u0435\u0448\u044c \u043a\u0445-\u043a\u0445 \u043c\u0435\u043d\u044f.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "baa63a93-3f9f-43cf-862d-eaeb6fe93fc6",
+                        "mode": "once",
+                        "asset": "d31ab1ae-86b6-4bcf-a4ff-211da2788847",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "9e987eb7-b04b-4b7f-98b6-135b163860b9": {
+            "autoHeight": true,
+            "title": "<p>WorldAsassinStage1<\/p>",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u0434\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c!!!!!!!!!!!!!!!!!!!!!!!!!! \u0434\u0430\u0439\u0442\u0435\u043a\u0430 \u043c\u043d\u0435 \u043d\u043e\u0432\u0430\u0435 \u0437\u0430\u0434\u0430\u043d\u0438\u0435!!!!!!!!!!!!!!!!!!\u0445\u0430\u0447\u0443, \u0447\u0442\u043e\u0431\u044b \u043f\u0430\u0440\u0443 \u0433\u043e\u043b\u043e\u0432 \u0443\u043f\u0430\u043b\u0438 \u0441 \u043f\u043b\u0435\u0447\u044c \u0432\u0440\u0430\u0433\u043e\u0444\u0444!!!!!!!!!!!!!!!!\u0421\u041f\u0410\u0421\u0418\u0431\u0430!!!!!!!!*<\/p>",
+            "outputs": [
+                "256edef4-8202-4712-8e89-ed1bcdd6e576"
+            ]
+        },
+        "1dc0aa88-f9ab-42a4-9132-49c7f7e80b09": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u0410 \u0442\u044b \u0432 \u0441\u0432\u0430\u0435\u043c \u0440\u0435\u043f\u0435\u0440\u0442\u0443\u0430\u0440\u0435, \u043a\u0432\u0435\u0441\u0442\u0433\u0438\u0444\u0444\u0435\u0440!!!!!!!!!!!! >:(*<\/p>",
+            "outputs": [
+                "eb5d2345-cd56-4d5d-a1ed-9a1fc65dfae4"
+            ]
+        },
+        "476317e9-447a-437f-ab23-f9a0675e55ba": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u041b\u0430\u0434\u043d\u0430!!!!!!!!!!!!!!!!!!!*<\/p>",
+            "outputs": []
+        },
+        "43a9f53d-85ee-4b4f-a64d-b4d5fe99da61": {
+            "autoHeight": true,
+            "title": "<p>WorldAsassinStage2<\/p>",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u041f-\u043f-\u043f-\u043f-\u043f\u0440\u0438\u0432\u0435\u0442\u2026. \u041c\u043d\u0435 \u043d\u0438\u043c\u043d\u043e\u0433\u0430 \u043d\u0435\u043b\u043e\u0432\u043a\u043e\u2026\u2026\u2026\u2026.\u043d\u043e \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0434\u0430\u043d\u0438\u0435\u2026\u2026\u2026\u2026\u2026.\u043a\u0430\u043a\u043e\u0435-\u043d\u0438\u0431\u0443\u0434\u044c\u2026\u2026\u2026\u2026.\u0435\u0441\u043b\u0435 \u043d\u0435 \u043c\u0435\u0448\u0430\u044e\u2026\u2026\u2026. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430\u2026\u2026..\u0441-\u0441-\u0441-\u0441\u043f\u0430\u0441\u0438\u0431\u0430\u2026\u2026\u2026..*<\/p>",
+            "outputs": [
+                "d3245450-0e13-40d6-bc38-4fc32e85d395"
+            ]
+        },
+        "14011cbd-2ee3-4606-8c75-0692d2e2c4b2": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u0421-\u0441-\u0441-\u0441-\u0441\u043f\u0430\u0441\u0438\u0431\u043e, \u043a\u0430\u043d\u0435\u0448\u043d\u043e\u2026\u2026\u2026\u2026\u043d\u043e \u044f \u043f\u044c\u044e \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u044b\u0441\u043e\u043a\u043e\u043a\u043b\u0430\u0441\u043d\u044b\u0439 \u0440\u043e\u043c\u2026\u2026\u2026*<\/p>",
+            "outputs": [
+                "10a5b9dd-2963-4c75-8d9d-2c45164b236b"
+            ]
+        },
+        "1a563a93-6786-4aa6-9ead-6fe3334762a2": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u0410 \u0436\u0430\u043b\u044c...*<\/p>",
+            "outputs": []
+        },
+        "a8c0ed83-084c-462d-890e-c8047eb4913c": {
+            "autoHeight": true,
+            "title": "<p>WorldAsassinStage3<\/p>",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*HI!!!!!!!!!!LMAO \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0434\u0430\u043d\u0438\u0435 LOL :-D!!!!!!!*<\/p>",
+            "outputs": [
+                "b436547d-f627-460c-81c8-044d5ea2095e"
+            ]
+        },
+        "64762737-ced9-410d-8698-1ac8c56a1b37": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u041c\u043e\u043b\u043e\u0434\u0435\u0436\u044c \u0442\u0430\u043a \u043d\u0435 \u0440\u0430\u0437\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0435\u0442 :P* <\/p>",
+            "outputs": [
+                "144ed5a8-f987-4d54-9c48-b4deaad3dd83"
+            ]
+        },
+        "17c39ec7-7e17-4292-bcc0-c8f709cac414": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be"
+            ],
+            "content": "<p>*\u041e\u0447\u0435\u043d \u0436\u0430\u043b\u044c :)))))*<\/p>",
+            "outputs": []
+        },
+        "82f517a9-a0d9-44b4-8034-122db8ffd2ed": {
+            "autoHeight": true,
+            "title": "<p>BalbesBunnyStage1<\/p>",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439. \u041d\u0430\u0434\u043e. \u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u0421\u043b\u043e\u0436\u043d\u043e\u0435. \u0418\u043b\u0438. \u041d\u0435 \u0437\u043d\u0430\u044e. \u0414\u0430\u0439.<\/p>",
+            "outputs": [
+                "6458c5e2-4ff2-48c5-bf64-36ce3c487ab0"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "d4d40917-2021-47dd-89a6-c9a64847867a",
+                        "mode": "once",
+                        "asset": "618d2177-7ccc-420e-978c-ee1447288145",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "24758ab0-2df8-431f-8df7-df6a251dfdcb": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u0427\u0442\u043e. \u0422\u0430\u043a\u043e\u0435. \u041c\u043e\u0434\u0443\u043b\u044c. <\/p>",
+            "outputs": [
+                "ba3c60cf-c262-4547-89df-3344db2cb452"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "ee5dbd4d-1e72-4229-b3d2-6f08e59eb0a9",
+                        "mode": "once",
+                        "asset": "eea271f4-08ca-4632-80e2-524890a56e2a",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "1f5028ee-e2f9-462e-9430-480ae27e5a5c": {
+            "autoHeight": true,
+            "title": "",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u041d\u0438\u0447\u0435\u0433\u043e. \u041d\u0435. \u041f\u043e\u043d\u044f\u043b.<\/p>",
+            "outputs": [],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "9dc337f1-d062-4264-bded-41b3b8720f3b",
+                        "mode": "once",
+                        "asset": "8b70e2c2-bab6-4a93-96c3-b75ad7472831",
+                        "delay": 0
+                    }
+                ]
+            }
+        },
+        "810790f0-7a37-42f8-b78c-3a56fc8b3a64": {
+            "autoHeight": true,
+            "title": "<p>BalbesBunnyStage2<\/p>",
+            "theme": "default",
+            "components": [
+                "cd498e75-e765-42b3-b770-ed8221998ede"
+            ],
+            "content": "<p>\u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u041d\u043e\u0432\u043e\u0435. \u041b\u0438. \u0415\u0441\u0442\u044c. \u0421\u0438\u043b\u0443. \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c. \u0414\u0430\u0439. \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439.<\/p>",
+            "outputs": [
+                "860af223-4245-4307-b6cb-1931655d2719"
+            ],
+            "assets": {
+                "audio": [
+                    {
+                        "id": "7c2e4245-efaa-48b0-90af-351410f47e8e",
+                        "mode": "once",
+                        "asset": "379951f1-9d9b-4825-a13d-d7d54cfd7b52",
+                        "delay": 0
+                    }
+                ]
+            }
+        }
+    },
+    "jumpers": {
+        "3207129a-b07d-45d4-9262-d4fbbc50dda8": {
+            "elementId": "9e987eb7-b04b-4b7f-98b6-135b163860b9",
+            "align": "left",
+            "height": 86,
+            "width": 185
+        },
+        "9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c": {
+            "elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+            "align": "left",
+            "height": 86,
+            "width": 185
+        },
+        "0e4b9319-930d-4057-ab5e-c9da63da2e3b": {
+            "elementId": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+            "height": 86,
+            "width": 185
+        },
+        "64e45f37-84d3-41a0-94fc-49edcef151c7": {
+            "elementId": "0eeec38a-4740-42e0-8d29-78f622295047",
+            "height": 86,
+            "width": 185
+        },
+        "dd804575-a935-4cf1-b96e-e8c5d9c7430e": {
+            "elementId": "42c935c3-572a-4891-8e90-765f45feed34",
+            "height": 86,
+            "width": 185
+        },
+        "9a581919-42a7-4cb2-a7c8-b339ad203425": {
+            "elementId": "efe64a51-37cb-4aa2-a704-3ab7426165b5",
+            "height": 86,
+            "width": 185
+        },
+        "839d505d-70c8-4202-8846-63f8153dd600": {
+            "elementId": "810790f0-7a37-42f8-b78c-3a56fc8b3a64",
+            "height": 86,
+            "width": 185
+        },
+        "7913bad0-f5dd-414c-b7af-82a161d5d49b": {
+            "elementId": "fe2b3804-594a-43f5-9a1d-9270fecbc3ec",
+            "height": 86,
+            "width": 185
+        },
+        "29692c49-19b6-48c5-af78-cdb99e56568a": {
+            "elementId": "f01312f6-7427-4828-8b4e-c459481df447",
+            "align": "left",
+            "height": 86,
+            "width": 185
+        },
+        "e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854": {
+            "elementId": "ae23d8ae-99e0-4376-961f-a52fe1f50e03",
+            "align": "left",
+            "height": 86,
+            "width": 185
+        },
+        "62a129b4-c462-4281-b353-c64d53c18b23": {
+            "elementId": "db9d0090-ab9b-4c3e-a321-fa14632a9789",
+            "height": 86,
+            "width": 185
+        },
+        "2597c65d-3980-403a-82c0-e673b5a58881": {
+            "elementId": "82f517a9-a0d9-44b4-8034-122db8ffd2ed",
+            "align": "left",
+            "height": 86,
+            "width": 185
+        },
+        "31a07d0f-c7c8-4969-b367-5f6b82ceb4f7": {
+            "elementId": "319dff36-46f7-465d-86fd-8b61a7c5cef5",
+            "height": 86,
+            "width": 185
+        },
+        "262476be-cac3-4db6-a149-8e4e40bca860": {
+            "elementId": "50547210-8b59-48c2-b5df-9473f9cf556b",
+            "align": "left",
+            "height": 86,
+            "width": 185
+        },
+        "5a55623e-74f3-4597-a921-c01c40acee1e": {
+            "elementId": "a8c0ed83-084c-462d-890e-c8047eb4913c",
+            "height": 86,
+            "width": 185
+        },
+        "8e08bf74-962e-4a38-ba03-56f2e28e9b87": {
+            "elementId": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+            "height": 86,
+            "width": 185
+        },
+        "09a5348f-fd89-42aa-aed7-5c2d7f5fa89c": {
+            "elementId": "43a9f53d-85ee-4b4f-a64d-b4d5fe99da61",
+            "height": 86,
+            "width": 185
+        }
+    },
+    "connections": {
+        "cf44183d-642b-4bf6-a777-b279ff52a016": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "0d86be94-d1d0-4a92-87dc-a34fb57b5938",
+            "label": "<p>\u041a\u0430\u043a \u0442\u044b \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u043b \u0441\u0435\u0431\u044f \u0432 \u0442\u0430\u043a\u043e\u0439 \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u0435, \u0441\u0442\u0430\u0440\u0438\u043a?<\/p>",
+            "sourceid": "50547210-8b59-48c2-b5df-9473f9cf556b",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "59c8453e-6997-4632-bda4-6845acb08cc5": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "0d8b8873-254a-4000-bfbe-76c685c72f51",
+            "label": "<p>\u041e\u043a<\/p>",
+            "sourceid": "db9d0090-ab9b-4c3e-a321-fa14632a9789",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "8308b0e8-f0e8-4bb1-a9df-635491f684c8": {
+            "targetType": "jumpers",
+            "type": "Bezier",
+            "targetid": "31a07d0f-c7c8-4969-b367-5f6b82ceb4f7",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "88c983ce-607c-4dcc-af63-169115d0bf41",
+            "theme": "default",
+            "sourceType": "conditions"
+        },
+        "3d5f0d84-979c-4d9b-b10b-603bfb890b2c": {
+            "targetType": "jumpers",
+            "type": "Bezier",
+            "targetid": "29692c49-19b6-48c5-af78-cdb99e56568a",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "14f697c9-91ab-4e7c-ac43-9b25a067c04e",
+            "theme": "default",
+            "sourceType": "conditions"
+        },
+        "5732e265-214d-4578-bd77-ab404c088fa0": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "b33827b3-187a-4c94-b6e9-625c431baaca",
+            "label": "<p>\u041f\u043e\u043d\u044f\u0442\u043d\u043e.<\/p>",
+            "sourceid": "d75ec70d-f697-4984-bd5c-f1e636ec7920",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "ef09ea50-f898-48bc-94ec-4d7570ebd079": {
+            "targetType": "branches",
+            "type": "Bezier",
+            "targetid": "db80d6fd-72b5-41b6-8dd2-4e08c4670836",
+            "label": null,
+            "sourceid": "11eaf2dc-196e-451c-859d-6340cc9d3400",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "43b9ec17-cb37-45f6-8142-abff39b25ab3": {
+            "targetType": "branches",
+            "type": "Bezier",
+            "targetid": "f21923f2-fd89-4a82-afc8-c48ca9697335",
+            "label": null,
+            "sourceid": "9d234f96-5644-4452-b14d-4b92aa713117",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "5e9f91b7-b51a-45bc-8586-7690698a3f49": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "87a29660-5387-4043-81f5-500e3542ae83",
+            "label": "<p>\u041f\u043e\u043d\u044f\u0442\u043d\u043e.<\/p>",
+            "sourceid": "2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "eb5d2345-cd56-4d5d-a1ed-9a1fc65dfae4": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "476317e9-447a-437f-ab23-f9a0675e55ba",
+            "label": "<p>*\u041f\u0440\u043e\u0441\u0442\u0438, \u043f\u0440\u043e\u0441\u0442\u0438, \u043c\u044d\u043c*<\/p>",
+            "sourceid": "1dc0aa88-f9ab-42a4-9132-49c7f7e80b09",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "88f31c30-53ed-404a-9a5d-b489de5d7e14": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "1ccb500e-0894-4fba-a10f-115ea02da8d6",
+            "label": "<p>\u0413\u0440\u043e\u0437\u043d\u043e \u0437\u0432\u0443\u0447\u0438\u0442! \u0422\u044b \u0440\u0435\u043f\u0435\u0442\u0438\u0440\u043e\u0432\u0430\u043b?<\/p>",
+            "sourceid": "e764f094-5428-47fd-a005-a8467a8fdbb3",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "eb3b4cab-5a13-480f-bb2a-308cf40a3842": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "d75ec70d-f697-4984-bd5c-f1e636ec7920",
+            "label": "<p>\u041c?<\/p>",
+            "sourceid": "319dff36-46f7-465d-86fd-8b61a7c5cef5",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "6770c611-1752-4604-baf7-fde478792053": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "555427e9-7b35-426f-ac33-8787e76f0266",
+            "targetid": "0e4b9319-930d-4057-ab5e-c9da63da2e3b",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "185d46f7-a5c3-4c49-b70c-e446757aebf7": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "9c1d5bbe-bd5c-4ed1-b0c1-0e3b1eab579a",
+            "targetid": "2597c65d-3980-403a-82c0-e673b5a58881",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "f4f2ff14-5448-4ecb-9f05-bc1f3535cf18": {
+            "sourceType": "elements",
+            "label": null,
+            "sourceid": "207a9ec7-e139-4356-a596-1c90793c120e",
+            "targetid": "163da1be-eeb9-4676-9b7a-cc1aa9eeb48f",
+            "targetFace": "left",
+            "targetType": "branches",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "5ecbb20b-2caf-46d4-aef7-8b0a80c0c4a4": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "8379b77e-0d13-4df5-98af-b5fc34bd7a31",
+            "label": "<p>\u041f\u043e\u043d\u044f\u0442\u043d\u043e.<\/p>",
+            "sourceid": "0d8b8873-254a-4000-bfbe-76c685c72f51",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "b7f61bd2-91d6-47e1-9b6b-02e6a5138789": {
+            "targetType": "jumpers",
+            "type": "Bezier",
+            "targetid": "9eeaa7d6-6fd2-4d27-a1ba-1703093aa83c",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "dc3c416a-528e-4859-9a0a-5cb57a2e5ecb",
+            "theme": "default",
+            "sourceType": "conditions"
+        },
+        "588f06fd-c610-400c-9742-30a064ca3982": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "dc6bcaeb-94b6-46a4-b29c-3d97d7615d17",
+            "label": "<p>\u0421 \u0442\u0430\u043a\u043e\u0439 \u0440\u0435\u0448\u0438\u043c\u043e\u0441\u0442\u044c\u044e \u0443 \u0442\u0435\u0431\u044f \u0442\u043e\u0447\u043d\u043e \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0441\u044f!<\/p>",
+            "sourceid": "a208d384-1d73-4b59-9ed8-e7c14ca76e61",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "a471b6f2-c3c7-4fc0-910e-e118e3eb4021": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "736b265f-ce79-4dfa-9720-9fb5084e6ab3",
+            "label": "<p>\u0422\u044b \u0436\u0435 \u043f\u0440\u043e \u0441\u0432\u0435\u0447\u0438, \u0434\u0430?<\/p>",
+            "sourceid": "c966d4ef-7b31-4917-b6c5-baf20edeed0a",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "3bd2c591-02bf-4cd7-bfa2-686e8b2a3087": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "72b11dee-03e5-45ec-bba5-142f0654a0c2",
+            "label": "<p>\u041e, \u044d\u0442\u043e \u043f\u0440\u044f\u043c\u043e \u0438\u0437 \u043a\u043d\u0438\u0433\u0438 \u043c\u0443\u0434\u0440\u0435\u0446\u043e\u0432?<\/p>",
+            "sourceid": "4cf67560-1576-4320-9f49-8c2ad70ab991",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "ddfa02b6-d20c-44f8-929a-800cea12f693": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "f3153c4b-3515-4563-8afb-15b64f791115",
+            "label": "<p>\u041f\u0440\u043e\u0441\u0442\u0438, \u044f \u043f\u0440\u043e\u0441\u0442\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u044e \u0442\u0432\u043e\u044e \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u044c!<\/p>",
+            "sourceid": "1ccb500e-0894-4fba-a10f-115ea02da8d6",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "860af223-4245-4307-b6cb-1931655d2719": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "4a843e1d-e9a1-4405-bc48-d0c607119c37",
+            "label": "<p>\u0421\u0435\u0439\u0447\u0430\u0441, \u043f\u043e\u0438\u0449\u0443 \u0447\u0442\u043e-\u0442\u043e \u0434\u043b\u044f \u0442\u0435\u0431\u044f.<\/p>",
+            "sourceid": "810790f0-7a37-42f8-b78c-3a56fc8b3a64",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "baf3dbe0-3f25-4389-8ded-6c5d0644784b": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "8c82e62a-bcb8-432a-9318-a59c9c074d03",
+            "targetid": "09a5348f-fd89-42aa-aed7-5c2d7f5fa89c",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "bbc58698-a780-4b53-b572-77f59b451415": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "dc427201-9102-44c8-80a9-660225a4de89",
+            "targetid": "9a581919-42a7-4cb2-a7c8-b339ad203425",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "f7b63508-fa7b-45d5-80be-a18b2e7cb698": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "1a91266e-e7d2-4571-bd7f-1272222927fc",
+            "targetid": "7913bad0-f5dd-414c-b7af-82a161d5d49b",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "1a49514e-4060-4eca-8b3a-2e7712fea995": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "4aef22a1-a73b-4576-8d62-22c27c1d07b1",
+            "label": "<p>\u0422\u0430\u043a \u0442\u044b \u043f\u0440\u043e\u0441\u0442\u043e \u0430\u043b\u043a\u043e\u0433\u043e\u043b\u0438\u043a, \u0441\u0442\u0430\u0440\u0438\u043a..<\/p>",
+            "sourceid": "0d86be94-d1d0-4a92-87dc-a34fb57b5938",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "d3245450-0e13-40d6-bc38-4fc32e85d395": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "14011cbd-2ee3-4606-8c75-0692d2e2c4b2",
+            "label": "<p>*\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u043d\u0435 \u043c\u0435\u0448\u0430\u0435\u0448\u044c, \u0432\u0438\u0436\u0443, \u0442\u044b \u0432\u043e\u043b\u043d\u0443\u0435\u0448\u044c\u0441\u044f, \u0445\u043e\u0447\u0435\u0448\u044c \u0447\u0430\u0439?*<\/p>",
+            "sourceid": "43a9f53d-85ee-4b4f-a64d-b4d5fe99da61",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "996e95f1-fdab-44eb-ade0-3417c19d2e5d": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "23203bc2-306d-437a-9fbd-9585d71bcf76",
+            "targetid": "839d505d-70c8-4202-8846-63f8153dd600",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "ef5e4c27-ff08-45f9-83e2-43aa5ffc675d": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "1acfd194-cbd0-48a9-a936-f900a379cc07",
+            "targetid": "8e08bf74-962e-4a38-ba03-56f2e28e9b87",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "fcc1a2d6-3209-4238-8650-a53b3f2c343a": {
+            "sourceType": "elements",
+            "label": null,
+            "sourceid": "889f6461-b74e-4500-94cd-fe4587a59037",
+            "targetid": "13213c2a-f685-4e71-896f-ff8f152d80a1",
+            "targetFace": "left",
+            "targetType": "branches",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "6458c5e2-4ff2-48c5-bf64-36ce3c487ab0": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "24758ab0-2df8-431f-8df7-df6a251dfdcb",
+            "label": "<p>\u041e\u0433\u043e, \u0442\u0435\u0431\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u043c\u043e\u0434\u0443\u043b\u044c \u0434\u043b\u044f \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u043e\u0432?<\/p>",
+            "sourceid": "82f517a9-a0d9-44b4-8034-122db8ffd2ed",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "10a5b9dd-2963-4c75-8d9d-2c45164b236b": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "1a563a93-6786-4aa6-9ead-6fe3334762a2",
+            "label": "<p>*\u0422\u0430\u043a\u043e\u0433\u043e \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442\u044c \u043d\u0435 \u043c\u043e\u0433\u0443....*<\/p>",
+            "sourceid": "14011cbd-2ee3-4606-8c75-0692d2e2c4b2",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "4978bc95-3f3d-4362-881b-a717c7d093a7": {
+            "targetType": "jumpers",
+            "type": "Bezier",
+            "targetid": "dd804575-a935-4cf1-b96e-e8c5d9c7430e",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "976b0c41-fc25-440d-ac33-1584787a8bc4",
+            "theme": "default",
+            "sourceType": "conditions"
+        },
+        "74cbf066-e838-4c00-ae4f-e01061e09743": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "c44473e4-2085-45ab-8d78-e50367a9fbc7",
+            "targetid": "e6a0a8e4-66e9-4cf1-9994-abe6d6a1c854",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "549e34fc-4b01-4df0-8cd7-0b119cc6dd7e": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "4cbfcef0-71bb-44e7-8bfb-11ecc50c2d92",
+            "label": "<p>\u041d\u0435 \u0441\u0430\u0445\u0430\u0440\u043d\u044b\u0439 - \u043d\u0435 \u0440\u0430\u0441\u0442\u0430\u0435\u0448\u044c.<\/p>",
+            "sourceid": "4a843e1d-e9a1-4405-bc48-d0c607119c37",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "144ed5a8-f987-4d54-9c48-b4deaad3dd83": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "17c39ec7-7e17-4292-bcc0-c8f709cac414",
+            "label": "<p>*\u041d\u0438\u043a\u043e\u0433\u0434\u0430 \u043d\u0435 \u043f\u043e\u0439\u043c\u0443 \u044e\u043d\u044b\u0445 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u043e\u0440\u043e\u0432..*<\/p>",
+            "sourceid": "64762737-ced9-410d-8698-1ac8c56a1b37",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "256edef4-8202-4712-8e89-ed1bcdd6e576": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "1dc0aa88-f9ab-42a4-9132-49c7f7e80b09",
+            "label": "<p>*\u0414\u0430\u0432\u043d\u043e \u043e\u0442 \u0442\u0435\u0431\u044f \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435 \u0441\u043b\u044b\u0448\u0430\u043b..\u043e\u0439*<\/p>",
+            "sourceid": "9e987eb7-b04b-4b7f-98b6-135b163860b9",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "57e910f2-2cbe-4db2-8e23-2dd2ad6316f3": {
+            "sourceType": "elements",
+            "label": null,
+            "sourceid": "5ddaa37a-cb4a-4317-8739-441cd553565a",
+            "targetid": "d71c7af8-0bcd-486d-8e7d-f821360d7042",
+            "targetFace": "left",
+            "targetType": "branches",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "3086a327-6c44-4241-b609-f2c042a2f337": {
+            "targetType": "jumpers",
+            "type": "Bezier",
+            "targetid": "3207129a-b07d-45d4-9262-d4fbbc50dda8",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "9b50a12a-0150-46f7-b8e7-2310a522032f",
+            "theme": "default",
+            "sourceType": "conditions"
+        },
+        "02cb1cf2-9d0a-4a6f-b554-fe1f91fa24a7": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "3d81c9d4-d7a9-4093-ac1a-5a560d8a8082",
+            "targetid": "64e45f37-84d3-41a0-94fc-49edcef151c7",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "bc9f2c2d-750e-4fc9-bed1-28064e3fb228": {
+            "targetType": "jumpers",
+            "type": "Bezier",
+            "targetid": "262476be-cac3-4db6-a149-8e4e40bca860",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "9dc347bb-c318-4675-a9ef-1592b1b2b9f2",
+            "theme": "default",
+            "sourceType": "conditions"
+        },
+        "b436547d-f627-460c-81c8-044d5ea2095e": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "64762737-ced9-410d-8698-1ac8c56a1b37",
+            "label": "<p>*\u041a\u0430\u043a \u0433\u043e\u0432\u043e\u0440\u0438\u0442 \u043c\u043e\u043b\u043e\u0434\u0435\u0436\u044c, \u0447\u0435 \u043a\u0430\u0432\u043e?*<\/p>",
+            "sourceid": "a8c0ed83-084c-462d-890e-c8047eb4913c",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "f4a18bdc-14cb-4342-8207-eb2761e25937": {
+            "targetType": "branches",
+            "type": "Bezier",
+            "targetid": "19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b",
+            "label": null,
+            "sourceid": "1e352a41-0707-4a25-9658-59364597e746",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "a13e2cf2-85e0-45e7-ac44-246650caa467": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "a54a5bd7-400a-4b5f-9528-a34a11d7d2ab",
+            "targetid": "62a129b4-c462-4281-b353-c64d53c18b23",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "ecee632e-fc02-4d92-801b-c98b6938b4d0": {
+            "sourceType": "conditions",
+            "label": "<p>\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c!<\/p>",
+            "sourceid": "b4ae7bcb-6b64-4014-a76b-5f7e455e4db3",
+            "targetid": "5a55623e-74f3-4597-a921-c01c40acee1e",
+            "targetFace": "left",
+            "targetType": "jumpers",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "ba3c60cf-c262-4547-89df-3344db2cb452": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "1f5028ee-e2f9-462e-9430-480ae27e5a5c",
+            "label": "<p>\u041d\u0435 \u0437\u0430\u0431\u0438\u0432\u0430\u0439 \u0441\u0435\u0431\u0435 \u0433\u043e\u043b\u043e\u0432\u0443, \u0438\u043b\u0438 \u0447\u0442\u043e \u0442\u0430\u043c \u0443 \u0442\u0435\u0431\u044f.<\/p>",
+            "sourceid": "24758ab0-2df8-431f-8df7-df6a251dfdcb",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "4691a918-f73c-428d-83d9-6d2a6a2130d0": {
+            "sourceType": "elements",
+            "label": "<p>\u0423\u0432\u0435\u0440\u0435\u043d, \u043f\u0440\u0430\u0432\u0434\u0430 \u043d\u0430 \u0442\u0432\u043e\u0435\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u0435... \u0438\u043b\u0438 \u043d\u0435\u0442?<\/p>",
+            "sourceid": "72b11dee-03e5-45ec-bba5-142f0654a0c2",
+            "targetid": "f80f1d4e-4798-4dfc-bcb1-a1c3040a2761",
+            "targetFace": "left",
+            "targetType": "elements",
+            "theme": "default",
+            "type": "Bezier"
+        },
+        "95d1f46a-9c7d-4029-8c7f-2ac8f6e85c5b": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "a208d384-1d73-4b59-9ed8-e7c14ca76e61",
+            "label": "<p>\u041e\u0433\u043e, \u0430 \u0442\u044b \u043d\u0435 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0441\u0435\u0440\u044c\u0435\u0437\u0435\u043d \u0441\u0435\u0433\u043e\u0434\u043d\u044f?<\/p>",
+            "sourceid": "0eeec38a-4740-42e0-8d29-78f622295047",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "0bf70d1b-adeb-4b09-9102-1339f04c8ea1": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "c966d4ef-7b31-4917-b6c5-baf20edeed0a",
+            "label": "<p>\u0415\u0441\u0442\u044c \u043a\u0430\u043a\u0438\u0435-\u0442\u043e \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u044f \u043f\u043e \u043a\u0432\u0435\u0441\u0442\u0443?<\/p>",
+            "sourceid": "42c935c3-572a-4891-8e90-765f45feed34",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "574e341c-5990-4fcf-8fdd-5a774aca5a5d": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "91f95772-15db-492b-b481-49758c7a6369",
+            "label": "<p>\u0421\u043b\u044b\u0448\u0438\u0442\u0441\u044f, \u0431\u0443\u0434\u0442\u043e \u0442\u044b \u0433\u043e\u0442\u043e\u0432 \u043a \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044e. \u041a\u0430\u043a\u0438\u0435 \u043f\u043b\u0430\u043d\u044b \u043d\u0430 \u0441\u0435\u0433\u043e\u0434\u043d\u044f?<\/p>",
+            "sourceid": "f01312f6-7427-4828-8b4e-c459481df447",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "3b71ba40-690d-4521-a268-06c21fb1a171": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "19d313f5-95a7-4ee4-897a-0fdbd1e66a63",
+            "label": "<p>\u041d\u043e \u043f\u043e\u043c\u043d\u0438, \u0447\u0442\u043e \u0443 \u043a\u0430\u0436\u0434\u043e\u0439 \u0434\u0443\u044d\u043b\u0438 \u0435\u0441\u0442\u044c \u0441\u0432\u043e\u044f \u0446\u0435\u043d\u0430.<\/p>",
+            "sourceid": "91f95772-15db-492b-b481-49758c7a6369",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "54809dac-adf3-4c8f-83eb-13d595b175fc": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "4786f511-9f3d-4d71-aa7e-550b9170030b",
+            "label": "<p>\u0422\u0435\u0431\u0435 \u043f\u0440\u043e\u0441\u0442\u043e \u043d\u0443\u0436\u043d\u043e \u043f\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u043d\u0430\u0434 \u0441\u0432\u043e\u0435\u0439 \u0440\u0435\u043f\u0443\u0442\u0430\u0446\u0438\u0435\u0439, \u0434\u0440\u0443\u0436\u0438\u0449\u0435.<\/p>",
+            "sourceid": "fe2b3804-594a-43f5-9a1d-9270fecbc3ec",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "a7fc745a-dcb1-43ac-923d-0b929570d380": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "b65f0c76-41c8-4751-8e77-477ca70c6d42",
+            "label": "<p>\u041b\u0430\u0434\u043d\u043e, \u043b\u0430\u0434\u043d\u043e - \u043d\u0435 \u0431\u0443\u0445\u0442\u0438. \u0417\u0434\u0435\u0441\u044c \u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0434\u043b\u044f \u0442\u0435\u0431\u044f  \u0432\u0441\u0435\u0433\u0434\u0430 \u043d\u0430\u0439\u0434\u0435\u0442\u0441\u044f.<\/p>",
+            "sourceid": "4786f511-9f3d-4d71-aa7e-550b9170030b",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "8e14568c-7b24-4d39-8a7f-a005d5514575": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "2723f7c0-3be2-428a-acdc-b2fbabff70e7",
+            "label": "<p>\u0422\u044b \u0447\u0442\u043e, \u0432 \u043a\u043e\u0441\u043c\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u043e\u043f\u0435\u0440\u0443 \u043f\u043e\u0434\u0430\u043b\u0441\u044f? \u041a\u0430\u0436\u0435\u0442\u0441\u044f, \u0442\u0435\u0431\u0435 \u043d\u0443\u0436\u0435\u043d \u0440\u0435\u043f\u0435\u0442\u0438\u0442\u043e\u0440 \u043f\u043e \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0438 \u0441\u043b\u043e\u0432!<\/p>",
+            "sourceid": "efe64a51-37cb-4aa2-a704-3ab7426165b5",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "af5872de-28b5-4eca-8d1a-8713faf571a2": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "1edc40be-5d36-4454-8f2f-1547a10bc277",
+            "label": "<p>\u0423\u0436\u0435 \u0438\u0449\u0443, \u043f\u043e\u043a\u0430 \u043f\u044b\u0442\u0430\u044e\u0441\u044c \u043d\u0435 \u0443\u0441\u043d\u0443\u0442\u044c \u043e\u0442 \u0442\u0432\u043e\u0438\u0445 \u0438\u0441\u0442\u043e\u0440\u0438\u0439.<\/p>",
+            "sourceid": "2723f7c0-3be2-428a-acdc-b2fbabff70e7",
+            "theme": "default",
+            "sourceType": "elements"
+        },
+        "0bab01c0-78d4-4333-9158-a2159d94955d": {
+            "targetType": "elements",
+            "type": "Bezier",
+            "targetid": "2c784d16-d5d1-42a0-ad70-2ea7ecd1cf46",
+            "label": "<p>\u0422\u0435\u0431\u0435 \u0441\u043e\u0432\u0441\u0435\u043c \u043d\u0435 \u043e\u0445\u043e\u0442\u0430 \u0441\u043e \u043c\u043d\u043e\u0439 \u0440\u0430\u0437\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0442\u044c?<\/p>",
+            "sourceid": "ae23d8ae-99e0-4376-961f-a52fe1f50e03",
+            "theme": "default",
+            "sourceType": "elements"
+        }
+    },
+    "branches": {
+        "163da1be-eeb9-4676-9b7a-cc1aa9eeb48f": {
+            "conditions": {
+                "ifCondition": "9c1d5bbe-bd5c-4ed1-b0c1-0e3b1eab579a",
+                "elseIfConditions": [
+                    "23203bc2-306d-437a-9fbd-9585d71bcf76"
+                ],
+                "elseCondition": "976b0c41-fc25-440d-ac33-1584787a8bc4"
+            },
+            "theme": "default"
+        },
+        "2c722db9-af7a-43bc-a058-84594a0403e0": {
+            "conditions": {
+                "ifCondition": "74145cb7-885c-4af9-a7e3-7f8948f6d6e6"
+            },
+            "theme": "default"
+        },
+        "1128f4b6-3a7c-46a1-ba08-cc660251de24": {
+            "conditions": {
+                "ifCondition": "bac592ce-bf60-433c-ba63-542c6c51887d"
+            },
+            "theme": "default"
+        },
+        "13213c2a-f685-4e71-896f-ff8f152d80a1": {
+            "conditions": {
+                "ifCondition": "dc3c416a-528e-4859-9a0a-5cb57a2e5ecb",
+                "elseIfConditions": [
+                    "555427e9-7b35-426f-ac33-8787e76f0266"
+                ],
+                "elseCondition": "3d81c9d4-d7a9-4093-ac1a-5a560d8a8082"
+            },
+            "theme": "default"
+        },
+        "f21923f2-fd89-4a82-afc8-c48ca9697335": {
+            "conditions": {
+                "ifCondition": "14f697c9-91ab-4e7c-ac43-9b25a067c04e",
+                "elseCondition": "dc427201-9102-44c8-80a9-660225a4de89",
+                "elseIfConditions": [
+                    "1a91266e-e7d2-4571-bd7f-1272222927fc"
+                ]
+            },
+            "theme": "default"
+        },
+        "d71c7af8-0bcd-486d-8e7d-f821360d7042": {
+            "conditions": {
+                "ifCondition": "c44473e4-2085-45ab-8d78-e50367a9fbc7",
+                "elseIfConditions": [
+                    "a54a5bd7-400a-4b5f-9528-a34a11d7d2ab"
+                ],
+                "elseCondition": "88c983ce-607c-4dcc-af63-169115d0bf41"
+            },
+            "theme": "default"
+        },
+        "19f7bc6d-9d8f-4c4a-acbe-8b6ad79f9a9b": {
+            "conditions": {
+                "ifCondition": "9dc347bb-c318-4675-a9ef-1592b1b2b9f2",
+                "elseCondition": "1acfd194-cbd0-48a9-a936-f900a379cc07"
+            },
+            "theme": "default"
+        },
+        "db80d6fd-72b5-41b6-8dd2-4e08c4670836": {
+            "conditions": {
+                "ifCondition": "9b50a12a-0150-46f7-b8e7-2310a522032f",
+                "elseCondition": "b4ae7bcb-6b64-4014-a76b-5f7e455e4db3",
+                "elseIfConditions": [
+                    "8c82e62a-bcb8-432a-9318-a59c9c074d03"
+                ]
+            },
+            "theme": "default"
+        }
+    },
+    "components": {
+        "65005bda-15d0-41c5-867f-68c118829f08": {
+            "name": "Root",
+            "root": true,
+            "children": [
+                "6d995b59-b9b5-4d78-bb96-e6d59592090a",
+                "feac8f11-3d9f-4cba-875d-0e835fdff992",
+                "13a761c5-3d22-4661-8743-79b6a767d202",
+                "cef2765c-ad8f-4af3-ae94-d32d5a525de4",
+                "b4882d23-cb36-47b2-a543-7e1129f6a4be",
+                "cd498e75-e765-42b3-b770-ed8221998ede",
+                "b5d43f8f-f59e-4ab0-ad44-e3ad7d038827"
+            ]
+        },
+        "6d995b59-b9b5-4d78-bb96-e6d59592090a": {
+            "name": "Xx_StarKiller_xX",
+            "attributes": [],
+            "assets": {
+                "cover": {
+                    "file": "delapouite\/magic-axe",
+                    "type": "icon"
+                }
+            }
+        },
+        "feac8f11-3d9f-4cba-875d-0e835fdff992": {
+            "name": "HeadHunterJimmy",
+            "attributes": [],
+            "assets": {
+                "cover": {
+                    "file": "delapouite\/revolver",
+                    "type": "icon"
+                }
+            }
+        },
+        "13a761c5-3d22-4661-8743-79b6a767d202": {
+            "name": "Vlad3000",
+            "attributes": [],
+            "assets": {
+                "cover": {
+                    "file": "lorc\/fragmented-sword",
+                    "type": "icon"
+                }
+            }
+        },
+        "cef2765c-ad8f-4af3-ae94-d32d5a525de4": {
+            "name": "ArcaneWizarder",
+            "attributes": [],
+            "assets": {
+                "cover": {
+                    "file": "delapouite\/wizard-face",
+                    "type": "icon"
+                }
+            }
+        },
+        "b4882d23-cb36-47b2-a543-7e1129f6a4be": {
+            "name": "WorldA$$a$$in",
+            "attributes": [],
+            "assets": {
+                "cover": {
+                    "file": "delapouite\/butterfly-knife",
+                    "type": "icon"
+                }
+            }
+        },
+        "cd498e75-e765-42b3-b770-ed8221998ede": {
+            "name": "BalbesBunny",
+            "attributes": [],
+            "assets": {
+                "cover": {
+                    "file": "lorc\/brain",
+                    "type": "icon"
+                }
+            }
+        },
+        "b5d43f8f-f59e-4ab0-ad44-e3ad7d038827": {
+            "name": "GraveCompany",
+            "attributes": [],
+            "assets": {
+                "cover": {
+                    "file": "lorc\/pirate-grave",
+                    "type": "icon"
+                }
+            }
+        }
+    },
+    "attributes": {},
+    "assets": {
+        "647d0495-341f-42b2-8788-b47dace22bf8": {
+            "root": true,
+            "children": [
+                "064cda3a-d283-4632-acf8-d591c33764aa",
+                "618d2177-7ccc-420e-978c-ee1447288145",
+                "eea271f4-08ca-4632-80e2-524890a56e2a",
+                "8b70e2c2-bab6-4a93-96c3-b75ad7472831",
+                "379951f1-9d9b-4825-a13d-d7d54cfd7b52",
+                "7fbb54ee-4c7f-4066-9b93-b9efb71983dc",
+                "21965103-6a7a-44a6-8290-c90ffa94ff53",
+                "76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd",
+                "2bc37151-b8f5-49e9-8b50-5d26976c36fb",
+                "fdcc323e-5e47-4338-b7aa-547379496e89",
+                "e2e706b7-ad1b-486e-b419-b8b53f0190aa",
+                "f84a5d47-e7a8-4dac-a34d-db286df9af60",
+                "9efab171-445b-4632-913d-b3e7f31858e4",
+                "f44724ef-4d18-462e-9ffb-621351055ae7",
+                "3577c1a2-04e4-466c-a331-14aa84f7205f",
+                "1a437bcd-1ae4-413a-9057-d409de5d7b8f",
+                "b0231e7e-e95f-4981-b94b-655c23287175",
+                "479bc614-6ebe-400a-a2c3-eebb8d95ae4c",
+                "969413f5-370d-43b1-8968-b2fe5616a17e",
+                "4f5a119f-2f13-4721-8b73-2b80e3fb4b67",
+                "350ec9d7-5577-4e88-a75d-8990e4d47085",
+                "d8e7c81f-6830-4fac-8e64-0d1fa742c359",
+                "937dae08-937f-47f6-8db6-67bb83f2f39b",
+                "aecd152f-c46a-4a5a-bf72-b3af19e3024c",
+                "98bc7592-8b14-4831-a94d-99fa39fccb16",
+                "59a36072-2cb8-4288-bc1c-99cafdbb7a92",
+                "bd89d424-f4dc-494e-aa77-2cc6df75881e",
+                "95b6acde-e774-4017-823b-069adf6853f9",
+                "846879ea-83e3-4404-80ba-3057ab7bf050",
+                "539b307e-32dc-42bf-89fb-a5c71bdf366f",
+                "bc06bf41-3e69-45d0-8be8-f53f7d12d548",
+                "6e3182a6-1c79-45f6-8513-8b350687337f",
+                "e1877c5a-5994-40a4-bacf-1d481824ec0a",
+                "a6694279-d5ee-4272-bcd4-09773f71720d",
+                "2a11704a-42aa-481e-bb31-9c9947def239",
+                "9e99806e-8244-48bf-8610-abe2cc7f4151",
+                "5ad6c7c5-8a68-438d-b245-ee77a8080cf3",
+                "6ff666a1-af20-40d8-b070-0d9ed51878f3",
+                "7eab4592-70dd-4ca3-a563-5c5f9d2a6e00",
+                "d31ab1ae-86b6-4bcf-a4ff-211da2788847"
+            ]
+        },
+        "064cda3a-d283-4632-acf8-d591c33764aa": {
+            "type": "audio",
+            "name": "1000 Eyes \u2014 Signalis \u2014 Ariane's Theme (www.lightaudio.ru).mp3",
+            "volume": 1
+        },
+        "eea271f4-08ca-4632-80e2-524890a56e2a": {
+            "type": "audio",
+            "name": "cake2.wav",
+            "volume": 1
+        },
+        "7fbb54ee-4c7f-4066-9b93-b9efb71983dc": {
+            "type": "audio",
+            "name": "cake5.wav",
+            "volume": 1
+        },
+        "618d2177-7ccc-420e-978c-ee1447288145": {
+            "type": "audio",
+            "name": "cake1.wav",
+            "volume": 1
+        },
+        "8b70e2c2-bab6-4a93-96c3-b75ad7472831": {
+            "type": "audio",
+            "name": "cake3.wav",
+            "volume": 1
+        },
+        "21965103-6a7a-44a6-8290-c90ffa94ff53": {
+            "type": "audio",
+            "name": "cake6.wav",
+            "volume": 1
+        },
+        "379951f1-9d9b-4825-a13d-d7d54cfd7b52": {
+            "type": "audio",
+            "name": "cake4.wav",
+            "volume": 1
+        },
+        "76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd": {
+            "type": "audio",
+            "name": "cake7.wav",
+            "volume": 1
+        },
+        "2bc37151-b8f5-49e9-8b50-5d26976c36fb": {
+            "type": "audio",
+            "name": "cake8.wav",
+            "volume": 1
+        },
+        "fdcc323e-5e47-4338-b7aa-547379496e89": {
+            "type": "audio",
+            "name": "cake9.wav",
+            "volume": 1
+        },
+        "e2e706b7-ad1b-486e-b419-b8b53f0190aa": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04391.wav",
+            "volume": 1
+        },
+        "f84a5d47-e7a8-4dac-a34d-db286df9af60": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04392.wav",
+            "volume": 1
+        },
+        "9efab171-445b-4632-913d-b3e7f31858e4": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04393.wav",
+            "volume": 1
+        },
+        "3577c1a2-04e4-466c-a331-14aa84f7205f": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04399.wav",
+            "volume": 1
+        },
+        "1a437bcd-1ae4-413a-9057-d409de5d7b8f": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04395.wav",
+            "volume": 1
+        },
+        "479bc614-6ebe-400a-a2c3-eebb8d95ae4c": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04396.wav",
+            "volume": 1
+        },
+        "f44724ef-4d18-462e-9ffb-621351055ae7": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04394.wav",
+            "volume": 1
+        },
+        "969413f5-370d-43b1-8968-b2fe5616a17e": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04398.wav",
+            "volume": 1
+        },
+        "b0231e7e-e95f-4981-b94b-655c23287175": {
+            "type": "audio",
+            "name": "\u043a\u043e\u0432\u044c\u0431\u043e\u04397.wav",
+            "volume": 1
+        },
+        "350ec9d7-5577-4e88-a75d-8990e4d47085": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04343.wav",
+            "volume": 1
+        },
+        "937dae08-937f-47f6-8db6-67bb83f2f39b": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04345.wav",
+            "volume": 1
+        },
+        "aecd152f-c46a-4a5a-bf72-b3af19e3024c": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04346.wav",
+            "volume": 1
+        },
+        "98bc7592-8b14-4831-a94d-99fa39fccb16": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04344.wav",
+            "volume": 1
+        },
+        "59a36072-2cb8-4288-bc1c-99cafdbb7a92": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04347.wav",
+            "volume": 1
+        },
+        "95b6acde-e774-4017-823b-069adf6853f9": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04349.wav",
+            "volume": 1
+        },
+        "d8e7c81f-6830-4fac-8e64-0d1fa742c359": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04342.wav",
+            "volume": 1
+        },
+        "4f5a119f-2f13-4721-8b73-2b80e3fb4b67": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04341.wav",
+            "volume": 1
+        },
+        "bd89d424-f4dc-494e-aa77-2cc6df75881e": {
+            "type": "audio",
+            "name": "\u0434\u0435\u0434\u0441\u0438\u043d\u0430\u0439\u04348.wav",
+            "volume": 1
+        },
+        "539b307e-32dc-42bf-89fb-a5c71bdf366f": {
+            "type": "audio",
+            "name": "\u0434\u043e\u0434\u0438\u043a6.wav",
+            "volume": 1
+        },
+        "e1877c5a-5994-40a4-bacf-1d481824ec0a": {
+            "type": "audio",
+            "name": "\u0434\u043e\u0434\u0438\u043a5.wav",
+            "volume": 1
+        },
+        "bc06bf41-3e69-45d0-8be8-f53f7d12d548": {
+            "type": "audio",
+            "name": "\u0434\u043e\u0434\u0438\u043a2.wav",
+            "volume": 1
+        },
+        "a6694279-d5ee-4272-bcd4-09773f71720d": {
+            "type": "audio",
+            "name": "\u0434\u043e\u0434\u0438\u043a4.wav",
+            "volume": 1
+        },
+        "6e3182a6-1c79-45f6-8513-8b350687337f": {
+            "type": "audio",
+            "name": "\u0434\u043e\u0434\u0438\u043a3.wav",
+            "volume": 1
+        },
+        "2a11704a-42aa-481e-bb31-9c9947def239": {
+            "type": "audio",
+            "name": "\u0434\u043e\u0434\u0438\u043a7.wav",
+            "volume": 1
+        },
+        "846879ea-83e3-4404-80ba-3057ab7bf050": {
+            "type": "audio",
+            "name": "\u0434\u043e\u0434\u0438\u043a1.wav",
+            "volume": 1
+        },
+        "5ad6c7c5-8a68-438d-b245-ee77a8080cf3": {
+            "type": "audio",
+            "name": "\u0433\u043e\u0440\u04312.wav",
+            "volume": 1
+        },
+        "9e99806e-8244-48bf-8610-abe2cc7f4151": {
+            "type": "audio",
+            "name": "\u0433\u043e\u0440\u04311.wav",
+            "volume": 1
+        },
+        "6ff666a1-af20-40d8-b070-0d9ed51878f3": {
+            "type": "audio",
+            "name": "\u0434\u0435\u04341.wav",
+            "volume": 1
+        },
+        "d31ab1ae-86b6-4bcf-a4ff-211da2788847": {
+            "type": "audio",
+            "name": "\u0434\u0435\u04343.wav",
+            "volume": 1
+        },
+        "7eab4592-70dd-4ca3-a563-5c5f9d2a6e00": {
+            "type": "audio",
+            "name": "\u0434\u0435\u04342.wav",
+            "volume": 1
+        }
+    },
+    "variables": {
+        "747d0495-341f-42b2-8788-b47dace22bf8": {
+            "root": true,
+            "children": [
+                "b89e9390-42c0-4e45-83b1-8ef099466934",
+                "672d669f-031e-4ebc-afa2-f8535ac816f3",
+                "72db83d2-07a0-4c66-b108-7e81a81b41ba",
+                "98ed457c-e34e-4000-bb8b-179fe7b81468",
+                "592c7868-a6db-4282-883a-287394bdc98f",
+                "e4f40211-d61d-4b99-9008-c532ef00d309",
+                "f9c86fb4-44fa-4963-b042-746dd7380365",
+                "70b4f9b8-ea72-4b9c-8323-e759d3ccac16",
+                "77b4cc27-a1b5-4a71-89d3-04a1d559965d",
+                "8a32d682-02b5-4896-891c-119107f03b46",
+                "b4f66db9-55d9-4095-bc8c-16aab2f783a3",
+                "829dc667-53ae-4723-af2c-d7fa577d2e75",
+                "e69a0595-0800-43b2-9ea0-c57d0778b0d5"
+            ]
+        },
+        "b89e9390-42c0-4e45-83b1-8ef099466934": {
+            "type": "integer",
+            "name": "audio",
+            "value": 0
+        },
+        "672d669f-031e-4ebc-afa2-f8535ac816f3": {
+            "type": "integer",
+            "name": "starkiller_stage",
+            "value": 0
+        },
+        "72db83d2-07a0-4c66-b108-7e81a81b41ba": {
+            "type": "integer",
+            "name": "headhunter_stage",
+            "value": 0
+        },
+        "98ed457c-e34e-4000-bb8b-179fe7b81468": {
+            "type": "integer",
+            "name": "vlad_stage",
+            "value": 0
+        },
+        "592c7868-a6db-4282-883a-287394bdc98f": {
+            "type": "integer",
+            "name": "wizard_stage",
+            "value": 0
+        },
+        "e4f40211-d61d-4b99-9008-c532ef00d309": {
+            "type": "integer",
+            "name": "assassin_stage",
+            "value": 0
+        },
+        "f9c86fb4-44fa-4963-b042-746dd7380365": {
+            "type": "integer",
+            "name": "balbes_stage",
+            "value": 0
+        },
+        "70b4f9b8-ea72-4b9c-8323-e759d3ccac16": {
+            "type": "integer",
+            "name": "starkiller_death",
+            "value": 0
+        },
+        "77b4cc27-a1b5-4a71-89d3-04a1d559965d": {
+            "type": "integer",
+            "name": "headhunter_death",
+            "value": 0
+        },
+        "8a32d682-02b5-4896-891c-119107f03b46": {
+            "type": "integer",
+            "name": "vlad_death",
+            "value": 0
+        },
+        "b4f66db9-55d9-4095-bc8c-16aab2f783a3": {
+            "type": "integer",
+            "name": "wizard_death",
+            "value": 0
+        },
+        "829dc667-53ae-4723-af2c-d7fa577d2e75": {
+            "type": "integer",
+            "name": "assassin_death",
+            "value": 0
+        },
+        "e69a0595-0800-43b2-9ea0-c57d0778b0d5": {
+            "type": "integer",
+            "name": "bables_death",
+            "value": 0
+        }
+    },
+    "conditions": {
+        "976b0c41-fc25-440d-ac33-1584787a8bc4": {
+            "script": null,
+            "output": "4978bc95-3f3d-4362-881b-a717c7d093a7"
+        },
+        "74145cb7-885c-4af9-a7e3-7f8948f6d6e6": {
+            "script": null,
+            "output": null
+        },
+        "bac592ce-bf60-433c-ba63-542c6c51887d": {
+            "script": null,
+            "output": null
+        },
+        "23203bc2-306d-437a-9fbd-9585d71bcf76": {
+            "script": "balbes_stage == 1",
+            "output": "996e95f1-fdab-44eb-ade0-3417c19d2e5d"
+        },
+        "9c1d5bbe-bd5c-4ed1-b0c1-0e3b1eab579a": {
+            "script": "balbes_stage == 0",
+            "output": "185d46f7-a5c3-4c49-b70c-e446757aebf7"
+        },
+        "dc3c416a-528e-4859-9a0a-5cb57a2e5ecb": {
+            "script": "starkiller_stage == 0",
+            "output": "b7f61bd2-91d6-47e1-9b6b-02e6a5138789"
+        },
+        "555427e9-7b35-426f-ac33-8787e76f0266": {
+            "script": "starkiller_stage == 1",
+            "output": "6770c611-1752-4604-baf7-fde478792053"
+        },
+        "8c82e62a-bcb8-432a-9318-a59c9c074d03": {
+            "script": "assassin_stage == 1",
+            "output": "baf3dbe0-3f25-4389-8ded-6c5d0644784b"
+        },
+        "3d81c9d4-d7a9-4093-ac1a-5a560d8a8082": {
+            "script": null,
+            "output": "02cb1cf2-9d0a-4a6f-b554-fe1f91fa24a7"
+        },
+        "dc427201-9102-44c8-80a9-660225a4de89": {
+            "script": null,
+            "output": "bbc58698-a780-4b53-b572-77f59b451415"
+        },
+        "1acfd194-cbd0-48a9-a936-f900a379cc07": {
+            "script": null,
+            "output": "ef5e4c27-ff08-45f9-83e2-43aa5ffc675d"
+        },
+        "1a91266e-e7d2-4571-bd7f-1272222927fc": {
+            "script": "headhunter_stage == 1",
+            "output": "f7b63508-fa7b-45d5-80be-a18b2e7cb698"
+        },
+        "14f697c9-91ab-4e7c-ac43-9b25a067c04e": {
+            "script": "headhunter_stage == 0",
+            "output": "3d5f0d84-979c-4d9b-b10b-603bfb890b2c"
+        },
+        "88c983ce-607c-4dcc-af63-169115d0bf41": {
+            "script": null,
+            "output": "8308b0e8-f0e8-4bb1-a9df-635491f684c8"
+        },
+        "a54a5bd7-400a-4b5f-9528-a34a11d7d2ab": {
+            "script": "vlad_stage == 1",
+            "output": "a13e2cf2-85e0-45e7-ac44-246650caa467"
+        },
+        "b4ae7bcb-6b64-4014-a76b-5f7e455e4db3": {
+            "script": null,
+            "output": "ecee632e-fc02-4d92-801b-c98b6938b4d0"
+        },
+        "c44473e4-2085-45ab-8d78-e50367a9fbc7": {
+            "script": "vlad_stage  == 0",
+            "output": "74cbf066-e838-4c00-ae4f-e01061e09743"
+        },
+        "9dc347bb-c318-4675-a9ef-1592b1b2b9f2": {
+            "script": "wizard_stage == 0",
+            "output": "bc9f2c2d-750e-4fc9-bed1-28064e3fb228"
+        },
+        "9b50a12a-0150-46f7-b8e7-2310a522032f": {
+            "script": "assassin_stage == 0",
+            "output": "3086a327-6c44-4241-b609-f2c042a2f337"
+        }
+    },
+    "name": "Untitled project",
+    "cover": null
 }

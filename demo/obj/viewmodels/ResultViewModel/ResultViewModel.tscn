@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://cd2nkoofa8hh2"]
+[gd_scene load_steps=4 format=3 uid="uid://cd2nkoofa8hh2"]
 
+[ext_resource type="Theme" uid="uid://c2p5pivmkbdi2" path="res://res/shaders/themes/ResultTheme.tres" id="1_5dvjr"]
 [ext_resource type="Script" path="res://obj/viewmodels/ResultViewModel/Continue.gd" id="1_hubkw"]
+[ext_resource type="Texture2D" uid="uid://dtiv4v4elnb5j" path="res://res/2d/hud/menu2-export-export.png" id="2_a6020"]
 
 [node name="ResultViewModel" type="ResultViewModel"]
 descr_path = NodePath("Control/Descr")
@@ -12,41 +14,51 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+theme = ExtResource("1_5dvjr")
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_top = 10.0
+offset_right = 601.0
+offset_bottom = 338.0
+texture = ExtResource("2_a6020")
+expand_mode = 1
+stretch_mode = 4
 
 [node name="Descr" type="RichTextLabel" parent="Control"]
 layout_mode = 0
-offset_left = 139.0
-offset_top = 63.0
-offset_right = 469.0
-offset_bottom = 227.0
+offset_left = 53.0
+offset_top = 125.0
+offset_right = 353.0
+offset_bottom = 249.0
 text = "TETETET
 ВЕУЕУЕ
 УЕВЫАЫ"
 
 [node name="Continue" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
-offset_left = 223.0
-offset_top = 270.0
-offset_right = 345.0
-offset_bottom = 301.0
+offset_left = 375.0
+offset_top = 191.0
+offset_right = 504.0
+offset_bottom = 222.0
 text = "Продолжить"
 script = ExtResource("1_hubkw")
 viewModel = NodePath("../..")
 
 [node name="LblDay" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 58.0
-offset_top = 16.0
-offset_right = 141.0
-offset_bottom = 39.0
+offset_left = 62.0
+offset_top = 80.0
+offset_right = 178.0
+offset_bottom = 103.0
 text = "Итоги дня"
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+[node name="HBoxContainer" type="VBoxContainer" parent="Control"]
 layout_mode = 0
-offset_left = 140.0
-offset_top = 227.0
-offset_right = 286.0
-offset_bottom = 267.0
+offset_left = 389.0
+offset_top = 129.0
+offset_right = 550.0
+offset_bottom = 177.0
 
 [node name="LblResult" type="Label" parent="Control/HBoxContainer"]
 layout_mode = 2

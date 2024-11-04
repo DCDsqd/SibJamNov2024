@@ -116,6 +116,15 @@ void godot::OrderHud::draw_raw()
         return;
     }
 
+    if(has_node(raw_img_path) && get_node<TextureRect>(raw_img_path)){
+        TextureRect *raw_img = get_node<TextureRect>(raw_img_path);
+        raw_img->set_texture(Util::load_image(data->get_string(OrderParams::img())));
+    }else{
+        UtilityFunctions::print("OrderHud: raw_img_path is null");
+        close_window();
+        return;
+    }
+
     // if(has_node(raw_descr_path) && get_node<TextureRect>(raw_img_path)){
     //     TextureRect *raw_texture = get_node<TextureRect>(raw_name_path);
     //     Ref<Texture2D> texture = Util::load_image(data->get_string(OrderParams::img()));
@@ -171,14 +180,25 @@ void godot::OrderHud::draw_sorted()
         return;
     }
 
-    if(has_node(sorted_rank_path) && get_node<Label>(sorted_rank_path)){
-        Label *sorted_rank = get_node<Label>(sorted_rank_path);
-        sorted_rank->set_text(data->get_string(OrderParams::placed_rank()));
+    if(has_node(sorted_img_path) && get_node<TextureRect>(sorted_img_path)){
+        TextureRect *sorted_img = get_node<TextureRect>(sorted_img_path);
+        sorted_img->set_texture(Util::load_image(data->get_string(OrderParams::img())));
     }else{
         UtilityFunctions::print("OrderHud: sorted_rank is null");
         close_window();
         return;
     }
+
+    if(has_node(sorted_rank_path) && get_node<Label>(sorted_rank_path)){
+        Label *sorted_rank = get_node<Label>(sorted_rank_path);
+        sorted_rank->set_text(Util::int_to_godot_str(data->get_int(OrderParams::placed_rank())));
+    }else{
+        UtilityFunctions::print("OrderHud: sorted_rank is null");
+        close_window();
+        return;
+    }
+
+    
 }
 
 void godot::OrderHud::reset_raw()

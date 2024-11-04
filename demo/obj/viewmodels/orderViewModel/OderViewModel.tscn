@@ -10,13 +10,13 @@
 [ext_resource type="Script" path="res://obj/viewmodels/orderViewModel/swap_sorted.gd" id="6_wh4s0"]
 
 [node name="OderViewModel" type="OrderHud"]
-raw_img_path = NodePath("Control/TabContainer/RawOrders/Img")
-raw_name_path = NodePath("Control/TabContainer/RawOrders/Name")
-raw_descr_path = NodePath("Control/TabContainer/RawOrders/Content")
-sorted_img_path = NodePath("Control/TabContainer/SortedOrders/Img")
-sorted_name_path = NodePath("Control/TabContainer/SortedOrders/Name")
-sorted_desr_path = NodePath("Control/TabContainer/SortedOrders/Content")
-sorted_rank_path = NodePath("Control/TabContainer/SortedOrders/Rating/lvl")
+raw_img_path = NodePath("Control/TabContainer/Сырые Квесты/Img")
+raw_name_path = NodePath("Control/TabContainer/Сырые Квесты/Name")
+raw_descr_path = NodePath("Control/TabContainer/Сырые Квесты/Content")
+sorted_img_path = NodePath("Control/TabContainer/Обработанные Квесты/Img")
+sorted_name_path = NodePath("Control/TabContainer/Обработанные Квесты/Name")
+sorted_desr_path = NodePath("Control/TabContainer/Обработанные Квесты/Content")
+sorted_rank_path = NodePath("Control/TabContainer/Обработанные Квесты/Rating/lvl")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -41,11 +41,13 @@ offset_top = 11.0
 offset_right = 544.0
 offset_bottom = 299.0
 rotation = 0.0741564
+current_tab = 1
 
-[node name="RawOrders" type="Control" parent="Control/TabContainer"]
+[node name="Сырые Квесты" type="Control" parent="Control/TabContainer"]
+visible = false
 layout_mode = 2
 
-[node name="Name" type="Label" parent="Control/TabContainer/RawOrders"]
+[node name="Name" type="Label" parent="Control/TabContainer/Сырые Квесты"]
 layout_mode = 0
 offset_left = 129.0
 offset_top = 15.0
@@ -54,7 +56,7 @@ offset_bottom = 44.0
 rotation = -0.0404539
 text = "Name"
 
-[node name="Content" type="RichTextLabel" parent="Control/TabContainer/RawOrders"]
+[node name="Content" type="RichTextLabel" parent="Control/TabContainer/Сырые Квесты"]
 layout_mode = 0
 offset_left = 133.0
 offset_top = 41.0
@@ -63,7 +65,7 @@ offset_bottom = 168.0
 rotation = 0.0325743
 text = "MyBest quest"
 
-[node name="Img" type="TextureRect" parent="Control/TabContainer/RawOrders"]
+[node name="Img" type="TextureRect" parent="Control/TabContainer/Сырые Квесты"]
 layout_mode = 0
 offset_left = 9.53976
 offset_top = 16.4235
@@ -74,7 +76,7 @@ texture = ExtResource("1_ccplg")
 expand_mode = 1
 stretch_mode = 4
 
-[node name="Difficult" type="Label" parent="Control/TabContainer/RawOrders"]
+[node name="Difficult" type="Label" parent="Control/TabContainer/Сырые Квесты"]
 layout_mode = 0
 offset_left = 82.1522
 offset_top = 170.467
@@ -83,7 +85,7 @@ offset_bottom = 193.467
 rotation = 0.0410721
 text = "Rate difficult: "
 
-[node name="Rate1" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+[node name="Rate1" type="Button" parent="Control/TabContainer/Сырые Квесты/Difficult" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 2.0
 offset_top = 33.0
@@ -94,7 +96,7 @@ script = ExtResource("2_xyylw")
 value = 10
 viewModel = NodePath("../../../../..")
 
-[node name="Rate2" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+[node name="Rate2" type="Button" parent="Control/TabContainer/Сырые Квесты/Difficult" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 47.0
 offset_top = 33.0
@@ -105,7 +107,7 @@ script = ExtResource("2_xyylw")
 value = 20
 viewModel = NodePath("../../../../..")
 
-[node name="Rate3" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+[node name="Rate3" type="Button" parent="Control/TabContainer/Сырые Квесты/Difficult" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 93.0
 offset_top = 33.0
@@ -116,7 +118,7 @@ script = ExtResource("2_xyylw")
 value = 30
 viewModel = NodePath("../../../../..")
 
-[node name="Rate4" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+[node name="Rate4" type="Button" parent="Control/TabContainer/Сырые Квесты/Difficult" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 140.0
 offset_top = 33.0
@@ -127,7 +129,7 @@ script = ExtResource("2_xyylw")
 value = 40
 viewModel = NodePath("../../../../..")
 
-[node name="Rate5" type="Button" parent="Control/TabContainer/RawOrders/Difficult" node_paths=PackedStringArray("viewModel")]
+[node name="Rate5" type="Button" parent="Control/TabContainer/Сырые Квесты/Difficult" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 187.0
 offset_top = 33.0
@@ -138,7 +140,7 @@ script = ExtResource("2_xyylw")
 value = 50
 viewModel = NodePath("../../../../..")
 
-[node name="Next" type="Button" parent="Control/TabContainer/RawOrders" node_paths=PackedStringArray("viewModel")]
+[node name="Next" type="Button" parent="Control/TabContainer/Сырые Квесты" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 430.763
 offset_top = 219.775
@@ -149,7 +151,7 @@ script = ExtResource("5_q4t7x")
 viewModel = NodePath("../../../..")
 to = 1
 
-[node name="Previous" type="Button" parent="Control/TabContainer/RawOrders" node_paths=PackedStringArray("viewModel")]
+[node name="Previous" type="Button" parent="Control/TabContainer/Сырые Квесты" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 8.25326
 offset_top = 215.065
@@ -160,11 +162,10 @@ script = ExtResource("5_q4t7x")
 viewModel = NodePath("../../../..")
 to = -1
 
-[node name="SortedOrders" type="Control" parent="Control/TabContainer"]
-visible = false
+[node name="Обработанные Квесты" type="Control" parent="Control/TabContainer"]
 layout_mode = 2
 
-[node name="Name" type="Label" parent="Control/TabContainer/SortedOrders"]
+[node name="Name" type="Label" parent="Control/TabContainer/Обработанные Квесты"]
 layout_mode = 0
 offset_left = 121.0
 offset_top = 18.0
@@ -172,7 +173,7 @@ offset_right = 473.0
 offset_bottom = 47.0
 text = "Name"
 
-[node name="Content" type="RichTextLabel" parent="Control/TabContainer/SortedOrders"]
+[node name="Content" type="RichTextLabel" parent="Control/TabContainer/Обработанные Квесты"]
 layout_mode = 0
 offset_left = 121.0
 offset_top = 46.0
@@ -180,7 +181,7 @@ offset_right = 502.0
 offset_bottom = 173.0
 text = "MyBest quest"
 
-[node name="Img" type="TextureRect" parent="Control/TabContainer/SortedOrders"]
+[node name="Img" type="TextureRect" parent="Control/TabContainer/Обработанные Квесты"]
 layout_mode = 0
 offset_left = 11.0
 offset_top = 10.0
@@ -190,32 +191,32 @@ texture = ExtResource("1_ccplg")
 expand_mode = 1
 stretch_mode = 4
 
-[node name="Rating" type="HBoxContainer" parent="Control/TabContainer/SortedOrders"]
+[node name="Rating" type="VBoxContainer" parent="Control/TabContainer/Обработанные Квесты"]
 layout_mode = 0
 offset_left = 23.3426
 offset_top = 134.726
 offset_right = 104.343
 offset_bottom = 174.726
 
-[node name="Label" type="Label" parent="Control/TabContainer/SortedOrders/Rating"]
+[node name="Label" type="Label" parent="Control/TabContainer/Обработанные Квесты/Rating"]
 layout_mode = 2
 text = "Rating: "
 
-[node name="lvl" type="Label" parent="Control/TabContainer/SortedOrders/Rating"]
+[node name="lvl" type="Label" parent="Control/TabContainer/Обработанные Квесты/Rating"]
 layout_mode = 2
 text = "20"
 
-[node name="Button" type="Button" parent="Control/TabContainer/SortedOrders" node_paths=PackedStringArray("viewModel")]
+[node name="Button" type="Button" parent="Control/TabContainer/Обработанные Квесты" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 67.712
 offset_top = 178.559
 offset_right = 129.712
 offset_bottom = 209.559
-text = "UnSort"
+text = "Отменить"
 script = ExtResource("3_lpo3p")
 viewModel = NodePath("../../../..")
 
-[node name="Next" type="Button" parent="Control/TabContainer/SortedOrders" node_paths=PackedStringArray("viewModel")]
+[node name="Next" type="Button" parent="Control/TabContainer/Обработанные Квесты" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 430.615
 offset_top = 217.78
@@ -226,7 +227,7 @@ script = ExtResource("6_wh4s0")
 viewModel = NodePath("../../../..")
 to = 1
 
-[node name="Previous" type="Button" parent="Control/TabContainer/SortedOrders" node_paths=PackedStringArray("viewModel")]
+[node name="Previous" type="Button" parent="Control/TabContainer/Обработанные Квесты" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 8.47552
 offset_top = 218.057

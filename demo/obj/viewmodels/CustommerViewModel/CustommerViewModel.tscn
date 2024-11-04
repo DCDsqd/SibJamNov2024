@@ -1,13 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://loxecvfvmprb"]
+[gd_scene load_steps=5 format=3 uid="uid://loxecvfvmprb"]
 
 [ext_resource type="Script" path="res://obj/viewmodels/CustommerViewModel/Request.gd" id="1_iaqwm"]
 [ext_resource type="Script" path="res://obj/viewmodels/CustommerViewModel/swap.gd" id="1_lin28"]
+[ext_resource type="Theme" uid="uid://boychyioof4rv" path="res://res/shaders/themes/custommerViewModel.tres" id="1_wkvvs"]
+[ext_resource type="Texture2D" uid="uid://ckqrn6d6qmehv" path="res://res/2d/hud/menu3-export-export.png" id="2_1s164"]
 
 [node name="CustommerViewModel" type="CustomerViewModel"]
-custommer_name_path = NodePath("Control/CustommerName")
-custommer_lvl_path = NodePath("Control/CustommerLvl")
+custommer_name_path = NodePath("Control/Name/CustommerName")
+custommer_lvl_path = NodePath("Control/Lvl/CustommerLvl")
 order_name_path = NodePath("Control/OrderName")
-order_lvl_path = NodePath("Control/OrderLvl")
+order_lvl_path = NodePath("Control/HBoxContainer2/OrderLvl")
 output_path = NodePath("Control/Output")
 
 [node name="Control" type="Control" parent="."]
@@ -17,29 +19,52 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_wkvvs")
 
-[node name="CustommerName" type="Label" parent="Control"]
+[node name="TextureRect" type="TextureRect" parent="Control"]
 layout_mode = 0
-offset_left = 453.0
-offset_top = 9.0
-offset_right = 593.0
-offset_bottom = 32.0
+offset_left = -16.0
+offset_top = 1.0
+offset_right = 600.0
+offset_bottom = 337.0
+texture = ExtResource("2_1s164")
+
+[node name="Name" type="HBoxContainer" parent="Control"]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 15.0
+offset_right = 580.0
+offset_bottom = 37.0
+
+[node name="Label" type="Label" parent="Control/Name"]
+layout_mode = 2
+text = "Name:"
+
+[node name="CustommerName" type="Label" parent="Control/Name"]
+layout_mode = 2
 text = "Name"
 
-[node name="CustommerLvl" type="Label" parent="Control"]
-layout_mode = 0
-offset_left = 471.0
-offset_top = 36.0
-offset_right = 575.0
-offset_bottom = 59.0
+[node name="Lvl" type="HBoxContainer" parent="Control"]
+layout_mode = 2
+offset_left = 485.0
+offset_top = 43.0
+offset_right = 580.0
+offset_bottom = 69.0
+
+[node name="Label" type="Label" parent="Control/Lvl"]
+layout_mode = 2
+text = "LVL:"
+
+[node name="CustommerLvl" type="Label" parent="Control/Lvl"]
+layout_mode = 2
 text = "Lvl"
 
 [node name="Button" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
-offset_left = 355.0
-offset_top = 247.0
-offset_right = 390.0
-offset_bottom = 282.0
+offset_left = 351.0
+offset_top = 225.0
+offset_right = 377.0
+offset_bottom = 255.0
 text = "<"
 script = ExtResource("1_lin28")
 viewModel = NodePath("../..")
@@ -47,10 +72,10 @@ to = -1
 
 [node name="Button2" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
-offset_left = 554.0
-offset_top = 243.0
-offset_right = 589.0
-offset_bottom = 278.0
+offset_left = 541.0
+offset_top = 224.0
+offset_right = 568.0
+offset_bottom = 255.0
 text = ">"
 script = ExtResource("1_lin28")
 viewModel = NodePath("../..")
@@ -58,41 +83,42 @@ to = 1
 
 [node name="OrderName" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 399.0
-offset_top = 240.0
-offset_right = 505.0
-offset_bottom = 263.0
+offset_left = 378.0
+offset_top = 207.0
+offset_right = 537.0
+offset_bottom = 273.0
 text = "Kill all human"
+autowrap_mode = 3
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="Control"]
 layout_mode = 0
-offset_left = 403.0
-offset_top = 266.0
-offset_right = 443.0
-offset_bottom = 306.0
+offset_left = 454.0
+offset_top = 251.0
+offset_right = 536.0
+offset_bottom = 271.0
 
-[node name="OrderLvl" type="Label" parent="Control"]
-layout_mode = 0
-offset_left = 403.0
-offset_top = 266.0
-offset_right = 443.0
-offset_bottom = 289.0
+[node name="Label" type="Label" parent="Control/HBoxContainer2"]
+layout_mode = 2
+text = "Lvl:"
+
+[node name="OrderLvl" type="Label" parent="Control/HBoxContainer2"]
+layout_mode = 2
 text = "20"
 
 [node name="Output" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 356.0
-offset_top = 208.0
-offset_right = 427.0
-offset_bottom = 231.0
+offset_left = 352.0
+offset_top = 173.0
+offset_right = 455.0
+offset_bottom = 189.0
 text = "No no no"
 
 [node name="Request" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
-offset_left = 421.0
-offset_top = 294.0
-offset_right = 492.0
-offset_bottom = 325.0
-text = "Request"
+offset_left = 398.0
+offset_top = 289.0
+offset_right = 518.0
+offset_bottom = 312.0
+text = "Выдать"
 script = ExtResource("1_iaqwm")
 viewModel = NodePath("../..")

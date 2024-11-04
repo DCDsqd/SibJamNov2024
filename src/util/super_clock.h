@@ -53,10 +53,12 @@ struct Quest{
 public:
     String name;
     String descr;
+    String img;
 
-    Quest(String p_name, String p_descr){
+    Quest(String p_name, String p_descr, String p_img){
         this->name = p_name;
         this->descr = p_descr;
+        this->img = p_img;
     }
     Quest(){};
 
@@ -90,7 +92,7 @@ protected:
     int day = 0;
 
     bool timer_tick = true;
-    float start_time = 120;
+    float start_time = 240;
     float time = start_time;
 
     NodePath clock_path;

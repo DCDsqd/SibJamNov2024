@@ -56,6 +56,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.999999, 2.104, 0.25, -0.97)
 clock_path = NodePath("../../SuperClock")
 
 [node name="TriggerClock" type="TriggerClock" parent="Triggers"]
+clock_path = NodePath("../../SuperClock")
 is_repeat = true
 
 [node name="ECamera" type="ECamera" parent="."]
@@ -83,7 +84,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -0.743399, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0262033, -1.19209e-07, -0.0648999)
 
 [node name="Customer" parent="." instance=ExtResource("4_qcwsf")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.509, 0.214102, 1.88102)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.90727, 0.214102, 1.88102)
 
 [node name="OrderEntity" parent="." instance=ExtResource("5_ng5hm")]
 transform = Transform3D(0.655, 0, 0, 0, 0.655, 0, 0, 0, 0.655, 1.6316, -0.159443, -1.90332)

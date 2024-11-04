@@ -60,6 +60,19 @@ void godot::ArcViewModel::update_window()
         return;
     }
 
+    if(speaker_name_field_path != NodePath() && get_node<Label>(speaker_name_field_path)){
+        Label *speaker_name = get_node<Label>(speaker_name_field_path);
+        String name_id = dialogue->get_speaker(0);
+        VoidComponent *component = God::get_singleton()->get_component(name_id);
+        if(component){
+            speaker_name->set_text(component->get_name());
+        }
+        
+    }else{
+        close_window();
+        return;
+    }
+
     std::vector<String> answers;
     for(int i = 0; i < dialogue->get_answer_count(); ++i){
         answers.push_back(dialogue->get_answer_text(i));

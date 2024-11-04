@@ -16,7 +16,7 @@
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u41ry"]
 
 [node name="PcViewModel" type="PcViewModel"]
-monster_list_path = NodePath("Control/TabContainer/Control2/ItemList")
+monster_list_path = NodePath("Control/TabContainer/Вики/ItemList")
 
 [node name="Control" type="Control" parent="."]
 texture_filter = 1
@@ -45,11 +45,11 @@ offset_bottom = 337.0
 current_tab = 1
 all_tabs_in_front = true
 
-[node name="Control" type="Control" parent="Control/TabContainer"]
+[node name="Вступление" type="Control" parent="Control/TabContainer"]
 visible = false
 layout_mode = 2
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Control/TabContainer/Control"]
+[node name="RichTextLabel" type="RichTextLabel" parent="Control/TabContainer/Вступление"]
 layout_mode = 0
 offset_left = 6.0
 offset_top = 10.0
@@ -57,7 +57,7 @@ offset_right = 496.0
 offset_bottom = 93.0
 text = "Сегодня тебе дали шанс испытать на себе самую неблагородную и, в то же время, увлекательную работу в фэнтези-мире — анализировать и давать квесты отважным героям бескрайнего космоса. Тебе будет выдан перечень заданий, которым ты должен будешь дать оценку (от 10 до 50 уровня) в зависимости от сложности и силы мобов и раздать их гостям. "
 
-[node name="RichTextLabel2" type="RichTextLabel" parent="Control/TabContainer/Control"]
+[node name="RichTextLabel2" type="RichTextLabel" parent="Control/TabContainer/Вступление"]
 layout_mode = 0
 offset_left = 10.0
 offset_top = 235.0
@@ -66,7 +66,7 @@ offset_bottom = 301.0
 text = "Формула сложности квеста:
 Уровень самого сильного моба + сумма бонусов толпы всех мобов. Результат округлить до большего значения."
 
-[node name="RichTextLabel3" type="RichTextLabel" parent="Control/TabContainer/Control"]
+[node name="RichTextLabel3" type="RichTextLabel" parent="Control/TabContainer/Вступление"]
 layout_mode = 0
 offset_left = 8.0
 offset_top = 99.0
@@ -75,10 +75,10 @@ offset_bottom = 232.0
 text = "Для подсчета сложности квеста используем простую формулу: «Находим максимальный уровень среди мобов на задании, суммируем бонус толпы от всех мобов, складываем эти два показателя и округляем до большего десятка». Для того, чтобы качественнее подобрать задания для авантюристов, тебе предстоит немного поговорить с каждым и сделать вывод, какое задание лучше ему соответствует. Но будь осторожен, если ты неверно подберешь квест для героев, они могут не вернуться к тебе за новыми заданиями никогда…..
 "
 
-[node name="Control2" type="Control" parent="Control/TabContainer"]
+[node name="Вики" type="Control" parent="Control/TabContainer"]
 layout_mode = 2
 
-[node name="ItemList" type="ItemList" parent="Control/TabContainer/Control2" node_paths=PackedStringArray("pcViewModel", "monster_img", "monster_name", "monster_lvl", "monster_crawd", "monster_descr")]
+[node name="ItemList" type="ItemList" parent="Control/TabContainer/Вики" node_paths=PackedStringArray("pcViewModel", "monster_img", "monster_name", "monster_lvl", "monster_crawd", "monster_descr")]
 layout_mode = 0
 offset_left = 6.0
 offset_top = 8.0
@@ -95,7 +95,7 @@ monster_lvl = NodePath("../HBoxContainer/Lvl")
 monster_crawd = NodePath("../HBoxContainer2/Crowd")
 monster_descr = NodePath("../Descr")
 
-[node name="Img" type="TextureRect" parent="Control/TabContainer/Control2"]
+[node name="Img" type="TextureRect" parent="Control/TabContainer/Вики"]
 layout_mode = 0
 offset_left = 164.0
 offset_top = 9.0
@@ -104,7 +104,7 @@ offset_bottom = 133.0
 expand_mode = 1
 stretch_mode = 4
 
-[node name="Descr" type="RichTextLabel" parent="Control/TabContainer/Control2"]
+[node name="Descr" type="RichTextLabel" parent="Control/TabContainer/Вики"]
 layout_mode = 0
 offset_left = 309.0
 offset_top = 39.0
@@ -112,7 +112,7 @@ offset_right = 500.0
 offset_bottom = 299.0
 text = "descr"
 
-[node name="Label" type="Label" parent="Control/TabContainer/Control2"]
+[node name="Label" type="Label" parent="Control/TabContainer/Вики"]
 layout_mode = 0
 offset_left = 309.0
 offset_top = 11.0
@@ -120,33 +120,33 @@ offset_right = 442.0
 offset_bottom = 41.0
 text = "Name"
 
-[node name="HBoxContainer" type="VBoxContainer" parent="Control/TabContainer/Control2"]
+[node name="HBoxContainer" type="VBoxContainer" parent="Control/TabContainer/Вики"]
 layout_mode = 0
 offset_left = 169.0
 offset_top = 135.0
 offset_right = 230.0
 offset_bottom = 185.0
 
-[node name="Label" type="Label" parent="Control/TabContainer/Control2/HBoxContainer"]
+[node name="Label" type="Label" parent="Control/TabContainer/Вики/HBoxContainer"]
 layout_mode = 2
 text = "Уровень:"
 
-[node name="Lvl" type="Label" parent="Control/TabContainer/Control2/HBoxContainer"]
+[node name="Lvl" type="Label" parent="Control/TabContainer/Вики/HBoxContainer"]
 layout_mode = 2
 text = "10"
 
-[node name="HBoxContainer2" type="VBoxContainer" parent="Control/TabContainer/Control2"]
+[node name="HBoxContainer2" type="VBoxContainer" parent="Control/TabContainer/Вики"]
 layout_mode = 0
 offset_left = 168.0
 offset_top = 184.0
 offset_right = 275.0
 offset_bottom = 224.0
 
-[node name="Label" type="Label" parent="Control/TabContainer/Control2/HBoxContainer2"]
+[node name="Label" type="Label" parent="Control/TabContainer/Вики/HBoxContainer2"]
 layout_mode = 2
 text = "Бонус Толпы:"
 
-[node name="Crowd" type="Label" parent="Control/TabContainer/Control2/HBoxContainer2"]
+[node name="Crowd" type="Label" parent="Control/TabContainer/Вики/HBoxContainer2"]
 layout_mode = 2
 text = "10"
 

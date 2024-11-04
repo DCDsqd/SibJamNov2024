@@ -1,5 +1,6 @@
 #include "result_view_model.h"
 #include "godot_cpp/variant/utility_functions.hpp"
+#include "godot_cpp/classes/util.hpp"
 
 void godot::ResultViewModel::_bind_methods()
 {
@@ -32,14 +33,14 @@ void godot::ResultViewModel::update_window()
 
     if(has_node(result_path) && get_node<Label>(result_path)){
         Label *result = get_node<Label>(result_path);
-        String text_key = "result_win";
+        String text_key = "result_continue";
         if(time_end){
             text_key = "result_time_end";
         }
         if(death){
             text_key = "result_death";
         }
-        result->set_text(text_key);
+        result->set_text(Util::get_value_from_config("text", text_key));
     }else{
         UtilityFunctions::print("ResultViewModel: result_path is incorrect");
         close_window();
@@ -128,6 +129,21 @@ void godot::ResultViewModel::_close_window()
     }
 
     hud->unlock_game();
+
+    GameController *controller = EternityData::get_singleton()->get_controller();
+    if(!controller){
+        UtilityFunctions::print("ResultViewModel: Controller is null");
+        return;
+    }
+
+    Trigger3D *trigger = controller->get_trigger("TriggerClock");
+
+    if(!trigger){
+        UtilityFunctions::print("ResultViewModel: trigger is null");
+        return;
+    }
+
+    trigger->activate();
 }
 
 void godot::ResultViewModel::_int_process()

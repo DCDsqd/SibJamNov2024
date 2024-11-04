@@ -52,59 +52,59 @@
 	"Quests" : {
 		"SPB-52" : {
 			"descr": "Остановить рейд закусочной на экзопланете SBP-52. В заложниках 3 бургера и одна картошечка фри",
-			"img": ""
+			"img": "res://res/2d/sprites/quests/mac_shooter.png"
 		},
 		"Китик" : {
 			"descr": "Найти пропавшего питомца Ms.CyberTraktor",
-			"img": ""
+			"img": "res://res/2d/sprites/quests/car.png"
+		},
+		"Пыль":{
+			"descr": "Поймать особо крупного мошенника, продавца загадочной космической пыли",
+			"img": "res://res/2d/sprites/quests/wanted.png"
 		},
 		"Добровольцы" : {
 			"descr": "Нужны добровольцы на рейд группировки космобандитов",
-			"img": ""
-		},
-		"4546B" : {
-			"descr": "Нужны добровольцы на рейд группировки космобандитов",
-			"img": ""
+			"img": "res://res/2d/sprites/quests/ment.png"
 		},
 		"Головка сыра" : {
 			"descr": "Украдена самая большая головка сыра в галактике",
-			"img": ""
+			"img": "res://res/2d/sprites/quests/cheese.png"
 		},
 		"Зависть" : {
 			"descr" : "Остановить восстание космических семьминогов, кажется они завидуют космическим паукам",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/seminog.png"
 		},
 		"EGor" : {
 			"descr" : "Прекратить буйство киберсамурая “EGor”, он жаждет крови!",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/samurai.png"
 		},
 		"THE BALLS" : {
 			"descr" : "Неизвестная группировка бандитов известная как “THE BALLS” превращает планеты в шары",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/two_planet.png"
 		},
 		"Казино" : {
 			"descr" : "В крупнейшем казино в галактике планируется террористическая атака",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/terror.png"
 		},
 		"ХаХАзино" : {
 			"descr" : "В крупнейшем казино в галактике планируется юмористическая атака",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/humor.png"
 		},
 		"Космомузей" : {
 			"descr" : "Неизвестные пробрались в космомузей и вынесли весь мармелад",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/burny.png"
 		},
-		"Процессовры" : {
+		"Процесовры" : {
 			"descr" : "К магазину процессоров для космических кораблей были приделаны колесики, после чего он был разогнан",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/proc.png"
 		},
 		"TopSecret" : {
 			"descr" : "分かりました、何を書いているのか分かりません、助けてください。",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/japan.png"
 		},
 		"Ковбои": {
 			"descr" : "Эти ковбои уже 43 часа 21 минуту стоят и целятся в друг друга, кто нибудь сделайте что-нибудь с ними",
-			"img" : ""
+			"img" : "res://res/2d/sprites/quests/two_bandos.png"
 		}
 		
 	},

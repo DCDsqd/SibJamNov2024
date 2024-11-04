@@ -7,6 +7,8 @@ void godot::OrderHud::_bind_methods()
 {
     ClassDB::bind_method(D_METHOD("rate_current_order"), &OrderHud::rate_current_order);
     ClassDB::bind_method(D_METHOD("unrate_current_order"), &OrderHud::unrate_current_order);
+    ClassDB::bind_method(D_METHOD("swap_raw"), &OrderHud::swap_raw);
+    ClassDB::bind_method(D_METHOD("swap_sorted"), &OrderHud::swap_sorted);
 
     ClassDB::bind_method(D_METHOD("set_raw_img_path"), &OrderHud::set_raw_img_path);
     ClassDB::bind_method(D_METHOD("get_raw_img_path"), &OrderHud::get_raw_img_path);
@@ -342,6 +344,32 @@ void godot::OrderHud::unrate_current_order()
     hero_container->remove_order(sorted_carrera);
     update_window();
 
+}
+
+void godot::OrderHud::swap_sorted(int to)
+{
+    int size = hero_container->get_orger_count();
+    if(size == 0)
+        return;
+
+    int new_carrera = sorted_carrera + to;
+    new_carrera = (new_carrera % size + size) % size;
+
+    sorted_carrera = new_carrera;
+    update_window();
+}
+
+void godot::OrderHud::swap_raw(int to)
+{
+    int size = order_container->get_orger_count();
+    if(size == 0)
+        return;
+
+    int new_carrera = raw_carrera + to;
+    new_carrera = (new_carrera % size + size) % size;
+
+    raw_carrera = new_carrera;
+    update_window();
 }
 
 void godot::OrderHud::_open_window(Entity *interaction, Entity *interactor)

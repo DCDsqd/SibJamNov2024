@@ -14,5 +14,6 @@ func _ready():
 	input.add_trigger("CameraState1")
 	input.add_trigger("CameraState2")
 	input.add_trigger("CameraState3")
+	input.set_carrera(1)	
 	
 	set_input_component(input)

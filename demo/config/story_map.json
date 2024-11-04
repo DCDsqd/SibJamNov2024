@@ -2,56 +2,78 @@
 	"Persons":{
 		"StarKiller" : {
 			"dialogue_id": "889f6461-b74e-4500-94cd-fe4587a59037",
-			"display_lvl": 10,
-			"fact_lvl": 10,
+			"display_lvl": 14,
+			"fact_lvl": 14,
 			"min_req_lvl": 10,
-			"sprite_id": ""
+			"sprite_id": "starkiller"
 		},
 		"HeadHunter" : {
 			"dialogue_id": "9d234f96-5644-4452-b14d-4b92aa713117",
-			"display_lvl": 20,
-			"fact_lvl": 20,
-			"min_req_lvl": 40,
-			"sprite_id": ""
+			"display_lvl": 34,
+			"fact_lvl": 34,
+			"min_req_lvl": 20,
+			"sprite_id": "cowboy"
 		},
 		"Vlad3000" : {
 			"dialogue_id": "5ddaa37a-cb4a-4317-8739-441cd553565a",
-			"display_lvl": 20,
-			"fact_lvl": 20,
-			"min_req_lvl": 40,
-			"sprite_id": ""
+			"display_lvl": 26,
+			"fact_lvl": 26,
+			"min_req_lvl": 20,
+			"sprite_id": "vlad3000"
 		},
 		"ArcaneWizard" : {
 			"dialogue_id": "1e352a41-0707-4a25-9658-59364597e746",
-			"display_lvl": 20,
-			"fact_lvl": 20,
-			"min_req_lvl": 40,
-			"sprite_id": ""
+			"display_lvl": 100,
+			"fact_lvl": 100,
+			"min_req_lvl": 5,
+			"sprite_id": "wizarder"
 		},
 		"WorldAssasin" : {
 			"dialogue_id": "11eaf2dc-196e-451c-859d-6340cc9d3400",
-			"display_lvl": 20,
-			"fact_lvl": 20,
-			"min_req_lvl": 40,
-			"sprite_id": ""
+			"display_lvl": 40,
+			"fact_lvl": 40,
+			"min_req_lvl": 20,
+			"sprite_id": "assassin"
 		},
 		"BalbesBunny" : {
 			"dialogue_id": "207a9ec7-e139-4356-a596-1c90793c120e",
-			"display_lvl": 20,
-			"fact_lvl": 20,
-			"min_req_lvl": 40,
-			"sprite_id": ""
+			"display_lvl": 24,
+			"fact_lvl": 24,
+			"min_req_lvl": 20,
+			"sprite_id": "cake"
 		}
 	},
 	"Quests" : {
 		"SPB-52" : "Остановить рейд закусочной на экзопланете SBP-52. В заложниках 3 бургера и одна картошечка фри",
-		"Китик" : "Найти пропавшего питомца Ms.CyberTraktor"
+		"Китик" : "Найти пропавшего питомца Ms.CyberTraktor",
+		"Добровольцы" : "Нужны добровольцы на рейд группировки космобандитов",
+		"4546B" : "Остановить восстание “акул на ножках” на планете 4546B",
+		"Головка сыра" : "Украдена самая большая головка сыра в галактике"
 	},
 	"Enemy" : {
 		"Космические семьминоги" : {
 			"name" : "Космические семьминоги",
-			"lvl" : "10",
+			"lvl" : 10,
+			"crowd_bonus": 1,
 			"image" : ""
-		}
+		},
+		"Акула на ножках" : {
+			"name" : "Акула на ножках",
+			"lvl" : 20,
+			"crowd_bonus": 2,
+			"image" : ""
+		},
+		"Бандиты" : {
+			"name" : "Бандиты",
+			"lvl" : 20,
+			"crowd_bonus": 3,
+			"image" : ""
+		},
+		"КиберСамураи" : {
+			"name" : "КиберСамураи",
+			"lvl" : 30,
+			"crowd_bonus": 4,
+			"image" : ""
+		},
 	}
 }

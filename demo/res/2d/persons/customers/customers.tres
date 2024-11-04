@@ -1,7 +1,10 @@
-[gd_resource type="SpriteFrames" load_steps=3 format=3 uid="uid://cg8w5jb5e1j1l"]
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cg8w5jb5e1j1l"]
 
 [ext_resource type="Texture2D" uid="uid://cny5gics01swa" path="res://res/2d/persons/customers/TheWizardGreen.png" id="1_pgim0"]
 [ext_resource type="Texture2D" uid="uid://dorakypybi71n" path="res://res/2d/persons/customers/COWBOY.png" id="2_tdv6o"]
+[ext_resource type="Texture2D" uid="uid://cfsmdvctck4wd" path="res://res/2d/persons/customers/tort_robot1.png" id="2_tgrcd"]
+[ext_resource type="Texture2D" uid="uid://bu8qwkboeogab" path="res://res/2d/persons/customers/toughguygreen.png" id="3_vrkxh"]
+[ext_resource type="Texture2D" uid="uid://csst6w1qqypq7" path="res://res/2d/persons/customers/RighteousHero.png" id="5_05k7x"]
 
 [resource]
 animations = [{
@@ -10,7 +13,15 @@ animations = [{
 "texture": ExtResource("1_pgim0")
 }],
 "loop": true,
-"name": &"Wizard",
+"name": &"assassin",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tgrcd")
+}],
+"loop": true,
+"name": &"cake",
 "speed": 5.0
 }, {
 "frames": [{
@@ -27,5 +38,29 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_vrkxh")
+}],
+"loop": true,
+"name": &"starkiller",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_05k7x")
+}],
+"loop": true,
+"name": &"vlad3000",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_pgim0")
+}],
+"loop": true,
+"name": &"wizarder",
 "speed": 5.0
 }]

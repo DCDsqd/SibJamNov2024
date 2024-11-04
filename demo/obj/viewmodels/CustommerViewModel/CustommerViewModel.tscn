@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://loxecvfvmprb"]
+[gd_scene load_steps=3 format=3 uid="uid://loxecvfvmprb"]
 
 [ext_resource type="Script" path="res://obj/viewmodels/CustommerViewModel/Request.gd" id="1_iaqwm"]
+[ext_resource type="Script" path="res://obj/viewmodels/CustommerViewModel/swap.gd" id="1_lin28"]
 
 [node name="CustommerViewModel" type="CustomerViewModel"]
 custommer_name_path = NodePath("Control/CustommerName")
@@ -33,21 +34,27 @@ offset_right = 575.0
 offset_bottom = 59.0
 text = "Lvl"
 
-[node name="Button" type="Button" parent="Control"]
+[node name="Button" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 355.0
 offset_top = 247.0
 offset_right = 390.0
 offset_bottom = 282.0
 text = "<"
+script = ExtResource("1_lin28")
+viewModel = NodePath("../..")
+to = -1
 
-[node name="Button2" type="Button" parent="Control"]
+[node name="Button2" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
 offset_left = 554.0
 offset_top = 243.0
 offset_right = 589.0
 offset_bottom = 278.0
 text = ">"
+script = ExtResource("1_lin28")
+viewModel = NodePath("../..")
+to = 1
 
 [node name="OrderName" type="Label" parent="Control"]
 layout_mode = 0

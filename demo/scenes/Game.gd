@@ -12,7 +12,6 @@ func _ready():
 	put_int("game_day", 0)
 	
 	swap_scene("res://scenes/game_scenes/Scene.tscn")
-	save_point("key")
 	
 	
 

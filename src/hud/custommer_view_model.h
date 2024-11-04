@@ -58,6 +58,8 @@ public:
     void set_output_path(NodePath p_output_path);
     NodePath get_output_path();
 
+    void swap_carrera(int to);
+
     void request_quest();
 
 	void _open_window(Entity *interaction, Entity *interactor) override;

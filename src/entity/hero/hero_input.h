@@ -40,6 +40,7 @@ public:
 	void _on_death() override;
 	void _set_entity() override;
 
+	void set_carrera(int i);
     void add_trigger(String name);
 	void move();
 	void interact();

@@ -22,4 +22,3 @@ sprite_path = NodePath("AnimatedSprite3D")
 shaded = true
 texture_filter = 0
 sprite_frames = ExtResource("1_17lv5")
-animation = &"cowboy"

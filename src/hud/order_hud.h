@@ -67,6 +67,9 @@ public:
     void rate_current_order(int rank);
     void unrate_current_order();
 
+    void swap_sorted(int to);
+    void swap_raw(int to);
+
 	void _open_window(Entity *interaction, Entity *interactor) override;
 	void _close_window() override;
 	void _int_process() override;

@@ -7,6 +7,7 @@
 void godot::CustomerViewModel::_bind_methods()
 {
     ClassDB::bind_method(D_METHOD("request_quest"), &CustomerViewModel::request_quest);
+    ClassDB::bind_method(D_METHOD("swap_carrera"), &CustomerViewModel::swap_carrera);
 
     ClassDB::bind_method(D_METHOD("set_custommer_name_path"), &CustomerViewModel::set_custommer_name_path);
     ClassDB::bind_method(D_METHOD("get_custommer_name_path"), &CustomerViewModel::get_custommer_name_path);
@@ -220,6 +221,19 @@ void godot::CustomerViewModel::set_output_path(NodePath p_output_path)
 godot::NodePath godot::CustomerViewModel::get_output_path()
 {
     return this->output_path;
+}
+
+void godot::CustomerViewModel::swap_carrera(int to)
+{
+    int size = order_container->get_orger_count();
+    if(size == 0)
+        return;
+
+    int new_carrera = carrera + to;
+    new_carrera = (new_carrera % size + size) % size;
+
+    carrera = new_carrera;
+    update_window();
 }
 
 void godot::CustomerViewModel::request_quest()

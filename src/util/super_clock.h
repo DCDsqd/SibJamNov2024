@@ -12,6 +12,12 @@
 #include <godot_cpp/classes/arc_element_bit.hpp>
 #include <godot_cpp/classes/void_component.hpp>
 #include <godot_cpp/classes/arc_component.hpp>
+#include <godot_cpp/classes/model_entity.hpp>
+
+#include "entity/hero/container_entity_data.h"
+
+#include "entity/builder/custommer_builder.h"
+#include "entity/builder/order_builder.h"
 
 #include <vector>
 
@@ -54,12 +60,14 @@ struct Enemy{
 public:
     String name;
     int lvl = 0;
+    int crowd_bonus = 0;
     String img;
 
-    Enemy(String p_name, int p_lvl, String p_img){
+    Enemy(String p_name, int p_lvl, String p_img, int p_crowd_bonus){
         this->name = p_name;
         this->lvl = p_lvl;
         this->img = p_img;
+        this->crowd_bonus = p_crowd_bonus;
     }
     Enemy(){};
 
@@ -71,19 +79,20 @@ class SuperClock : public Node3D{
 protected:
     static void _bind_methods();
 
-    int custommer_count = 1;
-    int quest_count = 1;
+    int custommer_count = 3;
 
     NodePath order_entity_path;
-    NodePath custommer_path;
+    Entity *order_entity;
 
-    void update_custommer();
+    NodePath custommer_entity_path;
+    Entity *custommer_entity;
 
     std::vector<Person> all_custommer_pull;
     std::vector<Quest> all_quest_pull;
     std::vector<Enemy> all_moster_pull;
 
     std::vector<Person> day_custommer_pull;
+    std::vector<int> day_quest_lvl_pull;
     std::vector<Quest> day_quest_pull;
 
     void parse_custommer(const Dictionary &dict, const String &name);
@@ -92,15 +101,21 @@ protected:
 
     String name_from_dialogue_id(const String &dialogue_id);
 
+    std::vector<std::vector<Enemy>> top_combinations(const std::vector<Enemy>& enemies, int max_sum);
+    std::vector<Enemy> get_by_diaposon(const std::vector<Enemy>& enemies, int min, int max);
+
 public:
     void parse_all();
-    void update_orders();
+    void update_day_pulls();
+    void update_custommer();
+    void update_quests();
+    void new_day();
 
     void set_order_entity_path(NodePath p_order_entity_path);
     NodePath get_order_entity_path();
 
-    void set_custommer_path(NodePath p_custommer_path);
-    NodePath get_custommer_path();
+    void set_custommer_entity_path(NodePath p_custommer_entity_path);
+    NodePath get_custommer_entity_path();
 
     SuperClock();
     ~SuperClock();

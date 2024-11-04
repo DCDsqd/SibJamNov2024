@@ -4,6 +4,7 @@
 
 void godot::HeroInput::_bind_methods()
 {
+    ClassDB::bind_method(D_METHOD("set_carrera"), &HeroInput::set_carrera);
     ClassDB::bind_method(D_METHOD("add_trigger"), &HeroInput::add_trigger);
 
 }
@@ -70,11 +71,21 @@ void godot::HeroInput::_int_process()
 
 void godot::HeroInput::_on_death()
 {
-
+    
 }
 
 void godot::HeroInput::_set_entity()
 {
+}
+
+void godot::HeroInput::set_carrera(int i)
+{
+    int new_carrera = i;
+    int size = triggers.size();
+
+    new_carrera = (new_carrera % size + size) % size;
+
+    carrera = new_carrera;
 }
 
 void godot::HeroInput::add_trigger(String name)

@@ -108,7 +108,7 @@ void godot::HeroInput::move()
 
 void godot::HeroInput::interact()
 {
-    if(input->is_action_just_released("e_interact")){
+    if(input->is_action_just_pressed("e_interact")){
         if(get_entity() == nullptr){
             UtilityFunctions::print("HeroInput: entity is null");
             return;

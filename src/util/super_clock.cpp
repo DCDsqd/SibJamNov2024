@@ -484,7 +484,7 @@ void godot::SuperClock::spawn_view_model(bool death, bool check_time, String des
 
 void godot::SuperClock::update_clock(int itime)
 {
-    UtilityFunctions::print("clock update");
+    //UtilityFunctions::print("clock update");
     if(!clock){
         return;
     }

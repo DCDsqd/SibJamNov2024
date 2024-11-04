@@ -3,6 +3,12 @@
 
 #include <godot_cpp/classes/Entity.hpp>
 #include <godot_cpp/classes/interaction.hpp>
+#include <godot_cpp/classes/view_model.hpp>
+#include <godot_cpp/classes/eternity_data.hpp>
+#include <godot_cpp/classes/hud.hpp>
+#include <godot_cpp/classes/input.hpp>
+
+#include "hud/pc_view_model.h"
 
 
 namespace godot {

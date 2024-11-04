@@ -36,10 +36,10 @@ texture = ExtResource("1_chdnv")
 
 [node name="TabContainer" type="TabContainer" parent="Control"]
 layout_mode = 0
-offset_left = 76.0
-offset_top = 5.0
-offset_right = 543.0
-offset_bottom = 293.0
+offset_left = 77.0
+offset_top = 11.0
+offset_right = 544.0
+offset_bottom = 299.0
 rotation = 0.0741564
 
 [node name="RawOrders" type="Control" parent="Control/TabContainer"]
@@ -239,10 +239,10 @@ to = -1
 
 [node name="Button" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
 layout_mode = 0
-offset_left = 524.0
-offset_top = 33.0
-offset_right = 557.0
-offset_bottom = 64.0
+offset_left = 501.0
+offset_top = 68.0
+offset_right = 534.0
+offset_bottom = 99.0
 text = "X"
 script = ExtResource("4_c8fe1")
 viewModel = NodePath("../..")

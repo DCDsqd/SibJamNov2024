@@ -24,6 +24,7 @@
 #include "hud/order_hud.h"
 #include "hud/custommer_view_model.h"
 #include "hud/result_view_model.h"
+#include "hud/pc_view_model.h"
 //#include "hud/arc_hud_dialogue.h"
 
 #include "triggers/trigger_camera.h"
@@ -66,6 +67,7 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	ClassDB::register_class<ArcDialogue>();
 	ClassDB::register_class<ArcViewModel>();
 	ClassDB::register_class<ResultViewModel>();
+	ClassDB::register_class<PcViewModel>();
 
 	ClassDB::register_class<SuperClock>();
 	//ClassDB::register_class<ArcHudDialogue>();

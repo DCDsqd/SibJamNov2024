@@ -2,5 +2,6 @@
 	"arc_view_model": "res://obj/viewmodels/ArcViewModel.tscn",
 	"order_hud" : "res://obj/viewmodels/orderViewModel/OderViewModel.tscn",
 	"custommer_view_model" : "res://obj/viewmodels/CustommerViewModel/CustommerViewModel.tscn",
-	"result_view_model": "res://obj/viewmodels/ResultViewModel/ResultViewModel.tscn"
+	"result_view_model": "res://obj/viewmodels/ResultViewModel/ResultViewModel.tscn",
+	"pc_view_model": "res://obj/viewmodels/PcViewModel/PcViewModel.tscn"
 }

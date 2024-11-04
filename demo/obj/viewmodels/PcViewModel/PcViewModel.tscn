@@ -1,0 +1,165 @@
+[gd_scene load_steps=10 format=3 uid="uid://xlgph71pdg11"]
+
+[ext_resource type="Theme" uid="uid://dfu7v7fn1bkvc" path="res://res/shaders/themes/PcViewModel.tres" id="1_lya3s"]
+[ext_resource type="Texture2D" uid="uid://dyidu6vswa4wu" path="res://res/2d/hud/interface_pc-export.png" id="2_5tcka"]
+[ext_resource type="Script" path="res://obj/viewmodels/PcViewModel/Close.gd" id="3_5tavd"]
+[ext_resource type="Script" path="res://obj/viewmodels/PcViewModel/monster_list.gd" id="3_hfuig"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uhx78"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uinf2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3ni8g"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_glb0u"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u41ry"]
+
+[node name="PcViewModel" type="PcViewModel"]
+monster_list_path = NodePath("Control/TabContainer/Control2/ItemList")
+
+[node name="Control" type="Control" parent="."]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_lya3s")
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 0
+offset_left = 46.0
+offset_right = 567.0
+offset_bottom = 350.0
+texture = ExtResource("2_5tcka")
+stretch_mode = 4
+
+[node name="TabContainer" type="TabContainer" parent="Control"]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 7.0
+offset_right = 560.0
+offset_bottom = 337.0
+current_tab = 1
+all_tabs_in_front = true
+
+[node name="Control" type="Control" parent="Control/TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control/TabContainer/Control"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 10.0
+offset_right = 496.0
+offset_bottom = 93.0
+text = "Сегодня тебе дали шанс испытать на себе самую неблагородную и, в то же время, увлекательную работу в фэнтези-мире — анализировать и давать квесты отважным героям бескрайнего космоса. Тебе будет выдан перечень заданий, которым ты должен будешь дать оценку (от 10 до 50 уровня) в зависимости от сложности и силы мобов и раздать их гостям. "
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Control/TabContainer/Control"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 235.0
+offset_right = 326.0
+offset_bottom = 301.0
+text = "Формула сложности квеста:
+Уровень самого сильного моба + сумма бонусов толпы всех мобов. Результат округлить до большего значения."
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Control/TabContainer/Control"]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 99.0
+offset_right = 502.0
+offset_bottom = 232.0
+text = "Для подсчета сложности квеста используем простую формулу: «Находим максимальный уровень среди мобов на задании, суммируем бонус толпы от всех мобов, складываем эти два показателя и округляем до большего десятка». Для того, чтобы качественнее подобрать задания для авантюристов, тебе предстоит немного поговорить с каждым и сделать вывод, какое задание лучше ему соответствует. Но будь осторожен, если ты неверно подберешь квест для героев, они могут не вернуться к тебе за новыми заданиями никогда…..
+"
+
+[node name="Control2" type="Control" parent="Control/TabContainer"]
+layout_mode = 2
+
+[node name="ItemList" type="ItemList" parent="Control/TabContainer/Control2" node_paths=PackedStringArray("pcViewModel", "monster_img", "monster_name", "monster_lvl", "monster_crawd", "monster_descr")]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 8.0
+offset_right = 162.0
+offset_bottom = 302.0
+item_count = 2
+item_0/text = "Test"
+item_1/text = "Test"
+script = ExtResource("3_hfuig")
+pcViewModel = NodePath("../../../..")
+monster_img = NodePath("../Img")
+monster_name = NodePath("../Label")
+monster_lvl = NodePath("../HBoxContainer/Lvl")
+monster_crawd = NodePath("../HBoxContainer2/Crowd")
+monster_descr = NodePath("../Descr")
+
+[node name="Img" type="TextureRect" parent="Control/TabContainer/Control2"]
+layout_mode = 0
+offset_left = 164.0
+offset_top = 9.0
+offset_right = 308.0
+offset_bottom = 133.0
+expand_mode = 1
+stretch_mode = 4
+
+[node name="Descr" type="RichTextLabel" parent="Control/TabContainer/Control2"]
+layout_mode = 0
+offset_left = 309.0
+offset_top = 39.0
+offset_right = 500.0
+offset_bottom = 299.0
+text = "descr"
+
+[node name="Label" type="Label" parent="Control/TabContainer/Control2"]
+layout_mode = 0
+offset_left = 309.0
+offset_top = 11.0
+offset_right = 442.0
+offset_bottom = 41.0
+text = "Name"
+
+[node name="HBoxContainer" type="VBoxContainer" parent="Control/TabContainer/Control2"]
+layout_mode = 0
+offset_left = 169.0
+offset_top = 135.0
+offset_right = 230.0
+offset_bottom = 185.0
+
+[node name="Label" type="Label" parent="Control/TabContainer/Control2/HBoxContainer"]
+layout_mode = 2
+text = "Уровень:"
+
+[node name="Lvl" type="Label" parent="Control/TabContainer/Control2/HBoxContainer"]
+layout_mode = 2
+text = "10"
+
+[node name="HBoxContainer2" type="VBoxContainer" parent="Control/TabContainer/Control2"]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 184.0
+offset_right = 275.0
+offset_bottom = 224.0
+
+[node name="Label" type="Label" parent="Control/TabContainer/Control2/HBoxContainer2"]
+layout_mode = 2
+text = "Бонус Толпы:"
+
+[node name="Crowd" type="Label" parent="Control/TabContainer/Control2/HBoxContainer2"]
+layout_mode = 2
+text = "10"
+
+[node name="Close" type="Button" parent="Control" node_paths=PackedStringArray("viewModel")]
+layout_mode = 0
+offset_left = 540.0
+offset_top = 8.0
+offset_right = 559.0
+offset_bottom = 25.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_uhx78")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_uinf2")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_3ni8g")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_glb0u")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_u41ry")
+script = ExtResource("3_5tavd")
+viewModel = NodePath("../..")

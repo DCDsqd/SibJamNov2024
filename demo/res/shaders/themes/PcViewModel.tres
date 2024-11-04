@@ -1,0 +1,54 @@
+[gd_resource type="Theme" load_steps=10 format=3 uid="uid://dfu7v7fn1bkvc"]
+
+[ext_resource type="FontFile" uid="uid://x8f300swyb01" path="res://res/fonts/zx_spectrum-7_bold.ttf" id="1_wik14"]
+[ext_resource type="Texture2D" uid="uid://d042coksicy2j" path="res://res/2d/hud/interface_pc-export1.png" id="2_wugec"]
+[ext_resource type="Texture2D" uid="uid://vksasrvsegka" path="res://res/2d/hud/interface_pc-export2.png" id="3_u7j3h"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dgiio"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k3sva"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_right = 2
+border_color = Color(0.235294, 0.729412, 0.203922, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hsa02"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dkmqk"]
+texture = ExtResource("2_wugec")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6hw4o"]
+texture = ExtResource("3_u7j3h")
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ppj5j"]
+
+[resource]
+ItemList/colors/font_color = Color(0.772549, 0.909804, 0.705882, 1)
+ItemList/colors/font_hovered_color = Color(0.95, 0.95, 0.95, 1)
+ItemList/colors/font_outline_color = Color(1, 1, 1, 1)
+ItemList/colors/font_selected_color = Color(0.67451, 0.929412, 0.247059, 1)
+ItemList/fonts/font = ExtResource("1_wik14")
+ItemList/styles/cursor = SubResource("StyleBoxEmpty_dgiio")
+ItemList/styles/cursor_unfocused = SubResource("StyleBoxEmpty_dgiio")
+ItemList/styles/focus = SubResource("StyleBoxEmpty_dgiio")
+ItemList/styles/hovered = SubResource("StyleBoxEmpty_dgiio")
+ItemList/styles/panel = SubResource("StyleBoxFlat_k3sva")
+ItemList/styles/selected = SubResource("StyleBoxEmpty_dgiio")
+ItemList/styles/selected_focus = SubResource("StyleBoxEmpty_dgiio")
+RichTextLabel/colors/default_color = Color(0.67451, 0.929412, 0.247059, 1)
+RichTextLabel/font_sizes/bold_font_size = 10
+RichTextLabel/font_sizes/bold_italics_font_size = 10
+RichTextLabel/font_sizes/italics_font_size = 10
+RichTextLabel/font_sizes/mono_font_size = 10
+RichTextLabel/font_sizes/normal_font_size = 10
+RichTextLabel/fonts/bold_font = ExtResource("1_wik14")
+RichTextLabel/fonts/bold_italics_font = ExtResource("1_wik14")
+RichTextLabel/fonts/italics_font = ExtResource("1_wik14")
+RichTextLabel/fonts/mono_font = ExtResource("1_wik14")
+RichTextLabel/fonts/normal_font = ExtResource("1_wik14")
+TabContainer/fonts/font = ExtResource("1_wik14")
+TabContainer/styles/panel = SubResource("StyleBoxEmpty_hsa02")
+TabContainer/styles/tab_selected = SubResource("StyleBoxTexture_dkmqk")
+TabContainer/styles/tab_unselected = SubResource("StyleBoxTexture_6hw4o")
+TabContainer/styles/tabbar_background = SubResource("StyleBoxEmpty_ppj5j")

@@ -250,7 +250,17 @@
 			"content": "<p>\u0414\u043e\u043b\u0433\u043e?<\/p>",
 			"outputs": [
 				"549e34fc-4b01-4df0-8cd7-0b119cc6dd7e"
-			]
+			],
+			"assets": {
+				"audio": [
+					{
+						"id": "5d417e80-7081-471d-8e94-a72753e4c6d9",
+						"mode": "once",
+						"asset": "7fbb54ee-4c7f-4066-9b93-b9efb71983dc",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"736b265f-ce79-4dfa-9720-9fb5084e6ab3": {
 			"autoHeight": true,
@@ -260,7 +270,17 @@
 				"cd498e75-e765-42b3-b770-ed8221998ede"
 			],
 			"content": "<p>\u041d\u0435. \u0417\u043d\u0430\u044e.<\/p>",
-			"outputs": []
+			"outputs": [],
+			"assets": {
+				"audio": [
+					{
+						"id": "50972267-3d3b-4973-974b-80bced05ee0c",
+						"mode": "once",
+						"asset": "fdcc323e-5e47-4338-b7aa-547379496e89",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"c966d4ef-7b31-4917-b6c5-baf20edeed0a": {
 			"autoHeight": true,
@@ -272,7 +292,17 @@
 			"content": "<p>\u041f\u0440\u043e\u0448\u0443. \u041d\u0438\u043a\u0430\u043a\u0438\u0445. \u0413\u043e\u0440\u044f\u0449\u0438\u0445. \u041f\u0430\u043b\u043e\u043a.<\/p>",
 			"outputs": [
 				"a471b6f2-c3c7-4fc0-910e-e118e3eb4021"
-			]
+			],
+			"assets": {
+				"audio": [
+					{
+						"id": "d14701fc-bc2f-4354-869e-32836e54f14c",
+						"mode": "once",
+						"asset": "2bc37151-b8f5-49e9-8b50-5d26976c36fb",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"42c935c3-572a-4891-8e90-765f45feed34": {
 			"autoHeight": true,
@@ -284,7 +314,17 @@
 			"content": "<p>\u0422\u044b. \u041a\u0442\u043e. \u0410. \u0422\u043e\u0447\u043d\u043e. \u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u0415\u0441\u0442\u044c. \u0414\u0430?<\/p>",
 			"outputs": [
 				"0bf70d1b-adeb-4b09-9102-1339f04c8ea1"
-			]
+			],
+			"assets": {
+				"audio": [
+					{
+						"id": "d7af3c68-1ca8-4e81-abc1-1696b4a3df84",
+						"mode": "once",
+						"asset": "76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"4cbfcef0-71bb-44e7-8bfb-11ecc50c2d92": {
 			"autoHeight": true,
@@ -294,7 +334,17 @@
 				"cd498e75-e765-42b3-b770-ed8221998ede"
 			],
 			"content": "<p>\u041d\u0435. \u041f\u043e\u043d\u044f\u043b.<\/p>",
-			"outputs": []
+			"outputs": [],
+			"assets": {
+				"audio": [
+					{
+						"id": "ebab54aa-4ca3-4b47-b10b-2b351eb6af2f",
+						"mode": "once",
+						"asset": "21965103-6a7a-44a6-8290-c90ffa94ff53",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"889f6461-b74e-4500-94cd-fe4587a59037": {
 			"outputs": [
@@ -338,12 +388,18 @@
 						"mode": "once",
 						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
 						"delay": 0
+					},
+					{
+						"id": "4c9295c2-931f-40dc-ad9a-1363bbd6ee22",
+						"mode": "once",
+						"asset": "064cda3a-d283-4632-acf8-d591c33764aa",
+						"delay": 0
 					}
 				]
 			}
 		},
 		"4cf67560-1576-4320-9f49-8c2ad70ab991": {
-			"autoHeight": true,
+			"autoHeight": false,
 			"title": "<p>StarKillerStage2<\/p>",
 			"theme": "default",
 			"components": [
@@ -830,7 +886,17 @@
 			"content": "<p>\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439. \u041d\u0430\u0434\u043e. \u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u0421\u043b\u043e\u0436\u043d\u043e\u0435. \u0418\u043b\u0438. \u041d\u0435 \u0437\u043d\u0430\u044e. \u0414\u0430\u0439.<\/p>",
 			"outputs": [
 				"6458c5e2-4ff2-48c5-bf64-36ce3c487ab0"
-			]
+			],
+			"assets": {
+				"audio": [
+					{
+						"id": "d4d40917-2021-47dd-89a6-c9a64847867a",
+						"mode": "once",
+						"asset": "618d2177-7ccc-420e-978c-ee1447288145",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"24758ab0-2df8-431f-8df7-df6a251dfdcb": {
 			"autoHeight": true,
@@ -842,7 +908,17 @@
 			"content": "<p>\u0427\u0442\u043e. \u0422\u0430\u043a\u043e\u0435. \u041c\u043e\u0434\u0443\u043b\u044c. <\/p>",
 			"outputs": [
 				"ba3c60cf-c262-4547-89df-3344db2cb452"
-			]
+			],
+			"assets": {
+				"audio": [
+					{
+						"id": "ee5dbd4d-1e72-4229-b3d2-6f08e59eb0a9",
+						"mode": "once",
+						"asset": "eea271f4-08ca-4632-80e2-524890a56e2a",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"1f5028ee-e2f9-462e-9430-480ae27e5a5c": {
 			"autoHeight": true,
@@ -852,7 +928,17 @@
 				"cd498e75-e765-42b3-b770-ed8221998ede"
 			],
 			"content": "<p>\u041d\u0438\u0447\u0435\u0433\u043e. \u041d\u0435. \u041f\u043e\u043d\u044f\u043b.<\/p>",
-			"outputs": []
+			"outputs": [],
+			"assets": {
+				"audio": [
+					{
+						"id": "9dc337f1-d062-4264-bded-41b3b8720f3b",
+						"mode": "once",
+						"asset": "8b70e2c2-bab6-4a93-96c3-b75ad7472831",
+						"delay": 0
+					}
+				]
+			}
 		},
 		"810790f0-7a37-42f8-b78c-3a56fc8b3a64": {
 			"autoHeight": true,
@@ -864,7 +950,17 @@
 			"content": "<p>\u0417\u0430\u0434\u0430\u043d\u0438\u0435. \u041d\u043e\u0432\u043e\u0435. \u041b\u0438. \u0415\u0441\u0442\u044c. \u0421\u0438\u043b\u0443. \u041f\u0440\u043e\u0432\u0435\u0440\u0438\u0442\u044c. \u0414\u0430\u0439. \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439.<\/p>",
 			"outputs": [
 				"860af223-4245-4307-b6cb-1931655d2719"
-			]
+			],
+			"assets": {
+				"audio": [
+					{
+						"id": "7c2e4245-efaa-48b0-90af-351410f47e8e",
+						"mode": "once",
+						"asset": "379951f1-9d9b-4825-a13d-d7d54cfd7b52",
+						"delay": 0
+					}
+				]
+			}
 		}
 	},
 	"jumpers": {
@@ -974,7 +1070,7 @@
 			"targetType": "elements",
 			"type": "Bezier",
 			"targetid": "0d8b8873-254a-4000-bfbe-76c685c72f51",
-			"label": null,
+			"label": "<p>\u041e\u043a<\/p>",
 			"sourceid": "db9d0090-ab9b-4c3e-a321-fa14632a9789",
 			"theme": "default",
 			"sourceType": "elements"
@@ -1633,12 +1729,66 @@
 		"647d0495-341f-42b2-8788-b47dace22bf8": {
 			"root": true,
 			"children": [
-				"064cda3a-d283-4632-acf8-d591c33764aa"
+				"064cda3a-d283-4632-acf8-d591c33764aa",
+				"618d2177-7ccc-420e-978c-ee1447288145",
+				"eea271f4-08ca-4632-80e2-524890a56e2a",
+				"8b70e2c2-bab6-4a93-96c3-b75ad7472831",
+				"379951f1-9d9b-4825-a13d-d7d54cfd7b52",
+				"7fbb54ee-4c7f-4066-9b93-b9efb71983dc",
+				"21965103-6a7a-44a6-8290-c90ffa94ff53",
+				"76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd",
+				"2bc37151-b8f5-49e9-8b50-5d26976c36fb",
+				"fdcc323e-5e47-4338-b7aa-547379496e89"
 			]
 		},
 		"064cda3a-d283-4632-acf8-d591c33764aa": {
 			"type": "audio",
 			"name": "1000 Eyes \u2014 Signalis \u2014 Ariane's Theme (www.lightaudio.ru).mp3",
+			"volume": 1
+		},
+		"eea271f4-08ca-4632-80e2-524890a56e2a": {
+			"type": "audio",
+			"name": "cake2.wav",
+			"volume": 1
+		},
+		"7fbb54ee-4c7f-4066-9b93-b9efb71983dc": {
+			"type": "audio",
+			"name": "cake5.wav",
+			"volume": 1
+		},
+		"618d2177-7ccc-420e-978c-ee1447288145": {
+			"type": "audio",
+			"name": "cake1.wav",
+			"volume": 1
+		},
+		"8b70e2c2-bab6-4a93-96c3-b75ad7472831": {
+			"type": "audio",
+			"name": "cake3.wav",
+			"volume": 1
+		},
+		"21965103-6a7a-44a6-8290-c90ffa94ff53": {
+			"type": "audio",
+			"name": "cake6.wav",
+			"volume": 1
+		},
+		"379951f1-9d9b-4825-a13d-d7d54cfd7b52": {
+			"type": "audio",
+			"name": "cake4.wav",
+			"volume": 1
+		},
+		"76d08a14-cb7b-43fe-ba8f-b9ac0a4d05dd": {
+			"type": "audio",
+			"name": "cake7.wav",
+			"volume": 1
+		},
+		"2bc37151-b8f5-49e9-8b50-5d26976c36fb": {
+			"type": "audio",
+			"name": "cake8.wav",
+			"volume": 1
+		},
+		"fdcc323e-5e47-4338-b7aa-547379496e89": {
+			"type": "audio",
+			"name": "cake9.wav",
 			"volume": 1
 		}
 	},

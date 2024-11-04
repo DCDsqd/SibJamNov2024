@@ -83,3 +83,4 @@ placeholder_text = "enter your replic here"
 middle_mouse_paste_enabled = false
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Control"]
+bus = &"sound"

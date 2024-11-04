@@ -1,6 +1,36 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://bvj7tyyep65e2"]
+[gd_resource type="Theme" load_steps=10 format=3 uid="uid://bvj7tyyep65e2"]
+
+[ext_resource type="FontFile" uid="uid://x8f300swyb01" path="res://res/fonts/zx_spectrum-7_bold.ttf" id="1_afuem"]
+[ext_resource type="Texture2D" uid="uid://b81up5otddtn1" path="res://res/2d/hud/ramka_knopka.png" id="2_727kt"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hr8ak"]
+texture = ExtResource("2_727kt")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_yc4s4"]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kgcha"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b7qrd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v78aj"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_emauf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7mn0c"]
+
 [resource]
+Button/fonts/font = ExtResource("1_afuem")
+Button/styles/normal = SubResource("StyleBoxTexture_hr8ak")
+Label/fonts/font = ExtResource("1_afuem")
+RichTextLabel/fonts/bold_font = ExtResource("1_afuem")
+RichTextLabel/fonts/bold_italics_font = ExtResource("1_afuem")
+RichTextLabel/fonts/italics_font = ExtResource("1_afuem")
+RichTextLabel/fonts/mono_font = ExtResource("1_afuem")
+RichTextLabel/fonts/normal_font = ExtResource("1_afuem")
+TabContainer/fonts/font = ExtResource("1_afuem")
 TabContainer/styles/panel = SubResource("StyleBoxEmpty_yc4s4")
+TabContainer/styles/tab_disabled = SubResource("StyleBoxEmpty_kgcha")
+TabContainer/styles/tab_focus = SubResource("StyleBoxEmpty_b7qrd")
+TabContainer/styles/tab_hovered = SubResource("StyleBoxEmpty_v78aj")
+TabContainer/styles/tab_selected = SubResource("StyleBoxTexture_emauf")
+TabContainer/styles/tabbar_background = SubResource("StyleBoxEmpty_7mn0c")

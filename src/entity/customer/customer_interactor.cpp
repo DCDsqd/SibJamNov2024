@@ -18,7 +18,10 @@ bool godot::CustomerInteractor::play_dialogue(String element_id, Entity *p_entit
     EntityData *data = get_entity()->get_data();
     if(ret){
         //UtilityFunctions::print("CustommerInteractor: next state");
-        data->put_int(CustomerParams::state(), data->get_int(CustomerParams::state())+1);
+        if(data->has_int(CustomerParams::state()))
+            data->put_int(CustomerParams::state(), data->get_int(CustomerParams::state())+1);
+        else
+            UtilityFunctions::print("CustomerInteractor: not contain: " + CustomerParams::state());
     }
     return ret;
 }
@@ -54,6 +57,21 @@ bool godot::CustomerInteractor::open_hud(Entity *p_entity)
     
     hud->add_child(custommer_view_model);
     custommer_view_model->open_window(get_entity(), p_entity);
+
+    EntityData *data = get_entity()->get_data();
+    if(!data){
+        return true;
+    }
+    
+    if(data->has_string(CustomerParams::stage_var())){
+        String str = data->get_string(CustomerParams::stage_var());
+        int stage = God::get_singleton()->get_variable(str);
+        God::get_singleton()->add_variable(str, stage+1);
+        UtilityFunctions::print(str);
+    }else{
+        UtilityFunctions::print("CustomerInteractor: data not contain: " + CustomerParams::stage_var());
+    }
+    
 
     return true;
 }

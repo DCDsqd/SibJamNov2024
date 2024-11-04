@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://i2swoon345ek"]
+
+[ext_resource type="PackedScene" uid="uid://v0bf7nl6dr7r" path="res://res/3d/objs/clock/clock1.glb" id="1_3j7nq"]
+
+[node name="clock1" instance=ExtResource("1_3j7nq")]

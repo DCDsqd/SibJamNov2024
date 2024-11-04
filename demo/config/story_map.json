@@ -5,42 +5,48 @@
 			"display_lvl": 14,
 			"fact_lvl": 14,
 			"min_req_lvl": 10,
-			"sprite_id": "starkiller"
+			"sprite_id": "starkiller",
+			"stage_var": "starkiller_stage"
 		},
 		"HeadHunter" : {
 			"dialogue_id": "9d234f96-5644-4452-b14d-4b92aa713117",
 			"display_lvl": 34,
 			"fact_lvl": 34,
 			"min_req_lvl": 20,
-			"sprite_id": "cowboy"
+			"sprite_id": "cowboy",
+			"stage_var": "headhunter_stage"
 		},
 		"Vlad3000" : {
 			"dialogue_id": "5ddaa37a-cb4a-4317-8739-441cd553565a",
 			"display_lvl": 26,
 			"fact_lvl": 26,
 			"min_req_lvl": 20,
-			"sprite_id": "vlad3000"
+			"sprite_id": "vlad3000",
+			"stage_var": "vlad_stage"
 		},
 		"ArcaneWizard" : {
 			"dialogue_id": "1e352a41-0707-4a25-9658-59364597e746",
 			"display_lvl": 100,
 			"fact_lvl": 100,
 			"min_req_lvl": 5,
-			"sprite_id": "wizarder"
+			"sprite_id": "wizarder",
+			"stage_var": "wizard_stage"
 		},
 		"WorldAssasin" : {
 			"dialogue_id": "11eaf2dc-196e-451c-859d-6340cc9d3400",
 			"display_lvl": 40,
 			"fact_lvl": 40,
 			"min_req_lvl": 20,
-			"sprite_id": "assassin"
+			"sprite_id": "assassin",
+			"stage_var": "assassin_stage"
 		},
 		"BalbesBunny" : {
 			"dialogue_id": "207a9ec7-e139-4356-a596-1c90793c120e",
 			"display_lvl": 24,
 			"fact_lvl": 24,
 			"min_req_lvl": 20,
-			"sprite_id": "cake"
+			"sprite_id": "cake",
+			"stage_var": "balbes_stage"
 		}
 	},
 	"Quests" : {

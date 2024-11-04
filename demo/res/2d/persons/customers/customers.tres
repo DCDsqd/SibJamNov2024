@@ -1,20 +1,39 @@
-[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cg8w5jb5e1j1l"]
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://cg8w5jb5e1j1l"]
 
 [ext_resource type="Texture2D" uid="uid://cny5gics01swa" path="res://res/2d/persons/customers/TheWizardGreen.png" id="1_pgim0"]
+[ext_resource type="Texture2D" uid="uid://65m2f3md0ldp" path="res://res/2d/persons/customers/assassin3framesPng.png" id="2_oupcj"]
 [ext_resource type="Texture2D" uid="uid://dorakypybi71n" path="res://res/2d/persons/customers/COWBOY.png" id="2_tdv6o"]
 [ext_resource type="Texture2D" uid="uid://cfsmdvctck4wd" path="res://res/2d/persons/customers/tort_robot1.png" id="2_tgrcd"]
 [ext_resource type="Texture2D" uid="uid://bu8qwkboeogab" path="res://res/2d/persons/customers/toughguygreen.png" id="3_vrkxh"]
 [ext_resource type="Texture2D" uid="uid://csst6w1qqypq7" path="res://res/2d/persons/customers/RighteousHero.png" id="5_05k7x"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_ep8rk"]
+atlas = ExtResource("2_oupcj")
+region = Rect2(0, 0, 75, 110)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ui4ng"]
+atlas = ExtResource("2_oupcj")
+region = Rect2(75, 0, 75, 110)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7gwt1"]
+atlas = ExtResource("2_oupcj")
+region = Rect2(150, 0, 75, 110)
+
 [resource]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_pgim0")
+"texture": SubResource("AtlasTexture_ep8rk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ui4ng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7gwt1")
 }],
 "loop": true,
 "name": &"assassin",
-"speed": 5.0
+"speed": 1.0
 }, {
 "frames": [{
 "duration": 1.0,

@@ -14,9 +14,13 @@ void godot::SuperClock::_bind_methods()
 
     ClassDB::bind_method(D_METHOD("set_order_entity_path"), &SuperClock::set_order_entity_path);
     ClassDB::bind_method(D_METHOD("get_order_entity_path"), &SuperClock::get_order_entity_path);
+    
+    ClassDB::bind_method(D_METHOD("set_clock_path"), &SuperClock::set_clock_path);
+    ClassDB::bind_method(D_METHOD("get_clock_path"), &SuperClock::get_clock_path);
 
     ClassDB::add_property("SuperClock", PropertyInfo(Variant::NODE_PATH, "custommer_entity_path"), "set_custommer_entity_path", "get_custommer_entity_path");
     ClassDB::add_property("SuperClock", PropertyInfo(Variant::NODE_PATH, "order_entity_path"), "set_order_entity_path", "get_order_entity_path");
+    ClassDB::add_property("SuperClock", PropertyInfo(Variant::NODE_PATH, "clock_path"), "set_clock_path", "get_clock_path");
 
 }
 
@@ -41,6 +45,16 @@ godot::NodePath godot::SuperClock::get_custommer_entity_path()
     return this->custommer_entity_path;
 }
 
+void godot::SuperClock::set_clock_path(NodePath p_clock_path)
+{
+    this->clock_path = p_clock_path;
+}
+
+godot::NodePath godot::SuperClock::get_clock_path()
+{
+    return this->clock_path;
+}
+
 void godot::SuperClock::parse_custommer(const Dictionary &dict, const String &name)
 {
     if(!dict.has("dialogue_id")){
@@ -63,14 +77,20 @@ void godot::SuperClock::parse_custommer(const Dictionary &dict, const String &na
         UtilityFunctions::print("SuperClock: person name: " + name + " doesn't have sprite_id");
         return;
     }
+    if(!dict.has("stage_var")){
+        UtilityFunctions::print("SuperClock: person name: " + name + " doesn't have stage_var");
+        return;
+    }
+
 
     String dialogue_id = dict["dialogue_id"];
     int display_lvl = dict["display_lvl"];
     int fact_lvl = dict["fact_lvl"];
     int min_req_lvl = dict["min_req_lvl"];
     String sprite_id = dict["sprite_id"];
+    String stage_var = dict["stage_var"];
 
-    all_custommer_pull.push_back(Person(name, dialogue_id, display_lvl, fact_lvl, min_req_lvl, sprite_id));
+    all_custommer_pull.push_back(Person(name, dialogue_id, display_lvl, fact_lvl, min_req_lvl, sprite_id, stage_var));
     
 }
 
@@ -242,6 +262,13 @@ void godot::SuperClock::parse_all()
         return;
     }
 
+    if(has_node(clock_path) && get_node<Label3D>(clock_path)){
+        clock = get_node<Label3D>(clock_path);
+        update_clock(time);
+    }else{
+        UtilityFunctions::print("SuperClock: clock_path is incorrect");
+    }
+
     Dictionary persons = dict["Persons"];
     Array persons_keys = persons.keys();
 
@@ -280,17 +307,19 @@ void godot::SuperClock::update_day_pulls()
     day_quest_lvl_pull.clear();
     day_quest_pull.clear();
     answers.clear();
+    time = start_time;
 
     std::vector<Person> tmp_custommer_pull = all_custommer_pull;
-    std::vector<Quest> tmp_quest_pull = all_quest_pull;
+    //std::vector<Quest> tmp_quest_pull = all_quest_pull;
 
     if(tmp_custommer_pull.size() < custommer_count){
         UtilityFunctions::print("SuperClock: custommer pull so little");
         return;
     }
 
-    if(tmp_quest_pull.size() < custommer_count){
+    if(all_quest_pull.size() < custommer_count){
         UtilityFunctions::print("SuperClock: quest pull so little");
+        Util::log_info("SuperClock: quest pull so little");
         return;
     }
 
@@ -304,14 +333,14 @@ void godot::SuperClock::update_day_pulls()
 
     }
 
-    return;
-    for(int i = 0; i < custommer_count; ++i){
-        int sel = generator->randi_range(0, tmp_quest_pull.size()-1);
+    // return;
+    // for(int i = 0; i < custommer_count; ++i){
+    //     int sel = generator->randi_range(0, tmp_quest_pull.size()-1);
 
-        day_quest_pull.push_back(tmp_quest_pull[sel]);
+    //     day_quest_pull.push_back(tmp_quest_pull[sel]);
 
-        tmp_quest_pull.erase(tmp_quest_pull.begin() + sel);
-    }
+    //     tmp_quest_pull.erase(tmp_quest_pull.begin() + sel);
+    // }
     
 }
 
@@ -355,6 +384,7 @@ void godot::SuperClock::update_custommer()
     builder->set_dialogue_id(person.dialogue_id);
     builder->set_display_level(person.display_lvl);
     builder->set_sprite(person.sprite_id);
+    builder->set_stage_var(person.stage_var);
     entity->emit_signal("on_buffs_change");
     
     //UtilityFunctions::print("SuperClock: customer is seted");
@@ -363,9 +393,106 @@ void godot::SuperClock::update_custommer()
 
 void godot::SuperClock::results()
 {
-    for(auto i : answers){
-        UtilityFunctions::print("SuperClock: results: " + i.first + " : " + Util::int_to_godot_str(i.second));
+    String descr = "";
+    timer_tick = false;
+
+    for(auto answer : answers){
+        Person person;
+        int person_index;
+        for(int i = 0; i < all_custommer_pull.size(); ++i){
+            if(all_custommer_pull[i].name == answer.first){
+                person = all_custommer_pull[i];
+                person_index = i;
+                break;
+            }
+        }
+
+        if(person.fact_lvl == -1){
+            UtilityFunctions::print("SuperClock: incorrect person");
+            continue;
+        }
+
+        descr += name_from_dialogue_id(person.dialogue_id) + ": ";
+
+        if(person.name == "ArcaneWizard"){
+            UtilityFunctions::print("SuperClock: ArcaneWizard founded");
+            descr += "info_unable";
+            descr += "\n";
+            all_custommer_pull.erase(all_custommer_pull.begin() + person_index);
+            continue;
+        }
+
+
+        if(person.fact_lvl < answer.second){
+            descr += "info_death";
+            descr += "\n";
+            UtilityFunctions::print("SuperClock: death of " + person.name);
+            all_custommer_pull.erase(all_custommer_pull.begin() + person_index);
+        }
+        else{
+            descr += "info_alive";
+            descr += "\n";
+        }
     }
+
+    descr += "info_alived_count: ";
+    descr += Util::int_to_godot_str(all_custommer_pull.size());
+    descr += "/";
+    descr += Util::int_to_godot_str(custommer_min);
+    descr += "\n";
+
+    bool check_time = (time <= 0);
+    bool death = all_custommer_pull.size() <= custommer_min;
+
+    spawn_view_model(death, check_time, descr);
+    
+}
+
+void godot::SuperClock::spawn_view_model(bool death, bool check_time, String descr)
+{
+    Hud *hud = EternityData::get_singleton()->get_hud();
+    if(!hud){
+        UtilityFunctions::print("SuperClock: hud is null");
+        return;
+    }
+
+    String custommer_view_model_path = Util::get_value_from_config("ref_config", "result_view_model");
+    Node *node = Util::spawn_node(custommer_view_model_path);
+
+    if(!node){
+        UtilityFunctions::print("SuperClock: viewmodel is null");
+        return;
+    }
+
+    ViewModel *view_model = Object::cast_to<ViewModel>(node);
+    if(!view_model){
+        UtilityFunctions::print("SuperClock: viewmodel is not ViewModel");
+        return;
+    }
+
+    ResultViewModel *result_view_model = Object::cast_to<ResultViewModel>(view_model);
+    if(!result_view_model){
+        UtilityFunctions::print("SuperClock: viewmodel is not ResultViewModel");
+        return;
+    }
+    
+    result_view_model->set_result(death, check_time, descr);
+    hud->add_child(result_view_model);
+    result_view_model->open_window(nullptr, nullptr);
+
+}
+
+void godot::SuperClock::update_clock(int itime)
+{
+    UtilityFunctions::print("clock update");
+    if(!clock){
+        return;
+    }
+    int seconds = itime / 60;
+    int minutes = itime % 60;
+
+    clock->set_text(Util::int_to_godot_str(seconds) + ":"+Util::int_to_godot_str(minutes));
+
 }
 
 void godot::SuperClock::update_quests()
@@ -407,10 +534,10 @@ void godot::SuperClock::update_quests()
     }
 
 
-    UtilityFunctions::print("SuperClock: level pull:");
-    for(auto i : day_quest_lvl_pull){
-        UtilityFunctions::print(Util::int_to_godot_str(i));
-    }
+    //UtilityFunctions::print("SuperClock: level pull:");
+    // for(auto i : day_quest_lvl_pull){
+    //     UtilityFunctions::print(Util::int_to_godot_str(i));
+    // }
 
 
 
@@ -479,10 +606,13 @@ void godot::SuperClock::update_quests()
 
 void godot::SuperClock::new_day()
 {
-    results();
+    if(day != 0){
+        results();
+    }
     update_day_pulls();
     update_custommer();
     update_quests();
+    day++;
 }
 
 void godot::SuperClock::acess_customer()
@@ -493,6 +623,30 @@ void godot::SuperClock::acess_customer()
         return;
     }
     update_custommer();
+}
+
+void godot::SuperClock::activate_timer()
+{
+    this->timer_tick = true;
+}
+
+void godot::SuperClock::_process(float delta)
+{
+    if(Engine::get_singleton()->is_editor_hint())
+        return;
+    
+    if(timer_tick){
+        //UtilityFunctions::print(Util::int_to_godot_str(time));
+        time-=delta;
+        int itime = time;
+        if((itime % 5) == 0){
+            update_clock(itime);
+        }
+        if(time <= 0.0f){
+            timer_tick = false;
+            results();
+        }
+    }
 }
 
 godot::SuperClock::SuperClock()

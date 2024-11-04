@@ -71,11 +71,7 @@ godot::String godot::ArcDialogue::check_condition_bit(ArcConditionBit *bit)
         return String();
     }
 
-    if(check_condition(else_condition)){
-        return bit->get_output_id(bit->get_else_output());
-    }
-
-    return String();
+    return bit->get_output_id(bit->get_else_output());
 }
 
 std::pair<godot::String, bool> godot::ArcDialogue::parse_answer(String id, String label, bool avaible, int num)

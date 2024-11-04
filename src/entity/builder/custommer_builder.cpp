@@ -60,6 +60,11 @@ void godot::CustommerBuilder::set_tech_name(String tech_name)
     data->put_string(CustomerParams::tech_name(), tech_name);
 }
 
+void godot::CustommerBuilder::set_stage_var(String stage_var)
+{
+    data->put_string(CustomerParams::stage_var(), stage_var);
+}
+
 godot::EntityData *godot::CustommerBuilder::get_data()
 {
     if(!data){

@@ -23,11 +23,13 @@
 #include "hud/arc_view_model.h"
 #include "hud/order_hud.h"
 #include "hud/custommer_view_model.h"
+#include "hud/result_view_model.h"
 //#include "hud/arc_hud_dialogue.h"
 
 #include "triggers/trigger_camera.h"
 #include "triggers/trigger_sound.h"
 #include "triggers/trigger_next_customer.h"
+#include "triggers/trigger_clock.h"
 
 #include "util/super_clock.h"
 
@@ -63,12 +65,14 @@ void initialize_example_module(ModuleInitializationLevel p_level) {
 	ClassDB::register_class<CustomerViewModel>();
 	ClassDB::register_class<ArcDialogue>();
 	ClassDB::register_class<ArcViewModel>();
+	ClassDB::register_class<ResultViewModel>();
 
 	ClassDB::register_class<SuperClock>();
 	//ClassDB::register_class<ArcHudDialogue>();
 
 	ClassDB::register_class<TriggerCamera>();
 	ClassDB::register_class<TriggerSound>();
+	ClassDB::register_class<TriggerClock>();
 	ClassDB::register_class<TriggerNextCustomer>();
 }
 

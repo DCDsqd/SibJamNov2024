@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cwrp15ca0bvxo"]
+[gd_scene load_steps=9 format=3 uid="uid://cwrp15ca0bvxo"]
 
 [ext_resource type="PackedScene" uid="uid://c84rh28vj2r3d" path="res://res/3d/rooms/main_room/final_room.tscn" id="1_pnyeg"]
 [ext_resource type="PackedScene" uid="uid://i7ji3diu54b7" path="res://obj/entity/hero/hero.tscn" id="2_ghxkw"]
@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://cqkdus5ccsbyh" path="res://obj/entity/customer/Customer.tscn" id="4_qcwsf"]
 [ext_resource type="PackedScene" uid="uid://cgiw8gtotym7x" path="res://obj/entity/orderController/OrderEntity.tscn" id="5_ng5hm"]
 [ext_resource type="Script" path="res://scenes/game_scenes/clock_start.gd" id="6_48x5y"]
+[ext_resource type="PackedScene" uid="uid://i2swoon345ek" path="res://res/3d/objs/clock/clock_1.tscn" id="7_5ml41"]
+[ext_resource type="FontFile" uid="uid://x8f300swyb01" path="res://res/fonts/zx_spectrum-7_bold.ttf" id="8_4dcu6"]
 
 [node name="Scene" type="SingleHeroScene"]
 triggers_container_path = NodePath("Triggers")
@@ -53,6 +55,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.999999, 2.104, 0.25, -0.97)
 [node name="NextCustommer" type="TriggerNextCustomer" parent="Triggers"]
 clock_path = NodePath("../../SuperClock")
 
+[node name="TriggerClock" type="TriggerClock" parent="Triggers"]
+is_repeat = true
+
 [node name="ECamera" type="ECamera" parent="."]
 transform = Transform3D(0.135716, -0.0777332, 0.987694, 0, 0.996917, 0.0784591, -0.990748, -0.0106482, 0.135298, 3.249, 0.455, -0.36)
 target_path = NodePath("../Triggers/CameraState2/State2")
@@ -78,7 +83,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -0.743399, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0262033, -1.19209e-07, -0.0648999)
 
 [node name="Customer" parent="." instance=ExtResource("4_qcwsf")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.509, 0.310045, 1.88102)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.509, 0.214102, 1.88102)
 
 [node name="OrderEntity" parent="." instance=ExtResource("5_ng5hm")]
 transform = Transform3D(0.655, 0, 0, 0, 0.655, 0, 0, 0, 0.655, 1.6316, -0.159443, -1.90332)
@@ -86,5 +91,16 @@ transform = Transform3D(0.655, 0, 0, 0, 0.655, 0, 0, 0, 0.655, 1.6316, -0.159443
 [node name="SuperClock" type="SuperClock" parent="."]
 custommer_entity_path = NodePath("../Customer")
 order_entity_path = NodePath("../OrderEntity")
+clock_path = NodePath("../clock1/Label3D")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.66997, 0, 0)
 script = ExtResource("6_48x5y")
+
+[node name="clock1" parent="." instance=ExtResource("7_5ml41")]
+transform = Transform3D(0.241549, 0, -0.970388, 0, 1, 0, 0.970388, 0, 0.241549, 2.58764, -0.446918, -1.75196)
+
+[node name="Label3D" type="Label3D" parent="clock1"]
+transform = Transform3D(0.358368, -0.762871, 0.538146, 0, 0.576432, 0.817145, -0.933581, -0.292839, 0.206575, -0.18798, 0.0782741, 0.137382)
+modulate = Color(0.67451, 0.929412, 0.247059, 1)
+text = "pin
+us"
+font = ExtResource("8_4dcu6")

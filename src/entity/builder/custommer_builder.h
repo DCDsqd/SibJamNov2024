@@ -30,6 +30,7 @@ public:
     void set_state(int state);
     void set_sprite(String sprite_img);
     void set_tech_name(String tech_name);
+    void set_stage_var(String stage_var);
 
     EntityData *get_data();
 

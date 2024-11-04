@@ -13,11 +13,15 @@
 #include <godot_cpp/classes/void_component.hpp>
 #include <godot_cpp/classes/arc_component.hpp>
 #include <godot_cpp/classes/model_entity.hpp>
+#include <godot_cpp/classes/label3d.hpp>
+#include <godot_cpp/classes/time.hpp>
+#include <godot_cpp/classes/engine.hpp>
 
 #include "entity/hero/container_entity_data.h"
 
 #include "entity/builder/custommer_builder.h"
 #include "entity/builder/order_builder.h"
+#include "hud/result_view_model.h"
 
 #include <vector>
 
@@ -31,14 +35,16 @@ public:
     int fact_lvl = -1;
     int min_req_lvl = -1;
     String sprite_id;
+    String stage_var;
     
-    Person(String p_name, String p_dialogue_id, int p_display_lvl, int p_fact_lvl, int p_min_req_lvl, String p_sprite_id){
+    Person(String p_name, String p_dialogue_id, int p_display_lvl, int p_fact_lvl, int p_min_req_lvl, String p_sprite_id, String p_stage_var){
         this->name = p_name;
         this->dialogue_id = p_dialogue_id;
         this->display_lvl = p_display_lvl;
         this->fact_lvl = p_fact_lvl;
         this->min_req_lvl = p_min_req_lvl;
         this->sprite_id = p_sprite_id;
+        this->stage_var = p_stage_var;
     }
     Person(){}
 };
@@ -80,6 +86,15 @@ protected:
     static void _bind_methods();
 
     int custommer_count = 3;
+    int custommer_min = 3;
+    int day = 0;
+
+    bool timer_tick = true;
+    float start_time = 120;
+    float time = start_time;
+
+    NodePath clock_path;
+    Label3D *clock;
 
     NodePath order_entity_path;
     Entity *order_entity;
@@ -106,7 +121,10 @@ protected:
     void update_custommer();
 
     void results();
+    void spawn_view_model(bool death, bool time, String descrt);
     void check_end();
+
+    void update_clock(int itime);
     
 
     String name_from_dialogue_id(const String &dialogue_id);
@@ -119,11 +137,18 @@ public:
     void new_day();
     void acess_customer();
 
+    void activate_timer();
+
+    void _process(float delta);
+
     void set_order_entity_path(NodePath p_order_entity_path);
     NodePath get_order_entity_path();
 
     void set_custommer_entity_path(NodePath p_custommer_entity_path);
     NodePath get_custommer_entity_path();
+
+    void set_clock_path(NodePath p_clock_path);
+    NodePath get_clock_path();
 
     SuperClock();
     ~SuperClock();
